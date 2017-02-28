@@ -61,6 +61,13 @@
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		B0FA984F1E64557C00A5C2E8 /* BaseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA984D1E64557C00A5C2E8 /* BaseLayer.cpp */; };
+		B0FA985A1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */; };
+		B0FA985B1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */; };
+		B0FA98681E645AF200A5C2E8 /* SceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98661E645AF200A5C2E8 /* SceneManager.cpp */; };
+		B0FA98691E645AF200A5C2E8 /* SceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98661E645AF200A5C2E8 /* SceneManager.cpp */; };
+		B0FA986E1E6463CF00A5C2E8 /* FrameManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA986C1E6463CF00A5C2E8 /* FrameManager.cpp */; };
+		B0FA986F1E6463CF00A5C2E8 /* FrameManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA986C1E6463CF00A5C2E8 /* FrameManager.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -100,6 +107,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = A07A4C241783777C0073F6A7;
 			remoteInfo = "cocos2dx iOS";
+		};
+		B0FA98421E64534C00A5C2E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 507B40FD1C31BDD30067B53E;
+			remoteInfo = "libcocos2d tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -156,6 +170,24 @@
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B0FA984C1E64545700A5C2E8 /* Pragwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pragwork.h; path = Pragwork/Pragwork.h; sourceTree = "<group>"; };
+		B0FA984D1E64557C00A5C2E8 /* BaseLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseLayer.cpp; path = Pragwork/Base/BaseLayer.cpp; sourceTree = "<group>"; };
+		B0FA984E1E64557C00A5C2E8 /* BaseLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BaseLayer.hpp; path = Pragwork/Base/BaseLayer.hpp; sourceTree = "<group>"; };
+		B0FA98501E6455AA00A5C2E8 /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = Pragwork/Base/init.h; sourceTree = "<group>"; };
+		B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ShadeAssistLayer.cpp; path = Pragwork/UI/Layer/Assist/ShadeAssistLayer.cpp; sourceTree = "<group>"; };
+		B0FA98591E64577800A5C2E8 /* ShadeAssistLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ShadeAssistLayer.hpp; path = Pragwork/UI/Layer/Assist/ShadeAssistLayer.hpp; sourceTree = "<group>"; };
+		B0FA985C1E64586200A5C2E8 /* BaseTypeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTypeDefine.h; path = Pragwork/Constant/BaseTypeDefine.h; sourceTree = "<group>"; };
+		B0FA985D1E64589400A5C2E8 /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = Pragwork/Constant/init.h; sourceTree = "<group>"; };
+		B0FA985E1E64590C00A5C2E8 /* ColorDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorDefine.h; path = Pragwork/Constant/ColorDefine.h; sourceTree = "<group>"; };
+		B0FA98601E64595C00A5C2E8 /* ZOrderDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZOrderDefine.h; path = Pragwork/Constant/ZOrderDefine.h; sourceTree = "<group>"; };
+		B0FA98611E64596D00A5C2E8 /* ActionDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ActionDefine.h; path = Pragwork/Constant/ActionDefine.h; sourceTree = "<group>"; };
+		B0FA98621E64598600A5C2E8 /* EventDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventDefine.h; path = Pragwork/Constant/EventDefine.h; sourceTree = "<group>"; };
+		B0FA98631E645A5F00A5C2E8 /* PragworkMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PragworkMacro.h; path = Pragwork/PragworkMacro.h; sourceTree = "<group>"; };
+		B0FA98661E645AF200A5C2E8 /* SceneManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SceneManager.cpp; path = Pragwork/Manager/SceneManager.cpp; sourceTree = "<group>"; };
+		B0FA98671E645AF200A5C2E8 /* SceneManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SceneManager.hpp; path = Pragwork/Manager/SceneManager.hpp; sourceTree = "<group>"; };
+		B0FA986A1E645ED200A5C2E8 /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = Pragwork/UI/Scene/init.h; sourceTree = "<group>"; };
+		B0FA986C1E6463CF00A5C2E8 /* FrameManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FrameManager.cpp; path = Pragwork/Manager/FrameManager.cpp; sourceTree = "<group>"; };
+		B0FA986D1E6463CF00A5C2E8 /* FrameManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FrameManager.hpp; path = Pragwork/Manager/FrameManager.hpp; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -240,6 +272,7 @@
 			children = (
 				1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */,
 				1AC6FB07180E9839004C840B /* libcocos2d iOS.a */,
+				B0FA98431E64534C00A5C2E8 /* libcocos2d tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -301,6 +334,7 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B0FA984B1E6453F500A5C2E8 /* Progwork */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
@@ -356,6 +390,135 @@
 			name = Icons;
 			path = ios;
 			sourceTree = SOURCE_ROOT;
+		};
+		B0FA98401E64534C00A5C2E8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B0FA984D1E64557C00A5C2E8 /* BaseLayer.cpp */,
+				B0FA984E1E64557C00A5C2E8 /* BaseLayer.hpp */,
+				B0FA98501E6455AA00A5C2E8 /* init.h */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		B0FA98441E64535400A5C2E8 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				B0FA98611E64596D00A5C2E8 /* ActionDefine.h */,
+				B0FA985C1E64586200A5C2E8 /* BaseTypeDefine.h */,
+				B0FA985E1E64590C00A5C2E8 /* ColorDefine.h */,
+				B0FA98621E64598600A5C2E8 /* EventDefine.h */,
+				B0FA98601E64595C00A5C2E8 /* ZOrderDefine.h */,
+				B0FA985D1E64589400A5C2E8 /* init.h */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		B0FA98451E64535E00A5C2E8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		B0FA98461E64536600A5C2E8 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		B0FA98471E64536C00A5C2E8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B0FA986B1E6463AB00A5C2E8 /* FrameManager */,
+				B0FA98651E645AC700A5C2E8 /* SceneManager */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		B0FA98481E64537300A5C2E8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B0FA984A1E64537E00A5C2E8 /* Layer */,
+				B0FA98491E64537800A5C2E8 /* Scene */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		B0FA98491E64537800A5C2E8 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				B0FA986A1E645ED200A5C2E8 /* init.h */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		B0FA984A1E64537E00A5C2E8 /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				B0FA98571E64570600A5C2E8 /* Assist */,
+				B0FA98561E64570000A5C2E8 /* Frame */,
+				B0FA98551E6456F900A5C2E8 /* Alert */,
+			);
+			name = Layer;
+			sourceTree = "<group>";
+		};
+		B0FA984B1E6453F500A5C2E8 /* Progwork */ = {
+			isa = PBXGroup;
+			children = (
+				B0FA98481E64537300A5C2E8 /* UI */,
+				B0FA98471E64536C00A5C2E8 /* Manager */,
+				B0FA98461E64536600A5C2E8 /* Libs */,
+				B0FA98451E64535E00A5C2E8 /* Helper */,
+				B0FA98441E64535400A5C2E8 /* Constant */,
+				B0FA98401E64534C00A5C2E8 /* Base */,
+				B0FA984C1E64545700A5C2E8 /* Pragwork.h */,
+				B0FA98631E645A5F00A5C2E8 /* PragworkMacro.h */,
+			);
+			name = Progwork;
+			sourceTree = "<group>";
+		};
+		B0FA98551E6456F900A5C2E8 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Alert;
+			sourceTree = "<group>";
+		};
+		B0FA98561E64570000A5C2E8 /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frame;
+			sourceTree = "<group>";
+		};
+		B0FA98571E64570600A5C2E8 /* Assist */ = {
+			isa = PBXGroup;
+			children = (
+				B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */,
+				B0FA98591E64577800A5C2E8 /* ShadeAssistLayer.hpp */,
+			);
+			name = Assist;
+			sourceTree = "<group>";
+		};
+		B0FA98651E645AC700A5C2E8 /* SceneManager */ = {
+			isa = PBXGroup;
+			children = (
+				B0FA98661E645AF200A5C2E8 /* SceneManager.cpp */,
+				B0FA98671E645AF200A5C2E8 /* SceneManager.hpp */,
+			);
+			name = SceneManager;
+			sourceTree = "<group>";
+		};
+		B0FA986B1E6463AB00A5C2E8 /* FrameManager */ = {
+			isa = PBXGroup;
+			children = (
+				B0FA986C1E6463CF00A5C2E8 /* FrameManager.cpp */,
+				B0FA986D1E6463CF00A5C2E8 /* FrameManager.hpp */,
+			);
+			name = FrameManager;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -445,6 +608,13 @@
 			remoteRef = 1AC6FB06180E9839004C840B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		B0FA98431E64534C00A5C2E8 /* libcocos2d tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d tvOS.a";
+			remoteRef = B0FA98421E64534C00A5C2E8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -500,8 +670,12 @@
 			files = (
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				B0FA986E1E6463CF00A5C2E8 /* FrameManager.cpp in Sources */,
+				B0FA98681E645AF200A5C2E8 /* SceneManager.cpp in Sources */,
+				B0FA985A1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				B0FA984F1E64557C00A5C2E8 /* BaseLayer.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,7 +686,10 @@
 			files = (
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
+				B0FA985B1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				B0FA98691E645AF200A5C2E8 /* SceneManager.cpp in Sources */,
+				B0FA986F1E6463CF00A5C2E8 /* FrameManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,7 +726,11 @@
 					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../Classes",
+					"$(SRCROOT)/../Classes/Pragwork/**",
+				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
