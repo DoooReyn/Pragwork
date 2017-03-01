@@ -15,11 +15,15 @@
 CCString::create(json.asCString())->type##Value()
 
 //-- Center point maker
-#define ccpCenter(node) ccp(node->getContentSize().width*0.5f, node->getContentSize().height*0.5f)
-#define ccpTopCenter(node) ccp(node->getContentSize().width*0.5f, node->getContentSize().height)
-#define ccpBottomCenter(node) ccp(node->getContentSize().width*0.5f, 0)
-#define ccpLeftCenter(node) ccp(0, node->getContentSize().height*0.5f)
-#define ccpRightCenter(node) ccp(node->getContentSize().width, node->getContentSize().height*0.5f)
+#define ccpCenter(node)         Vec2(node->getContentSize().width*0.5f, node->getContentSize().height*0.5f)
+#define ccpTopCenter(node)      Vec2(node->getContentSize().width*0.5f, node->getContentSize().height)
+#define ccpBottomCenter(node)   Vec2(node->getContentSize().width*0.5f, 0)
+#define ccpLeftCenter(node)     Vec2(0, node->getContentSize().height*0.5f)
+#define ccpRightCenter(node)    Vec2(node->getContentSize().width, node->getContentSize().height*0.5f)
+#define ccpLeftBottom(node)     Vec2(0, 0)
+#define ccpLeftTop(node)        Vec2(0, node->getContentSize().height)
+#define ccpRightBottom(node)    Vec2(node->getContentSize().width, 0)
+#define ccpRightTop(node)       Vec2(node->getContentSize().width, node->getContentSize().height)
 
 #define MaskLayer(opacity) (LayerColor::create(ccc4(0, 0, 0, opacity)))
 #define DefaultMaskLayer MaskLayer(128)
