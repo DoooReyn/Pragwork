@@ -9,14 +9,22 @@
 #ifndef TagDefine_h
 #define TagDefine_h
 
-enum class SCENE_TAGS : unsigned short {
-    SCENE_MAIN = 0,
-    SCENE_CREATE_ROLE,
-    SCENE_HELP,
-    SCENE_GAME,
-    SCENE_LOADING,
-    SCENE_WORLD_TRANSITION_LOADING,
-    SCENE_UPDATE,
+enum class SceneTag : unsigned short {
+    Main,
+    CreateRole,
+    Help,
+    Game,
+    Loading,
+    Update
+};
+
+enum ActionTag : unsigned int {
+    BaseEnter,
+    BaseExit,
+};
+
+enum FrameTag : unsigned int {
+    Mask = 9999,
 };
     
 #endif /* TagDefine_h */
