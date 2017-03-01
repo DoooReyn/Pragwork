@@ -170,6 +170,12 @@
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B0D8C99C1E65E2D900D1D82C /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = Pragwork/UI/Layer/init.h; sourceTree = "<group>"; };
+		B0D8C99F1E67179F00D1D82C /* VersionDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VersionDefine.h; path = Pragwork/Constant/VersionDefine.h; sourceTree = "<group>"; };
+		B0D8C9A01E6719D100D1D82C /* MathDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MathDefine.h; path = Pragwork/Constant/MathDefine.h; sourceTree = "<group>"; };
+		B0D8C9A11E671AF900D1D82C /* CocosDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CocosDefine.h; path = Pragwork/Constant/CocosDefine.h; sourceTree = "<group>"; };
+		B0D8C9A21E67207400D1D82C /* GameStateDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameStateDefine.h; path = Pragwork/Constant/GameStateDefine.h; sourceTree = "<group>"; };
+		B0D8C9A31E67219100D1D82C /* TagDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TagDefine.h; path = Pragwork/Constant/TagDefine.h; sourceTree = "<group>"; };
 		B0FA984C1E64545700A5C2E8 /* Pragwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pragwork.h; path = Pragwork/Pragwork.h; sourceTree = "<group>"; };
 		B0FA984D1E64557C00A5C2E8 /* BaseLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseLayer.cpp; path = Pragwork/Base/BaseLayer.cpp; sourceTree = "<group>"; };
 		B0FA984E1E64557C00A5C2E8 /* BaseLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BaseLayer.hpp; path = Pragwork/Base/BaseLayer.hpp; sourceTree = "<group>"; };
@@ -410,6 +416,11 @@
 				B0FA98621E64598600A5C2E8 /* EventDefine.h */,
 				B0FA98601E64595C00A5C2E8 /* ZOrderDefine.h */,
 				B0FA985D1E64589400A5C2E8 /* init.h */,
+				B0D8C99F1E67179F00D1D82C /* VersionDefine.h */,
+				B0D8C9A01E6719D100D1D82C /* MathDefine.h */,
+				B0D8C9A11E671AF900D1D82C /* CocosDefine.h */,
+				B0D8C9A21E67207400D1D82C /* GameStateDefine.h */,
+				B0D8C9A31E67219100D1D82C /* TagDefine.h */,
 			);
 			name = Constant;
 			sourceTree = "<group>";
@@ -460,6 +471,7 @@
 				B0FA98571E64570600A5C2E8 /* Assist */,
 				B0FA98561E64570000A5C2E8 /* Frame */,
 				B0FA98551E6456F900A5C2E8 /* Alert */,
+				B0D8C99C1E65E2D900D1D82C /* init.h */,
 			);
 			name = Layer;
 			sourceTree = "<group>";
@@ -730,6 +742,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../Classes",
 					"$(SRCROOT)/../Classes/Pragwork/**",
+					"$(SRCROOT)/../Classes/Pragwork/UI/**",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;

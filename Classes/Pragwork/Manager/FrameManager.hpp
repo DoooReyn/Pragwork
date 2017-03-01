@@ -8,30 +8,35 @@
 
 #ifndef FrameManager_hpp
 #define FrameManager_hpp
-
-#include <iostream>
 #include <vector>
+#include "cocos2d.h"
+#include "extensions/cocos-ext.h"
+#include "ui/CocosGUI.h"
 #include "PragworkMacro.h"
-USING_NS_CC;
+#include "UI/Layer/init.h"
+#include "HelloWorldScene.h"
+#include "BaseLayer.hpp"
 
-// 窗口树
-enum class EFrameTree : unsigned short {
-    
-};
+USING_NS_CC;
+using namespace std;
+using namespace cocos2d::ui;
 
 // 窗口树管理
 class FrameManager {
     INIT_INSTANCE(FrameManager);
 private:
-    std::vector<Layer> m_vecFrames;
+    vector<BaseLayer*> m_pFrames;
+    BaseLayer* m_pCurFrame;
 public:
-    void PushFrame(EFrameTree frame);
-    cocos2d::Layer PopFrame();
-    void gotoFrame(EFrameTree frame);
     void clear();
-    
+    BaseLayer* PopFrame();
+    BaseLayer* getPrevFrame();
+    void PushFrame(BaseLayer*);
 protected:
     FrameManager();
     ~FrameManager();
+private:
+    bool _isFrameExist(BaseLayer*);
+    void _loadFrames();
 };
 #endif /* FrameManager_hpp */

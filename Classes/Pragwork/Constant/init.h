@@ -14,5 +14,10 @@
 #include "ZOrderDefine.h"
 #include "ActionDefine.h"
 #include "EventDefine.h"
+#include "VersionDefine.h"
+#include "MathDefine.h"
+#include "CocosDefine.h"
+#include "GameStateDefine.h"
+#include "TagDefine.h"
 
 #endif /* init_h */

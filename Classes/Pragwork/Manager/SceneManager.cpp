@@ -8,8 +8,8 @@
 
 #include "SceneManager.hpp"
 #include <iostream>
-#include "UI/Scene/init.h"
 USING_NS_CC;
+#include "HelloWorldScene.h"
 
 SceneManager* SceneManager::m_pInstance = NULL;
 SceneManager::SceneManager(){}

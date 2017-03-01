@@ -9,7 +9,7 @@
 #ifndef BaseTypes_h
 #define BaseTypes_h
 
-#include <iostream>
+//#include <iostream>
 
 typedef const char* CStr;
 typedef std::string HexStr;
@@ -18,4 +18,10 @@ typedef unsigned HexBit;
 #define RGB_MAX 255
 #define RGB_MIN 0
 
-#endif /* BaseTypes_h */
+enum ErrorAlertType{
+    EAT_OK_CANCEL_TEXT,
+    EAT_OK_TEXT,
+    EAT_OK_TEXT_UNCLOSEABLE,
+};
+
+#endif/* BaseTypes_h */
