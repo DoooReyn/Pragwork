@@ -13,5 +13,6 @@
 #include "FrameManager.hpp"
 #include "SoundManager.hpp"
 #include "NetworkManager.hpp"
+#include "PlatformManager.hpp"
 
 #endif /* Header_h */

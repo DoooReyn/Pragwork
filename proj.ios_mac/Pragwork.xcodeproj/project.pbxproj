@@ -65,6 +65,8 @@
 		B0D8C9A81E6722B100D1D82C /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9A51E6722B100D1D82C /* SoundManager.cpp */; };
 		B0D8C9AD1E67239200D1D82C /* NetworkManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9AB1E67239200D1D82C /* NetworkManager.cpp */; };
 		B0D8C9AE1E67239200D1D82C /* NetworkManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9AB1E67239200D1D82C /* NetworkManager.cpp */; };
+		B0D8C9B21E6723F700D1D82C /* PlatformManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9B01E6723F700D1D82C /* PlatformManager.cpp */; };
+		B0D8C9B31E6723F700D1D82C /* PlatformManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9B01E6723F700D1D82C /* PlatformManager.cpp */; };
 		B0FA984F1E64557C00A5C2E8 /* BaseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA984D1E64557C00A5C2E8 /* BaseLayer.cpp */; };
 		B0FA985A1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */; };
 		B0FA985B1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */; };
@@ -185,6 +187,8 @@
 		B0D8C9A91E6722CC00D1D82C /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = Pragwork/Manager/init.h; sourceTree = "<group>"; };
 		B0D8C9AB1E67239200D1D82C /* NetworkManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NetworkManager.cpp; path = Pragwork/Manager/NetworkManager.cpp; sourceTree = "<group>"; };
 		B0D8C9AC1E67239200D1D82C /* NetworkManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = NetworkManager.hpp; path = Pragwork/Manager/NetworkManager.hpp; sourceTree = "<group>"; };
+		B0D8C9B01E6723F700D1D82C /* PlatformManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PlatformManager.cpp; path = Pragwork/Manager/PlatformManager.cpp; sourceTree = "<group>"; };
+		B0D8C9B11E6723F700D1D82C /* PlatformManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PlatformManager.hpp; path = Pragwork/Manager/PlatformManager.hpp; sourceTree = "<group>"; };
 		B0FA984C1E64545700A5C2E8 /* Pragwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pragwork.h; path = Pragwork/Pragwork.h; sourceTree = "<group>"; };
 		B0FA984D1E64557C00A5C2E8 /* BaseLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseLayer.cpp; path = Pragwork/Base/BaseLayer.cpp; sourceTree = "<group>"; };
 		B0FA984E1E64557C00A5C2E8 /* BaseLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BaseLayer.hpp; path = Pragwork/Base/BaseLayer.hpp; sourceTree = "<group>"; };
@@ -424,6 +428,15 @@
 			name = NeworkManager;
 			sourceTree = "<group>";
 		};
+		B0D8C9AF1E6723CD00D1D82C /* PlatformManager */ = {
+			isa = PBXGroup;
+			children = (
+				B0D8C9B01E6723F700D1D82C /* PlatformManager.cpp */,
+				B0D8C9B11E6723F700D1D82C /* PlatformManager.hpp */,
+			);
+			name = PlatformManager;
+			sourceTree = "<group>";
+		};
 		B0FA98401E64534C00A5C2E8 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -469,6 +482,7 @@
 		B0FA98471E64536C00A5C2E8 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				B0D8C9AF1E6723CD00D1D82C /* PlatformManager */,
 				B0D8C9AA1E67236700D1D82C /* NeworkManager */,
 				B0D8C9A41E67228900D1D82C /* SoundManager */,
 				B0FA986B1E6463AB00A5C2E8 /* FrameManager */,
@@ -718,6 +732,7 @@
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				B0D8C9AD1E67239200D1D82C /* NetworkManager.cpp in Sources */,
+				B0D8C9B21E6723F700D1D82C /* PlatformManager.cpp in Sources */,
 				B0FA984F1E64557C00A5C2E8 /* BaseLayer.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				B0D8C9A71E6722B100D1D82C /* SoundManager.cpp in Sources */,
@@ -730,6 +745,7 @@
 			files = (
 				B0D8C9AE1E67239200D1D82C /* NetworkManager.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				B0D8C9B31E6723F700D1D82C /* PlatformManager.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				B0FA985B1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
