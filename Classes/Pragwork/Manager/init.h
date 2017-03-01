@@ -9,6 +9,7 @@
 #ifndef Header_h
 #define Header_h
 
+#include "GlobalManager.hpp"
 #include "SceneManager.hpp"
 #include "FrameManager.hpp"
 #include "SoundManager.hpp"

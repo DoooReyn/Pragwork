@@ -67,6 +67,8 @@
 		B0D8C9AE1E67239200D1D82C /* NetworkManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9AB1E67239200D1D82C /* NetworkManager.cpp */; };
 		B0D8C9B21E6723F700D1D82C /* PlatformManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9B01E6723F700D1D82C /* PlatformManager.cpp */; };
 		B0D8C9B31E6723F700D1D82C /* PlatformManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9B01E6723F700D1D82C /* PlatformManager.cpp */; };
+		B0D8C9B71E67257200D1D82C /* GlobalManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9B51E67257200D1D82C /* GlobalManager.cpp */; };
+		B0D8C9B81E67257200D1D82C /* GlobalManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9B51E67257200D1D82C /* GlobalManager.cpp */; };
 		B0FA984F1E64557C00A5C2E8 /* BaseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA984D1E64557C00A5C2E8 /* BaseLayer.cpp */; };
 		B0FA985A1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */; };
 		B0FA985B1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */; };
@@ -189,6 +191,8 @@
 		B0D8C9AC1E67239200D1D82C /* NetworkManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = NetworkManager.hpp; path = Pragwork/Manager/NetworkManager.hpp; sourceTree = "<group>"; };
 		B0D8C9B01E6723F700D1D82C /* PlatformManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PlatformManager.cpp; path = Pragwork/Manager/PlatformManager.cpp; sourceTree = "<group>"; };
 		B0D8C9B11E6723F700D1D82C /* PlatformManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PlatformManager.hpp; path = Pragwork/Manager/PlatformManager.hpp; sourceTree = "<group>"; };
+		B0D8C9B51E67257200D1D82C /* GlobalManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GlobalManager.cpp; path = Pragwork/Manager/GlobalManager.cpp; sourceTree = "<group>"; };
+		B0D8C9B61E67257200D1D82C /* GlobalManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GlobalManager.hpp; path = Pragwork/Manager/GlobalManager.hpp; sourceTree = "<group>"; };
 		B0FA984C1E64545700A5C2E8 /* Pragwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pragwork.h; path = Pragwork/Pragwork.h; sourceTree = "<group>"; };
 		B0FA984D1E64557C00A5C2E8 /* BaseLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseLayer.cpp; path = Pragwork/Base/BaseLayer.cpp; sourceTree = "<group>"; };
 		B0FA984E1E64557C00A5C2E8 /* BaseLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BaseLayer.hpp; path = Pragwork/Base/BaseLayer.hpp; sourceTree = "<group>"; };
@@ -437,6 +441,15 @@
 			name = PlatformManager;
 			sourceTree = "<group>";
 		};
+		B0D8C9B41E67255900D1D82C /* GlobalManager */ = {
+			isa = PBXGroup;
+			children = (
+				B0D8C9B51E67257200D1D82C /* GlobalManager.cpp */,
+				B0D8C9B61E67257200D1D82C /* GlobalManager.hpp */,
+			);
+			name = GlobalManager;
+			sourceTree = "<group>";
+		};
 		B0FA98401E64534C00A5C2E8 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -482,6 +495,7 @@
 		B0FA98471E64536C00A5C2E8 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				B0D8C9B41E67255900D1D82C /* GlobalManager */,
 				B0D8C9AF1E6723CD00D1D82C /* PlatformManager */,
 				B0D8C9AA1E67236700D1D82C /* NeworkManager */,
 				B0D8C9A41E67228900D1D82C /* SoundManager */,
@@ -731,6 +745,7 @@
 				B0FA985A1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				B0D8C9B71E67257200D1D82C /* GlobalManager.cpp in Sources */,
 				B0D8C9AD1E67239200D1D82C /* NetworkManager.cpp in Sources */,
 				B0D8C9B21E6723F700D1D82C /* PlatformManager.cpp in Sources */,
 				B0FA984F1E64557C00A5C2E8 /* BaseLayer.cpp in Sources */,
@@ -743,6 +758,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D8C9B81E67257200D1D82C /* GlobalManager.cpp in Sources */,
 				B0D8C9AE1E67239200D1D82C /* NetworkManager.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				B0D8C9B31E6723F700D1D82C /* PlatformManager.cpp in Sources */,
