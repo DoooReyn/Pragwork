@@ -12,5 +12,6 @@
 #include "SceneManager.hpp"
 #include "FrameManager.hpp"
 #include "SoundManager.hpp"
+#include "NetworkManager.hpp"
 
 #endif /* Header_h */
