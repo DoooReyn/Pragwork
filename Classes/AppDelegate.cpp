@@ -1,4 +1,5 @@
 #include "AppDelegate.h"
+#include "editor-support/cocostudio/CocoStudio.h"
 #include "PragworkMacro.h"
 #include "Pragwork.h"
 
@@ -36,6 +37,13 @@ void AppDelegate::initGLContextAttrs()
 static int register_all_packages()
 {
     return 0; //flag for packages manager
+}
+
+void setSearchPathes() {
+    FileUtils::getInstance()->addSearchPath(FileUtils::getInstance()->getWritablePath(),true);
+    FileUtils::getInstance()->addSearchPath("fonts");
+    FileUtils::getInstance()->addSearchPath("config");
+    FileUtils::getInstance()->addSearchPath("res");
 }
 
 bool AppDelegate::applicationDidFinishLaunching() {
@@ -77,8 +85,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     }
 
     register_all_packages();
-    
-    
+    setSearchPathes();
+
 //    FrameManager::getInstance()->PushFrame();
     INSTANCE(SceneManager)->runScene(ESceneTree::HelloScene);
 

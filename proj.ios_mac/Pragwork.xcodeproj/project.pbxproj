@@ -69,6 +69,10 @@
 		B0D8C9B31E6723F700D1D82C /* PlatformManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9B01E6723F700D1D82C /* PlatformManager.cpp */; };
 		B0D8C9B71E67257200D1D82C /* GlobalManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9B51E67257200D1D82C /* GlobalManager.cpp */; };
 		B0D8C9B81E67257200D1D82C /* GlobalManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9B51E67257200D1D82C /* GlobalManager.cpp */; };
+		B0D8C9BB1E67292700D1D82C /* BaseFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9B91E67292700D1D82C /* BaseFrame.cpp */; };
+		B0D8C9BC1E67292700D1D82C /* BaseFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9B91E67292700D1D82C /* BaseFrame.cpp */; };
+		B0D8C9BE1E673DEC00D1D82C /* config in Resources */ = {isa = PBXBuildFile; fileRef = B0D8C9BD1E673DEC00D1D82C /* config */; };
+		B0D8C9BF1E673DEC00D1D82C /* config in Resources */ = {isa = PBXBuildFile; fileRef = B0D8C9BD1E673DEC00D1D82C /* config */; };
 		B0FA984F1E64557C00A5C2E8 /* BaseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA984D1E64557C00A5C2E8 /* BaseLayer.cpp */; };
 		B0FA985A1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */; };
 		B0FA985B1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */; };
@@ -193,6 +197,9 @@
 		B0D8C9B11E6723F700D1D82C /* PlatformManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PlatformManager.hpp; path = Pragwork/Manager/PlatformManager.hpp; sourceTree = "<group>"; };
 		B0D8C9B51E67257200D1D82C /* GlobalManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GlobalManager.cpp; path = Pragwork/Manager/GlobalManager.cpp; sourceTree = "<group>"; };
 		B0D8C9B61E67257200D1D82C /* GlobalManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GlobalManager.hpp; path = Pragwork/Manager/GlobalManager.hpp; sourceTree = "<group>"; };
+		B0D8C9B91E67292700D1D82C /* BaseFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseFrame.cpp; path = Pragwork/Base/BaseFrame.cpp; sourceTree = "<group>"; };
+		B0D8C9BA1E67292700D1D82C /* BaseFrame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BaseFrame.hpp; path = Pragwork/Base/BaseFrame.hpp; sourceTree = "<group>"; };
+		B0D8C9BD1E673DEC00D1D82C /* config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = config; sourceTree = "<group>"; };
 		B0FA984C1E64545700A5C2E8 /* Pragwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pragwork.h; path = Pragwork/Pragwork.h; sourceTree = "<group>"; };
 		B0FA984D1E64557C00A5C2E8 /* BaseLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseLayer.cpp; path = Pragwork/Base/BaseLayer.cpp; sourceTree = "<group>"; };
 		B0FA984E1E64557C00A5C2E8 /* BaseLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BaseLayer.hpp; path = Pragwork/Base/BaseLayer.hpp; sourceTree = "<group>"; };
@@ -344,6 +351,7 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B0D8C9BD1E673DEC00D1D82C /* config */,
 				521A8EA819F11F5000D177D7 /* fonts */,
 				3EACC98E19EE6D4300EB3C5E /* res */,
 				46880B7619C43A67006E1F66 /* CloseNormal.png */,
@@ -456,6 +464,8 @@
 				B0FA984D1E64557C00A5C2E8 /* BaseLayer.cpp */,
 				B0FA984E1E64557C00A5C2E8 /* BaseLayer.hpp */,
 				B0FA98501E6455AA00A5C2E8 /* init.h */,
+				B0D8C9B91E67292700D1D82C /* BaseFrame.cpp */,
+				B0D8C9BA1E67292700D1D82C /* BaseFrame.hpp */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -696,6 +706,7 @@
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
+				B0D8C9BE1E673DEC00D1D82C /* config in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				46880B8119C43A67006E1F66 /* HelloWorld.png in Resources */,
 				46880B7D19C43A67006E1F66 /* CloseSelected.png in Resources */,
@@ -723,6 +734,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */,
+				B0D8C9BF1E673DEC00D1D82C /* config in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				3EACC99019EE6D4300EB3C5E /* res in Resources */,
 				521A8EAA19F11F5000D177D7 /* fonts in Resources */,
@@ -746,6 +758,7 @@
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				B0D8C9B71E67257200D1D82C /* GlobalManager.cpp in Sources */,
+				B0D8C9BB1E67292700D1D82C /* BaseFrame.cpp in Sources */,
 				B0D8C9AD1E67239200D1D82C /* NetworkManager.cpp in Sources */,
 				B0D8C9B21E6723F700D1D82C /* PlatformManager.cpp in Sources */,
 				B0FA984F1E64557C00A5C2E8 /* BaseLayer.cpp in Sources */,
@@ -764,6 +777,7 @@
 				B0D8C9B31E6723F700D1D82C /* PlatformManager.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				B0FA985B1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */,
+				B0D8C9BC1E67292700D1D82C /* BaseFrame.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				B0D8C9A81E6722B100D1D82C /* SoundManager.cpp in Sources */,
 				B0FA98691E645AF200A5C2E8 /* SceneManager.cpp in Sources */,

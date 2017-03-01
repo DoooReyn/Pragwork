@@ -1,6 +1,8 @@
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
 #include "BaseLayer.hpp"
+#include "BaseFrame.hpp"
+#include "CocosDefine.h"
 
 USING_NS_CC;
 
@@ -80,8 +82,27 @@ bool HelloWorld::init()
 
 void HelloWorld::menuCloseCallback(Ref* pSender)
 {
-    BaseLayer* pLayer = new BaseLayer();
-    pLayer->show(true);
+//    BaseLayer* pLayer = new BaseLayer();
+//    pLayer->show(true);
+    
+    BaseFrame* pFrame = new BaseFrame();
+    auto label = Label::createWithTTF("BaseFrame", "fonts/Marker Felt.ttf", 24);
+    label->setPosition(ccpRightCenter(pFrame));
+    Button* pButton = Button::create("CloseNormal.png", "CloseSelected.png");
+    pButton->setTitleText("Button Text");
+    pButton->setContentSize(Size(200,100));
+    pButton->setTouchEnabled(true);
+    pButton->setTitleColor(Color3B::BLUE);
+    pButton->setPosition(ccpCenter(pFrame));
+    pFrame->addChild(pButton, 1);
+    pFrame->addChild(label, 1);
+    pFrame->m_bShouldMask = true;
+    pFrame->m_bTouchClose = true;
+    pFrame->addMaskFrame();
+    pFrame->setMaskColor(Color3B::GREEN);
+    pFrame->setPosition(ccpLeftBottom(this));
+    
+    addChild(pFrame, 2);
     
     //Close the cocos2d-x game scene and quit the application
 //    Director::getInstance()->end();

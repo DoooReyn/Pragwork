@@ -10,6 +10,6 @@
 #define Base_h
 
 #include "BaseLayer.hpp"
-
+#include "BaseFrame.hpp"
 
 #endif /* Base_h */
