@@ -12,7 +12,6 @@
 #include "Base/init.h"
 #include "Constant/init.h"
 #include "UI/Scene/init.h"
-#include "Manager/SceneManager.hpp"
-#include "Manager/FrameManager.hpp"
+#include "Manager/init.h"
 
 #endif /* Pragwork_h */

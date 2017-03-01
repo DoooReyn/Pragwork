@@ -61,6 +61,8 @@
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		B0D8C9A71E6722B100D1D82C /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9A51E6722B100D1D82C /* SoundManager.cpp */; };
+		B0D8C9A81E6722B100D1D82C /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9A51E6722B100D1D82C /* SoundManager.cpp */; };
 		B0FA984F1E64557C00A5C2E8 /* BaseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA984D1E64557C00A5C2E8 /* BaseLayer.cpp */; };
 		B0FA985A1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */; };
 		B0FA985B1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */; };
@@ -176,6 +178,9 @@
 		B0D8C9A11E671AF900D1D82C /* CocosDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CocosDefine.h; path = Pragwork/Constant/CocosDefine.h; sourceTree = "<group>"; };
 		B0D8C9A21E67207400D1D82C /* GameStateDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameStateDefine.h; path = Pragwork/Constant/GameStateDefine.h; sourceTree = "<group>"; };
 		B0D8C9A31E67219100D1D82C /* TagDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TagDefine.h; path = Pragwork/Constant/TagDefine.h; sourceTree = "<group>"; };
+		B0D8C9A51E6722B100D1D82C /* SoundManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SoundManager.cpp; path = Pragwork/Manager/SoundManager.cpp; sourceTree = "<group>"; };
+		B0D8C9A61E6722B100D1D82C /* SoundManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SoundManager.hpp; path = Pragwork/Manager/SoundManager.hpp; sourceTree = "<group>"; };
+		B0D8C9A91E6722CC00D1D82C /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = Pragwork/Manager/init.h; sourceTree = "<group>"; };
 		B0FA984C1E64545700A5C2E8 /* Pragwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pragwork.h; path = Pragwork/Pragwork.h; sourceTree = "<group>"; };
 		B0FA984D1E64557C00A5C2E8 /* BaseLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseLayer.cpp; path = Pragwork/Base/BaseLayer.cpp; sourceTree = "<group>"; };
 		B0FA984E1E64557C00A5C2E8 /* BaseLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BaseLayer.hpp; path = Pragwork/Base/BaseLayer.hpp; sourceTree = "<group>"; };
@@ -397,6 +402,15 @@
 			path = ios;
 			sourceTree = SOURCE_ROOT;
 		};
+		B0D8C9A41E67228900D1D82C /* SoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				B0D8C9A51E6722B100D1D82C /* SoundManager.cpp */,
+				B0D8C9A61E6722B100D1D82C /* SoundManager.hpp */,
+			);
+			name = SoundManager;
+			sourceTree = "<group>";
+		};
 		B0FA98401E64534C00A5C2E8 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -442,8 +456,10 @@
 		B0FA98471E64536C00A5C2E8 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				B0D8C9A41E67228900D1D82C /* SoundManager */,
 				B0FA986B1E6463AB00A5C2E8 /* FrameManager */,
 				B0FA98651E645AC700A5C2E8 /* SceneManager */,
+				B0D8C9A91E6722CC00D1D82C /* init.h */,
 			);
 			name = Manager;
 			sourceTree = "<group>";
@@ -689,6 +705,7 @@
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				B0FA984F1E64557C00A5C2E8 /* BaseLayer.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				B0D8C9A71E6722B100D1D82C /* SoundManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -700,6 +717,7 @@
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				B0FA985B1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				B0D8C9A81E6722B100D1D82C /* SoundManager.cpp in Sources */,
 				B0FA98691E645AF200A5C2E8 /* SceneManager.cpp in Sources */,
 				B0FA986F1E6463CF00A5C2E8 /* FrameManager.cpp in Sources */,
 			);
