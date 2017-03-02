@@ -5,7 +5,6 @@
 //  Created by Reyn-Mac on 2017/3/2.
 //
 //
-#include "TagDefine.h"
 #include "BaseFrame.hpp"
 
 bool BaseFrame::m_bOnSingleton = false;
@@ -22,6 +21,8 @@ BaseFrame::BaseFrame()
 , m_bIsNeedAnim(true)
 , m_bIsMultiTouch(false)
 , m_bTouchClose(false)
+, m_eEnterCode(ActionCode::None)
+, m_eExitCode(ActionCode::None)
 {
     CCLOG("%s ctor.", m_sFrameName.c_str());
     Layer::init();
@@ -34,7 +35,7 @@ BaseFrame::~BaseFrame() {
 
 void BaseFrame::onEnter() {
     loadResources();
-    
+    CCLOG("baseframe onEnter");
     Layer::onEnter();
     
     enableListenEvent();
@@ -46,7 +47,7 @@ void BaseFrame::onEnter() {
 
 void BaseFrame::onExit() {
     Layer::onExit();
-    
+    CCLOG("baseframe onExit");
     cleanResources();
     
     disableListenEvent();
@@ -54,21 +55,21 @@ void BaseFrame::onExit() {
 
 void BaseFrame::onCleanUp() {
     cleanResources();
-    
+    CCLOG("baseframe oncleanup");
     Layer::cleanup();
 }
 
 
 void BaseFrame::onEnterTransitionDidFinish() {
     Layer::onEnterTransitionDidFinish();
-    
+    CCLOG("baseframe onEnterTransitionDidFinish ");
     doEnterAnimation();
 }
 
 
 void BaseFrame::onExitTransitionDidStart() {
     Layer::onExitTransitionDidStart();
-    
+    CCLOG("baseframe onExitTransitionDidStart ");
     doExitAnimation();
 }
 
@@ -81,28 +82,25 @@ void BaseFrame::onFrameUpdate() {
 void BaseFrame::doEnterAnimation() {
     if(!m_bIsNeedAnim) return;
     
+    setScale(.5f);
+    stopActionByTag(ActionTag::EnterBaseFrame);
     if(m_bUseBaseAnim) {
-        stopActionByTag(ActionTag::BaseEnter);
-        ScaleTo     *a1 = ScaleTo::create(.1f, 1.12f);
-        DelayTime   *a2 = DelayTime::create(.05f);
-        ScaleTo     *a3 = ScaleTo::create(.05f, 1.f);
-        Sequence    *sq = Sequence::create(a1, a2, a3, NULL);
-        sq->setTag(ActionTag::BaseEnter);
-        runAction(sq);
+        runAction(getActionByCode(ActionCode::EnterBaseFrame));
+    } else {
+        if(m_eEnterCode == ActionCode::None) return;
+        runAction(getActionByCode(m_eEnterCode));
     }
 }
 
 void BaseFrame::doExitAnimation() {
     if(!m_bIsNeedAnim) return;
     
+    stopActionByTag(ActionTag::ExitBaseFrame);
     if(m_bUseBaseAnim) {
-        stopActionByTag(ActionTag::BaseExit);
-        ScaleTo     *a1 = ScaleTo::create(.05f, 1.12f);
-        DelayTime   *a2 = DelayTime::create(.05f);
-        ScaleTo     *a3 = ScaleTo::create(.05f, .0f);
-        Sequence    *sq = Sequence::create(a1, a2, a3, NULL);
-        sq->setTag(ActionTag::BaseExit);
-        runAction(sq);
+        runAction(getActionByCode(ActionCode::ExitBaseFrame));
+    } else {
+        if(m_eExitCode == ActionCode::None) return;
+        runAction(getActionByCode(m_eExitCode));
     }
 }
 
@@ -128,7 +126,11 @@ void BaseFrame::loadUI() {
 void BaseFrame::onCloseBtnEvt(Ref* pSender, Widget::TouchEventType type) {
     if(m_bTouchClose) {
         if(type == Widget::TouchEventType::ENDED) {
-            removeFromParent();
+            if(m_bIsNeedAnim) {
+                doExitAnimation();
+            } else {
+                removeFromParent();
+            }
         }
     }
 }

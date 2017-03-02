@@ -11,6 +11,8 @@
 
 #include "editor-support/cocostudio/CocoStudio.h"
 #include "ui/UIHelper.h"
+#include "TagDefine.h"
+#include "ActionDefine.h"
 using namespace cocos2d;
 using namespace cocos2d::ui;
 
@@ -32,6 +34,8 @@ public:
     bool            m_bShouldMask;  //是否屏蔽下层触摸事件
     bool            m_bIsMultiTouch;//是否需要开启多点触摸(预留)
     bool            m_bTouchClose;  //触摸屏蔽层关闭
+    ActionCode      m_eEnterCode;   //进入动画
+    ActionCode      m_eExitCode;    //进入动画
 //    EventCode       m_eEventCode;   //注册事件类型
 //    CustomEventListener*  m_event;  //注册事件
     static bool     m_bOnSingleton; //是否需要支持创建单例
@@ -81,6 +85,9 @@ public:
     void setMaskOpacity(unsigned char opacity);
     void setMaskColorOpacity(const Color3B& c3b, unsigned char opacity);
     void setMaskZOrder(int zorer);
+    
+    inline void setEnterActionCode(ActionCode code) { m_eEnterCode = code; }
+    inline void setExitActionCode(ActionCode code) { m_eExitCode = code; }
     
 protected:
     ~BaseFrame();
