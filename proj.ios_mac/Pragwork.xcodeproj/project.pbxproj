@@ -73,7 +73,6 @@
 		B0D8C9BC1E67292700D1D82C /* BaseFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9B91E67292700D1D82C /* BaseFrame.cpp */; };
 		B0D8C9BE1E673DEC00D1D82C /* config in Resources */ = {isa = PBXBuildFile; fileRef = B0D8C9BD1E673DEC00D1D82C /* config */; };
 		B0D8C9BF1E673DEC00D1D82C /* config in Resources */ = {isa = PBXBuildFile; fileRef = B0D8C9BD1E673DEC00D1D82C /* config */; };
-		B0FA984F1E64557C00A5C2E8 /* BaseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA984D1E64557C00A5C2E8 /* BaseLayer.cpp */; };
 		B0FA985A1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */; };
 		B0FA985B1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */; };
 		B0FA98681E645AF200A5C2E8 /* SceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98661E645AF200A5C2E8 /* SceneManager.cpp */; };
@@ -200,14 +199,13 @@
 		B0D8C9B91E67292700D1D82C /* BaseFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseFrame.cpp; path = Pragwork/Base/BaseFrame.cpp; sourceTree = "<group>"; };
 		B0D8C9BA1E67292700D1D82C /* BaseFrame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BaseFrame.hpp; path = Pragwork/Base/BaseFrame.hpp; sourceTree = "<group>"; };
 		B0D8C9BD1E673DEC00D1D82C /* config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = config; sourceTree = "<group>"; };
+		B0D8C9C51E689B6B00D1D82C /* CocoSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CocoSupport.h; path = Pragwork/CocoSupport.h; sourceTree = "<group>"; };
 		B0FA984C1E64545700A5C2E8 /* Pragwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pragwork.h; path = Pragwork/Pragwork.h; sourceTree = "<group>"; };
-		B0FA984D1E64557C00A5C2E8 /* BaseLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseLayer.cpp; path = Pragwork/Base/BaseLayer.cpp; sourceTree = "<group>"; };
-		B0FA984E1E64557C00A5C2E8 /* BaseLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BaseLayer.hpp; path = Pragwork/Base/BaseLayer.hpp; sourceTree = "<group>"; };
-		B0FA98501E6455AA00A5C2E8 /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = Pragwork/Base/init.h; sourceTree = "<group>"; };
+		B0FA98501E6455AA00A5C2E8 /* BaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseDefine.h; path = Pragwork/Base/BaseDefine.h; sourceTree = "<group>"; };
 		B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ShadeAssistLayer.cpp; path = Pragwork/UI/Layer/Assist/ShadeAssistLayer.cpp; sourceTree = "<group>"; };
 		B0FA98591E64577800A5C2E8 /* ShadeAssistLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ShadeAssistLayer.hpp; path = Pragwork/UI/Layer/Assist/ShadeAssistLayer.hpp; sourceTree = "<group>"; };
 		B0FA985C1E64586200A5C2E8 /* BaseTypeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTypeDefine.h; path = Pragwork/Constant/BaseTypeDefine.h; sourceTree = "<group>"; };
-		B0FA985D1E64589400A5C2E8 /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = Pragwork/Constant/init.h; sourceTree = "<group>"; };
+		B0FA985D1E64589400A5C2E8 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constant.h; path = Pragwork/Constant/Constant.h; sourceTree = "<group>"; };
 		B0FA985E1E64590C00A5C2E8 /* ColorDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorDefine.h; path = Pragwork/Constant/ColorDefine.h; sourceTree = "<group>"; };
 		B0FA98601E64595C00A5C2E8 /* ZOrderDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZOrderDefine.h; path = Pragwork/Constant/ZOrderDefine.h; sourceTree = "<group>"; };
 		B0FA98611E64596D00A5C2E8 /* ActionDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ActionDefine.h; path = Pragwork/Constant/ActionDefine.h; sourceTree = "<group>"; };
@@ -458,12 +456,17 @@
 			name = GlobalManager;
 			sourceTree = "<group>";
 		};
+		B0D8C9C01E688A8D00D1D82C /* HtmlParser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HtmlParser;
+			sourceTree = "<group>";
+		};
 		B0FA98401E64534C00A5C2E8 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				B0FA984D1E64557C00A5C2E8 /* BaseLayer.cpp */,
-				B0FA984E1E64557C00A5C2E8 /* BaseLayer.hpp */,
-				B0FA98501E6455AA00A5C2E8 /* init.h */,
+				B0FA98501E6455AA00A5C2E8 /* BaseDefine.h */,
 				B0D8C9B91E67292700D1D82C /* BaseFrame.cpp */,
 				B0D8C9BA1E67292700D1D82C /* BaseFrame.hpp */,
 			);
@@ -478,7 +481,7 @@
 				B0FA985E1E64590C00A5C2E8 /* ColorDefine.h */,
 				B0FA98621E64598600A5C2E8 /* EventDefine.h */,
 				B0FA98601E64595C00A5C2E8 /* ZOrderDefine.h */,
-				B0FA985D1E64589400A5C2E8 /* init.h */,
+				B0FA985D1E64589400A5C2E8 /* Constant.h */,
 				B0D8C99F1E67179F00D1D82C /* VersionDefine.h */,
 				B0D8C9A01E6719D100D1D82C /* MathDefine.h */,
 				B0D8C9A11E671AF900D1D82C /* CocosDefine.h */,
@@ -491,6 +494,7 @@
 		B0FA98451E64535E00A5C2E8 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				B0D8C9C01E688A8D00D1D82C /* HtmlParser */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -555,6 +559,7 @@
 				B0FA98401E64534C00A5C2E8 /* Base */,
 				B0FA984C1E64545700A5C2E8 /* Pragwork.h */,
 				B0FA98631E645A5F00A5C2E8 /* PragworkMacro.h */,
+				B0D8C9C51E689B6B00D1D82C /* CocoSupport.h */,
 			);
 			name = Progwork;
 			sourceTree = "<group>";
@@ -761,7 +766,6 @@
 				B0D8C9BB1E67292700D1D82C /* BaseFrame.cpp in Sources */,
 				B0D8C9AD1E67239200D1D82C /* NetworkManager.cpp in Sources */,
 				B0D8C9B21E6723F700D1D82C /* PlatformManager.cpp in Sources */,
-				B0FA984F1E64557C00A5C2E8 /* BaseLayer.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				B0D8C9A71E6722B100D1D82C /* SoundManager.cpp in Sources */,
 			);
