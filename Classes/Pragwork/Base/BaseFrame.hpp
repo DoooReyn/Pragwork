@@ -17,15 +17,22 @@
 using namespace cocos2d;
 using namespace cocos2d::ui;
 
-enum class UILoadMode : unsigned char {
-    Csb,
-    Json,
-    Xml
-};
 
 class BaseFrame : public cocos2d::Layer {
     
 public:
+    
+/*===========================================================
+ > 以下是 UI 加载模式定义
+ ============================================================
+ */
+    enum class UILoadMode : unsigned char {
+        None,
+        Csb,
+        Json,
+        Xml
+    };
+    
     
 /*===========================================================
  > 以下是 BaseFrame 构造所需的字段

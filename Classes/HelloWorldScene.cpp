@@ -87,7 +87,7 @@ void HelloWorld::menuCloseCallback(Ref* pSender)
     
     BaseFrame* pFrame = new BaseFrame();
     auto label = Label::createWithTTF("BaseFrame", "fonts/Marker Felt.ttf", 24);
-    label->setPosition(ccpRightCenter(pFrame));
+    label->setPosition(ccpCenter(pFrame));
     Button* pButton = Button::create("CloseNormal.png", "CloseSelected.png");
     pButton->setTitleText("Button Text");
     pButton->setContentSize(Size(200,100));
