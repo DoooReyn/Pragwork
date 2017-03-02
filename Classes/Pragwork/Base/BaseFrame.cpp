@@ -69,8 +69,9 @@ void BaseFrame::onEnterTransitionDidFinish() {
 }
 
 void BaseFrame::onExitTransitionDidStart() {
+    CCLOG("%s onExitTransitionDidStart", m_sFrameName.c_str());
+    
     Layer::onExitTransitionDidStart();
-    CCLOG("baseframe onExitTransitionDidStart ");
     doExitAnimation();
 }
 
@@ -124,13 +125,17 @@ void BaseFrame::loadUI() {
 }
 
 void BaseFrame::onCloseBtnEvt(Ref* pSender, Widget::TouchEventType type) {
-    if(m_bTouchClose) {
-        if(type == Widget::TouchEventType::ENDED) {
-            if(m_bIsNeedAnim) {
-                doExitAnimation();
-            } else {
-                removeFromParent();
-            }
+    int nSenderTag = ((Node*)pSender)->getTag();
+    bool bIsMaskSender  = m_bTouchClose && nSenderTag == FrameTag::Mask;
+    bool bIsOtherSender = nSenderTag != FrameTag::Mask;
+    
+    if(!(bIsMaskSender || bIsOtherSender)) return;
+    
+    if(type == Widget::TouchEventType::ENDED) {
+        if(m_bIsNeedAnim) {
+            doExitAnimation();
+        } else {
+            removeFromParent();
         }
     }
 }
@@ -159,7 +164,7 @@ void BaseFrame::cleanResources() {
     
 }
 
-void BaseFrame::addMaskFrame(int nZOrder) {
+void BaseFrame::addMaskFrame(int nZOrder, const Color3B& color, unsigned char opacity) {
     if(!m_bShouldMask) return;
     
     Layout* mask = dynamic_cast<Layout*>(getChildByTag(FrameTag::Mask));
@@ -167,13 +172,13 @@ void BaseFrame::addMaskFrame(int nZOrder) {
     mask = Layout::create();
     mask->setTag(FrameTag::Mask);
     mask->setBackGroundColorType(cocos2d::ui::Layout::BackGroundColorType::SOLID);
-    mask->setBackGroundColor(Color3B::BLACK);
-    mask->setBackGroundColorOpacity(128);//默认背景为黑色半透明
+    mask->setBackGroundColor(color);
+    mask->setBackGroundColorOpacity(opacity);//默认背景为黑色半透明
     mask->setContentSize(Director::getInstance()->getWinSize());
     mask->setTouchEnabled(true);
     mask->addTouchEventListener(CC_CALLBACK_2(BaseFrame::onCloseBtnEvt, this));
     ui::Helper::doLayout(mask);
-    addChild(mask, nZOrder);//默认添加在全部层的底部
+    addChild(mask, nZOrder);
 }
 
 void BaseFrame::addMaskFrameAtTop() {

@@ -168,7 +168,7 @@ public:
     /******************************
      * 添加一个屏蔽层
      ******************************/
-    void addMaskFrame(int nZOrder=-1);
+    void addMaskFrame(int nZOrder=-1, const Color3B& color = Color3B::BLACK, unsigned char opaicty=128);
     
     /******************************
      * 添加一个位于顶部的屏蔽层
