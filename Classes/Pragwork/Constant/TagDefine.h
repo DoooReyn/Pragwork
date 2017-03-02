@@ -19,8 +19,8 @@ enum class SceneTag : unsigned short {
 };
 
 enum ActionTag : unsigned int {
-    BaseEnter,
-    BaseExit,
+    EnterBaseFrame,
+    ExitBaseFrame,
 };
 
 enum FrameTag : unsigned int {
