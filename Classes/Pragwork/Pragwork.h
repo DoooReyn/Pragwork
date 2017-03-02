@@ -9,8 +9,8 @@
 #ifndef Pragwork_h
 #define Pragwork_h
 
-#include "Base/init.h"
-#include "Constant/init.h"
+#include "Base/BaseDefine.h"
+#include "Constant/Constant.h"
 #include "UI/Scene/init.h"
 #include "Manager/init.h"
 

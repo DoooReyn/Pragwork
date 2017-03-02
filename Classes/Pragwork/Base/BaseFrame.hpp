@@ -9,13 +9,10 @@
 #ifndef BaseFrame_hpp
 #define BaseFrame_hpp
 
-#include "editor-support/cocostudio/CocoStudio.h"
-#include "ui/UIHelper.h"
+#include "CocoSupport.h"
 #include "TagDefine.h"
 #include "ActionDefine.h"
 #include "ZOrderDefine.h"
-using namespace cocos2d;
-using namespace cocos2d::ui;
 
 
 class BaseFrame : public cocos2d::Layer {
@@ -53,6 +50,7 @@ public:
     static bool     m_bOnSingleton;     //是否需要支持创建单例
                                         //    EventCode       m_eEventCode;     //注册事件类型
                                         //    CustomEventListener*  m_event;    //注册事件
+    bool            m_bIsMutex;         //是否与其他窗口互斥
     
 private:
     static BaseFrame* m_pSingleton; //单例指针，如果不允许创建单例，当使用获取\
@@ -213,15 +211,22 @@ public:
  > 以下是新手引导相关接口
  ============================================================
  */
-    inline bool getIsGuide() { return m_bIsGuide; }
-    inline void setIsGuide(bool isGuide) { m_bIsGuide = isGuide; }
+    inline bool isGuide() { return m_bIsGuide; }
+    inline void setGuide(bool isGuide) { m_bIsGuide = isGuide; }
     
 /*===========================================================
  > 以下是多点触摸相关接口
  ============================================================
  */
-    inline bool getIsMutilTouch() { return m_bIsMultiTouch; }
-    inline void setIsMutilTouch(bool isMultiTouch) { m_bIsMultiTouch = isMultiTouch; }
+    inline bool isMutilTouch() { return m_bIsMultiTouch; }
+    inline void setMutilTouch(bool isMultiTouch) { m_bIsMultiTouch = isMultiTouch; }
+    
+/*===========================================================
+ > 以下是窗口互斥相关接口
+ ============================================================
+ */
+    inline bool isMutex() { return m_bIsMutex; }
+    inline void setMutext(bool isMutex) { m_bIsMutex = isMutex; }
     
 protected:
     

@@ -25,7 +25,6 @@ BaseFrame::BaseFrame()
 , m_eExitCode(ActionCode::None)
 {
     CCLOG("%s ctor.", m_sFrameName.c_str());
-    
     Layer::init();
 }
 
@@ -177,7 +176,7 @@ void BaseFrame::addMaskFrame(int nZOrder, const Color3B& color, unsigned char op
     mask->setContentSize(Director::getInstance()->getWinSize());
     mask->setTouchEnabled(true);
     mask->addTouchEventListener(CC_CALLBACK_2(BaseFrame::onCloseBtnEvt, this));
-    ui::Helper::doLayout(mask);
+    cocos2d::ui::Helper::doLayout(mask);
     addChild(mask, nZOrder);
 }
 
@@ -219,7 +218,7 @@ void BaseFrame::_loadUIFromCSB() {
     if (node == NULL) return;
     
     node->setContentSize(Director::getInstance()->getWinSize());
-    ui::Helper::doLayout(node);
+    cocos2d::ui::Helper::doLayout(node);
     addChild(node);
 }
 
@@ -232,7 +231,7 @@ void BaseFrame::_loadUIFromJSON() {
     if (node == NULL) return;
     
     node->setContentSize(Director::getInstance()->getWinSize());
-    ui::Helper::doLayout(node);
+    cocos2d::ui::Helper::doLayout(node);
     addChild(node);
 }
 
