@@ -15,7 +15,7 @@
 #include "PragworkMacro.h"
 #include "UI/Layer/init.h"
 #include "HelloWorldScene.h"
-#include "BaseLayer.hpp"
+#include "BaseFrame.hpp"
 
 USING_NS_CC;
 using namespace std;
@@ -25,18 +25,18 @@ using namespace cocos2d::ui;
 class FrameManager {
     INIT_INSTANCE(FrameManager);
 private:
-    vector<BaseLayer*> m_pFrames;
-    BaseLayer* m_pCurFrame;
+    vector<BaseFrame*> m_pFrames;
+    BaseFrame* m_pCurFrame;
 public:
     void clear();
-    BaseLayer* PopFrame();
-    BaseLayer* getPrevFrame();
-    void PushFrame(BaseLayer*);
+    BaseFrame* PopFrame();
+    BaseFrame* getPrevFrame();
+    void PushFrame(BaseFrame*);
 protected:
     FrameManager();
     ~FrameManager();
 private:
-    bool _isFrameExist(BaseLayer*);
+    bool _isFrameExist(BaseFrame*);
     void _loadFrames();
 };
 #endif /* FrameManager_hpp */

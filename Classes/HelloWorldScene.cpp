@@ -1,6 +1,4 @@
 #include "HelloWorldScene.h"
-#include "SimpleAudioEngine.h"
-#include "BaseLayer.hpp"
 #include "BaseFrame.hpp"
 #include "CocosDefine.h"
 
@@ -76,17 +74,16 @@ bool HelloWorld::init()
     // add the sprite as a child to this layer
     this->addChild(sprite, 0);
     
+    
     return true;
 }
 
 
+
 void HelloWorld::menuCloseCallback(Ref* pSender)
-{
-//    BaseLayer* pLayer = new BaseLayer();
-//    pLayer->show(true);
-    
+{    
     BaseFrame* pFrame = new BaseFrame();
-    auto label = Label::createWithTTF("BaseFrame", "fonts/Marker Felt.ttf", 24);
+    auto label = Label::createWithTTF("BaseFrame", "fonts/arial.ttf", 24);
     label->setPosition(ccpCenter(pFrame));
     Button* pButton = Button::create("CloseNormal.png", "CloseSelected.png");
     pButton->setTitleText("Button Text");
@@ -101,7 +98,6 @@ void HelloWorld::menuCloseCallback(Ref* pSender)
     pFrame->addMaskFrameAtTop();
     pFrame->setMaskColorOpacity(Color3B::GREEN);
     pFrame->setPosition(ccpLeftBottom(this));
-    
     addChild(pFrame, 2);
     
     //Close the cocos2d-x game scene and quit the application
@@ -115,6 +111,6 @@ void HelloWorld::menuCloseCallback(Ref* pSender)
     
     //EventCustom customEndEvent("game_scene_close_event");
     //_eventDispatcher->dispatchEvent(&customEndEvent);
-    
+
     
 }

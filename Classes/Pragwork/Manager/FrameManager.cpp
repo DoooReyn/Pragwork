@@ -19,17 +19,17 @@ FrameManager::FrameManager()  {
 FrameManager::~FrameManager() {};
 
 
-bool FrameManager::_isFrameExist(BaseLayer* frame) {
-    vector<BaseLayer*>::iterator iter = std::find(m_pFrames.begin(), m_pFrames.end(), frame);
+bool FrameManager::_isFrameExist(BaseFrame* frame) {
+    vector<BaseFrame*>::iterator iter = std::find(m_pFrames.begin(), m_pFrames.end(), frame);
     return (iter != m_pFrames.end());
 }
 
-void FrameManager::PushFrame(BaseLayer* frame) {
+void FrameManager::PushFrame(BaseFrame* frame) {
     if(_isFrameExist(frame)) {
         return;
     }
     if(frame->isMutex()) {
-        BaseLayer* layer = getPrevFrame();
+        BaseFrame* layer = getPrevFrame();
         if(layer) {
             layer->retain();
             layer->removeFromParent();
@@ -43,13 +43,13 @@ void FrameManager::PushFrame(BaseLayer* frame) {
     }
 }
 
-BaseLayer* FrameManager::getPrevFrame() {
+BaseFrame* FrameManager::getPrevFrame() {
     if(m_pFrames.empty())
         return NULL;
     return m_pFrames.at(m_pFrames.size()-1);
 }
 
-BaseLayer* FrameManager::PopFrame() {
+BaseFrame* FrameManager::PopFrame() {
     if(!m_pCurFrame) return NULL;
     m_pCurFrame->removeFromParent();
     m_pFrames.erase(m_pFrames.end());
