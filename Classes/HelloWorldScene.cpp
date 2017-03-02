@@ -98,8 +98,8 @@ void HelloWorld::menuCloseCallback(Ref* pSender)
     pFrame->addChild(label, 1);
     pFrame->m_bShouldMask = true;
     pFrame->m_bTouchClose = true;
-    pFrame->addMaskFrame();
-    pFrame->setMaskColor(Color3B::GREEN);
+    pFrame->addMaskFrameAtTop();
+    pFrame->setMaskColorOpacity(Color3B::GREEN);
     pFrame->setPosition(ccpLeftBottom(this));
     
     addChild(pFrame, 2);
