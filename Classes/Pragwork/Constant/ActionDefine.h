@@ -11,12 +11,14 @@
 
 USING_NS_CC;
 
-enum class ActionCode : unsigned int {
-    None,
-    EnterBaseFrame,
-    ExitBaseFrame,
+//动画编号
+enum ActionCode : unsigned int {
+    None,               //无
+    EnterBaseFrame,     //BaseFrame 进入
+    ExitBaseFrame,      //BaseFrame 退出
 };
 
+//根据动画变化获得对应动画
 static Action* getActionByCode(ActionCode code) {
     switch (code) {
         case ActionCode::EnterBaseFrame : {
@@ -24,7 +26,7 @@ static Action* getActionByCode(ActionCode code) {
             DelayTime   *a2 = DelayTime::create(.05f);
             ScaleTo     *a3 = ScaleTo::create(.1f, 1.f);
             Sequence    *sq = Sequence::create(a1, a2, a3, NULL);
-            sq->setTag(ActionTag::EnterBaseFrame);
+            sq->setTag(ActionCode::EnterBaseFrame);
             return sq;
         }
         case ActionCode::ExitBaseFrame : {
@@ -33,7 +35,7 @@ static Action* getActionByCode(ActionCode code) {
             ScaleTo     *a3 = ScaleTo::create(.3f, .5f);
             RemoveSelf  *a4 = RemoveSelf::create();
             Sequence    *sq = Sequence::create(a1, a2, a3, a4, NULL);
-            sq->setTag(ActionTag::ExitBaseFrame);
+            sq->setTag(ActionCode::ExitBaseFrame);
             return sq;
         }
         default:

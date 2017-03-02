@@ -18,11 +18,6 @@ enum class SceneTag : unsigned short {
     Update
 };
 
-enum ActionTag : unsigned int {
-    EnterBaseFrame,
-    ExitBaseFrame,
-};
-
 enum FrameTag : unsigned int {
     Mask = 9999,
 };

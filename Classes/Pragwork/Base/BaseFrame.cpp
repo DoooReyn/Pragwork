@@ -83,7 +83,7 @@ void BaseFrame::doEnterAnimation() {
     if(!m_bIsNeedAnim) return;
     
     setScale(.5f);
-    stopActionByTag(ActionTag::EnterBaseFrame);
+    stopActionByTag(ActionCode::EnterBaseFrame);
     if(m_bUseBaseAnim) {
         runAction(getActionByCode(ActionCode::EnterBaseFrame));
     } else {
@@ -95,7 +95,7 @@ void BaseFrame::doEnterAnimation() {
 void BaseFrame::doExitAnimation() {
     if(!m_bIsNeedAnim) return;
     
-    stopActionByTag(ActionTag::ExitBaseFrame);
+    stopActionByTag(ActionCode::ExitBaseFrame);
     if(m_bUseBaseAnim) {
         runAction(getActionByCode(ActionCode::ExitBaseFrame));
     } else {
