@@ -9,24 +9,9 @@
 #ifndef ZOrderDefine_h
 #define ZOrderDefine_h
 
-// Layer Zorder
-#define ZORDER_WAITING_LAYER (INT_MAX)
-#define ZORDER_SHIELD_LAYER (INT_MAX - 1)
-#define ZORDER_MSG_BOX (9934)
-#define ZORDER_CALL_BOARD (9100)
-#define ZORDER_GUIDE_LAYER (9050)
-#define ZORDER_SCROLL_BULLETIN (8000)
-#define ZORDER_TOWNSCENE_BOARD (9000)
-#define ZORDER_TOWNLAYER (7000)
-
-// Layer Touch Priority
-#define TOUCH_PRIORITY_MSG_BOX (-30000)
-#define TOUCH_PRIORITY_CALLBOARD (-26000)
-#define TOUCH_PRIORITY_SHIELD_LAYER (-25000)
-#define TOUCH_PRIORITY_ITEM_INFO_LAYER TOUCH_PRIORITY_SHIELD_LAYER
-#define TOUCH_PRIORITY_TIP_LAYER (-10000)
-#define TOUCH_PRIORITY_GLOW_LAYER (-9000)
-#define TOUCH_PRIORITY_GUIDE_LAYER (-8000)
-#define TOUCH_PRIORITY_BOARD_SHIELD (-1000)
+enum ZOrderCode : int {
+    MaskAtTop = 999,
+    MaskAtBottom = -999
+};
 
 #endif /* ZOrderDefine_h */
