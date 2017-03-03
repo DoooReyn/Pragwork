@@ -24,6 +24,7 @@ public:
     bool remove(const std::string key);
     bool clear();
     const std::string select(const std::string key);
+    const map<std::string, std::string> multiselect(const vector<std::string> keys);
     bool disconnect();
     
 protected:

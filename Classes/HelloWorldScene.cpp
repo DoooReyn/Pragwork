@@ -52,14 +52,6 @@ bool HelloWorld::init()
     auto closeItem4 = MenuItemLabel::create(label4, CC_CALLBACK_1(HelloWorld::clear, this));
     auto closeItem5 = MenuItemLabel::create(label5, CC_CALLBACK_1(HelloWorld::select, this));
     auto closeItem6 = MenuItemLabel::create(label6, CC_CALLBACK_1(HelloWorld::disconnect, this));
-    
-//    closeItem1->setPosition(0, 100);
-//    closeItem2->setPosition(0, 60);
-//    closeItem3->setPosition(0, 20);
-//    closeItem4->setPosition(0, -20);
-//    closeItem5->setPosition(0, -60);
-//    closeItem6->setPosition(0, -100);
-    
 
     // create menu, it's an autorelease object
     auto menu = Menu::create(closeItem1, closeItem2, closeItem3, closeItem4, closeItem5, closeItem6, NULL);
@@ -158,7 +150,6 @@ void HelloWorld::remove(cocos2d::Ref* pSender) {
 }
 
 void HelloWorld::clear(cocos2d::Ref* pSender) {
-    LocalDBManager::getInstance()->select("version");
     LocalDBManager::getInstance()->clear();
 }
 
@@ -167,7 +158,9 @@ void HelloWorld::select(cocos2d::Ref* pSender) {
     if(out.size()==0) {
         ((Node*)pSender)->runAction(MoveBy::create(0.1, Vec2(2,0)));
     }
-    LocalDBManager::getInstance()->select("code");
+//    LocalDBManager::getInstance()->select("code");
+    vector<std::string> vec = {"version", "code", "ai"};
+    LocalDBManager::getInstance()->multiselect(vec);
 }
 
 void HelloWorld::disconnect(cocos2d::Ref* pSender) {

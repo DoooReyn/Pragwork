@@ -85,3 +85,17 @@ const std::string LocalDBManager::select(const std::string key) {
     CCLOG("DB select key(%s) as value(%s).", key.c_str(), out.c_str());
     return out;
 }
+
+const map<std::string, std::string> LocalDBManager::multiselect(const vector<std::string> keys) {
+    if(!m_bconnected) connect();
+    CCLOG("==> DB multiselect start.");
+    map<std::string, std::string> map;
+    map.clear();
+    for(int i=0; i<keys.size(); i++) {
+        string key = keys.at(i);
+        string out = select(key);
+        map.insert(pair<std::string, std::string>(key,out));
+    }
+    CCLOG("<== DB multiselect ended.");
+    return map;
+}
