@@ -12,7 +12,12 @@ public:
     
     // a selector callback
     void menuCloseCallback(cocos2d::Ref* pSender);
-    
+    void connect(cocos2d::Ref* pSender);
+    void insert(cocos2d::Ref* pSender);
+    void remove(cocos2d::Ref* pSender);
+    void clear(cocos2d::Ref* pSender);
+    void select(cocos2d::Ref* pSender);
+    void disconnect(cocos2d::Ref* pSender);
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
 };

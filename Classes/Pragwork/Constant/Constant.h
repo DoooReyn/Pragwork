@@ -20,4 +20,8 @@
 #include "GameStateDefine.h"
 #include "TagDefine.h"
 
+namespace GLOBAL {
+    const std::string DB_PATH = "res/db/game.db";
+}
+
 #endif /* init_h */

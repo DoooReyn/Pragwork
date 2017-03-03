@@ -73,6 +73,10 @@
 		B0D8C9BC1E67292700D1D82C /* BaseFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9B91E67292700D1D82C /* BaseFrame.cpp */; };
 		B0D8C9BE1E673DEC00D1D82C /* config in Resources */ = {isa = PBXBuildFile; fileRef = B0D8C9BD1E673DEC00D1D82C /* config */; };
 		B0D8C9BF1E673DEC00D1D82C /* config in Resources */ = {isa = PBXBuildFile; fileRef = B0D8C9BD1E673DEC00D1D82C /* config */; };
+		B0D8C9C81E6999DC00D1D82C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D8C9C61E6999DC00D1D82C /* libsqlite3.0.tbd */; };
+		B0D8C9C91E6999DC00D1D82C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D8C9C71E6999DC00D1D82C /* libsqlite3.tbd */; };
+		B0D8C9CD1E699FAE00D1D82C /* LocalDBManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9CB1E699FAE00D1D82C /* LocalDBManager.cpp */; };
+		B0D8C9CE1E699FAE00D1D82C /* LocalDBManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9CB1E699FAE00D1D82C /* LocalDBManager.cpp */; };
 		B0FA985A1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */; };
 		B0FA985B1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */; };
 		B0FA98681E645AF200A5C2E8 /* SceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98661E645AF200A5C2E8 /* SceneManager.cpp */; };
@@ -200,6 +204,10 @@
 		B0D8C9BA1E67292700D1D82C /* BaseFrame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BaseFrame.hpp; path = Pragwork/Base/BaseFrame.hpp; sourceTree = "<group>"; };
 		B0D8C9BD1E673DEC00D1D82C /* config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = config; sourceTree = "<group>"; };
 		B0D8C9C51E689B6B00D1D82C /* CocoSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CocoSupport.h; path = Pragwork/CocoSupport.h; sourceTree = "<group>"; };
+		B0D8C9C61E6999DC00D1D82C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/lib/libsqlite3.0.tbd; sourceTree = DEVELOPER_DIR; };
+		B0D8C9C71E6999DC00D1D82C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
+		B0D8C9CB1E699FAE00D1D82C /* LocalDBManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LocalDBManager.cpp; path = Pragwork/Manager/LocalDBManager.cpp; sourceTree = "<group>"; };
+		B0D8C9CC1E699FAE00D1D82C /* LocalDBManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = LocalDBManager.hpp; path = Pragwork/Manager/LocalDBManager.hpp; sourceTree = "<group>"; };
 		B0FA984C1E64545700A5C2E8 /* Pragwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pragwork.h; path = Pragwork/Pragwork.h; sourceTree = "<group>"; };
 		B0FA98501E6455AA00A5C2E8 /* BaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseDefine.h; path = Pragwork/Base/BaseDefine.h; sourceTree = "<group>"; };
 		B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ShadeAssistLayer.cpp; path = Pragwork/UI/Layer/Assist/ShadeAssistLayer.cpp; sourceTree = "<group>"; };
@@ -232,6 +240,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D8C9C81E6999DC00D1D82C /* libsqlite3.0.tbd in Frameworks */,
+				B0D8C9C91E6999DC00D1D82C /* libsqlite3.tbd in Frameworks */,
 				294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */,
 				ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */,
 				52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */,
@@ -322,6 +332,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0D8C9C61E6999DC00D1D82C /* libsqlite3.0.tbd */,
+				B0D8C9C71E6999DC00D1D82C /* libsqlite3.tbd */,
 				294D0D631D0D56D500F7F5D4 /* CoreText.framework */,
 				ED545A7D1B68A1FA00C3958E /* libiconv.dylib */,
 				ED545A7B1B68A1F400C3958E /* libiconv.dylib */,
@@ -463,6 +475,15 @@
 			name = HtmlParser;
 			sourceTree = "<group>";
 		};
+		B0D8C9CA1E699F7B00D1D82C /* LocalDBManager */ = {
+			isa = PBXGroup;
+			children = (
+				B0D8C9CB1E699FAE00D1D82C /* LocalDBManager.cpp */,
+				B0D8C9CC1E699FAE00D1D82C /* LocalDBManager.hpp */,
+			);
+			name = LocalDBManager;
+			sourceTree = "<group>";
+		};
 		B0FA98401E64534C00A5C2E8 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -509,6 +530,7 @@
 		B0FA98471E64536C00A5C2E8 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				B0D8C9CA1E699F7B00D1D82C /* LocalDBManager */,
 				B0D8C9B41E67255900D1D82C /* GlobalManager */,
 				B0D8C9AF1E6723CD00D1D82C /* PlatformManager */,
 				B0D8C9AA1E67236700D1D82C /* NeworkManager */,
@@ -760,6 +782,7 @@
 				B0FA986E1E6463CF00A5C2E8 /* FrameManager.cpp in Sources */,
 				B0FA98681E645AF200A5C2E8 /* SceneManager.cpp in Sources */,
 				B0FA985A1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */,
+				B0D8C9CD1E699FAE00D1D82C /* LocalDBManager.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				B0D8C9B71E67257200D1D82C /* GlobalManager.cpp in Sources */,
@@ -786,6 +809,7 @@
 				B0D8C9A81E6722B100D1D82C /* SoundManager.cpp in Sources */,
 				B0FA98691E645AF200A5C2E8 /* SceneManager.cpp in Sources */,
 				B0FA986F1E6463CF00A5C2E8 /* FrameManager.cpp in Sources */,
+				B0D8C9CE1E699FAE00D1D82C /* LocalDBManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

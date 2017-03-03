@@ -19,13 +19,15 @@
 #include "external/json/rapidjson.h"
 #include "external/tinyxml2/tinyxml2.h"
 #include "storage/local-storage/LocalStorage.h"
+#include <iostream>
 
 using namespace cocos2d;
 using namespace cocos2d::ui;
+using namespace cocos2d::extension;
 using namespace cocos2d::network;
 using namespace cocos2d::experimental;
 using namespace cocos2d::StringUtils;
 using namespace CocosDenshion;
-
+using namespace std;
 
 #endif /* CocoSupport_h */
