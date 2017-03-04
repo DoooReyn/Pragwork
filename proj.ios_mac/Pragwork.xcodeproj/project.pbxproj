@@ -61,6 +61,8 @@
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		B08C08261E6ABCF0001B22EE /* TestTinyXml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C08241E6ABCF0001B22EE /* TestTinyXml.cpp */; };
+		B08C08271E6ABCF0001B22EE /* TestTinyXml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C08241E6ABCF0001B22EE /* TestTinyXml.cpp */; };
 		B0CF292E1E6A88E700F2E42A /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0CF292C1E6A88E700F2E42A /* MainScene.cpp */; };
 		B0D8C9A71E6722B100D1D82C /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9A51E6722B100D1D82C /* SoundManager.cpp */; };
 		B0D8C9A81E6722B100D1D82C /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9A51E6722B100D1D82C /* SoundManager.cpp */; };
@@ -188,6 +190,8 @@
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B08C08241E6ABCF0001B22EE /* TestTinyXml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TestTinyXml.cpp; path = Pragwork/Test/TestTinyXml.cpp; sourceTree = "<group>"; };
+		B08C08251E6ABCF0001B22EE /* TestTinyXml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TestTinyXml.hpp; path = Pragwork/Test/TestTinyXml.hpp; sourceTree = "<group>"; };
 		B0CF292C1E6A88E700F2E42A /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainScene.cpp; path = Pragwork/UI/Scene/MainScene.cpp; sourceTree = "<group>"; };
 		B0CF292D1E6A88E700F2E42A /* MainScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MainScene.hpp; path = Pragwork/UI/Scene/MainScene.hpp; sourceTree = "<group>"; };
 		B0D8C99C1E65E2D900D1D82C /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = Pragwork/UI/Layer/init.h; sourceTree = "<group>"; };
@@ -495,6 +499,8 @@
 		B0D8CA6A1E6A636100D1D82C /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				B08C08241E6ABCF0001B22EE /* TestTinyXml.cpp */,
+				B08C08251E6ABCF0001B22EE /* TestTinyXml.hpp */,
 			);
 			name = Test;
 			sourceTree = "<group>";
@@ -801,6 +807,7 @@
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				B0FA986E1E6463CF00A5C2E8 /* FrameManager.cpp in Sources */,
 				B0FA98681E645AF200A5C2E8 /* SceneManager.cpp in Sources */,
+				B08C08261E6ABCF0001B22EE /* TestTinyXml.cpp in Sources */,
 				B0FA985A1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */,
 				B0D8C9CD1E699FAE00D1D82C /* LocalDBManager.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
@@ -824,6 +831,7 @@
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				B0D8C9B31E6723F700D1D82C /* PlatformManager.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
+				B08C08271E6ABCF0001B22EE /* TestTinyXml.cpp in Sources */,
 				B0FA985B1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */,
 				B0D8C9BC1E67292700D1D82C /* BaseFrame.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,

@@ -28,6 +28,7 @@ using namespace cocos2d::network;
 using namespace cocos2d::experimental;
 using namespace cocos2d::StringUtils;
 using namespace CocosDenshion;
+using namespace tinyxml2;
 using namespace std;
 
 #endif /* CocoSupport_h */

@@ -3,6 +3,7 @@
 #include "PragworkMacro.h"
 #include "Pragwork.h"
 #include "MainScene.hpp"
+#include "TestTinyXml.hpp"
 
 static cocos2d::Size designResolutionSize = cocos2d::Size(480, 320);
 static cocos2d::Size smallResolutionSize = cocos2d::Size(480, 320);
@@ -39,10 +40,10 @@ static int register_all_packages()
 }
 
 void setSearchPathes() {
-    FileUtils::getInstance()->addSearchPath(FileUtils::getInstance()->getWritablePath(),true);
     FileUtils::getInstance()->addSearchPath("fonts");
     FileUtils::getInstance()->addSearchPath("config");
     FileUtils::getInstance()->addSearchPath("res");
+    FileUtils::getInstance()->addSearchPath(FileUtils::getInstance()->getWritablePath(),true);
 }
 
 bool AppDelegate::applicationDidFinishLaunching() {
@@ -86,11 +87,11 @@ bool AppDelegate::applicationDidFinishLaunching() {
     register_all_packages();
     setSearchPathes();
 
-//    SceneManager::getInstance()->runScene(ESceneTree::HelloScene);
+//    BaseScene* pMainScene = new MainScene();
+//    director->runWithScene(pMainScene);
 
-    BaseScene* pMainScene = new MainScene();
-    director->runWithScene(pMainScene);
-
+    testcase_create();
+    
     return true;
 }
 
