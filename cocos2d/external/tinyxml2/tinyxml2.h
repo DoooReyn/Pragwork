@@ -1327,6 +1327,9 @@ public:
     virtual XMLNode* ShallowClone( XMLDocument* document ) const;
     virtual bool ShallowEqual( const XMLNode* compare ) const;
 
+    int AttributeCount();
+    
+    std::map<const char*, const char*> Attributes();
 private:
     XMLElement( XMLDocument* doc );
     virtual ~XMLElement();

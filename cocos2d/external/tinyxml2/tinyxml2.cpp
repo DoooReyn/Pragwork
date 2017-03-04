@@ -1207,6 +1207,28 @@ const XMLAttribute* XMLElement::FindAttribute( const char* name ) const
     }
     return 0;
 }
+    
+    
+int XMLElement::AttributeCount() {
+    XMLAttribute* a = 0;
+    int count = 0;
+    for( a=_rootAttribute; a; a = a->_next ) {
+        count++;
+    }
+    return count;
+}
+    
+std::map<const char*, const char*> XMLElement::Attributes() {
+    XMLAttribute* a = 0;
+    std::map<const char*, const char*> attr;
+    int count = 0;
+    for( a=_rootAttribute; a; a = a->_next ) {
+        attr[a->Name()] = a->Value();
+        count++;
+        printf("Attribute[%d]: %16s\t -> \t\"%s\"\n", count, a->Name(), a->Value());
+    }
+    return attr;
+}
 
 
 const char* XMLElement::Attribute( const char* name, const char* value ) const
