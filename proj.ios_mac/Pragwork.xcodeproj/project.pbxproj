@@ -69,6 +69,8 @@
 		B08C08651E6B3CDD001B22EE /* TestLevelDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C08621E6B3CDD001B22EE /* TestLevelDB.cpp */; };
 		B08C087F1E6B4B66001B22EE /* libleveldb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B08C087D1E6B4B66001B22EE /* libleveldb.a */; };
 		B08C08801E6B4B66001B22EE /* libmemenv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B08C087E1E6B4B66001B22EE /* libmemenv.a */; };
+		B08C08961E6B6116001B22EE /* LevelDBManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C08941E6B6116001B22EE /* LevelDBManager.cpp */; };
+		B08C08971E6B6116001B22EE /* LevelDBManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C08941E6B6116001B22EE /* LevelDBManager.cpp */; };
 		B0CF292E1E6A88E700F2E42A /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0CF292C1E6A88E700F2E42A /* MainScene.cpp */; };
 		B0D8C9A71E6722B100D1D82C /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9A51E6722B100D1D82C /* SoundManager.cpp */; };
 		B0D8C9A81E6722B100D1D82C /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9A51E6722B100D1D82C /* SoundManager.cpp */; };
@@ -218,6 +220,8 @@
 		B08C088F1E6B4D86001B22EE /* table_builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = table_builder.h; path = Pragwork/Helper/LevelDB/leveldb/table_builder.h; sourceTree = "<group>"; };
 		B08C08901E6B4D86001B22EE /* table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = table.h; path = Pragwork/Helper/LevelDB/leveldb/table.h; sourceTree = "<group>"; };
 		B08C08911E6B4D86001B22EE /* write_batch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = write_batch.h; path = Pragwork/Helper/LevelDB/leveldb/write_batch.h; sourceTree = "<group>"; };
+		B08C08941E6B6116001B22EE /* LevelDBManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LevelDBManager.cpp; path = Pragwork/Manager/LevelDBManager.cpp; sourceTree = "<group>"; };
+		B08C08951E6B6116001B22EE /* LevelDBManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = LevelDBManager.hpp; path = Pragwork/Manager/LevelDBManager.hpp; sourceTree = "<group>"; };
 		B0CF292C1E6A88E700F2E42A /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainScene.cpp; path = Pragwork/UI/Scene/MainScene.cpp; sourceTree = "<group>"; };
 		B0CF292D1E6A88E700F2E42A /* MainScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MainScene.hpp; path = Pragwork/UI/Scene/MainScene.hpp; sourceTree = "<group>"; };
 		B0D8C99C1E65E2D900D1D82C /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = Pragwork/UI/Layer/init.h; sourceTree = "<group>"; };
@@ -504,6 +508,15 @@
 			name = LevelDB;
 			sourceTree = "<group>";
 		};
+		B08C08931E6B60EB001B22EE /* LevelDBManager */ = {
+			isa = PBXGroup;
+			children = (
+				B08C08941E6B6116001B22EE /* LevelDBManager.cpp */,
+				B08C08951E6B6116001B22EE /* LevelDBManager.hpp */,
+			);
+			name = LevelDBManager;
+			sourceTree = "<group>";
+		};
 		B0D8C9A41E67228900D1D82C /* SoundManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -610,6 +623,7 @@
 		B0FA98471E64536C00A5C2E8 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				B08C08931E6B60EB001B22EE /* LevelDBManager */,
 				B0D8C9CA1E699F7B00D1D82C /* LocalDBManager */,
 				B0D8C9B41E67255900D1D82C /* GlobalManager */,
 				B0D8C9AF1E6723CD00D1D82C /* PlatformManager */,
@@ -875,6 +889,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08C08961E6B6116001B22EE /* LevelDBManager.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				B0CF292E1E6A88E700F2E42A /* MainScene.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
@@ -903,6 +918,7 @@
 			files = (
 				B0D8C9B81E67257200D1D82C /* GlobalManager.cpp in Sources */,
 				B08C082D1E6B1BB6001B22EE /* XmlParser.cpp in Sources */,
+				B08C08971E6B6116001B22EE /* LevelDBManager.cpp in Sources */,
 				B0D8C9AE1E67239200D1D82C /* NetworkManager.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				B0D8C9B31E6723F700D1D82C /* PlatformManager.cpp in Sources */,

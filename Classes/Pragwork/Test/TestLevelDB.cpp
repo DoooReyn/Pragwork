@@ -8,57 +8,31 @@
 
 #include "TestLevelDB.hpp"
 #include <cassert>
-#include "leveldb/db.h"
+#include "LevelDBManager.hpp"
 #include "CocoSupport.h"
 
 void LevelDBTestCase() {
-    leveldb::DB* db;
-    leveldb::Options options;
-    options.create_if_missing = true;
-    leveldb::Status status = leveldb::DB::Open(options, FileUtils::getInstance()->fullPathForFilename("res/db"), &db);
-    CCLOG("Status : %s \n path : %s", status.ToString().c_str(), FileUtils::getInstance()->fullPathForFilename("res/db").c_str());
-    assert(status.ok());
+    leveldb::Status status = LevelDBManager::getInstance()->connect(LevelDBCode::User);
+    if(status.ok()) {
+        // insert
+        LevelDBManager::getInstance()->insert("version", "0.0.1", true);
+        LevelDBManager::getInstance()->insert("code", "100", true);
+        LevelDBManager::getInstance()->insert("xml", "false", true);
+        
+        // remove
+        LevelDBManager::getInstance()->remove("version");
+        LevelDBManager::getInstance()->remove("notfound");
+        
+        // select
+        std::string ret;
+        LevelDBManager::getInstance()->select("version", ret);
+        LevelDBManager::getInstance()->select("code", ret);
+        
+        // dump
+        LevelDBManager::getInstance()->dump();
+        
+        // disconnect
+        LevelDBManager::getInstance()->disconnect(LevelDBCode::User);
+    }
     
-    std::string key0="key0";
-    std::string value0 = "0";
-
-    status = db->Get(leveldb::ReadOptions(), key0, &value0);
-    std::cout<< "value0: "<< value0 <<std::endl;
-    
-    status = db->Put(leveldb::WriteOptions(), key0, "value00000");
-    assert(status.ok());
-    
-    //write key1,value1
-    std::string key="key";
-    std::string value = "value";
-    
-    
-    status = db->Put(leveldb::WriteOptions(), key,value);
-    assert(status.ok());
-    
-    status = db->Get(leveldb::ReadOptions(), key, &value);
-    assert(status.ok());
-    std::cout<<value<<std::endl;
-    std::string key2 = "key2";
-    
-    //move the value under key to key2
-    
-    status = db->Put(leveldb::WriteOptions(),key2,value);
-    assert(status.ok());
-    status = db->Delete(leveldb::WriteOptions(), key);
-    
-    assert(status.ok());
-    
-    status = db->Get(leveldb::ReadOptions(),key2, &value);
-    
-    assert(status.ok());
-    std::cout<<key2<<"==="<<value<<std::endl;
-    
-    status = db->Get(leveldb::ReadOptions(),key, &value);
-    
-    if(!status.ok()) std::cerr<<key<<"  "<<status.ToString()<<std::endl;
-    else std::cout<<key<<"="<<value<<std::endl;
-    
-//    delete db;
-
 }
