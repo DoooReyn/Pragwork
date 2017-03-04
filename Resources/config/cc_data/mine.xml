@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<mine>
+  <List ID="101" level="1" name="10400" explain="42000" image="81" type="1" icon="1" production="20" storage="100000" lost_time="86400" lost_number="5000" small_icon="icon/World_map/icon-gold.png.pvr.ccz" />
+  <List ID="201" level="1" name="10410" explain="42000" image="82" type="2" icon="2" production="20" storage="200000" lost_time="86401" lost_number="5001" small_icon="icon/World_map/icon-shui.png.pvr.ccz" />
+  <List ID="301" level="2" name="10401" explain="42000" image="81" type="1" icon="1" production="30" storage="100000" lost_time="86402" lost_number="5002" small_icon="icon/World_map/icon-gold.png.pvr.ccz" />
+  <List ID="401" level="2" name="10411" explain="42000" image="82" type="2" icon="2" production="30" storage="200000" lost_time="86403" lost_number="5003" small_icon="icon/World_map/icon-shui.png.pvr.ccz" />
+  <List ID="501" level="3" name="10402" explain="42000" image="81" type="1" icon="1" production="40" storage="100000" lost_time="86404" lost_number="5004" small_icon="icon/World_map/icon-gold.png.pvr.ccz" />
+  <List ID="601" level="3" name="10412" explain="42000" image="82" type="2" icon="2" production="40" storage="200000" lost_time="86405" lost_number="5005" small_icon="icon/World_map/icon-shui.png.pvr.ccz" />
+  <List ID="701" level="4" name="10403" explain="42000" image="81" type="1" icon="1" production="50" storage="100000" lost_time="86406" lost_number="5006" small_icon="icon/World_map/icon-gold.png.pvr.ccz" />
+</mine>

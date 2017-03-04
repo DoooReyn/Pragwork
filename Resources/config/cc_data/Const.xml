@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Const Name="常量配置">
+<List Id="1" Key="Start_Energynumber" value="1" />
+<List Id="2" Key="PVPStart_ Energy" value="10" />
+<List Id="3" Key="PVEStart_ Energy" value="20" />
+<List Id="10" Key="Ranking_Time" value="0,600,720,830,1000" />
+<List Id="1001" Key="Attack_Energy" value="1" />
+<List Id="1002" Key="KillSodier_Energy" value="5" />
+<List Id="1003" Key="KillHero_Energy" value="30" />
+<List Id="1004" Key="KillBuild_Energy" value="30" />
+<List Id="1005" Key="KillBuild_AllEnergy" value="10" />
+<List Id="1006" Key="Energy_Reduce" value="0.7,0.1" />
+<List Id="1007" Key="Energy_ReduceMin" value=".3" />
+<List Id="2001" Key="action_point" value="5,1,120,60," />
+<List Id="2002" Key="Cast" value="100;200;300;400;500;" />
+<List Id="2003" Key="Cast2" value="100;200;300;400;500;" />
+<List Id="2004" Key="Cast3" value="20;20;20;20;50;" />
+<List Id="2005" Key="Fast1" value="1" />
+<List Id="2006" Key="Fast2" value="2" />
+<List Id="21" Key="hero_risen_a" value="5" />
+<List Id="22" Key="hero_risen_grad" value="1;2;3;4;5;" />
+</Const>

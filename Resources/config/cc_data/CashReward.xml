@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<CashReward Name="点卷奖励配置表">
+    <List ID="0" Comment="发布涂鸦墙奖励" Cash="100" ImageIcon="icon/CashReward/6.pvr.ccz" NameID="34126"/>
+    <List ID="8" Comment="喜欢就请给我们评分！" Cash="100" ImageIcon="icon/CashReward/2.pvr.ccz" NameID="34040"/>
+    <List ID="2" Comment="首次充值" Cash="200" ImageIcon="icon/CashReward/3.pvr.ccz" NameID="34041"/>
+    <List ID="4" Comment="在线活动" Cash="0" ImageIcon="icon/CashReward/4.pvr.ccz" NameID="34059"/>
+</CashReward>

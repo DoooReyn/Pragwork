@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Vip Name="会员表">
+<List nVipLevel="0" iAmount="0" szDesc="1" iDailyMailID="10" fExpAdd="0.05" fResorceAdd="0.05" />
+<List nVipLevel="1" iAmount="100" szDesc="2" iDailyMailID="10" fExpAdd="0.08" fResorceAdd="0.08" />
+<List nVipLevel="2" iAmount="300" szDesc="3" iDailyMailID="10" fExpAdd="0.11" fResorceAdd="0.11" />
+<List nVipLevel="3" iAmount="1000" szDesc="4" iDailyMailID="10" fExpAdd="0.14" fResorceAdd="0.14" />
+<List nVipLevel="4" iAmount="2000" szDesc="5" iDailyMailID="10" fExpAdd="0.17" fResorceAdd="0.17" />
+<List nVipLevel="5" iAmount="5000" szDesc="6" iDailyMailID="10" fExpAdd="0.2" fResorceAdd="0.2" />
+<List nVipLevel="6" iAmount="10000" szDesc="7" iDailyMailID="10" fExpAdd="0.23" fResorceAdd="0.23" />
+<List nVipLevel="7" iAmount="20000" szDesc="8" iDailyMailID="10" fExpAdd="0.26" fResorceAdd="0.26" />
+<List nVipLevel="8" iAmount="50000" szDesc="9" iDailyMailID="10" fExpAdd="0.29" fResorceAdd="0.29" />
+<List nVipLevel="9" iAmount="100000" szDesc="10" iDailyMailID="10" fExpAdd="0.32" fResorceAdd="0.32" />
+<List nVipLevel="10" iAmount="200000" szDesc="11" iDailyMailID="10" fExpAdd="0.35" fResorceAdd="0.35" />
+</Vip>

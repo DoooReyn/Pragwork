@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Config Name="竞技场路线配置表" Winhonor="40" Losehonor="6">
+  <List Type="0" >
+    <LIST PosX="332" PosY="1362"/>
+    <List PosX="500" PosY="1390"/>
+    <List PosX="606" PosY="1440"/>
+    <List PosX="716" PosY="1978"/>
+    <List PosX="1362" PosY="2024"/>
+    <List PosX="2242" PosY="2038"/>
+    <List PosX="2872" PosY="1976"/>
+    <List PosX="2934" PosY="1398"/>
+    <List PosX="3040" PosY="1356"/>
+    <List PosX="3204" PosY="1338"/>
+  </List>
+  <List Type="1" >
+    <List PosX="330" PosY="1294"/>
+    <List PosX="454" PosY="1296"/>
+    <List PosX="532" PosY="1296"/>
+    <List PosX="782" PosY="1316"/>
+    <List PosX="1130" PosY="1502"/>
+    <List PosX="1366" PosY="1124"/>
+    <List PosX="1682" PosY="1134"/>
+    <List PosX="1700" PosY="1472"/>
+    <List PosX="1976" PosY="1422"/>
+    <List PosX="2228" PosY="1600"/>
+    <List PosX="2466" PosY="1398"/>
+    <List PosX="2792" PosY="1348"/>
+    <List PosX="3080" PosY="1288"/>
+    <List PosX="3154" PosY="1286"/>
+    <List PosX="3212" PosY="1284"/>
+  </List>
+  <List Type="2" >
+    <List PosX="332" PosY="1222"/>
+    <List PosX="482" PosY="1204"/>
+    <List PosX="562" PosY="1158"/>
+    <List PosX="666" PosY="700"/>
+    <List PosX="1296" PosY="632"/>
+    <List PosX="2072" PosY="640"/>
+    <List PosX="2790" PosY="694"/>
+    <List PosX="2994" PosY="1184"/>
+    <List PosX="3084" PosY="1218"/>
+    <List PosX="3224" PosY="1216"/>
+  </List>
+</Config>

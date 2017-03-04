@@ -1,0 +1,1488 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Config XXName="【印尼】文字描述ID配置表">
+  <Text Type="1" TypeTxt="通用">
+    <List Id="1" Txt="OK" />
+    <List Id="2" Txt="Batal" />
+    <List Id="3" Txt="Pemain" />
+    <List Id="4" Txt="Kirim" />
+    <List Id="5" Txt="Sukses membeli %d Permata!" />
+    <List Id="6" Txt="Sihirmu penuh!" />
+    <List Id="7" Txt="Yakin ingin keluar?" />
+    <List Id="8" Txt="EXP:" />
+    <List Id="9" Txt="Perbaharui" />
+    <List Id="10" Txt="Versi" />
+    <List Id="11" Txt="Hak Cipta 2012-2013 IGG.COM Semua Hak Dilindungi Undang-Undang" />
+    <List Id="12" Txt="Help.castle.id@igg.com" />
+    <List Id="13" Txt="Anda" />
+    <List Id="14" Txt="Bonus!" />
+    <List Id="15" Txt="Jual" />
+    <List Id="16" Txt="Pertempuran" />
+    <List Id="17" Txt="Anda menjauh sejenak. Tekan Muat Ulang untuk kembali ke game." />
+    <List Id="18" Txt="Masih di sana?" />
+    <List Id="19" Txt="Muat Ulang" />
+    <List Id="20" Txt="Lewati" />
+    <List Id="21" Txt="Mulai" />
+    <List Id="22" Txt="Memuat" />
+    <List Id="23" Txt="Lambang Kehormatan" />
+    <List Id="24" Txt="NONE" />
+    <List Id="51" Txt="Info" />
+    <List Id="52" Txt="Naik Level" />
+    <List Id="53" Txt="Tugaskan" />
+    <List Id="54" Txt="Kumpulkan" />
+    <List Id="55" Txt="Pahlawan" />
+    <List Id="56" Txt="Hapus" />
+    <List Id="57" Txt="Sihir" />
+    <List Id="58" Txt="Pelatihan" />
+    <List Id="59" Txt="Masuk" />
+    <List Id="60" Txt="Ganti Pahlawan" />
+    <List Id="61" Txt="%s (Level %d)" />
+    <List Id="62" Txt="Barisan Penuh" />
+    <List Id="63" Txt="Selesai" />
+    <List Id="64" Txt="%s Lv %d -> %d" />
+    <List Id="65" Txt="Sambungan Gagal" />
+    <List Id="66" Txt="Perbaharui Sambungan" />
+    <List Id="67" Txt="Keluar" />
+    <List Id="68" Txt="Pemberitahuan" />
+    <List Id="69" Txt="Anda tidak memiliki cukup Permata! Beli lagi?" />
+    <List Id="70" Txt="Masukkan Namamu" />
+    <List Id="71" Txt="Nama ini sudah digunakan atau berisi karakter yang tidak valid! Coba nama yang berbeda." />
+    <List Id="72" Txt="Putar" />
+    <List Id="73" Txt="Level Kelompok" />
+    <List Id="74" Txt="Lv %d" />
+    <List Id="75" Txt="Ada yang salah dengan akunmu. Hubungi Pusat Bantuan untuk pertolongan lebih lanjut." />
+    <List Id="76" Txt="Target anda sedang online, pertempuran selesai." />
+    <List Id="77" Txt="USD" />
+    <List Id="78" Txt="Dunia" />
+    <List Id="99" Txt="Gunakan" />
+    <List Id="100" Txt="Promosikan" />
+    <List Id="101" Txt="Pasukan penting untuk penyerangan dan pertahanan." />
+    <List Id="102" Txt="Pasukan yang selamat dari pertempuran akan kembali ke Markasmu." />
+    <List Id="103" Txt="Saat menyerang, tekan layar untuk menugaskan Pasukanmu. Anda juga dapat menugaskan Pasukan secepatnya dengan menahan jari di layar." />
+    <List Id="104" Txt="Anda tidak dapat menugaskan Pasukan di area mana pun yang bertanda merah." />
+    <List Id="105" Txt="Anda dapat merekrut pasukan di Kamp Tentara. Pasukan akan mempertahankan area di sekitar Kamp Tentara mereka." />
+    <List Id="106" Txt="Tingkatkan versi Kamp Tentara untuk memperluas kapasitas, antrean perekrutan, dan radius di sekitarnya tempat Pasukan anda berpatroli." />
+    <List Id="107" Txt="Selesaikan Penjara untuk memenangkan banyak Sumber Daya dan buktikan kekuatan militermu!" />
+    <List Id="108" Txt="Kumpulkan Kepingan Pahlawan dari Penjara untuk menukarnya dengan Pahlawan yang kuat!" />
+    <List Id="109" Txt="Bangun dan tingkatkan struktur, perluas kota, dan tingkatkan pertahanan kota anda untuk menciptakan benteng tak terkalahkan!" />
+    <List Id="110" Txt="Penempatan dan penataan bangunan yang cermat adalah kunci pertahanan yang efektif." />
+    <List Id="111" Txt="Panduan Pemula" />
+    <List Id="112" Txt="Tingkatkan [Balai Kota] untuk membuka lebih banyak Bangunan dan levelnya!" />
+    <List Id="113" Txt="Meningkatkan [Balai Kota] harus menjadi target utama anda!" />
+    <List Id="114" Txt="Pilih satu bangunan untuk memindahkannya ke tempat kosong. Anda tidak dapat meletakkan satu bangunan di atas bangunan lainnya." />
+    <List Id="115" Txt="Anda akan melihat ikon merah di tombol Toko saat anda memiliki bangunan baru yang tersedia." />
+    <List Id="116" Txt="Ini adalah Lambang Kehormatan, salah satu sumber daya terpenting.
+
+Sumber daya ini bisa digunakan untuk mempekerjakan Pahlawan dan meningkatkan level Bintang mereka.
+
+Sumber daya ini sebagian besar diperoleh di Arena, namun anda juga bisa mendapatkannya dalam Razia dan di Penjara." />
+    <List Id="117" Txt="Ini adalah Kekuatan ada. Ini menggambarkan seluruh kemampuan anda.
+
+Tingkatkan Kekuatan dengan meningkatkan bangunan dan melatih Pasukan dan Pahlawan.
+
+Lawan anda untuk Razia ditentukan berdasarkan Kekuatan anda." />
+    <List Id="201" Txt="Pahlawan memainkan peran yang besar dalam pertempuran. Kami juga akan melakukan yang terbaik untuk terus melatih mereka." />
+    <List Id="202" Txt="Meningkatkan pasukan tidak hanya akan membuat mereka lebih kuat, tetapi juga membuka jenis pasukan yang berbeda." />
+    <List Id="203" Txt="Perhatikan hubungan antara pasukan yang berbeda. Hal ini mungkin akan memberi keuntungan dalam pertempuran." />
+    <List Id="204" Txt="Semakin sering Pahlawan digunakan dalam pertempuran, levelnya akan naik." />
+    <List Id="205" Txt="Semakin tinggi peringkat Arena anda, semakin banyak Lambang Kehormatan yang akan anda dapatkan." />
+    <List Id="206" Txt="Penggunaan sihir yang cermat dapat merubah situasi yang buruk." />
+    <List Id="207" Txt="Anda dapat membeli item yang akan melindungi kastil dari serangan ketika anda offline." />
+    <List Id="208" Txt="Penjara tidak hanya menjadi sumber daya yang bagus, tetapi juga menjadi cara yang baik untuk melatih pasukan." />
+    <List Id="209" Txt="Menara Dasar yang telah ditingkatkan memiliki kemampuan pertahanan yang lebih besar dan dapat diubah menjadi menara khusus!" />
+    <List Id="210" Txt="Tata bangunan dengan cermat untuk memperlambat penyerang musuh!" />
+    <List Id="211" Txt="Pekerjakan lebih banyak Pahlawan yang kuat di Altar Pahlawan!" />
+    <List Id="212" Txt="Makhluk Lendir tidak dapat digunakan dalam pertempuran. Sebaliknya, mereka digunakan untuk meningkatkan level keterampilan Pahlawanmu." />
+    <List Id="213" Txt="Anda dapat mempekerjakan Pahlawan dengan menggunakan Kepingan, Permata, atau Kehormatan" />
+    <List Id="500" Txt="Memuat Info Perangkat..." />
+    <List Id="501" Txt="Gagal Memuat Info Perangkat!" />
+    <List Id="502" Txt="Berhasil Memuat Info Perangkat!" />
+    <List Id="510" Txt="Memuat Info Versi..." />
+    <List Id="511" Txt="Gagal Memuat Info Versi!" />
+    <List Id="512" Txt="Berhasil Memuat Info Versi!" />
+    <List Id="520" Txt="Memuat Info Akun..." />
+    <List Id="521" Txt="Gagal Memuat Info Akun!" />
+    <List Id="522" Txt="Berhasil Memuat Info Akun!" />
+    <List Id="530" Txt="Menyambung ke Server..." />
+    <List Id="531" Txt="Gagal Menyambung ke Server masuk!" />
+    <List Id="532" Txt="Sukses Menyambung ke Server masuk!" />
+    <List Id="540" Txt="Memasuki Server..." />
+    <List Id="541" Txt="Gagal Menyambung ke Server Game!" />
+    <List Id="542" Txt="Sukses Menyambung ke ServerGame!" />
+    <List Id="550" Txt="Terjadi Kesalahan Jaringan!" />
+    <List Id="551" Txt="Sambungan gagal! Periksa status jaringan dan coba lagi." />
+    <List Id="552" Txt="Nama anda hanya dapat terdiri dari karakter alfanumerik." />
+    <List Id="553" Txt="Nama anda terlalu panjang!" />
+    <List Id="554" Txt="Terjadi Kesalahan Server:%d!" />
+    <List Id="1001" Txt="HP:" />
+    <List Id="1002" Txt="Produksi:" />
+    <List Id="1003" Txt="Penyimpanan:" />
+    <List Id="1004" Txt="Waktu Peningkatan" />
+    <List Id="1005" Txt="Sumber Daya yang Dibutuhkan" />
+    <List Id="1006" Txt="Serangan" />
+    <List Id="1007" Txt="DMG:" />
+    <List Id="1008" Txt="Jangkauan Serangan:" />
+    <List Id="1101" Txt="Kapasitas" />
+    <List Id="1102" Txt="Total Waktu" />
+    <List Id="1103" Txt="Tempat yang Dibutuhkan" />
+    <List Id="1104" Txt="Biaya Produksi" />
+    <List Id="1105" Txt="Selesaikan Sekarang" />
+    <List Id="1106" Txt="Tempat:" />
+    <List Id="1120" Txt="Tekan ikon Pahlawan untuk menugaskannya." />
+    <List Id="1201" Txt="Urutan Peringkat" />
+    <List Id="1202" Txt="Peringkat" />
+    <List Id="1203" Txt="Nama:" />
+    <List Id="1204" Txt="Kekuatan:" />
+    <List Id="1205" Txt="Opsi" />
+    <List Id="1206" Txt="Tampilan" />
+    <List Id="1207" Txt="Serangan" />
+    <List Id="1301" Txt="Tampilkan perubahan meriam. Tekan untuk beralih." />
+    <List Id="1302" Txt="Tingkatkan" />
+    <List Id="1401" Txt="Selesai" />
+    <List Id="1402" Txt="Hadiah:" />
+    <List Id="1501" Txt="Pertempuran Dimulai" />
+    <List Id="1502" Txt="Waktu yang Tersisa" />
+    <List Id="1503" Txt="Jarahan yang Tersedia" />
+    <List Id="1504" Txt="Akhiri Pertempuran" />
+    <List Id="1505" Txt="Kerugianku" />
+    <List Id="1506" Txt="Kerugian Musuh" />
+    <List Id="1507" Txt="Berikutnya" />
+    <List Id="1508" Txt="Anda tidak memiliki cukup Emas." />
+    <List Id="1509" Txt="Anda tidak memiliki cukup pasukan untuk meluncurkan serangan." />
+    <List Id="1510" Txt="Anda tidak dapat menyerang target dengan perisai aktif." />
+    <List Id="1511" Txt="Anda tidak dapat menyerang target saat mereka online." />
+    <List Id="1512" Txt="Laporan Pertempuran" />
+    <List Id="1513" Txt="%s yang Lalu" />
+    <List Id="1514" Txt="Anda tidak dapat menyerang target saat mereka dalam pertempuran." />
+    <List Id="1515" Txt="Kemenangan" />
+    <List Id="1516" Txt="Kekalahan" />
+    <List Id="1517" Txt="Anda mendapat:" />
+    <List Id="1518" Txt="Anda kehilangan:" />
+    <List Id="1519" Txt="Perisai anda akan dinonaktifkan jika anda menyerang pemain lain. Yakin ingin menyerang?" />
+    <List Id="1601" Txt="Harta" />
+    <List Id="1602" Txt="Perisai" />
+    <List Id="1603" Txt="Medali" />
+    <List Id="1604" Txt="Sumber Daya" />
+    <List Id="1605" Txt="Militer" />
+    <List Id="1606" Txt="Pertahanan" />
+    <List Id="1607" Txt="Toko" />
+    <List Id="1608" Txt="Membutuhkan Level %d %s" />
+    <List Id="1609" Txt="Membutuhkan %d Level %s untuk membuka kunci." />
+    <List Id="1611" Txt="Beli Permata" />
+    <List Id="1612" Txt="Beli Emas" />
+    <List Id="1613" Txt="Beli Mana" />
+    <List Id="1614" Txt="240 Permata" />
+    <List Id="1615" Txt="600 Permata" />
+    <List Id="1616" Txt="1.200 Permata" />
+    <List Id="1617" Txt="Beli Emas 10%" />
+    <List Id="1618" Txt="Beli Emas 50%" />
+    <List Id="1619" Txt="Penuhi Kubah Emas" />
+    <List Id="1620" Txt="Beli Mana 10%" />
+    <List Id="1621" Txt="Beli Mana 50%" />
+    <List Id="1622" Txt="Penuhi Kubah Mana" />
+    <List Id="1623" Txt="Aktifkan Perisai" />
+    <List Id="1624" Txt="%d Jam" />
+    <List Id="1625" Txt="%d Emas" />
+    <List Id="1626" Txt="%d Mana" />
+    <List Id="1627" Txt="Tidak bisa membeli" />
+    <List Id="1628" Txt="Anda membutuhkan lebih banyak Emas untuk ini." />
+    <List Id="1629" Txt="Anda membutuhkan lebih banyak Mana untuk ini." />
+    <List Id="1630" Txt="Anda membutuhkan lebih banyak Permata untuk ini." />
+    <List Id="1631" Txt="Ingin beli %d Emas?" />
+    <List Id="1632" Txt="Ingin beli %d Mana?" />
+    <List Id="1633" Txt="Ingin beli lebih banyak Permata?" />
+    <List Id="1634" Txt="Beli Emas" />
+    <List Id="1635" Txt="Beli Mana" />
+    <List Id="1636" Txt="Tukang Bangunan sedang Sibuk!" />
+    <List Id="1637" Txt="Ingin menghentikan tukang bangunan dengan menyelesaikan pembangunan lainnya?" />
+    <List Id="1638" Txt="Percepat" />
+    <List Id="1639" Txt="Selesaikan sekarang?" />
+    <List Id="1640" Txt="Ingin beli %s?" />
+    <List Id="1641" Txt="Ingin beli %s %s?" />
+    <List Id="1642" Txt="Mana" />
+    <List Id="1643" Txt="Emas" />
+    <List Id="1644" Txt="Durasi Perisai" />
+    <List Id="1651" Txt="Tingkatkan Balai Kota untuk menambahkan lebih banyak Bangunan." />
+    <List Id="1652" Txt="Bangunan Maksimum Tercapai" />
+    <List Id="1653" Txt="Tambah Tukang Bangunan" />
+    <List Id="1654" Txt="Ingin menambahkan lebih banyak Tukang Bangunan?" />
+    <List Id="1655" Txt="Ingin beli %d Emas untuk mempercepat pembangunan?" />
+    <List Id="1656" Txt="Ingin beli %d Mana dan mempercepat pembangunan?" />
+    <List Id="1657" Txt="Jika ada membatalkan peningkatan ini, hanya 50% sumber daya akan dikembalikan. Yakin ingin membatalkan ini?" />
+    <List Id="1658" Txt="Ingin menggunakan %d Emas untuk meningkatkan level semuanya?" />
+    <List Id="1659" Txt="2.400 Permata" />
+    <List Id="1660" Txt="6.000 Permata" />
+    <List Id="1661" Txt="12.000 Permata" />
+    <List Id="1671" Txt="Perisai Kayu" />
+    <List Id="1672" Txt="Perisai Besi" />
+    <List Id="1673" Txt="Perisai Emas" />
+    <List Id="1674" Txt="Ini akan memakai %d Permata. Anda Yakin?" />
+    <List Id="1701" Txt="Pengaturan" />
+    <List Id="1702" Txt="Musik" />
+    <List Id="1703" Txt="Suara" />
+    <List Id="1704" Txt="Bahasa" />
+    <List Id="1705" Txt="Tentang" />
+    <List Id="1706" Txt="Bantuan" />
+    <List Id="1707" Txt="Tutup" />
+    <List Id="1801" Txt="Pilih Pahlawan untuk digunakan." />
+    <List Id="1802" Txt="Silahkan pilih" />
+    <List Id="1803" Txt="Pekerjakan" />
+    <List Id="1804" Txt="Level" />
+    <List Id="1805" Txt="Tingkatkan" />
+    <List Id="1806" Txt="Persyaratan Peningkatan" />
+    <List Id="1807" Txt="Bersihkan" />
+    <List Id="1808" Txt="Gunakan" />
+    <List Id="1809" Txt="Tarik Sekali" />
+    <List Id="1810" Txt="Tarik 5" />
+    <List Id="1811" Txt="Pekerjakan dengan Poin Mulia" />
+    <List Id="1812" Txt="Pekerjakan dengan Permata" />
+    <List Id="1813" Txt="Pekerjakan Pahlawan menggunakan HB." />
+    <List Id="1814" Txt="Pekerjakan Pahlawan menggunakan Voucher. Anda mungkin mendapat Pahlawan langka!" />
+    <List Id="1815" Txt="Selamat!" />
+    <List Id="1816" Txt="Toko Pahlawan" />
+    <List Id="1817" Txt="Pekerjakan dengan Kepingan" />
+    <List Id="1818" Txt="Boost EXP" />
+    <List Id="1819" Txt="Bintang" />
+    <List Id="1820" Txt="Adakah anda ingin membangkitkan Pahlawan ini?" />
+    <List Id="1821" Txt="Anda telah mengambil beberapa Pahlawan tingkat tinggi. Yakin ingin menggunakan mereka?" />
+  </Text>
+  <Text Type="2" TypeTxt="建筑名称">
+    <List Id="10001" Txt="Balai Kota" />
+    <List Id="10002" Txt="Altar Pahlawan" />
+    <List Id="10003" Txt="Kamp Tentara" />
+    <List Id="10004" Txt="Tambang Emas" />
+    <List Id="10005" Txt="Pabrik Mana" />
+    <List Id="10006" Txt="Kubah Emas" />
+    <List Id="10007" Txt="Kubah Mana" />
+    <List Id="10008" Txt="Menara Pengawas" />
+    <List Id="10009" Txt="Menara Panah" />
+    <List Id="10010" Txt="Menara Sihir" />
+    <List Id="10011" Txt="Arena" />
+    <List Id="10012" Txt="Aula Bersejarah" />
+    <List Id="10013" Txt="Dinding" />
+    <List Id="10014" Txt="Jebakan Bom" />
+    <List Id="10015" Txt="Markas Pahlawan" />
+    <List Id="10016" Txt="Pusat Pelatihan" />
+    <List Id="10017" Txt="Batu Nisan" />
+    <List Id="10018" Txt="Menara Meriam" />
+    <List Id="10019" Txt="Aula Kemenangan" />
+    <List Id="10021" Txt="Jebakan Pahlawan" />
+    <List Id="10101" Txt="Bunga I" />
+    <List Id="10102" Txt="Bunga II" />
+    <List Id="10103" Txt="Bunga III" />
+    <List Id="10104" Txt="Bunga IV" />
+    <List Id="10105" Txt="Bunga V" />
+    <List Id="10111" Txt="Patung I" />
+    <List Id="10112" Txt="Patung II" />
+    <List Id="10113" Txt="Patung III" />
+    <List Id="10114" Txt="Patung IV" />
+    <List Id="10115" Txt="Patung V" />
+    <List Id="10121" Txt="Lainnya I" />
+    <List Id="10122" Txt="Lainnya II" />
+    <List Id="10123" Txt="Lainnya III" />
+    <List Id="10124" Txt="Lainnya IV" />
+    <List Id="10125" Txt="Lainnya V" />
+    <List Id="10131" Txt="Rumput I" />
+    <List Id="10132" Txt="Rumput II" />
+    <List Id="10133" Txt="Rumput III" />
+    <List Id="10134" Txt="Rumput IV" />
+    <List Id="10135" Txt="Rumput V" />
+    <List Id="10141" Txt="Batu I" />
+    <List Id="10142" Txt="Batu II" />
+    <List Id="10143" Txt="Batu III" />
+    <List Id="10144" Txt="Batu IV" />
+    <List Id="10145" Txt="Batu V" />
+    <List Id="10151" Txt="Pohon I" />
+    <List Id="10152" Txt="Pohon II" />
+    <List Id="10153" Txt="Pohon III" />
+    <List Id="10154" Txt="Pohon IV" />
+    <List Id="10155" Txt="Pohon V" />
+    <List Id="10201" Txt="A" />
+    <List Id="10202" Txt="B" />
+    <List Id="10203" Txt="C" />
+    <List Id="10204" Txt="D" />
+    <List Id="10205" Txt="E" />
+    <List Id="10206" Txt="F" />
+    <List Id="10207" Txt="G" />
+    <List Id="10208" Txt="H" />
+    <List Id="10209" Txt="I" />
+    <List Id="10210" Txt="J" />
+    <List Id="10211" Txt="K" />
+    <List Id="10212" Txt="L" />
+    <List Id="10213" Txt="M" />
+    <List Id="10214" Txt="N" />
+    <List Id="10215" Txt="O" />
+    <List Id="10216" Txt="P" />
+    <List Id="10217" Txt="Q" />
+    <List Id="10218" Txt="R" />
+    <List Id="10219" Txt="S" />
+    <List Id="10220" Txt="T" />
+    <List Id="10221" Txt="U" />
+    <List Id="10222" Txt="V" />
+    <List Id="10223" Txt="W" />
+    <List Id="10224" Txt="X" />
+    <List Id="10225" Txt="Y" />
+    <List Id="10226" Txt="Z" />
+    <List Id="10227" Txt="0" />
+    <List Id="10228" Txt="1" />
+    <List Id="10229" Txt="2" />
+    <List Id="10230" Txt="3" />
+    <List Id="10231" Txt="4" />
+    <List Id="10232" Txt="5" />
+    <List Id="10233" Txt="6" />
+    <List Id="10234" Txt="7" />
+    <List Id="10235" Txt="8" />
+    <List Id="10236" Txt="9" />
+    <List Id="10301" Txt="Anda dapat menggunakan huruf dan angka dengan kombinasi apa pun." />
+  </Text>
+  <Text Type="3" TypeTxt="建筑描述">
+    <List Id="20001" Txt="Bangunan utama anda. Level bangunan ini mempengaruhi jumlah, jenis, dan level maksimum bangunan lainnya." />
+    <List Id="20002" Txt="Anda dapat mempekerjakan dan melatih Pahlawan di sini. Peningkatan lanjutan mengurangi waktu penghidupan kembali Pahlawan." />
+    <List Id="20003" Txt="Menghasilkan beragam pasukan. Naikkan level untuk meningkatkan jumlah pasukan maksimum. Pasukan akan ditugaskan secara otomatis saat diserang." />
+    <List Id="20004" Txt="Menghasilkan Emas. Naikkan level untuk meningkatkan produksi dan ruang penyimpanan." />
+    <List Id="20005" Txt="Menghasilkan Mana. Naikkan level untuk meningkatkan produksi dan ruang penyimpanan." />
+    <List Id="20006" Txt="Menyimpan Emas yang dikumpulkan. Naikkan level untuk meningkatkan ruang penyimpanan." />
+    <List Id="20007" Txt="Menyimpan Mana yang dikumpulkan. Naikkan level untuk meningkatkan ruang penyimpanan." />
+    <List Id="20008" Txt="Menara pertahanan dasar. Menyerang pasukan musuh. Dapat ditingkatkan menjadi menara khusus setelah Lv 10." />
+    <List Id="20009" Txt="Versi peningkatan Menara Dasar Lv 10. Menara ini menyerang target tunggal dengan cepat." />
+    <List Id="20010" Txt="Versi peningkatan Menara Dasar Lv 10. Menara ini menyerang beberapa target sekaligus." />
+    <List Id="20011" Txt="Bergabunglah di Arena untuk mendapatkan tempat di Urutan Peringkat dan menangkan hadiah besar!" />
+    <List Id="20012" Txt="Meneliti peralatan yang penting untuk razia." />
+    <List Id="20013" Txt="Baris pertahanan pertama anda. Tempatkan mereka dengan strategis untuk menghalangi gerak maju musuh." />
+    <List Id="20014" Txt="Makin banyak anda tempatkan, efeknya semakin baik. Dapat Dikonsumsi. Unit Layang tidak dapat diaktifkan." />
+    <List Id="20015" Txt="Pahlawan ditempatkan di sini untuk bertahan dari serangan yang datang. Anda juga dapat memerintahkan mereka melakukan razia. Naikkan level untuk meningkatkan area tempat mereka berpatroli dan keahlian Pahlawan yang ditugasi." />
+    <List Id="20016" Txt="Meningkatkan versi pasukan dan membuka kunci beragam pasukan yang lebih besar." />
+    <List Id="20017" Txt="Satu batu nisan yang muncul saat satu pasukan tewas." />
+    <List Id="20018" Txt="Versi peningkatan Menara Dasar. Meriam menara ini mengakibatkan kerusakan pada semua musuh yang ada di sekitar targetnya." />
+    <List Id="20019" Txt="Aula Kemenangan" />
+    <List Id="20020" Txt="Jangkauan:" />
+    <List Id="20021" Txt="Pahlawan yang mendekat memasang sebuah perangkap ledak!  Bangunan ini menghilang setelah satu kali penggunaan." />
+    <List Id="20101" Txt="Bunga dekoratif" />
+    <List Id="20102" Txt="Bunga dekoratif" />
+    <List Id="20103" Txt="Bunga dekoratif" />
+    <List Id="20104" Txt="Bunga dekoratif" />
+    <List Id="20105" Txt="Bunga dekoratif" />
+    <List Id="20111" Txt="Patung dekoratif" />
+    <List Id="20112" Txt="Patung dekoratif" />
+    <List Id="20113" Txt="Patung dekoratif" />
+    <List Id="20114" Txt="Patung dekoratif" />
+    <List Id="20115" Txt="Patung dekoratif" />
+    <List Id="20121" Txt="Item dekoratif" />
+    <List Id="20122" Txt="Item dekoratif" />
+    <List Id="20123" Txt="Item dekoratif" />
+    <List Id="20124" Txt="Item dekoratif" />
+    <List Id="20125" Txt="Item dekoratif" />
+    <List Id="20131" Txt="Dapat dihapus." />
+    <List Id="20132" Txt="Dapat dihapus." />
+    <List Id="20133" Txt="Dapat dihapus." />
+    <List Id="20134" Txt="Dapat dihapus." />
+    <List Id="20135" Txt="Dapat dihapus." />
+    <List Id="20141" Txt="Dapat dihapus." />
+    <List Id="20142" Txt="Dapat dihapus." />
+    <List Id="20143" Txt="Dapat dihapus." />
+    <List Id="20144" Txt="Dapat dihapus." />
+    <List Id="20145" Txt="Dapat dihapus." />
+    <List Id="20151" Txt="Dapat dihapus." />
+    <List Id="20152" Txt="Dapat dihapus." />
+    <List Id="20153" Txt="Dapat dihapus." />
+    <List Id="20154" Txt="Dapat dihapus." />
+    <List Id="20155" Txt="Dapat dihapus." />
+  </Text>
+  <Text Type="4" TypeTxt="魔法">
+    <List Id="30001" Txt="Hujan Panah" />
+    <List Id="30002" Txt="Hujan Panah" />
+    <List Id="30003" Txt="Hujan Panah" />
+    <List Id="30004" Txt="Hujan Panah" />
+    <List Id="30005" Txt="Hujan Panah" />
+    <List Id="30006" Txt="Perbaikan" />
+    <List Id="30007" Txt="Perbaikan" />
+    <List Id="30008" Txt="Perbaikan" />
+    <List Id="30009" Txt="Perbaikan" />
+    <List Id="30010" Txt="Perbaikan" />
+    <List Id="30011" Txt="Semangat Ares" />
+    <List Id="30012" Txt="Semangat Ares" />
+    <List Id="30013" Txt="Semangat Ares" />
+    <List Id="30014" Txt="Semangat Ares" />
+    <List Id="30015" Txt="Semangat Ares" />
+    <List Id="30016" Txt="Angin Topan" />
+    <List Id="30017" Txt="Angin Topan" />
+    <List Id="30018" Txt="Angin Topan" />
+    <List Id="30019" Txt="Angin Topan" />
+    <List Id="30020" Txt="Angin Topan" />
+    <List Id="30021" Txt="Malaikat Pelindung" />
+    <List Id="30022" Txt="Malaikat Pelindung" />
+    <List Id="30023" Txt="Malaikat Pelindung" />
+    <List Id="30024" Txt="Malaikat Pelindung" />
+    <List Id="30025" Txt="Malaikat Pelindung" />
+    <List Id="30026" Txt="Meteor" />
+    <List Id="30027" Txt="Meteor" />
+    <List Id="30028" Txt="Meteor" />
+    <List Id="30029" Txt="Meteor" />
+    <List Id="30030" Txt="Meteor" />
+    <List Id="30031" Txt="Bencana" />
+    <List Id="30032" Txt="Bencana" />
+    <List Id="30033" Txt="Bencana" />
+    <List Id="30034" Txt="Bencana" />
+    <List Id="30035" Txt="Bencana" />
+    <List Id="30036" Txt="Kegilaan Ares" />
+    <List Id="30037" Txt="Kegilaan Ares" />
+    <List Id="30038" Txt="Kegilaan Ares" />
+    <List Id="30039" Txt="Kegilaan Ares" />
+    <List Id="30040" Txt="Kegilaan Ares" />
+    <List Id="30041" Txt="PhoenixTerbang" />
+    <List Id="30042" Txt="PhoenixTerbang" />
+    <List Id="30043" Txt="PhoenixTerbang" />
+    <List Id="30044" Txt="PhoenixTerbang" />
+    <List Id="30045" Txt="PhoenixTerbang" />
+    <List Id="30046" Txt="Badai Salju" />
+    <List Id="30047" Txt="Badai Salju" />
+    <List Id="30048" Txt="Badai Salju" />
+    <List Id="30049" Txt="Badai Salju" />
+    <List Id="30050" Txt="Badai Salju" />
+  </Text>
+  <Text Type="5" TypeTxt="魔法描述">
+    <List Id="31001" Txt="Menghujani area dengan panah, mengakibatkan 8% HP Maks +120 DMG ke semua pasukan musuh di dalam area tersebut lebih dari 8 dtk. Tidak mempengaruhi bangunan." />
+    <List Id="31002" Txt="Menghujani area dengan panah, mengakibatkan 8% HP Maks +240 DMG ke semua pasukan musuh di dalam area tersebut lebih dari 8 dtk. Tidak mempengaruhi bangunan." />
+    <List Id="31003" Txt="Menghujani area dengan panah, mengakibatkan 8% HP Maks +360 DMG ke semua pasukan musuh di dalam area tersebut lebih dari 8 dtk. Tidak mempengaruhi bangunan." />
+    <List Id="31004" Txt="Menghujani area dengan panah, mengakibatkan 8% HP Maks +480 DMG ke semua pasukan musuh di dalam area tersebut lebih dari 8 dtk. Tidak mempengaruhi bangunan." />
+    <List Id="31005" Txt="Menghujani area dengan panah, mengakibatkan 8% HP Maks +600 DMG ke semua pasukan musuh di dalam area tersebut lebih dari 8 dtk. Tidak mempengaruhi bangunan." />
+    <List Id="31006" Txt="Menempatkan lingkaran penyembuhan di medan pertempuran, yang menyembuhkan semua pasukan aliansi di area sebanyak 6% dari HP Max +10 HP tiap dtk selama 8 dtk." />
+    <List Id="31007" Txt="Menempatkan lingkaran penyembuhan di medan pertempuran, yang menyembuhkan semua pasukan aliansi di area sebanyak 8% dari HP Max +20 HP tiap dtk selama 8 dtk." />
+    <List Id="31008" Txt="Menempatkan lingkaran penyembuhan di medan pertempuran, yang menyembuhkan semua pasukan aliansi di area sebanyak 10% dari HP Max +30 HP tiap dtk selama 8 dtk." />
+    <List Id="31009" Txt="Menempatkan lingkaran penyembuhan di medan pertempuran, yang menyembuhkan semua pasukan aliansi di area sebanyak 12% dari HP Max +40 HP tiap dtk selama 8 dtk." />
+    <List Id="31010" Txt="Menempatkan lingkaran penyembuhan di medan pertempuran, yang menyembuhkan semua pasukan aliansi di area sebanyak 15% dari HP Max +50 HP tiap dtk selama 8 dtk." />
+    <List Id="31011" Txt="Menggunakan kekuatan Ares di semua pasukan anda, memberikan mereka +5% ATK hingga pertempuran berakhir." />
+    <List Id="31012" Txt="Menggunakan kekuatan Ares di semua pasukan anda, memberikan mereka +8% ATK hingga pertempuran berakhir." />
+    <List Id="31013" Txt="Menggunakan kekuatan Ares di semua pasukan anda, memberikan mereka +11% ATK hingga pertempuran berakhir." />
+    <List Id="31014" Txt="Menggunakan kekuatan Ares di semua pasukan anda, memberikan mereka +14% ATK hingga pertempuran berakhir." />
+    <List Id="31015" Txt="Menggunakan kekuatan Ares di semua pasukan anda, memberikan mereka +17% ATK hingga pertempuran berakhir." />
+    <List Id="31016" Txt="Menyapu angin ribut ke markas musuh, menyebabkan 8% HP Max +800 DMG selama 8 dtk ke semua bangunan musuh yang dilaluinya. Miringkan perangkat untuk mengatur arah badai." />
+    <List Id="31017" Txt="Menyapu angin ribut ke markas musuh, menyebabkan 16% HP Max +1040 DMG selama 8 dtk ke semua bangunan musuh yang dilaluinya. Miringkan perangkat untuk mengatur arah badai." />
+    <List Id="31018" Txt="Menyapu angin ribut ke markas musuh, menyebabkan 24% HP Max +1280 DMG selama 8 dtk ke semua bangunan musuh yang dilaluinya. Miringkan perangkat untuk mengatur arah badai." />
+    <List Id="31019" Txt="Menyapu angin ribut ke markas musuh, menyebabkan 32% HP Max +1520 DMG selama 8 dtk ke semua bangunan musuh yang dilaluinya. Miringkan perangkat untuk mengatur arah badai." />
+    <List Id="31020" Txt="Menyapu angin ribut ke markas musuh, menyebabkan 40% HP Max +1760 DMG selama 8 dtk ke semua bangunan musuh yang dilaluinya. Miringkan perangkat untuk mengatur arah badai." />
+    <List Id="31021" Txt="Memanggil perlindungan malaikat, yang memberikan kekebalan pada 6 pasukan aliansi di area tersebut selama 6 dtk." />
+    <List Id="31022" Txt="Memanggil perlindungan malaikat, yang memberikan kekebalan pada 8 pasukan aliansi di area tersebut selama 6 dtk." />
+    <List Id="31023" Txt="Memanggil perlindungan malaikat, yang memberikan kekebalan pada 10 pasukan aliansi di area tersebut selama 6 dtk." />
+    <List Id="31024" Txt="Memanggil perlindungan malaikat, yang memberikan kekebalan pada 12 pasukan aliansi di area tersebut selama 6 dtk." />
+    <List Id="31025" Txt="Memanggil perlindungan malaikat, yang memberikan kekebalan pada 14 pasukan aliansi di area tersebut selama 6 dtk." />
+    <List Id="31026" Txt="Menghujani area dengan meteor, menyebabkan 6% dari HP Maks sebagai DMG ke semua musuh di area selama 6 dtk." />
+    <List Id="31027" Txt="Menghujani area dengan meteor, menyebabkan 12% dari HP Maks sebagai DMG ke semua musuh di area selama 6 dtk." />
+    <List Id="31028" Txt="Menghujani area dengan meteor, menyebabkan 18% dari HP Maks sebagai DMG ke semua musuh di area selama 6 dtk." />
+    <List Id="31029" Txt="Menghujani area dengan meteor, menyebabkan 24% dari HP Maks sebagai DMG ke semua musuh di area selama 6 dtk." />
+    <List Id="31030" Txt="Menghujani area dengan meteor, menyebabkan 30% dari HP Maks sebagai DMG ke semua musuh di area selama 6 dtk." />
+    <List Id="31031" Txt="Menggelindingkan batu besar secara massal di medan pertempuran, menyebabkan 10% HP Maks +300 DMG selama 5 dtk ke semua musuh di lintasannya. Juga mengurangi ATK pasukan yang terkena serangan hingga 20% selama 5 dtk. Miringkan perangkat untuk mengarahkan batu besarnya." />
+    <List Id="31032" Txt="Menggelindingkan batu besar secara massal di medan pertempuran, menyebabkan 10% HP Maks +450 DMG selama 5 dtk ke semua musuh di lintasannya. Juga mengurangi ATK pasukan yang terkena serangan hingga 25% selama 5 dtk. Miringkan perangkat untuk mengarahkan batu besarnya." />
+    <List Id="31033" Txt="Menggelindingkan batu besar secara massal di medan pertempuran, menyebabkan 10% HP Maks +600 DMG selama 5 dtk ke semua musuh di lintasannya. Juga mengurangi ATK pasukan yang terkena serangan hingga 30% selama 5 dtk. Miringkan perangkat untuk mengarahkan batu besarnya." />
+    <List Id="31034" Txt="Menggelindingkan batu besar secara massal di medan pertempuran, menyebabkan 10% HP Maks +750 DMG selama 5 dtk ke semua musuh di lintasannya. Juga mengurangi ATK pasukan yang terkena serangan hingga 35% selama 5 dtk. Miringkan perangkat untuk mengarahkan batu besarnya." />
+    <List Id="31035" Txt="Menggelindingkan batu besar secara massal di medan pertempuran, menyebabkan 10% HP Maks +900 DMG selama 5 dtk ke semua musuh di lintasannya. Juga mengurangi ATK pasukan yang terkena serangan hingga 40% selama 5 dtk. Miringkan perangkat untuk mengarahkan batu besarnya." />
+    <List Id="31036" Txt="Rasa haus darah Ares menguasai pasukan aliansi di area selama 8 dtk, yang memberi +20% ATK, ATK SPD, dan MOV SPD." />
+    <List Id="31037" Txt="Rasa haus darah Ares menguasai pasukan aliansi di area selama 9 dtk, yang memberi +30% ATK, ATK SPD, dan MOV SPD." />
+    <List Id="31038" Txt="Rasa haus darah Ares menguasai pasukan aliansi di area selama 11 dtk, yang memberi +40% ATK, ATK SPD, dan MOV SPD." />
+    <List Id="31039" Txt="Rasa haus darah Ares menguasai pasukan aliansi di area selama 12 dtk, yang memberi +50% ATK, ATK SPD, dan MOV SPD." />
+    <List Id="31040" Txt="Rasa haus darah Ares menguasai pasukan aliansi di area selama 15 dtk, yang memberi +60% ATK, ATK SPD, dan MOV SPD." />
+    <List Id="31041" Txt="Memanggil phoenix yang terbang melintasi medan pertempuran selama 10 dtk, menghidupkan kembali 6 pasukan aliansi secara acak di jalurnya. Tidak mempengaruhi Pahlawan. Arahkan Phoenix dengan menyeret jari di layar." />
+    <List Id="31042" Txt="Memanggil phoenix yang terbang melintasi medan pertempuran selama 10 dtk, menghidupkan kembali 12 pasukan aliansi secara acak di jalurnya. Tidak mempengaruhi Pahlawan. Arahkan Phoenix dengan menyeret jari di layar." />
+    <List Id="31043" Txt="Memanggil phoenix yang terbang melintasi medan pertempuran selama 10 dtk, menghidupkan kembali 18 pasukan aliansi secara acak di jalurnya. Tidak mempengaruhi Pahlawan. Arahkan Phoenix dengan menyeret jari di layar." />
+    <List Id="31044" Txt="Memanggil phoenix yang terbang melintasi medan pertempuran selama 10 dtk, menghidupkan kembali 24 pasukan aliansi secara acak di jalurnya. Tidak mempengaruhi Pahlawan. Arahkan Phoenix dengan menyeret jari di layar." />
+    <List Id="31045" Txt="Memanggil phoenix yang terbang melintasi medan pertempuran selama 10 dtk, menghidupkan kembali 30 pasukan aliansi secara acak di jalurnya. Tidak mempengaruhi Pahlawan. Arahkan Phoenix dengan menyeret jari di layar." />
+    <List Id="31046" Txt="Menyelimuti area dengan badai salju, yang mengakibatkan 6% HP Maks +200 DMG ke semua musuh di area tersebut. Juga Membekukan pasukan yang terkena serangan selama 6 dtk." />
+    <List Id="31047" Txt="Menyelimuti area dengan badai salju, yang mengakibatkan 7% HP Maks +400 DMG ke semua musuh di area tersebut. Juga Membekukan pasukan yang terkena serangan selama 7 dtk." />
+    <List Id="31048" Txt="Menyelimuti area dengan badai salju, yang mengakibatkan 8% HP Maks +600 DMG ke semua musuh di area tersebut. Juga Membekukan pasukan yang terkena serangan selama 9 dtk." />
+    <List Id="31049" Txt="Menyelimuti area dengan badai salju, yang mengakibatkan 9% HP Maks +800 DMG ke semua musuh di area tersebut. Juga Membekukan pasukan yang terkena serangan selama 11 dtk." />
+    <List Id="31050" Txt="Menyelimuti area dengan badai salju, yang mengakibatkan 10% HP Maks +1.000 DMG ke semua musuh di area tersebut. Juga Membekukan pasukan yang terkena serangan selama 13 dtk." />
+  </Text>
+  <Text Type="6" TypeTxt="任务标题">
+    <List Id="32001" Txt="Aula Kota" />
+    <List Id="32002" Txt="Harta Karun Emas" />
+    <List Id="32003" Txt="Timbunan Mana" />
+    <List Id="32004" Txt="Kesatria Mendekat" />
+    <List Id="32005" Txt="Hartawan Emas" />
+    <List Id="32006" Txt="Hartawan Mana" />
+    <List Id="32007" Txt="Misi Memungkinkan" />
+    <List Id="32008" Txt="Perfeksionis" />
+    <List Id="32009" Txt="Kegagahan Kemenangan" />
+    <List Id="32010" Txt="Malapetaka Kekalahan" />
+    <List Id="32011" Txt="Penuntut Balas" />
+    <List Id="32012" Txt="Akulah sang Legenda" />
+    <List Id="32013" Txt="Di Sini Sesak!" />
+    <List Id="32014" Txt="Jalan menuju Kekuasaan" />
+    <List Id="32015" Txt="Tak Terhalang" />
+    <List Id="32016" Txt="Gigih" />
+    <List Id="32017" Txt="Aduh!" />
+    <List Id="32018" Txt="Penguasaan Sihir" />
+    <List Id="32019" Txt="Penggemar Nomor Satu" />
+    <List Id="32020" Txt="Kejayaan Pertempuran" />
+    <List Id="32021" Txt="Merindukanku?" />
+  </Text>
+  <Text Type="7" TypeTxt="任务描述">
+    <List Id="33001" Txt="Balai Kota mencapai Lv 4." />
+    <List Id="33002" Txt="Balai Kota mencapai Lv 12." />
+    <List Id="33003" Txt="Balai Kota mencapai Lv 20." />
+    <List Id="33004" Txt="Kubah Emas mencapai Lv 4." />
+    <List Id="33005" Txt="Kubah Emas mencapai Lv 12." />
+    <List Id="33006" Txt="Kubah Emas mencapai Lv 20." />
+    <List Id="33007" Txt="Kubah Mana mencapai Lv 4." />
+    <List Id="33008" Txt="Kubah Mana mencapai Lv 12." />
+    <List Id="33009" Txt="Kubah Mana mencapai Lv 20." />
+    <List Id="33010" Txt="Capai 1.000 Kekuatan." />
+    <List Id="33011" Txt="Capai 15.000 Kekuatan." />
+    <List Id="33012" Txt="Capai 35.000 Kekuatan." />
+    <List Id="33013" Txt="Kumpulkan 100.000 total Emas." />
+    <List Id="33014" Txt="Kumpulkan 5.000.000 total Emas." />
+    <List Id="33015" Txt="Kumpulkan 20.000.000 total Emas." />
+    <List Id="33016" Txt="Kumpulkan 100.000 total Mana." />
+    <List Id="33017" Txt="Kumpulkan 5.000.000 total Mana." />
+    <List Id="33018" Txt="Kumpulkan 20.000.000 total Mana." />
+    <List Id="33019" Txt="Bereskan 5 Penjara." />
+    <List Id="33020" Txt="Bereskan50 Penjara." />
+    <List Id="33021" Txt="Bereskan 100 Penjara." />
+    <List Id="33022" Txt="Dapatkan 3 Bintang dalam 10 Tahap." />
+    <List Id="33023" Txt="Dapatkan 3 Bintang di 50 Penjara." />
+    <List Id="33024" Txt="Dapatkan 3 Bintang di 100 Penjara." />
+    <List Id="33025" Txt="Menang 20 serangan melawan pemain lain." />
+    <List Id="33026" Txt="Menang 200 serangan melawan pemain lain." />
+    <List Id="33027" Txt="Menang 1.000 serangan melawan pemain lain." />
+    <List Id="33028" Txt="Kalah 20 serangan melawan pemain lain." />
+    <List Id="33029" Txt="Kalahkan 200 serangan melawan pemain lain." />
+    <List Id="33030" Txt="Kalahkan 1.000 serangan melawan pemain lain." />
+    <List Id="33031" Txt="Dapatkan Pahlawan Bintang-3." />
+    <List Id="33032" Txt="Dapatkan Pahlawan Bintang-6." />
+    <List Id="33033" Txt="Dapatkan Pahlawan Bintang-9." />
+    <List Id="33034" Txt="Miliki Pasukan Bintang-5." />
+    <List Id="33035" Txt="Miliki 6 jenis Pasukan Bintang-5." />
+    <List Id="33036" Txt="Miliki 12 jenis Pasukan Bintang-5." />
+    <List Id="33037" Txt="Miliki 2 jenis Pasukan." />
+    <List Id="33038" Txt="Miliki 6 jenis Pasukan." />
+    <List Id="33039" Txt="Miliki 12 jenis Pasukan." />
+    <List Id="33040" Txt="Singkirkan 5 rintangan." />
+    <List Id="33041" Txt="Singkirkan 15 rintangan." />
+    <List Id="33042" Txt="Singkirkan 30 rintangan." />
+    <List Id="33043" Txt="Hancurkan 100 Tembok dalam Penggerebekan." />
+    <List Id="33044" Txt="Hancurkan 800 Tembok dalam Penggerebekan." />
+    <List Id="33045" Txt="Hancurkan 3.000 Tembok dalam Penggerebekan." />
+    <List Id="33046" Txt="Menang 10 pertempuran Arena." />
+    <List Id="33047" Txt="Menang 200 pertempuran Arena." />
+    <List Id="33048" Txt="Menang 1.000 pertempuran Arena." />
+    <List Id="33049" Txt="Kalah 10 pertempuran Arena." />
+    <List Id="33050" Txt="Kalah 200 pertempuran Arena." />
+    <List Id="33051" Txt="Kalah 1.000 pertempuran Arena." />
+    <List Id="33052" Txt="Buka kunci 4 jenis Mantra." />
+    <List Id="33053" Txt="Buka kunci 8 jenis Mantra." />
+    <List Id="33054" Txt="Buka kunci 10 jenis Mantra." />
+    <List Id="33055" Txt="Dapatkan 50 Kepingan Pahlawan dari Penjara." />
+    <List Id="33056" Txt="Dapatkan 200 Kepingan Pahlawan dari Penjara." />
+    <List Id="33057" Txt="Dapatkan 1.000 Kepingan Pahlawan dari Penjara." />
+    <List Id="33058" Txt="Dapatkan 5.000 Poin Mulia." />
+    <List Id="33059" Txt="Dapatkan 200.000 Poin Mulia." />
+    <List Id="33060" Txt="Dapatkan 1.000.000 Poin Mulia." />
+    <List Id="33061" Txt="Login selama 7 hari." />
+    <List Id="33062" Txt="Login selama 30 hari." />
+    <List Id="33063" Txt="Login selama 90 hari." />
+    <List Id="33064" Txt="Hadiah Login!" />
+    <List Id="33065" Txt="Berjuanglah di Arena!" />
+    <List Id="33066" Txt="Curi Emas dari pemain lain!" />
+    <List Id="33067" Txt="Curi Mana dari pemain lain!" />
+    <List Id="33068" Txt="Beli 230 Permata untuk mendapatkan 3.000 Lencana Kehormatan!" />
+    <List Id="33069" Txt="Beli 600 Permata untuk mendapatkan 10.000 Lencana Kehormatan!" />
+    <List Id="33070" Txt="Beli 3.000 Permata untuk mendapatkan 20.000 Lencana Kehormatan!" />
+    <List Id="33071" Txt="Beli 15.000 Permata untuk mendapatkan 30.000 Lencana Kehormatan!" />
+    <List Id="33072" Txt="Beli 50.000 Permata untuk mendapatkan 50.000 Lencana Kehormatan!" />
+  </Text>
+  <Text Type="8" TypeTxt="兵种名称">
+    <List Id="50001" Txt="Pelindung" />
+    <List Id="50002" Txt="Pemburu" />
+    <List Id="50003" Txt="Penenung Bara" />
+    <List Id="50004" Txt="Treant" />
+    <List Id="50005" Txt="Orang Kerdil Berpalu" />
+    <List Id="50006" Txt="Centaur" />
+    <List Id="50007" Txt="Griffin" />
+    <List Id="50008" Txt="Manusia Robot" />
+    <List Id="50009" Txt="Raksasa Liar" />
+    <List Id="50010" Txt="Orang Kerdil Bersenapan" />
+    <List Id="50011" Txt="Naga Peri" />
+    <List Id="50012" Txt="Ornitophter" />
+  </Text>
+  <Text Type="9" TypeTxt="兵种描述">
+    <List Id="60001" Txt="Kesatria paling mendasar namun paling setia. Pelindung ini maju terus tanpa takut mati. Pelatihannya rendah biaya, namun tak ada yang menyangkal kegunaan mereka di tentara mana pun." />
+    <List Id="60002" Txt="Seorang 'pencabut nyawa' yang menyerang dari jauh. Musuh apa pun yang terlihat, di udara ataupun darat, akan gemetar ketakutan bagi nyawa mereka." />
+    <List Id="60003" Txt="Asalkan tim Penenung Bara dapat terhindar dari bahaya, mereka mampu menggilas seluruh markas rata dengan tanah." />
+    <List Id="60004" Txt="Kesatria hutan dengan kekuatan tak terbatas. Tidak bijaksana bila penampilan lesu mereka meperdayai anda. Jika tiba saatnya untuk bertahan, mereka adalah makhluk paling menakutkan yang pernah ada." />
+    <List Id="60005" Txt="Tak ada yang bisa menghentikan ketamakan Orang Kerdil pada emas. Meski hanya demi segenggam uang, mereka akan menjatuhkan apa pun yang menghalangi jalan mereka menuju emas tersebut." />
+    <List Id="60006" Txt="Dihormati oleh penghuni hutan lainnya. Patroli merupakan kekuatan yang terorganisir dan terpadu. Dengan keterampilan dan ketelitian persenjataan mereka, apa pun yang mengganggu mereka jarang bisa melihat hari esok!" />
+    <List Id="60007" Txt="Sebelum naga memasuki dunia ini, Griffin adalah penguasa langit. Binatang yang haus darah ini akan mengoyak apa pun yang tidak menyenangkan di mata mereka." />
+    <List Id="60008" Txt="Sebuah teka-teki. Tak ada yang tahu dari mana raksasa ini berasal atau apa yang ada di balik tameng mereka. Namun yang pasti, para raksasa menyerang dengan ganas tanpa gentar!" />
+    <List Id="60009" Txt="Kekuatan dan ketamakan yang tak terpisahkan dengan sifat haus darah tidak berujung. Inilah yang membuat Penguasa Liar menyeramkan ini sebagai kaum teguh tak tergoyahkan di hutan belantara." />
+    <List Id="60010" Txt="Setelah mendapatkan penggunaan senjata api, Orang Kerdil yang sebelumnya tak terhentikan ini semakin tidak terkendali hingga mereka menantang kekuasaan banyak pahlawan." />
+    <List Id="60011" Txt="Semua yang terkena hembusan napas naga diratakan dengan tanah, tanpa terpengaruh seberapa bersih si naga menyikat gigi pagi itu." />
+    <List Id="60012" Txt="Hasil inovasi teknologi. Pada saat musuh masih melihat dan bertanya-tanya, benda ini sudah melumat mereka." />
+    <List Id="60013" Txt="Rincian Pasukan" />
+    <List Id="60014" Txt="Tekan ikon Pasukan untuk Menaikkan Level" />
+    <List Id="60015" Txt="Lv %d" />
+    <List Id="60016" Txt="Lv (%d - %d)" />
+    <List Id="60017" Txt="Tekan Pasukan yang ingin anda pekerjakan untuk memulai." />
+    <List Id="60018" Txt="Pekerjakan (%d/%d)" />
+    <List Id="60019" Txt="Antrean penuh. Anda tidak dapat melatih Pasukan lagi." />
+    <List Id="60020" Txt="Kamp anda penuh! Anda tidak dapat menyelesaikan pelatihan ini." />
+    <List Id="60021" Txt="Biaya Naik Level" />
+    <List Id="60022" Txt="Penuh" />
+    <List Id="60023" Txt="Kosong" />
+    <List Id="60024" Txt="Berjuanglah Sekarang" />
+    <List Id="60101" Txt="Normal" />
+    <List Id="60102" Txt="Berjarak" />
+    <List Id="60103" Txt="Sihir" />
+    <List Id="60104" Txt="Destruktif" />
+    <List Id="60105" Txt="Heroik" />
+    <List Id="60106" Txt="Tameng Ringan" />
+    <List Id="60107" Txt="Tameng Sedang" />
+    <List Id="60108" Txt="Tameng Berat" />
+    <List Id="60109" Txt="Tameng Bangunan" />
+    <List Id="60110" Txt="Tameng Heroik" />
+    <List Id="60111" Txt="Menimbulkan %d%% kerusakan pada Tameng Ringan." />
+    <List Id="60112" Txt="Menimbulkan %d%% kerusakan pada Tameng Sedang." />
+    <List Id="60113" Txt="Menimbulkan %d%% kerusakan pada Tameng Berat." />
+    <List Id="60114" Txt="Menimbulkan %d%% kerusakan pada Tameng Bangunan." />
+    <List Id="60115" Txt="Menimbulkan %d%% kerusakan pada Tameng Heroik." />
+    <List Id="60121" Txt="Pilih Target" />
+    <List Id="60122" Txt="Pasukan" />
+    <List Id="60123" Txt="Pahlawan" />
+    <List Id="60124" Txt="Bangunan Sumber Daya" />
+    <List Id="60125" Txt="Bangunan Pertahanan" />
+    <List Id="60126" Txt="Dinding" />
+    <List Id="60127" Txt="Pilih Bangunan" />
+    <List Id="60128" Txt="Target Udara" />
+    <List Id="60131" Txt="Tanah" />
+    <List Id="60132" Txt="Udara" />
+    <List Id="60133" Txt="Tanah &amp; Udara" />
+    <List Id="60134" Txt="Jenis Serangan: %s" />
+    <List Id="60135" Txt="Jenis Tameng: %s" />
+    <List Id="60201" Txt="DMG:" />
+    <List Id="60202" Txt="HP:" />
+    <List Id="60203" Txt="Biaya Perekrutan:" />
+    <List Id="60204" Txt="Target Prioritas:" />
+    <List Id="60205" Txt="Target:" />
+    <List Id="60206" Txt="Ruang yang Ditempati:" />
+    <List Id="60207" Txt="Waktu Perekrutan:" />
+    <List Id="60208" Txt="MOV SPD:" />
+    <List Id="60209" Txt="Info Kerusakan" />
+    <List Id="60301" Txt="Pertahanan" />
+    <List Id="60302" Txt="Peringkat" />
+    <List Id="60303" Txt="Hadiah" />
+    <List Id="60304" Txt="%s yang lalu, anda telah mengalahkan %s dan menaikkan peringkat sebesar %s!" />
+    <List Id="60305" Txt="%s yang lalu, anda dikalahkan oleh %s. Peringkat turun sebesar %s." />
+    <List Id="60306" Txt="%s yang lalu, anda telah menantang, %s, namun tidak berhasil mengalahkannya. Peringkat anda tidak berubah." />
+    <List Id="60307" Txt="%s yang lalu, anda telah ditantang oleh %s, namun tidak berhasil dikalahkan. Peringkat anda tidak berubah." />
+    <List Id="60308" Txt="Edit Setup" />
+    <List Id="60309" Txt="Setup Berhasil!" />
+    <List Id="60310" Txt="Anda membutuhkan setidaknya 1 Pahlawan." />
+    <List Id="60311" Txt="Anda telah memilih jumlah Pahlawan maksimum." />
+    <List Id="60312" Txt="Anda telah menghabiskan peluang pertempuran." />
+    <List Id="60313" Txt="Peluang Pertempuran:" />
+    <List Id="60314" Txt="Waktu:" />
+    <List Id="60315" Txt="Tantang" />
+    <List Id="60316" Txt="Poin Mulia +%d" />
+    <List Id="60317" Txt="Poin Mulia +%d" />
+    <List Id="60318" Txt="Tidak bisa menantang. Saat ini anda sedang ditantang." />
+    <List Id="60319" Txt="Tidak bisa menantang. Saat ini target anda tengah bertempur." />
+    <List Id="60501" Txt="Latih %s anda hingga Lv %d." />
+    <List Id="60502" Txt="Persyaratan Membuka" />
+    <List Id="60503" Txt="Belumlah terbuka. Pergi ke Pusat Pelatihan?" />
+  </Text>
+  <Text Type="10" TypeTxt="英雄名称">
+    <List Id="70201" Txt="Paladin" />
+    <List Id="70211" Txt="Algojo" />
+    <List Id="70221" Txt="Penyihir Arwah" />
+    <List Id="70231" Txt="Ninja" />
+    <List Id="70241" Txt="Malaikat" />
+    <List Id="70301" Txt="Pembunuh" />
+    <List Id="70311" Txt="Ahli Menembak" />
+    <List Id="70321" Txt="Manusia Serigala" />
+    <List Id="70331" Txt="Raksasa Bukit" />
+    <List Id="70341" Txt="Succubus" />
+    <List Id="70401" Txt="Insinyur" />
+    <List Id="70411" Txt="Penyihir Embun Beku" />
+    <List Id="70421" Txt="Juara" />
+    <List Id="70431" Txt="Cyclops" />
+    <List Id="70441" Txt="Peri Pohon" />
+    <List Id="70451" Txt="Pain-Da" />
+    <List Id="70461" Txt="Dukun" />
+    <List Id="70471" Txt="Druid" />
+    <List Id="70481" Txt="Alkemis" />
+    <List Id="70491" Txt="Perampok" />
+    <List Id="70501" Txt="Makhluk Lendir" />
+    <List Id="70502" Txt="Makhluk Lendir Kristal" />
+    <List Id="70503" Txt="Juara Kenyal" />
+    <List Id="70504" Txt="Pengintai Centaur" />
+    <List Id="70505" Txt="Elit Centaur" />
+    <List Id="70506" Txt="Raja Centaur" />
+    <List Id="70511" Txt="Ratu Ular" />
+    <List Id="70521" Txt="Dewa Guntur" />
+    <List Id="70541" Txt="Kepala Suku Minotaur" />
+    <List Id="70561" Txt="Iblis Es" />
+    <List Id="70581" Txt="Dewa Maut Kelabu" />
+    <List Id="70601" Txt="Pangeran Labu" />
+  </Text>
+  <Text Type="11" TypeTxt="英雄技能">
+    <List Id="75001" Txt="Perisai Dewa" />
+    <List Id="75011" Txt="Kebangkitan" />
+    <List Id="75021" Txt="Gempa Bumi" />
+    <List Id="75031" Txt="Tabrakan" />
+    <List Id="75041" Txt="Misil Sihir" />
+    <List Id="75051" Txt="Ilmu Mistik" />
+    <List Id="75061" Txt="Sayatan" />
+    <List Id="75071" Txt="Kesatria Bayangan" />
+    <List Id="75081" Txt="Penyembuhan" />
+    <List Id="75091" Txt="Terbang" />
+    <List Id="75101" Txt="Membunuh" />
+    <List Id="75111" Txt="Silau" />
+    <List Id="75121" Txt="Panah Terbelah" />
+    <List Id="75131" Txt="Tembakan Mematikan" />
+    <List Id="75141" Txt="Kemarahan" />
+    <List Id="75151" Txt="Lintah Kehidupan" />
+    <List Id="75161" Txt="Kilat" />
+    <List Id="75171" Txt="Serangan Energi" />
+    <List Id="75181" Txt="Cambukan Kematian" />
+    <List Id="75191" Txt="Bandul Malapetaka" />
+    <List Id="75201" Txt="Ledakan Lava" />
+    <List Id="75211" Txt="Perisai Api" />
+    <List Id="75221" Txt="Tikaman Es" />
+    <List Id="75231" Txt="Serangan Es" />
+    <List Id="75241" Txt="Palu Badai" />
+    <List Id="75251" Txt="Menyetrum" />
+    <List Id="75261" Txt="Gelombang Goncangan" />
+    <List Id="75271" Txt="Balas Dendam" />
+    <List Id="75281" Txt="Belenggu" />
+    <List Id="75291" Txt="Terbang" />
+    <List Id="75301" Txt="Lemparan Batu" />
+    <List Id="75311" Txt="Tumbuhan Hijau Berduri" />
+    <List Id="75321" Txt="Kutukan" />
+    <List Id="75331" Txt="Totem Kematian" />
+    <List Id="75341" Txt="Penuh Semangat" />
+    <List Id="75351" Txt="Menjerat" />
+    <List Id="75361" Txt="Lontaran Alkimia" />
+    <List Id="75371" Txt="Api Alkemis" />
+    <List Id="75381" Txt="Bersiap" />
+    <List Id="75391" Txt="Menghancurkan" />
+    <List Id="75401" Txt="Kabut Racun" />
+    <List Id="75421" Txt="Hujan Badai" />
+    <List Id="75441" Txt="Rayakan" />
+    <List Id="75461" Txt="Menjelma" />
+    <List Id="75481" Txt="Panen Roh" />
+    <List Id="75501" Txt="Kabut Es" />
+    <List Id="85001" Txt="Menghidupkan Kembali" />
+    <List Id="85011" Txt="Serangan Keras" />
+    <List Id="85021" Txt="Merevitalisasi" />
+    <List Id="85031" Txt="Menghanguskan" />
+    <List Id="85041" Txt="Menghancurkan Diri Sendiri" />
+    <List Id="85051" Txt="Serangan Mematikan" />
+    <List Id="85061" Txt="Pelindung Api" />
+    <List Id="85071" Txt="Tempurung Berpisau" />
+    <List Id="85081" Txt="Berpencar" />
+    <List Id="85091" Txt="Memperlambat" />
+    <List Id="85101" Txt="Melemaskan" />
+    <List Id="85111" Txt="Mengamuk" />
+    <List Id="85121" Txt="Kulit Batu" />
+    <List Id="85131" Txt="Dewa Perang" />
+    <List Id="85141" Txt="Kegigihan" />
+    <List Id="85511" Txt="Bantingan Tubuh" />
+    <List Id="85521" Txt="Lemparan Gemuruh" />
+    <List Id="85531" Txt="Serbuan" />
+  </Text>
+  <Text Type="12" TypeTxt="技能描述">
+    <List Id="80001" Txt="Membentengi pertahanan. Mengurangi kerusakan yang diterima sebanyak 40% selama 5 dtk." />
+    <List Id="80002" Txt="Membentengi pertahanan. Mengurangi kerusakan yang diterima sebanyak 50% selama 5 dtk." />
+    <List Id="80003" Txt="Membentengi pertahanan. Mengurangi kerusakan yang diterima sebanyak 60% selama 5 dtk." />
+    <List Id="80004" Txt="Membentengi pertahanan. Mengurangi kerusakan yang diterima sebanyak 65% selama 5 dtk." />
+    <List Id="80005" Txt="Membentengi  pertahanan. Mengurangi kerusakan yang diterima sebanyak 70% selama 5 dtk." />
+    <List Id="80006" Txt="Membentengi pertahanan. Mengurangi kerusakan yang diterima sebanyak 75% selama 5 dtk." />
+    <List Id="80007" Txt="Membentengi pertahanan. Mengurangi kerusakan yang diterima sebanyak 80% selama 5 dtk." />
+    <List Id="80008" Txt="Membentengi pertahanan. Mengurangi kerusakan yang diterima sebanyak 85% selama 5 dtk." />
+    <List Id="80009" Txt="Membentengi pertahanan. Mengurangi kerusakan yang diterima sebanyak 90% selama 5 dtk." />
+    <List Id="80021" Txt="Menimbulkan 100% DMG pada target dan menyebabkan Koma selama 1 dtk." />
+    <List Id="80022" Txt="Menimbulkan 150% DMG pada target dan menyebabkan Koma selama 1 dtk." />
+    <List Id="80023" Txt="Menimbulkan 200% DMG pada target dan menyebabkan Koma selama 1 dtk." />
+    <List Id="80024" Txt="Menimbulkan 220% DMG pada target dan menyebabkan Koma selama 2 dtk." />
+    <List Id="80025" Txt="Menimbulkan 250% DMG pada target dan menyebabkan Koma selama 2 dtk." />
+    <List Id="80026" Txt="Menimbulkan 280% DMG pada target dan menyebabkan Koma selama 2 dtk." />
+    <List Id="80027" Txt="Menimbulkan 300% DMG pada target dan menyebabkan Koma selama 3 dtk." />
+    <List Id="80028" Txt="Menimbulkan 330% DMG pada target dan menyebabkan Koma selama 3 dtk." />
+    <List Id="80029" Txt="Menimbulkan 360% DMG pada target dan menyebabkan Koma selama 3 dtk." />
+    <List Id="80041" Txt="Menimbulkan 200% DMG pada 2 target acak terdekat." />
+    <List Id="80042" Txt="Menimbulkan 220% DMG pada 3 target acak terdekat." />
+    <List Id="80043" Txt="Menimbulkan 240% DMG pada 4 target acak terdekat." />
+    <List Id="80044" Txt="Menimbulkan 260% DMG pada 5 target acak terdekat." />
+    <List Id="80045" Txt="Menimbulkan 280% DMG pada 6 target acak terdekat." />
+    <List Id="80046" Txt="Menimbulkan 300% DMG pada 7 target acak terdekat." />
+    <List Id="80047" Txt="Mengakibatkan 320% DMG pada 8 target acak terdekat." />
+    <List Id="80048" Txt="Mengakibatkan 340% DMG pada 9 target acak terdekat." />
+    <List Id="80049" Txt="Mengakibatkan 360% DMG pada 10 target acak terdekat." />
+    <List Id="80061" Txt="Menimbulkan 300% DMG pada target." />
+    <List Id="80062" Txt="Menimbulkan 400% DMG pada target." />
+    <List Id="80063" Txt="Menimbulkan 450% DMG pada target." />
+    <List Id="80064" Txt="Menimbulkan 500% DMG pada target." />
+    <List Id="80065" Txt="Menimbulkan 550% DMG pada target." />
+    <List Id="80066" Txt="Menimbulkan 600% DMG pada target." />
+    <List Id="80067" Txt="Menimbulkan 650% DMG pada target." />
+    <List Id="80068" Txt="Menimbulkan 700% DMG pada target." />
+    <List Id="80069" Txt="Menimbulkan 750% DMG pada target." />
+    <List Id="80081" Txt="Memulihkan HP unit aliansi sebanyak 200% ATK." />
+    <List Id="80082" Txt="Memulihkan HP unit aliansi sebanyak 230% ATK." />
+    <List Id="80083" Txt="Memulihkan HP unit aliansi sebanyak 260% ATK." />
+    <List Id="80084" Txt="Memulihkan HP unit aliansi sebanyak 290% ATK." />
+    <List Id="80085" Txt="Memulihkan HP unit aliansi sebanyak 320% ATK." />
+    <List Id="80086" Txt="Memulihkan HP unit aliansi sebanyak 350% ATK." />
+    <List Id="80087" Txt="Memulihkan HP unit aliansi sebanyak 380% ATK." />
+    <List Id="80088" Txt="Memulihkan HP unit aliansi sebanyak 410% ATK." />
+    <List Id="80089" Txt="Memulihkan HP unit aliansi sebanyak 440% ATK." />
+    <List Id="80101" Txt="Menimbulkan 250% DMG pada target dengan HP terendah." />
+    <List Id="80102" Txt="Menimbulkan 300% DMG pada target dengan HP terendah." />
+    <List Id="80103" Txt="Menimbulkan 330% DMG pada target dengan HP terendah." />
+    <List Id="80104" Txt="Menimbulkan 360% DMG pada target dengan HP terendah." />
+    <List Id="80105" Txt="Menimbulkan 390% DMG pada target dengan HP terendah." />
+    <List Id="80106" Txt="Menimbulkan 420% DMG pada target dengan HP terendah." />
+    <List Id="80107" Txt="Menimbulkan 450% DMG pada target dengan HP terendah." />
+    <List Id="80108" Txt="Menimbulkan 480% DMG pada target dengan HP terendah." />
+    <List Id="80109" Txt="Menimbulkan 510% DMG pada target dengan HP terendah." />
+    <List Id="80121" Txt="Menimbulkan 130% DMG pada 3 target acak terdekat." />
+    <List Id="80122" Txt="Menimbulkan 180% DMG pada 3 target acak terdekat." />
+    <List Id="80123" Txt="Menimbulkan 210% DMG pada 3 target acak terdekat." />
+    <List Id="80124" Txt="Menimbulkan 240% DMG pada 3 target acak terdekat." />
+    <List Id="80125" Txt="Menimbulkan 270% DMG pada 3 target acak terdekat." />
+    <List Id="80126" Txt="Menimbulkan 300% DMG pada 3 target acak terdekat." />
+    <List Id="80127" Txt="Menimbulkan 330% DMG pada 3 target acak terdekat." />
+    <List Id="80128" Txt="Menimbulkan 360% DMG pada 3 target acak terdekat." />
+    <List Id="80129" Txt="Menimbulkan 390% DMG pada 3 target acak terdekat." />
+    <List Id="80141" Txt="Meningkatkan ATK sebanyak 30% selama 5 dtk." />
+    <List Id="80142" Txt="Meningkatkan ATK sebanyak 50% selama 5 dtk." />
+    <List Id="80143" Txt="Meningkatkan ATK sebanyak 70% selama 5 dtk." />
+    <List Id="80144" Txt="Meningkatkan ATK sebanyak 80% selama 6 dtk." />
+    <List Id="80145" Txt="Meningkatkan ATK sebanyak 110% selama 6 dtk." />
+    <List Id="80146" Txt="Meningkatkan ATK sebanyak 120% selama 6 dtk." />
+    <List Id="80147" Txt="Meningkatkan ATK sebanyak 130% selama 7 dtk." />
+    <List Id="80148" Txt="Meningkatkan ATK sebanyak 150% selama 7 dtk." />
+    <List Id="80149" Txt="Meningkatkan ATK sebanyak 170% selama 7 dtk." />
+    <List Id="80161" Txt="Menimbulkan 150% DMG pada semua musuh di sekitarnya." />
+    <List Id="80162" Txt="Menimbulkan 200% DMG pada semua musuh di sekitarnya." />
+    <List Id="80163" Txt="Menimbulkan 230% DMG pada semua musuh di sekitarnya." />
+    <List Id="80164" Txt="Menimbulkan 250% DMG pada semua musuh di sekitarnya." />
+    <List Id="80165" Txt="Menimbulkan 270% DMG pada semua musuh di sekitarnya." />
+    <List Id="80166" Txt="Menimbulkan 290% DMG pada semua musuh di sekitarnya." />
+    <List Id="80167" Txt="Menimbulkan 310% DMG pada semua musuh di sekitarnya." />
+    <List Id="80168" Txt="Menimbulkan 330% DMG pada semua musuh di sekitarnya." />
+    <List Id="80169" Txt="Menimbulkan 350% DMG pada semua musuh di sekitarnya." />
+    <List Id="80181" Txt="Mengurangi HP Maks dan kerusakan jenis pasukan sebesar 15% selama 5 dtk." />
+    <List Id="80182" Txt="Mengurangi HP Maks dan kerusakan jenis pasukan sebesar 20% selama 5 dtk." />
+    <List Id="80183" Txt="Mengurangi HP Maks dan kerusakan jenis pasukan sebesar 23% selama 5 dtk." />
+    <List Id="80184" Txt="Mengurangi HP Maks dan kerusakan jenis pasukan sebesar 26% selama 6 dtk." />
+    <List Id="80185" Txt="Mengurangi HP Maks dan kerusakan jenis pasukan sebesar 29% selama 6 dtk." />
+    <List Id="80186" Txt="Mengurangi HP Maks dan kerusakan jenis pasukan sebesar 32% selama 6 dtk." />
+    <List Id="80187" Txt="Mengurangi HP Maks dan kerusakan jenis pasukan sebesar 35% selama 7 dtk." />
+    <List Id="80188" Txt="Mengurangi HP Maks dan kerusakan jenis pasukan sebesar 38% selama 7 dtk." />
+    <List Id="80189" Txt="Mengurangi HP Maks dan kerusakan jenis pasukan sebesar 41% selama 7 dtk." />
+    <List Id="80201" Txt="Menimbulkan 110% DMG ke semua musuh di area tersebut." />
+    <List Id="80202" Txt="Menimbulkan 150% DMG ke semua musuh di area tersebut." />
+    <List Id="80203" Txt="Menimbulkan 170% DMG ke semua musuh di area tersebut." />
+    <List Id="80204" Txt="Menimbulkan 190% DMG ke semua musuh di area tersebut." />
+    <List Id="80205" Txt="Menimbulkan 210% DMG ke semua musuh di area tersebut." />
+    <List Id="80206" Txt="Menimbulkan 230% DMG ke semua musuh di area tersebut." />
+    <List Id="80207" Txt="Menimbulkan 250% DMG ke semua musuh di area tersebut." />
+    <List Id="80208" Txt="Menimbulkan 270% DMG ke semua musuh di area tersebut." />
+    <List Id="80209" Txt="Menimbulkan 290% DMG ke semua musuh di area tersebut." />
+    <List Id="80221" Txt="Menimbulkan 150% DMG pada target dan mengurangi ATK SPD dan MOV SPD sebanyak 10% selama 6 dtk." />
+    <List Id="80222" Txt="Menimbulkan 200% DMG pada target dan mengurangi ATK SPD dan MOV SPD sebanyak 15% selama 6 dtk." />
+    <List Id="80223" Txt="Menimbulkan 230% DMG pada target dan mengurangi ATK SPD dan MOV SPD sebanyak 17% selama 6 dtk." />
+    <List Id="80224" Txt="Menimbulkan 240% DMG pada target dan mengurangi ATK SPD dan MOV SPD sebanyak 18% selama 7 dtk." />
+    <List Id="80225" Txt="Menimbulkan 260% DMG pada target dan mengurangi ATK SPD dan MOV SPD sebanyak 20% selama 7 dtk." />
+    <List Id="80226" Txt="Menimbulkan 280% DMG pada target dan mengurangi ATK SPD dan MOV SPD sebanyak 22% selama 7 dtk." />
+    <List Id="80227" Txt="Menimbulkan 290% DMG pada target dan mengurangi ATK SPD dan MOV SPD sebanyak 23% selama 8 dtk." />
+    <List Id="80228" Txt="Menimbulkan 310% DMG pada target dan mengurangi ATK SPD dan MOV SPD sebanyak 25% selama 8 dtk." />
+    <List Id="80229" Txt="Menimbulkan 330% DMG pada target dan mengurangi ATK SPD dan MOV SPD sebanyak 27% selama 8 dtk." />
+    <List Id="80241" Txt="Menimbulkan 100% DMG pada 3 target acak terdekat, menyebabkannya Koma selama 2 dtk." />
+    <List Id="80242" Txt="Menimbulkan 150% DMG pada 3 target acak terdekat, menyebabkannya Koma selama 2 dtk." />
+    <List Id="80243" Txt="Menimbulkan 180% DMG pada 3 target acak terdekat, menyebabkannya Koma selama 2 dtk." />
+    <List Id="80244" Txt="Menimbulkan 200% DMG pada 3 target acak terdekat, menyebabkannya Koma selama 2 dtk." />
+    <List Id="80245" Txt="Menimbulkan 220% DMG pada 3 target acak terdekat, menyebabkannya Koma selama 3 dtk." />
+    <List Id="80246" Txt="Menimbulkan 240% DMG pada 3 target acak terdekat, menyebabkannya Koma selama 3 dtk." />
+    <List Id="80247" Txt="Menimbulkan 270% DMG pada 3 target acak terdekat, menyebabkannya Koma selama 3 dtk." />
+    <List Id="80248" Txt="Menimbulkan 290% DMG pada 3 target acak terdekat, menyebabkannya Koma selama 3 dtk." />
+    <List Id="80249" Txt="Menimbulkan 310% DMG pada 3 target acak terdekat, menyebabkannya Koma selama 3 dtk." />
+    <List Id="80261" Txt="Menimbulkan 100% DMG pada semua musuh dalam satu busur." />
+    <List Id="80262" Txt="Menimbulkan 150% DMG pada semua musuh dalam satu busur." />
+    <List Id="80263" Txt="Menimbulkan 170% DMG pada semua musuh dalam satu busur." />
+    <List Id="80264" Txt="Menimbulkan 190% DMG pada semua musuh dalam satu busur." />
+    <List Id="80265" Txt="Menimbulkan 210% DMG pada semua musuh dalam satu busur." />
+    <List Id="80266" Txt="Menimbulkan 230% DMG pada semua musuh dalam satu busur." />
+    <List Id="80267" Txt="Menimbulkan 250% DMG pada semua musuh dalam satu busur." />
+    <List Id="80268" Txt="Menimbulkan 270% DMG pada semua musuh dalam satu busur." />
+    <List Id="80269" Txt="Menimbulkan 290% DMG pada semua musuh dalam satu busur." />
+    <List Id="80281" Txt="Mengakibatkan 100% kerusakan pada target, yang menimbulkan Koma selama 1 dtk." />
+    <List Id="80282" Txt="Menimbulkan 150% kerusakan pada target, menyebabkannya Koma selama 1 dtk." />
+    <List Id="80283" Txt="Menimbulkan 180% kerusakan pada target, menyebabkannya Koma selama 1 dtk." />
+    <List Id="80284" Txt="Menimbulkan 190% kerusakan pada target, menyebabkannya Koma selama 2 dtk." />
+    <List Id="80285" Txt="Menimbulkan 220% kerusakan pada target, menyebabkannya Koma selama 2 dtk." />
+    <List Id="80286" Txt="Menimbulkan 250% kerusakan pada target, menyebabkannya Koma selama 2 dtk." />
+    <List Id="80287" Txt="Menimbulkan 260% kerusakan pada target, menyebabkannya Koma selama 3 dtk." />
+    <List Id="80288" Txt="Menimbulkan 290% kerusakan pada target, menyebabkannya Koma selama 3 dtk." />
+    <List Id="80289" Txt="Menimbulkan 320% kerusakan pada target, menyebabkannya Koma selama 3 dtk." />
+    <List Id="80301" Txt="Menimbulkan 250% kerusakan pada satu musuh secara acak di medan pertempuran." />
+    <List Id="80302" Txt="Menimbulkan 320% kerusakan pada satu musuh secara acak di medan pertempuran." />
+    <List Id="80303" Txt="Menimbulkan 360% kerusakan pada satu musuh secara acak di medan pertempuran." />
+    <List Id="80304" Txt="Menimbulkan 400% kerusakan pada satu musuh secara acak di medan pertempuran." />
+    <List Id="80305" Txt="Menimbulkan 440% kerusakan pada satu musuh secara acak di medan pertempuran." />
+    <List Id="80306" Txt="Menimbulkan 480% kerusakan pada satu musuh secara acak di medan pertempuran." />
+    <List Id="80307" Txt="Menimbulkan 520% kerusakan pada satu musuh secara acak di medan pertempuran." />
+    <List Id="80308" Txt="Menimbulkan 560% kerusakan pada satu musuh secara acak di medan pertempuran." />
+    <List Id="80309" Txt="Menimbulkan 600% kerusakan pada satu musuh secara acak di medan pertempuran." />
+    <List Id="80321" Txt="Mengurangi ATK target sebanyak 25% selama 6 dtk." />
+    <List Id="80322" Txt="Mengurangi ATK target sebanyak 35% selama 6 dtk." />
+    <List Id="80323" Txt="Mengurangi ATK target sebanyak 42% selama 6 dtk." />
+    <List Id="80324" Txt="Mengurangi ATK target sebanyak 44% selama 7 dtk." />
+    <List Id="80325" Txt="Mengurangi ATK target sebanyak 48% selama 7 dtk." />
+    <List Id="80326" Txt="Mengurangi ATK target sebanyak 52% selama 7 dtk." />
+    <List Id="80327" Txt="Mengurangi ATK target sebanyak 54% selama 8 dtk." />
+    <List Id="80328" Txt="Mengurangi ATK target sebanyak 57% selama 8 dtk." />
+    <List Id="80329" Txt="Mengurangi ATK target sebanyak 60% selama 8 dtk." />
+    <List Id="80341" Txt="Memulihkan HP 2 pasukan sekutu terdekat dengan HP terendah sebanyak 200% ATK dan meningkatkan ATK mereka sebanyak 15% selama 5 dtk." />
+    <List Id="80342" Txt="Memulihkan HP 3  pasukan sekutu terdekat dengan HP terendah sebanyak 210% ATK dan meningkatkan ATK mereka sebanyak 20% selama 5 dtk." />
+    <List Id="80343" Txt="Memulihkan HP 4 pasukan sekutu terdekat dengan HP terendah sebanyak 220% ATK dan meningkatkan ATK mereka sebanyak 23% selama 5 dtk." />
+    <List Id="80344" Txt="Memulihkan HP 5 pasukan terdekat dengan HP terendah sebanyak 230% ATK dan meningkatkan ATK mereka sebanyak 25% selama 5 dtk." />
+    <List Id="80345" Txt="Memulihkan HP 6 pasukan sekutu terdekat dengan HP terendah sebanyak 240% ATK dan meningkatkan ATK mereka sebanyak 26% selama 5 dtk." />
+    <List Id="80346" Txt="Memulihkan HP 7 pasukan sekutu terdekat dengan HP terendah sebanyak 250% ATK dan meningkatkan ATK mereka sebanyak 28% selama 5 dtk." />
+    <List Id="80347" Txt="Memulihkan HP 8  pasukan sekutu terdekat dengan HP terendah sebanyak 260% ATK dan meningkatkan ATK mereka sebanyak 29% selama 5 dtk." />
+    <List Id="80348" Txt="Memulihkan HP 9 pasukan sekutu terdekat dengan HP terendah sebanyak 270% ATK dan meningkatkan ATK mereka sebanyak 31% selama 5 dtk." />
+    <List Id="80349" Txt="Memulihkan HP 10 pasukan sekutu terdekat dengan HP terendah sebanyak 280% ATK dan meningkatkan ATK mereka sebanyak 32% selama 5 dtk." />
+    <List Id="80361" Txt="Menimbulkan 180% DMG pada target." />
+    <List Id="80362" Txt="Menimbulkan 250% DMG pada target." />
+    <List Id="80363" Txt="Menimbulkan 300% DMG pada target." />
+    <List Id="80364" Txt="Menimbulkan 340% DMG pada target." />
+    <List Id="80365" Txt="Menimbulkan 380% DMG pada target." />
+    <List Id="80366" Txt="Menimbulkan 420% DMG pada target." />
+    <List Id="80367" Txt="Menimbulkan 460% DMG pada target." />
+    <List Id="80368" Txt="Menimbulkan 500% DMG pada target." />
+    <List Id="80369" Txt="Menimbulkan 540% DMG pada target." />
+    <List Id="80381" Txt="Mengurangi DMG yang diterima sebanyak 15% selama 6 dtk." />
+    <List Id="80382" Txt="Mengurangi DMG yang diterima sebanyak 20% selama 6 dtk." />
+    <List Id="80383" Txt="Mengurangi DMG yang diterima sebanyak 23% selama 6 dtk." />
+    <List Id="80384" Txt="Mengurangi DMG yang diterima sebanyak 26% selama 6 dtk." />
+    <List Id="80385" Txt="Mengurangi DMG yang diterima sebanyak 29% selama 6 dtk." />
+    <List Id="80386" Txt="Mengurangi DMG yang diterima sebanyak 32% selama 6 dtk." />
+    <List Id="80387" Txt="Mengurangi DMG yang diterimai sebanyak 35% selama 6 dtk." />
+    <List Id="80388" Txt="Mengurangi DMG yang diterima sebanyak 38% selama 6 dtk." />
+    <List Id="80389" Txt="Mengurangi DMG yang diterima sebanyak 41% selama 6 dtk." />
+    <List Id="80401" Txt="Meracuni musuh di area target, menyebabkan 8% dari DMG + 15 DMG setiap 0.5 detik selama 6 detik." />
+    <List Id="80402" Txt="Meracuni musuh di area target, menyebabkan 10% dari DMG + 25 DMG setiap 0.5 detik selama 6 detik." />
+    <List Id="80403" Txt="Meracuni musuh di area target, menyebabkan 13% dari DMG + 35 DMG setiap 0.5 detik selama 6 detik." />
+    <List Id="80404" Txt="Meracuni musuh di area target, menyebabkan 15% dari DMG + 45 DMG setiap 0.5 detik selama 6 detik." />
+    <List Id="80405" Txt="Meracuni musuh di area target, menyebabkan 18% dari DMG + 55 DMG setiap 0.5 detik selama 6 detik." />
+    <List Id="80406" Txt="Meracuni musuh di area target, menyebabkan 20% dari DMG + 65 DMG setiap 0.5 detik selama 6 detik." />
+    <List Id="80407" Txt="Meracuni musuh di area target, menyebabkan 23% dari DMG + 75 DMG setiap 0.5 detik selama 6 detik." />
+    <List Id="80408" Txt="Meracuni musuh di area target, menyebabkan 25% dari DMG + 85 DMG setiap 0.5 detik selama 6 detik." />
+    <List Id="80409" Txt="Meracuni musuh di area target, menyebabkan 28% dari DMG + 95 DMG setiap 0.5 detik selama 6 detik." />
+    <List Id="80421" Txt="Kilat menyerang sebuah target secara acak, menimbulkan 200% DMG dan menyebabkan Koma ke semua musuh di sekitarnya selama 1.5 detik." />
+    <List Id="80422" Txt="Kilat menyerang sebuah target secara acak, menimbulkan 230% DMG dan menyebabkan Koma ke semua musuh di sekitarnya selama 1.5 detik." />
+    <List Id="80423" Txt="Kilat menyerang sebuah target secara acak, menimbulkan 260% DMG dan menyebabkan Koma ke semua musuh di sekitarnya selama 1.5 detik." />
+    <List Id="80424" Txt="Kilat menyerang sebuah target secara acak, menimbulkan 290% DMG dan menyebabkan Koma ke semua musuh di sekitarnya selama 1.5 detik." />
+    <List Id="80425" Txt="Kilat menyerang sebuah target secara acak, menimbulkan 320% DMG dan menyebabkan Koma ke semua musuh di sekitarnya selama 1.5 detik." />
+    <List Id="80426" Txt="Kilat menyerang sebuah target secara acak, menimbulkan 350% DMG dan menyebabkan Koma ke semua musuh di sekitarnya selama 1.5 detik." />
+    <List Id="80427" Txt="Kilat menyerang sebuah target secara acak, menimbulkan 380% DMG dan menyebabkan Koma ke semua musuh di sekitarnya selama 1.5 detik." />
+    <List Id="80428" Txt="Kilat menyerang sebuah target secara acak, menimbulkan 410% DMG dan menyebabkan Koma ke semua musuh di sekitarnya selama 1.5 detik." />
+    <List Id="80429" Txt="Kilat menyerang sebuah target secara acak, menimbulkan 440% DMG dan menyebabkan Koma ke semua musuh di sekitarnya selama 1.5 detik." />
+    <List Id="80441" Txt="Meningkatkan ATK, tingkat ATK, dan MOV SPD pasukan sekutu sebanyak 10% selama 8 detik." />
+    <List Id="80442" Txt="Meningkatkan ATK, tingkat ATK, dan MOV SPD pasukan sekutu sebanyak 15% selama 8 detik." />
+    <List Id="80443" Txt="Meningkatkan ATK, tingkat ATK, dan MOV SPD pasukan sekutu sebanyak 20% selama 8 detik." />
+    <List Id="80444" Txt="Meningkatkan ATK, tingkat ATK, dan MOV SPD pasukan sekutu sebanyak 25% selama 8 detik." />
+    <List Id="80445" Txt="Meningkatkan ATK, tingkat ATK, dan MOV SPD pasukan sekutu sebanyak 30% selama 8 detik." />
+    <List Id="80446" Txt="Meningkatkan ATK, tingkat ATK, dan MOV SPD pasukan sekutu sebanyak 35% selama 8 detik." />
+    <List Id="80447" Txt="Meningkatkan ATK, tingkat ATK, dan MOV SPD pasukan sekutu sebanyak 40% selama 8 detik." />
+    <List Id="80448" Txt="Meningkatkan ATK, tingkat ATK, dan MOV SPD pasukan sekutu sebanyak 45% selama 8 detik." />
+    <List Id="80449" Txt="Meningkatkan ATK, tingkat ATK, dan MOV SPD pasukan sekutu sebanyak 50% selama 8 detik." />
+    <List Id="80481" Txt="Menyerap 15% HP dari 2 musuh. " />
+    <List Id="80482" Txt="Menyerap 15% HP dari 3 musuh. " />
+    <List Id="80483" Txt="Menyerap 15% HP dari 4 musuh. " />
+    <List Id="80484" Txt="Menyerap 15% HP dari 5 musuh. " />
+    <List Id="80485" Txt="Menyerap 15% HP dari 6 musuh. " />
+    <List Id="80486" Txt="Menyerap 15% HP dari 7 musuh. " />
+    <List Id="80487" Txt="Menyerap 15% HP dari 8 musuh. " />
+    <List Id="80488" Txt="Menyerap 15% HP dari 9 musuh. " />
+    <List Id="80489" Txt="Menyerap 15% HP dari 10 musuh. " />
+    <List Id="80501" Txt="Mengurangi MOV SPD dari 6 musuh secara acak pada peta sebanyak 30% selama 6 detik." />
+    <List Id="80502" Txt="Mengurangi MOV SPD dari 8 musuh secara acak pada peta sebanyak 35% selama 7 detik." />
+    <List Id="80503" Txt="Mengurangi MOV SPD dari 10 musuh secara acak pada peta sebanyak 40% selama 8 detik." />
+    <List Id="80504" Txt="Mengurangi MOV SPD dari 12 musuh secara acak pada peta sebanyak 45% selama 9 detik." />
+    <List Id="80505" Txt="Mengurangi MOV SPD dari 14 musuh secara acak pada peta sebanyak 50% selama 10 detik." />
+    <List Id="80506" Txt="Mengurangi MOV SPD dari 16 musuh secara acak pada peta sebanyak 55% selama 11 detik." />
+    <List Id="80507" Txt="Mengurangi MOV SPD dari 18 musuh secara acak pada peta sebanyak 60% selama 12 detik." />
+    <List Id="80508" Txt="Mengurangi MOV SPD dari 20 musuh secara acak pada peta sebanyak 65% selama 13 detik." />
+    <List Id="80509" Txt="Mengurangi MOV SPD dari 22 musuh secara acak pada peta sebanyak 70% selama 14 detik." />
+    <List Id="85501" Txt="Pengorbanan" />
+    <List Id="85502" Txt="Pengorbanan Separuh" />
+    <List Id="85503" Txt="Pengorbanan Besar" />
+    <List Id="90001" Txt="Hidupkan kembali dengan 10% HP dipulihkan." />
+    <List Id="90002" Txt="Hidupkan kembali dengan 15% HP dipulihkan." />
+    <List Id="90003" Txt="Hidupkan kembali dengan 20% HP dipulihkan." />
+    <List Id="90004" Txt="Hidupkan kembali dengan 25% HP dipulihkan." />
+    <List Id="90005" Txt="Hidupkan kembali dengan 30% HP dipulihkan." />
+    <List Id="90011" Txt="Mempunyai peluang 10% untuk menyebabkan Koma selama 1 dtk pada target ketika menyerang." />
+    <List Id="90012" Txt="Mempunyai peluang 10% untuk menyebabkan Koma selama 1.5 dtk pada target ketika menyerang." />
+    <List Id="90013" Txt="Mempunyai peluang 10% untuk menyebabkan Koma selama 2 dtk pada target ketika menyerang." />
+    <List Id="90014" Txt="Mempunyai peluang 10% untuk menyebabkan Koma selama 2.5 dtk pada target ketika menyerang." />
+    <List Id="90015" Txt="Mempunyai peluang 10% untuk menyebabkan Koma selama 3 dtk pada target ketika menyerang." />
+    <List Id="90021" Txt="Mendapat 20% Energi di awal pertempuran." />
+    <List Id="90022" Txt="Mendapat 40% Energi di awal pertempuran." />
+    <List Id="90023" Txt="Mendapat 60% Energi di awal pertempuran." />
+    <List Id="90024" Txt="Mendapat 80% Energi di awal pertempuran." />
+    <List Id="90025" Txt="Mendapat 100% Energi di awal pertempuran." />
+    <List Id="90031" Txt="Mempunyai peluang 5% untuk meniadakan semua kerusakan ketika diserang." />
+    <List Id="90032" Txt="Mempunyai peluang 6% untuk meniadakan semua kerusakan ketika diserang." />
+    <List Id="90033" Txt="Mempunyai peluang 7% untuk meniadakan semua kerusakan ketika diserang." />
+    <List Id="90034" Txt="Mempunyai peluang 8% untuk meniadakan semua kerusakan ketika diserang." />
+    <List Id="90035" Txt="Mempunyai peluang 9% untuk meniadakan semua kerusakan ketika diserang." />
+    <List Id="90041" Txt="Menimbulkan 100% kerusakan pada musuh terdekat setelah kematian." />
+    <List Id="90042" Txt="Menimbulkan 175% kerusakan pada musuh terdekat setelah kematian." />
+    <List Id="90043" Txt="Menimbulkan 250% kerusakan pada musuh terdekat setelah kematian." />
+    <List Id="90044" Txt="Menimbulkan 325% kerusakan pada musuh terdekat setelah kematian." />
+    <List Id="90045" Txt="Menimbulkan 400% kerusakan pada musuh terdekat setelah kematian." />
+    <List Id="90051" Txt="Mempunyai peluang 10% untuk mengakibatkan 3x lebih banyak kerusakan ketika menyerang" />
+    <List Id="90052" Txt="Mempunyai peluang 10% untuk mengakibatkan 4x lebih banyak kerusakan ketika menyerang" />
+    <List Id="90053" Txt="Mempunyai peluang 10% untuk mengakibatkan 5x lebih banyak kerusakan ketika menyerang" />
+    <List Id="90054" Txt="Mempunyai peluang 10% untuk mengakibatkan 6x  lebih banyak kerusakan ketika menyerang" />
+    <List Id="90055" Txt="Mempunyai peluang 10% untuk mengakibatkan 7x lebih banyak kerusakan ketika menyerang" />
+    <List Id="90061" Txt="Menangkis 8% kerusakan yang diterima." />
+    <List Id="90062" Txt="Menangkis 11% kerusakan yang diterima." />
+    <List Id="90063" Txt="Menangkis 14% kerusakan yang diterima." />
+    <List Id="90064" Txt="Menangkis 17% kerusakan yang diterima." />
+    <List Id="90065" Txt="Menangkis 20% kerusakan yang diterima." />
+    <List Id="90071" Txt="Mempunyai peluang 5% untuk menangkis 100% kerusakan yang diterima." />
+    <List Id="90072" Txt="Mempunyai peluang 6% untuk menangkis 100% kerusakan yang diterima." />
+    <List Id="90073" Txt="Mempunyai peluang 7% untuk menangkis 100% kerusakan yang diterima." />
+    <List Id="90074" Txt="Mempunyai peluang 8% untuk menangkis 100% kerusakan yang diterima." />
+    <List Id="90075" Txt="Mempunyai peluang 9% untuk menangkis 100% kerusakan yang diterima." />
+    <List Id="90081" Txt="Mengurangi Energi target sebanyak 5 ketika menyerang." />
+    <List Id="90082" Txt="Mengurangi Energi target sebanyak 10 ketika menyerang." />
+    <List Id="90083" Txt="Mengurangi Energi target sebanyak 15 ketika menyerang." />
+    <List Id="90084" Txt="Mengurangi Energi target sebanyak 20 ketika menyerang." />
+    <List Id="90085" Txt="Mengurangi Energi target sebanyak 25 ketika menyerang." />
+    <List Id="90091" Txt="Mempunyai peluang 25% untuk mengurangi SPD musuh sebanyak 30% selama 5 dtk ketika menyerang." />
+    <List Id="90092" Txt="Mempunyai peluang 25% untuk mengurangi SPD musuh sebanyak 40% selama 5 dtk ketika menyerang." />
+    <List Id="90093" Txt="Mempunyai peluang 25% untuk mengurangi SPD musuh sebanyak 50% selama 5 dtk ketika menyerang." />
+    <List Id="90094" Txt="Mempunyai peluang 25% untuk mengurangi SPD musuh sebanyak 60% selama 5 dtk ketika menyerang." />
+    <List Id="90095" Txt="Mempunyai peluang 25% untuk mengurangi SPD musuh sebanyak 70% selama 5 dtk ketika menyerang." />
+    <List Id="90101" Txt="Meningkatkan MOV SPD sebanyak 10%." />
+    <List Id="90102" Txt="Meningkatkan MOV SPD sebanyak 20%." />
+    <List Id="90103" Txt="Meningkatkan MOV SPD sebanyak 30%." />
+    <List Id="90104" Txt="Meningkatkan MOV SPD sebanyak 40%." />
+    <List Id="90105" Txt="Meningkatkan MOV SPD sebanyak 50%." />
+    <List Id="90111" Txt="Meningkatkan ATK SPD sebanyak 10%." />
+    <List Id="90112" Txt="Meningkatkan ATK SPD sebanyak 15%." />
+    <List Id="90113" Txt="Meningkatkan ATK SPD sebanyak 20%." />
+    <List Id="90114" Txt="Meningkatkan ATK SPD sebanyak 25%." />
+    <List Id="90115" Txt="Meningkatkan ATK SPD sebanyak 30%." />
+    <List Id="90121" Txt="Mengurangi kerusakan yang diterima sebanyak 5%." />
+    <List Id="90122" Txt="Mengurangi kerusakan yang diterima sebanyak 10%." />
+    <List Id="90123" Txt="Mengurangi kerusakan yang diterima sebanyak 15%." />
+    <List Id="90124" Txt="Mengurangi kerusakan yang diterima sebanyak 20%." />
+    <List Id="90125" Txt="Mengurangi kerusakan yang diterima sebanyak 25%." />
+    <List Id="90131" Txt="Meningkatkan ATK sebanyak 10%." />
+    <List Id="90132" Txt="Meningkatkan ATK sebanyak 15%." />
+    <List Id="90133" Txt="Meningkatkan ATK sebanyak 20%." />
+    <List Id="90134" Txt="Meningkatkan ATK sebanyak 25%." />
+    <List Id="90135" Txt="Meningkatkan ATK sebanyak 30%." />
+    <List Id="90141" Txt="Meningkatkan HP sebanyak 10%." />
+    <List Id="90142" Txt="Meningkatkan HP sebanyak 15%." />
+    <List Id="90143" Txt="Meningkatkan HP sebanyak 20%." />
+    <List Id="90144" Txt="Meningkatkan HP sebanyak 25%." />
+    <List Id="90145" Txt="Meningkatkan HP sebanyak 30%." />
+    <List Id="91000" Txt="(Setiap penyegaran kekuatan berharga 300 Permata)" />
+    <List Id="91001" Txt="Adakah anda ingin membuka kunci slot Pahlawan baru?" />
+    <List Id="91002" Txt="Setiap Pahlawan tambahan yang direkrut akan lebih mahal. Biaya perekrutan akan kembali ke harga dasar (500) besok." />
+    <List Id="91003" Txt="Slot Pahlawan maksimum tercapai." />
+    <List Id="91501" Txt="Menyumbang 100 EXP Keahlian saat dikorbankan." />
+    <List Id="91502" Txt="Menyumbang 600 EXP Keahlian saat dikorbankan." />
+    <List Id="91503" Txt="Menyumbang 3.000 EXP Keahlian saat dikorbankan." />
+    <List Id="91511" Txt="Mempunyai 25% peluang untuk memicu Gelombang Gempa, menyebabkan kerusakan sebanyak 250% ATK sebagai DMG pada sebuah target." />
+    <List Id="91521" Txt="Mempunyai 25% peluang untuk memicu Misil Sihir, menyebabkan kerusakan sebanyak 250% DMG pada paling banyak 5 target." />
+    <List Id="91531" Txt="Mempunyai 25% peluang untuk menyebabkan kerusakan sebanyak 250% DMG pada paling banyak 5 Pahlawan dan menyebabkan Koma selama 2 detik." />
+  </Text>
+  <Text Type="13" TypeTxt="名稱">
+    <List Id="34001" Txt="Penjara 1" />
+    <List Id="34002" Txt="Penjara 2" />
+    <List Id="34003" Txt="Penjara 3" />
+    <List Id="34004" Txt="Penjara 4" />
+    <List Id="34005" Txt="Penjara 5" />
+    <List Id="34006" Txt="Penjara 6" />
+    <List Id="34007" Txt="Penjara 7" />
+    <List Id="34008" Txt="Penjara 8" />
+    <List Id="34009" Txt="Pencapaian" />
+    <List Id="34010" Txt="Selesai:" />
+    <List Id="34011" Txt="Mantra" />
+    <List Id="34012" Txt="Waktu Penelitian" />
+    <List Id="34013" Txt="Penjara" />
+    <List Id="34014" Txt="Penjara bertanda Tengkorak berpeluang lebih besar untuk mendapatkan Pecahan Pahlawan!" />
+    <List Id="34015" Txt="Ganti Pahlawan" />
+    <List Id="34016" Txt="Membuka kunci bangunan berlevel %d!" />
+    <List Id="34017" Txt="Anda sudah memiliki mantra ini!" />
+    <List Id="34018" Txt="PENUH" />
+    <List Id="34019" Txt="Mainkan Lagi!" />
+    <List Id="34020" Txt="Gunakan Permata untuk mendapatkan lebih banyak peluang memasuki Penjara!" />
+    <List Id="34021" Txt="Kerusakan HP:" />
+    <List Id="34022" Txt="Kerusakan Tetap:" />
+    <List Id="34023" Txt="Memulihkan HP:" />
+    <List Id="34024" Txt="Pemulihan Tetap:" />
+    <List Id="34025" Txt="Meningkatkan ATK:" />
+    <List Id="34026" Txt="Durasi Sihir:" />
+    <List Id="34027" Txt="Kerusakan Bangunan:" />
+    <List Id="34028" Txt="Kerusakan Bangunan Tetap:" />
+    <List Id="34029" Txt="Durasi Efektif:" />
+    <List Id="34030" Txt="Mengurangi HP:" />
+    <List Id="34031" Txt="Kerusakan Berkelanjutan:" />
+    <List Id="34032" Txt="Mengurangi ATK:" />
+    <List Id="34033" Txt="ATK SPD:" />
+    <List Id="34034" Txt="MOV SPD:" />
+    <List Id="34035" Txt="Jumlah Penghidupan Kembali:" />
+    <List Id="34036" Txt="Durasi Efektif:" />
+    <List Id="34037" Txt="Pasukan Tak Terkalahkan:" />
+    <List Id="34038" Txt="Efek Sihir:" />
+    <List Id="34039" Txt="Sarankan di Google+" />
+    <List Id="34040" Txt="Suka kami? Beri Penilaian!" />
+    <List Id="34041" Txt="Beli Permata!" />
+    <List Id="34042" Txt="Saran: Tekan pada mantra untuk membelinya." />
+    <List Id="34043" Txt="Pengorbanan" />
+    <List Id="34044" Txt="Biasa" />
+    <List Id="34045" Txt="Elit" />
+    <List Id="34046" Txt="Legenda" />
+    <List Id="34047" Txt="Dapatkan Permata" />
+    <List Id="34048" Txt="Ayo" />
+    <List Id="34049" Txt="Klaim" />
+    <List Id="34050" Txt="Permata Gratis!" />
+    <List Id="34051" Txt="Beli 230 Permata untuk mendapatkan Pahlawan!" />
+    <List Id="34052" Txt="Beli 600 Permata untuk mendapatkan Pahlawan!" />
+    <List Id="34053" Txt="Beli 3.000 Permata untuk mendapatkan Pahlawan!" />
+    <List Id="34054" Txt="Beli 15.000 Permata untuk mendapatkan Pahlawan!" />
+    <List Id="34055" Txt="Beli 50.000 Permata untuk mendapatkan Pahlawan!" />
+    <List Id="34056" Txt="Tukar" />
+    <List Id="34057" Txt="Lanjutkan dengan pertukaran ini?" />
+    <List Id="34058" Txt="Anda tidak dapat menyerang sini! Silahkan pilih area lain." />
+    <List Id="34059" Txt="Acara Lainnya!" />
+    <List Id="34060" Txt="Tekan sebuah mantra untuk menyihirkan pada target!" />
+    <List Id="34061" Txt="Anda dapat mengendalikan arah mantra itu disihirkan dengan memiringkan perangkatmu!" />
+    <List Id="34062" Txt="Anda dapat memandu penerbangan Phoenix!" />
+    <List Id="34063" Txt="Masalah Pembayaran" />
+    <List Id="34064" Txt="Masalah Koneksi" />
+    <List Id="34065" Txt="Masalah Lain" />
+    <List Id="34066" Txt="Masukan" />
+    <List Id="34067" Txt="Peluang:" />
+    <List Id="34068" Txt="Pecahan Pahlawan mungkin saja didapat di Penjara!" />
+    <List Id="34069" Txt="Tempatkan Pahlawan" />
+    <List Id="34070" Txt="Beli Sihir" />
+    <List Id="34071" Txt="Level:" />
+    <List Id="34072" Txt="Petunjuk:" />
+    <List Id="34073" Txt="IGG ID:" />
+    <List Id="34074" Txt="Forum" />
+    <List Id="34075" Txt="Musik" />
+    <List Id="34076" Txt="ON" />
+    <List Id="34077" Txt="Suara" />
+    <List Id="34078" Txt="Bahasa" />
+    <List Id="34079" Txt="Indonesia" />
+    <List Id="34080" Txt="Persyaratan Layanan" />
+    <List Id="34081" Txt="Laporkan Bug" />
+    <List Id="34082" Txt="Kebijakan Privasi" />
+    <List Id="34083" Txt="Laporkan Bug" />
+    <List Id="34084" Txt="Email" />
+    <List Id="34085" Txt="Versi 1.00" />
+    <List Id="34086" Txt="Hak Cipta 2012-2013 IGG.com Semua Hak Dilindungi Undang-Undang" />
+    <List Id="34087" Txt="Help.castle.id@igg.com" />
+    <List Id="34088" Txt="OFF" />
+    <List Id="34089" Txt="Dipekerjakan Dengan" />
+    <List Id="34090" Txt="Lencana Kehormatan" />
+    <List Id="34091" Txt="Permata" />
+    <List Id="34092" Txt="Pecahan" />
+    <List Id="34093" Txt="Pemberitahuan" />
+    <List Id="34094" Txt="Ikutlah saya!" />
+    <List Id="34095" Txt="Akun Tidak Terhubung!" />
+    <List Id="34096" Txt="Tautan" />
+    <List Id="34097" Txt="Konfirmasi Hubungan?" />
+    <List Id="34098" Txt="Ganti
+
+" />
+    <List Id="34099" Txt="Konfirmasi Penggantian?" />
+    <List Id="34100" Txt="Terhubung!" />
+    <List Id="34101" Txt="Penghubungan Sukses!" />
+    <List Id="34102" Txt="Penghubungan Gagal!" />
+    <List Id="34103" Txt="Pengumuman Perawatan" />
+    <List Id="34104" Txt="Pertahanan Berhasil!" />
+    <List Id="34105" Txt="Pertahanan Gagal!" />
+    <List Id="34106" Txt="Teman-teman" />
+    <List Id="34107" Txt="Pesan Pribadi" />
+    <List Id="34108" Txt="Tambahkan sebagai Teman" />
+    <List Id="34109" Txt="Gagal Mengganti Akun!" />
+    <List Id="34110" Txt="Login Tamu" />
+    <List Id="34111" Txt="Menghubungkan Akun Sekarang" />
+    <List Id="34112" Txt="Ke %s" />
+    <List Id="34113" Txt="Ikat Akun Google+" />
+    <List Id="34114" Txt="Bertukar Akun…" />
+    <List Id="34115" Txt="Sukses bertukar akun!" />
+    <List Id="34116" Txt="Silahkan mengesahkan akun ini sebelum menghubungkan." />
+    <List Id="34117" Txt="Hapus teman" />
+    <List Id="34118" Txt="Pemain sudah menjadi teman anda!" />
+    <List Id="34119" Txt="Daftar Teman anda telah Penuh!" />
+    <List Id="34120" Txt="Tingkat Serangan:" />
+    <List Id="34121" Txt="Akun ini telah dihubungkan!" />
+    <List Id="34122" Txt="Persayaratan Peningkatan" />
+    <List Id="34123" Txt="Keahlian Pertahanan" />
+    <List Id="34124" Txt="Translation is missing" />
+    <List Id="34125" Txt="Akun anda belum terhubung dan olehnya anda tidak dapat berbicara, apakah anda ingin melanjutkan dengan menghubungkan akun anda terlebih dulu?" />
+    <List Id="34126" Txt="Translation is missing" />
+    <List Id="34127" Txt="Translation is missing" />
+    <List Id="34128" Txt="Selesai" />
+    <List Id="34129" Txt="Translation is missing" />
+    <List Id="34130" Txt="Garnisun" />
+    <List Id="34131" Txt="Pangkat Pahlawan yang berbeda menghasilkan efek yang berbeda." />
+    <List Id="34132" Txt="Rekaman gagal!" />
+    <List Id="34133" Txt="Gmail ini telah terhubung dengan akun lain." />
+    <List Id="34134" Txt="Help.castle.apple@igg.com" />
+    <List Id="34135" Txt="Peringkat diperbaharui setiap hari pada 00:00" />
+    <List Id="34136" Txt="Translation is missing" />
+    <List Id="34137" Txt="Translation is missing" />
+    <List Id="34138" Txt="Silahkan login dan coba kembali." />
+    <List Id="34139" Txt="Silahkan mencoba kembali dalam 1 - 2 jam." />
+    <List Id="34140" Txt="Akun Tamu ini telah terhubung ke akun lainnya. Silahkan rubah akun Google anda dan coba kembali." />
+    <List Id="34141" Txt="Akun ini telah terhubung! Penghubungan tidak lagi diperlukan. " />
+    <List Id="34142" Txt="Peringkat telah berubah di daftar lawan. Silahkan pilih lawan yang baru." />
+    <List Id="34143" Txt="91VIP特权礼包" />
+    <List Id="34144" Txt="天盟&amp;91携手礼包" />
+    <List Id="34145" Txt="Efek Sekarang" />
+    <List Id="34146" Txt="Nol" />
+    <List Id="34147" Txt="Level Selanjutnya" />
+    <List Id="34148" Txt="Sudah mencapai Level Maksimum." />
+    <List Id="34149" Txt="Reli" />
+    <List Id="34150" Txt="Ikutlah saya!" />
+    <List Id="34151" Txt="Hei, saya bermain di Castle Clash! Mari datang bergabung dan ayo bertempur bersama!https://play.google.com/store/apps/details?id=com.igg.castleclash_id" />
+    <List Id="34152" Txt="公测大礼包" />
+    <List Id="34153" Txt="争霸大礼包" />
+    <List Id="34154" Txt="Indonesia" />
+    <List Id="34155" Txt="关注小米游戏中心" />
+    <List Id="34156" Txt="关注小米论坛" />
+    <List Id="34157" Txt="Tukarkan Bakat?" />
+    <List Id="34158" Txt="Tukarkan" />
+    <List Id="34159" Txt="Apakah Anda yakin ingin melewatkan Tutorial?" />
+  </Text>
+  <Text Type="14" TypeTxt="新炮臺信息">
+    <List Id="35000" Txt="Translation is missing" />
+    <List Id="35001" Txt="Meningkatkan Jangkauan sebanyak 3. Pahlawan akan dijadikan target dahulu." />
+    <List Id="35002" Txt="Meningkatkan Jangkauan sebanyak 6. Pahlawan akan dijadikan target dahulu." />
+    <List Id="35003" Txt="Meningkatkan Jangkauan sebanyak 9. Pahlawan akan dijadikan target dahulu." />
+    <List Id="35004" Txt="Meningkatkan Jangkauan sebanyak 12. Pahlawan akan dijadikan target dahulu." />
+    <List Id="35005" Txt="Meningkatkan Jangkauan sebanyak 15. Pahlawan akan dijadikan target dahulu." />
+    <List Id="35011" Txt="Menimbulkan 150% DMG pada Pahlawan. " />
+    <List Id="35012" Txt="Menimbulkan 200% DMG pada Pahlawan." />
+    <List Id="35013" Txt="Menimbulkan 250% DMG pada Pahlawan." />
+    <List Id="35014" Txt="Menimbulkan 300% DMG pada Pahlawan." />
+    <List Id="35015" Txt="Menimbulkan 350% DMG pada Pahlawan." />
+    <List Id="35021" Txt="Meningkatkan HP sebanyak 10% dan DMG yang ditimbulkan sebanyak 2%." />
+    <List Id="35022" Txt="Meningkatkan HP sebanyak 20% dan DMG yang ditimbulkan sebanyak 4%." />
+    <List Id="35023" Txt="Meningkatkan HP sebanyak 30% dan DMG yang ditimbulkan sebanyak 6%." />
+    <List Id="35024" Txt="Meningkatkan HP sebanyak 40% dan DMG yang ditimbulkan sebanyak 8%." />
+    <List Id="35025" Txt="Meningkatkan HP sebanyak 50% dan DMG yang ditimbulkan sebanyak 10%." />
+    <List Id="35031" Txt="Meningkatkan DMG sebanyak 20%" />
+    <List Id="35032" Txt="Meningkatkan DMG sebanyak 40%" />
+    <List Id="35033" Txt="Meningkatkan DMG sebanyak 60%" />
+    <List Id="35034" Txt="Meningkatkan DMG sebanyak 80%" />
+    <List Id="35035" Txt="Meningkatkan DMG sebanyak 100%" />
+    <List Id="35041" Txt="Meningkatkan jangkauan Meriam sebanyak 1." />
+    <List Id="35042" Txt="Meningkatkan jangkauan Meriam sebanyak 2." />
+    <List Id="35043" Txt="Meningkatkan jangkauan Meriam sebanyak 3." />
+    <List Id="35044" Txt="Meningkatkan jangkauan Meriam sebanyak 4." />
+    <List Id="35045" Txt="Meningkatkan jangkauan Meriam sebanyak 5." />
+    <List Id="35051" Txt="Mempunyai peluang 15% untuk melepas 2 tembakan Meriam dalam satu waktu." />
+    <List Id="35052" Txt="Mempunyai peluang 25% untuk melepas 3 tembakan Meriam dalam satu waktu." />
+    <List Id="35053" Txt="Mempunyai peluang 35% untuk melepas 4 tembakan Meriam dalam satu waktu." />
+    <List Id="35054" Txt="Mempunyai peluang 45% untuk melepas 5 tembakan Meriam dalam satu waktu." />
+    <List Id="35055" Txt="Mempunyai peluang 55% untuk melepas 6 tembakan Meriam dalam satu waktu." />
+    <List Id="35061" Txt="Meningkatkan ATK SPD sebanyak 10%" />
+    <List Id="35062" Txt="Meningkatkan ATK SPD sebanyak 20%" />
+    <List Id="35063" Txt="Meningkatkan ATK SPD sebanyak 30%" />
+    <List Id="35064" Txt="Meningkatkan ATK SPD sebanyak 40%" />
+    <List Id="35065" Txt="Meningkatkan ATK SPD sebanyak 50%" />
+    <List Id="35071" Txt="Mempunyai peluang 5% untuk menyebabkan status Koma pada target selama 1.5 detik." />
+    <List Id="35072" Txt="Mempunyai peluang 10% untuk menyebabkan status Koma pada target selama 1.5 detik." />
+    <List Id="35073" Txt="Mempunyai peluang 15% untuk menyebabkan status Koma pada target selama 1.5 detik." />
+    <List Id="35074" Txt="Mempunyai peluang 20% untuk menyebabkan status Koma pada target selama 1.5 detik." />
+    <List Id="35075" Txt="Mempunyai peluang 25% untuk menyebabkan status Koma pada target selama 1.5 detik." />
+    <List Id="35081" Txt="Meningkatkan target serangan sebanyak 1 dan tambahan DMG sebanyak 5%." />
+    <List Id="35082" Txt="Meningkatkan target serangan sebanyak 2 dan tambahan DMG sebanyak 10%." />
+    <List Id="35083" Txt="Meningkatkan target serangan sebanyak 3 dan tambahan DMG sebanyak 15%." />
+    <List Id="35084" Txt="Meningkatkan target serangan sebanyak 4 dan tambahan DMG sebanyak 20%." />
+    <List Id="35085" Txt="Meningkatkan target serangan sebanyak 5 dan tambahan DMG sebanyak 25%." />
+  </Text>
+  <Text Type="15" TypeTxt="公会信息">
+    <List Id="36000" Txt="miss……" />
+    <List Id="36001" Txt="miss……" />
+    <List Id="36002" Txt="miss……" />
+    <List Id="36003" Txt="miss……" />
+    <List Id="36004" Txt="miss……" />
+    <List Id="36005" Txt="miss……" />
+    <List Id="36006" Txt="miss……" />
+    <List Id="36007" Txt="miss……" />
+    <List Id="36008" Txt="miss……" />
+    <List Id="36009" Txt="miss……" />
+    <List Id="36010" Txt="miss……" />
+    <List Id="36011" Txt="miss……" />
+    <List Id="36012" Txt="miss……" />
+    <List Id="36013" Txt="miss……" />
+    <List Id="36014" Txt="miss……" />
+    <List Id="36015" Txt="miss……" />
+    <List Id="36016" Txt="miss……" />
+    <List Id="36017" Txt="miss……" />
+    <List Id="36018" Txt="miss……" />
+    <List Id="36019" Txt="miss……" />
+    <List Id="36020" Txt="miss……" />
+    <List Id="36021" Txt="miss……" />
+    <List Id="36022" Txt="miss……" />
+    <List Id="36023" Txt="miss……" />
+    <List Id="36024" Txt="miss……" />
+    <List Id="36025" Txt="miss……" />
+    <List Id="36026" Txt="miss……" />
+    <List Id="36027" Txt="miss……" />
+    <List Id="36028" Txt="miss……" />
+    <List Id="36029" Txt="miss……" />
+    <List Id="36030" Txt="miss……" />
+    <List Id="36031" Txt="miss……" />
+    <List Id="36032" Txt="miss……" />
+    <List Id="36033" Txt="miss……" />
+    <List Id="36034" Txt="miss……" />
+    <List Id="36035" Txt="miss……" />
+    <List Id="36036" Txt="miss……" />
+    <List Id="36037" Txt="miss……" />
+    <List Id="36038" Txt="miss……" />
+    <List Id="36039" Txt="miss……" />
+    <List Id="36040" Txt="miss……" />
+    <List Id="36041" Txt="miss……" />
+    <List Id="36042" Txt="miss……" />
+    <List Id="36043" Txt="miss……" />
+    <List Id="36044" Txt="miss……" />
+    <List Id="36045" Txt="miss……" />
+    <List Id="36046" Txt="miss……" />
+    <List Id="36047" Txt="miss……" />
+    <List Id="36048" Txt="miss……" />
+    <List Id="36049" Txt="miss……" />
+    <List Id="36050" Txt="miss……" />
+    <List Id="36051" Txt="miss……" />
+    <List Id="36052" Txt="miss……" />
+    <List Id="36053" Txt="miss……" />
+    <List Id="36054" Txt="miss……" />
+    <List Id="36055" Txt="miss……" />
+    <List Id="36056" Txt="miss……" />
+    <List Id="36057" Txt="miss……" />
+    <List Id="36058" Txt="miss……" />
+    <List Id="36059" Txt="miss……" />
+    <List Id="36060" Txt="miss……" />
+    <List Id="36061" Txt="miss……" />
+    <List Id="36062" Txt="miss……" />
+    <List Id="36063" Txt="miss……" />
+    <List Id="36064" Txt="miss……" />
+    <List Id="36065" Txt="miss……" />
+    <List Id="36066" Txt="miss……" />
+    <List Id="36067" Txt="miss……" />
+    <List Id="36068" Txt="miss……" />
+    <List Id="36069" Txt="miss……" />
+    <List Id="36070" Txt="miss……" />
+    <List Id="36071" Txt="miss……" />
+    <List Id="36072" Txt="miss……" />
+    <List Id="36073" Txt="miss……" />
+    <List Id="36074" Txt="miss……" />
+    <List Id="36075" Txt="miss……" />
+    <List Id="36076" Txt="miss……" />
+    <List Id="36077" Txt="miss……" />
+    <List Id="36078" Txt="miss……" />
+    <List Id="36079" Txt="miss……" />
+    <List Id="36080" Txt="miss……" />
+    <List Id="36081" Txt="miss……" />
+    <List Id="36082" Txt="miss……" />
+    <List Id="36083" Txt="miss……" />
+    <List Id="36084" Txt="miss……" />
+    <List Id="36085" Txt="miss……" />
+    <List Id="36086" Txt="miss……" />
+    <List Id="36087" Txt="miss……" />
+    <List Id="36088" Txt="miss……" />
+    <List Id="36089" Txt="miss……" />
+    <List Id="36090" Txt="miss……" />
+    <List Id="36091" Txt="miss……" />
+    <List Id="36092" Txt="miss……" />
+    <List Id="36093" Txt="miss……" />
+    <List Id="36094" Txt="miss……" />
+    <List Id="36095" Txt="miss……" />
+    <List Id="36096" Txt="miss……" />
+    <List Id="36097" Txt="miss……" />
+    <List Id="36098" Txt="miss……" />
+    <List Id="36099" Txt="miss……" />
+    <List Id="36100" Txt="miss……" />
+    <List Id="36101" Txt="miss……" />
+    <List Id="36102" Txt="miss……" />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+  </Text>
+</Config>
+
+<!--
+建表时间【2013.08.22】 by CXG
+关联配置表：
+Building.xml
+-->

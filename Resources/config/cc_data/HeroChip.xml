@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<HeroChip Name="英雄碎片表">
+<List nID="100" szName="恶魔猎手" IconID="103" iHeroID="102" iChipCount="50" Description="0" szDrop="0" />
+<List nID="200" szName="守望者" IconID="203" iHeroID="201" iChipCount="30" Description="0" szDrop="0" />
+<List nID="300" szName="无极剑圣" IconID="303" iHeroID="301" iChipCount="30" Description="0" szDrop="0" />
+<List nID="400" szName="熊猫阿宝" IconID="403" iHeroID="401" iChipCount="30" Description="0" szDrop="0" />
+<List nID="500" szName="白虎" IconID="503" iHeroID="501" iChipCount="30" Description="0" szDrop="0" />
+<List nID="600" szName="小黑" IconID="603" iHeroID="601" iChipCount="30" Description="0" szDrop="0" />
+<List nID="700" szName="山丘" IconID="703" iHeroID="702" iChipCount="50" Description="0" szDrop="0" />
+<List nID="800" szName="黑暗剑士" IconID="803" iHeroID="802" iChipCount="50" Description="0" szDrop="0" />
+<List nID="900" szName="小冰冰" IconID="903" iHeroID="902" iChipCount="50" Description="0" szDrop="0" />
+<List nID="1000" szName="奥斯卡" IconID="1003" iHeroID="1003" iChipCount="100" Description="0" szDrop="0" />
+<List nID="1100" szName="邪鬼" IconID="1103" iHeroID="1103" iChipCount="100" Description="0" szDrop="0" />
+<List nID="1200" szName="暗影猎手" IconID="1203" iHeroID="1205" iChipCount="9999" Description="0" szDrop="0" />
+<List nID="1300" szName="地狱男爵" IconID="1303" iHeroID="1305" iChipCount="9999" Description="0" szDrop="0" />
+<List nID="1400" szName="麦林炮手" IconID="1403" iHeroID="1405" iChipCount="9999" Description="0" szDrop="0" />
+<List nID="1500" szName="DV.A" IconID="1503" iHeroID="1501" iChipCount="30" Description="0" szDrop="0" />
+<List nID="1600" szName="道路霸主" IconID="1603" iHeroID="1603" iChipCount="100" Description="0" szDrop="0" />
+<List nID="1700" szName="黑暗天使" IconID="1703" iHeroID="1703" iChipCount="100" Description="0" szDrop="0" />
+<List nID="1800" szName="森林守护" IconID="1803" iHeroID="1801" iChipCount="30" Description="0" szDrop="0" />
+<List nID="1900" szName="污妖" IconID="1903" iHeroID="1902" iChipCount="50" Description="0" szDrop="0" />
+<List nID="2000" szName="小美" IconID="2003" iHeroID="2002" iChipCount="50" Description="0" szDrop="0" />
+<List nID="2100" szName="天使" IconID="2103" iHeroID="2102" iChipCount="50" Description="0" szDrop="0" />
+<List nID="2200" szName="牛头" IconID="2203" iHeroID="2202" iChipCount="50" Description="0" szDrop="0" />
+<List nID="2300" szName="刀妹" IconID="2303" iHeroID="2302" iChipCount="9999" Description="0" szDrop="0" />
+<List nID="2400" szName="大猩猩" IconID="2403" iHeroID="2402" iChipCount="9999" Description="0" szDrop="0" />
+<List nID="2500" szName="德玛西亚" IconID="2503" iHeroID="2502" iChipCount="9999" Description="0" szDrop="0" />
+<List nID="9900" szName="未制作碎片碎片" IconID="9903" iHeroID="801" iChipCount="50" Description="0" szDrop="0" />
+</HeroChip>

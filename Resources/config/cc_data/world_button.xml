@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<world_button Name="世界地图建筑状态">
+<List ID="1" string="30101" icon="1" />
+<List ID="2" string="30102" icon="1" />
+<List ID="3" string="30103" icon="1" />
+<List ID="4" string="30104" icon="1" />
+<List ID="5" string="30105" icon="1" />
+</world_button>

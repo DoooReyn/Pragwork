@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Restraint Comment="攻击类型与护甲相克">
+  <List AttackType="1" Comment="近战">
+    <Items DefenseType="1" Ratio="1"/>
+    <Items DefenseType="2" Ratio="1.5"/>
+    <Items DefenseType="3" Ratio="0.75"/>
+    <Items DefenseType="4" Ratio="0.7"/>
+    <Items DefenseType="5" Ratio="0.65"/>
+  </List>
+  <List AttackType="2" Comment="穿刺">
+    <Items DefenseType="1" Ratio="1.5"/>
+    <Items DefenseType="2" Ratio="0.75"/>
+    <Items DefenseType="3" Ratio="1"/>
+    <Items DefenseType="4" Ratio="0.7"/>
+    <Items DefenseType="5" Ratio="0.65"/>
+  </List>
+  <List AttackType="3" Comment="魔法">
+    <Items DefenseType="1" Ratio="0.75"/>
+    <Items DefenseType="2" Ratio="1"/>
+    <Items DefenseType="3" Ratio="1.5"/>
+    <Items DefenseType="4" Ratio="0.7"/>
+    <Items DefenseType="5" Ratio="0.65"/>
+  </List>
+  <List AttackType="4" Comment="破坏">
+    <Items DefenseType="1" Ratio="0.5"/>
+    <Items DefenseType="2" Ratio="0.5"/>
+    <Items DefenseType="3" Ratio="0.5"/>
+    <Items DefenseType="4" Ratio="2.5"/>
+    <Items DefenseType="5" Ratio="0.65"/>
+  </List>
+  <List AttackType="5" Comment="英雄">
+    <Items DefenseType="1" Ratio="1.25"/>
+    <Items DefenseType="2" Ratio="1.25"/>
+    <Items DefenseType="3" Ratio="1.25"/>
+    <Items DefenseType="4" Ratio="1"/>
+    <Items DefenseType="5" Ratio="1"/>
+  </List>
+</Restraint>

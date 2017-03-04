@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<throwAreaInfo Name="投放区">
+    <List id="0" areaStartX="30" areaEndX="90" areaStartY="104" areaEndY="124" picX="60" picY="116" showArea="0"/>
+</throwAreaInfo>

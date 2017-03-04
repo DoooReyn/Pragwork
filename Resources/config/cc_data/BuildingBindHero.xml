@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Config XXName="炮台驻防配置表">
+  <List NameId="0" Type1="0" Type2="0">
+    <List Level="1" Exp="50" Attack_Favorite="2" Defense_Range="3" TextId="35001" NameId="35002"/>
+    <List Level="2" Exp="140" Attack_Favorite="2" Defense_Range="6" TextId="35002" NameId="35003"/>
+    <List Level="3" Exp="300" Attack_Favorite="2" Defense_Range="9" TextId="35003" NameId="35004"/>
+    <List Level="4" Exp="650" Attack_Favorite="2" Defense_Range="12" TextId="35004" NameId="35005"/>
+    <List Level="5" Exp="1200" Attack_Favorite="2" Defense_Range="15" TextId="35005" NameId="34148"/>
+  </List>
+  <List NameId="1" Type1="0" Type2="1">
+    <List Level="1" Exp="50" Defense_Hp="10" Defense_Attack2="2" TextId="35021" NameId="35022"/>
+    <List Level="2" Exp="140" Defense_Hp="20" Defense_Attack2="4" TextId="35022" NameId="35023"/>
+    <List Level="3" Exp="300" Defense_Hp="30" Defense_Attack2="6" TextId="35023" NameId="35024"/>
+    <List Level="4" Exp="650" Defense_Hp="40" Defense_Attack2="8" TextId="35024" NameId="35025"/>
+    <List Level="5" Exp="1200" Defense_Hp="50" Defense_Attack2="10" TextId="35025" NameId="34148"/>
+  </List>
+  <List NameId="2" Type1="0" Type2="2">
+    <List Level="1" Exp="50" Harm_Heroes="150" TextId="35011" NameId="35012"/>
+    <List Level="2" Exp="140" Harm_Heroes="200" TextId="35012" NameId="35013"/>
+    <List Level="3" Exp="300" Harm_Heroes="250" TextId="35013" NameId="35014"/>
+    <List Level="4" Exp="650" Harm_Heroes="300" TextId="35014" NameId="35015"/>
+    <List Level="5" Exp="1200" Harm_Heroes="350" TextId="35015" NameId="34148"/>
+  </List>
+  <List NameId="3" Type1="1" Type2="0">
+    <List Level="1" Exp="50" AOE_Range="1" TextId="35041" NameId="35042"/>
+    <List Level="2" Exp="140" AOE_Range="2" TextId="35042" NameId="35043"/>
+    <List Level="3" Exp="300" AOE_Range="3" TextId="35043" NameId="35044"/>
+    <List Level="4" Exp="650" AOE_Range="4" TextId="35044" NameId="35045"/>
+    <List Level="5" Exp="1200" AOE_Range="5" TextId="35045" NameId="34148"/>
+  </List>
+  <List NameId="4" Type1="1" Type2="1">
+    <List Level="1" Exp="50" Defense_Attack="20" TextId="35031" NameId="35032"/>
+    <List Level="2" Exp="140" Defense_Attack="40" TextId="35032" NameId="35033"/>
+    <List Level="3" Exp="300" Defense_Attack="60" TextId="35033" NameId="35034"/>
+    <List Level="4" Exp="650" Defense_Attack="80" TextId="35034" NameId="35035"/>
+    <List Level="5" Exp="1200" Defense_Attack="100" TextId="35035" NameId="34148"/>
+  </List>
+  <List NameId="5" Type1="1" Type2="2">
+    <List Level="1" Exp="50" Fired_2Shots="15" TextId="35051" NameId="35052"/>
+    <List Level="2" Exp="140" Fired_2Shots="25" TextId="35052" NameId="35053"/>
+    <List Level="3" Exp="300" Fired_2Shots="35" TextId="35053" NameId="35054"/>
+    <List Level="4" Exp="650" Fired_2Shots="45" TextId="35054" NameId="35055"/>
+    <List Level="5" Exp="1200" Fired_2Shots="55" TextId="35055" NameId="34148"/>
+  </List>
+  <List NameId="6" Type1="2" Type2="0">
+    <List Level="1" Exp="50" Defense_Attack_Speed="10" TextId="35061" NameId="35062"/>
+    <List Level="2" Exp="140" Defense_Attack_Speed="20" TextId="35062" NameId="35063"/>
+    <List Level="3" Exp="300" Defense_Attack_Speed="30" TextId="35063" NameId="35064"/>
+    <List Level="4" Exp="650" Defense_Attack_Speed="40" TextId="35064" NameId="35065"/>
+    <List Level="5" Exp="1200" Defense_Attack_Speed="50" TextId="35065" NameId="34148"/>
+  </List>
+  <List NameId="7" Type1="2" Type2="1">
+    <List Level="1" Exp="50" SkillId="1601" TextId="35071" NameId="35072"/>
+    <List Level="2" Exp="140" SkillId="1602" TextId="35072" NameId="35073"/>
+    <List Level="3" Exp="300" SkillId="1603" TextId="35073" NameId="35074"/>
+    <List Level="4" Exp="650" SkillId="1604" TextId="35074" NameId="35075"/>
+    <List Level="5" Exp="1200" SkillId="1605" TextId="35075" NameId="34148"/>
+  </List>
+  <List NameId="8" Type1="2" Type2="2">
+    <List Level="1" Exp="50" Defense_Attack="5" AOE_Number="1" TextId="35081" NameId="35082"/>
+    <List Level="2" Exp="140" Defense_Attack="10" AOE_Number="2" TextId="35082" NameId="35083"/>
+    <List Level="3" Exp="300" Defense_Attack="15" AOE_Number="3" TextId="35083" NameId="35084"/>
+    <List Level="4" Exp="650" Defense_Attack="20" AOE_Number="4" TextId="35084" NameId="35085"/>
+    <List Level="5" Exp="1200" Defense_Attack="25" AOE_Number="5" TextId="35085" NameId="34148"/>
+  </List>
+</Config>
+<!--
+配置表建立时间【2013.09.06】 by CXG
+
+NameId： 技能ID（每个炮台3个技能）
+Type1：  分类1（0弓箭塔、1火炮塔、2魔法塔）
+Type2：  分类2（0绿色 1蓝色 2紫色）对应不同的英雄品质，产生的效果
+Level：  等级（技能的对应等级）初始，为0级，不产生效果
+Exp：    升级所需经验（根据英雄放置后，统计出对应品质英雄提供的点数，累积经验值）
+
+【弓箭塔】
+Attack_Favorite：优先攻击的目标种类（0最近任意目标，1最近基本兵，2最近英雄，3最近资源建筑，4最近防御建筑）
+Defense_Hp：     炮台基础血值(增加%)     备注：对比原表数值来提升百分比
+Defense_Range：  最大射程&警戒范围(增加)   
+Defense_Attack2： 目标受到的伤害(增加%)   备注：被锁定后，该目标受到的所有伤害均提高．
+Harm_Heroes：    对英雄的伤害(倍数)    备注：攻击英雄时，提升伤害的倍数．(100代表1.0倍)
+
+【火炮塔】
+AOE_Range：      攻击分类4（AOE攻击范围）    备注：增加炮台的溅射效果（即爆炸的ＡＯＥ范围）
+Defense_Attack： 攻击(增加%)     备注：炮台伤害提升的百分比％（对比原表数值来提升）
+Fired_2Shots：   火炮塔 发射两个炮弹(概率%)  备注：炮台有一定的概率发射两个炮弹．
+
+【魔法塔】
+Defense_Attack_Speed：  攻击速度(秒)(增加%) 备注：对比原表数值来提升百分比
+【2013.09.23 删除】Stun_Target：         击晕目标1.5S(几率%) 备注：有一定的几率百分比，对目标造成1.5s的击晕效果．
+SkillId：               调用技能Skill配置表ID
+AOE_Number：            攻击分类3（攻击的目标数量）(增加)
+
+TextId： 当前级别效果描述
+NameId： 下一级效果描述
+
+-->

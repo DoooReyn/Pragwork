@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Achievement Name="成就配置">
+  <List KindID="0" Name="市政中心" NameID="32001" ImageIcon="icon/Achievement/jianzhu.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="市政中心等級達到4級" Level="1" BuildID="1" BuildLevel="4" RewardCash="15" TextId="33001"/>
+    <List1 Comment="市政中心等級達到12級" Level="2" BuildID="1" BuildLevel="12" RewardCash="40" TextId="33002"/>
+    <List2 Comment="市政中心等級達到20級" Level="3" BuildID="1" BuildLevel="20" RewardCash="100" TextId="33003"/>
+  </List>
+  <List KindID="1" Name="聚寶盆" NameID="32002" ImageIcon="icon/Achievement/jianzhu.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="金幣倉庫等級達到4級" Level="1" BuildID="6" BuildLevel="4" RewardCash="15" TextId="33004"/>
+    <List1 Comment="金幣倉庫等級達到12級" Level="2" BuildID="6" BuildLevel="12" RewardCash="40" TextId="33005"/>
+    <List2 Comment="金幣倉庫等級達到20級" Level="3" BuildID="6" BuildLevel="20" RewardCash="100" TextId="33006"/>
+  </List>
+  <List KindID="2" Name="水晶倉庫" NameID="32003" ImageIcon="icon/Achievement/jianzhu.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="水晶倉庫等級達到4級" Level="1" BuildID="7" BuildLevel="4" RewardCash="15" TextId="33007"/>
+    <List1 Comment="水晶倉庫等級達到12級" Level="2" BuildID="7" BuildLevel="12" RewardCash="40" TextId="33008"/>
+    <List2 Comment="水晶倉庫等級達到20級" Level="3" BuildID="7" BuildLevel="20" RewardCash="100" TextId="33009"/>
+  </List>
+  <List KindID="3" Name="未來戰士" NameID="32004" ImageIcon="icon/Achievement/zhanli.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="綜合戰鬥力達到1,000" Level="1" Num="1000" RewardCash="35" TextId="33010"/>
+    <List1 Comment="綜合戰鬥力達到15,000" Level="2" Num="15000" RewardCash="325" TextId="33011"/>
+    <List2 Comment="綜合戰鬥力達到35,000" Level="3" Num="35000" RewardCash="1300" TextId="33012"/>
+  </List>
+  <List KindID="4" Name="要低調！" NameID="32005" ImageIcon="icon/Achievement/caifu.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="總金幣財富達到100,000" Level="1" Num="100000" RewardCash="15" TextId="33013"/>
+    <List1 Comment="總金幣財富達到5,000,000" Level="2" Num="5000000" RewardCash="40" TextId="33014"/>
+    <List2 Comment="總金幣財富達到20,000,000" Level="3" Num="20000000" RewardCash="100" TextId="33015"/>
+  </List>
+  <List KindID="5" Name="水晶寶藏" NameID="32006" ImageIcon="icon/Achievement/caifu.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="總水晶量達到100,000" Level="1" Num="100000" RewardCash="15" TextId="33016"/>
+    <List1 Comment="總水晶量達到5,000,000" Level="2" Num="5000000" RewardCash="40" TextId="33017"/>
+    <List2 Comment="總水晶量達到20,000,000" Level="3" Num="20000000" RewardCash="100" TextId="33018"/>
+  </List>
+  <List KindID="6" Name="闖關達人" NameID="32007" ImageIcon="icon/Achievement/fuben.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="通過副本關卡數5" Level="1" Num="5" RewardCash="20" TextId="33019"/>
+    <List1 Comment="通過副本關卡數50" Level="2" Num="50" RewardCash="65" TextId="33020"/>
+    <List2 Comment="通過副本關卡數100" Level="3" Num="100" RewardCash="195" TextId="33021"/>
+  </List>
+  <List KindID="7" Name="完美主義" NameID="32008" ImageIcon="icon/Achievement/fuben.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="通過關卡3星數量達到10" Level="1" Num="10" RewardCash="40" TextId="33022"/>
+    <List1 Comment="通過關卡3星數量達到50" Level="2" Num="50" RewardCash="130" TextId="33023"/>
+    <List2 Comment="通過關卡3星數量達到100" Level="3" Num="100" RewardCash="390" TextId="33024"/>
+  </List>
+  <List KindID="8" Name="做好事不留名" NameID="32009" ImageIcon="icon/Achievement/zhandou.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="戰鬥勝利次數20" Level="1" Num="20" RewardCash="40" TextId="33025"/>
+    <List1 Comment="戰鬥勝利次數200" Level="2" Num="200" RewardCash="195" TextId="33026"/>
+    <List2 Comment="戰鬥勝利次數1,000" Level="3" Num="1000" RewardCash="390" TextId="33027"/>
+  </List>
+  <List KindID="9" Name="失敗代言人" NameID="32010" ImageIcon="icon/Achievement/zhandou.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="戰鬥失敗次數20" Level="1" Num="20" RewardCash="10" TextId="33028"/>
+    <List1 Comment="戰鬥失敗次數200" Level="2" Num="200" RewardCash="20" TextId="33029"/>
+    <List2 Comment="戰鬥失敗次數1,000" Level="3" Num="1000" RewardCash="50" TextId="33030"/>
+  </List>
+  <List KindID="10" Name="復仇者聯盟" NameID="32011" ImageIcon="icon/Achievement/bingzhong.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="英雄星級達到3級" Level="1" Num="3" RewardCash="35" TextId="33031"/>
+    <List1 Comment="英雄星級達到6級" Level="2" Num="6" RewardCash="100" TextId="33032"/>
+    <List2 Comment="英雄星級達到9級" Level="3" Num="9" RewardCash="195" TextId="33033"/>
+  </List>
+  <List KindID="11" Name="我是傳奇" NameID="32012" ImageIcon="icon/Achievement/bingzhong.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="1類兵種星級到達5級" Level="1" Num="1" RewardCash="15" TextId="33034"/>
+    <List1 Comment="6類兵種星級到達5級" Level="2" Num="6" RewardCash="40" TextId="33035"/>
+    <List2 Comment="12類兵種星級到達5級" Level="3" Num="12" RewardCash="100" TextId="33036"/>
+  </List>
+  <List KindID="12" Name="嘿，別擠我" NameID="32013" ImageIcon="icon/Achievement/bingzhong.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="已擁有2類兵種" Level="1" Num="2" RewardCash="15" TextId="33037"/>
+    <List1 Comment="已擁有6類兵種" Level="2" Num="6" RewardCash="40" TextId="33038"/>
+    <List2 Comment="已擁有12類兵種" Level="3" Num="12" RewardCash="100" TextId="33039"/>
+  </List>
+  <List KindID="13" Name="多動症" NameID="32014" ImageIcon="icon/Achievement/chaichu.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="拆除5個障礙物" Level="1" Num="5" RewardCash="5" TextId="33040"/>
+    <List1 Comment="拆除15個障礙物" Level="2" Num="15" RewardCash="10" TextId="33041"/>
+    <List2 Comment="拆除30個障礙物" Level="3" Num="30" RewardCash="15" TextId="33042"/>
+  </List>
+  <List KindID="14" Name="拆遷部隊" NameID="32015" ImageIcon="icon/Achievement/chaichu.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="戰鬥中摧毀100個城牆" Level="1" Num="100" RewardCash="20" TextId="33043"/>
+    <List1 Comment="戰鬥中摧毀800個城牆" Level="2" Num="800" RewardCash="65" TextId="33044"/>
+    <List2 Comment="戰鬥中摧毀3,000個城牆" Level="3" Num="3000" RewardCash="130" TextId="33045"/>
+  </List>
+  <List KindID="15" Name="戰神附體" NameID="32016" ImageIcon="icon/Achievement/zhandou.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="競技場勝利場次達到10次" Level="1" Num="10" RewardCash="35" TextId="33046"/>
+    <List1 Comment="競技場勝利場次達到200次" Level="2" Num="200" RewardCash="130" TextId="33047"/>
+    <List2 Comment="競技場勝利場次達到1,000次" Level="3" Num="1000" RewardCash="650" TextId="33048"/>
+  </List>
+  <List KindID="16" Name="啊，真慘" NameID="32017" ImageIcon="icon/Achievement/zhandou.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="競技場失敗場次達到10次" Level="1" Num="10" RewardCash="20" TextId="33049"/>
+    <List1 Comment="競技場失敗場次達到200次" Level="2" Num="200" RewardCash="65" TextId="33050"/>
+    <List2 Comment="競技場失敗場次達到1,000次" Level="3" Num="1000" RewardCash="325" TextId="33051"/>
+  </List>
+  <List KindID="17" Name="Magic magic" NameID="32018" ImageIcon="icon/Achievement/mofa.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="已解鎖4種魔法" Level="1" Num="4" RewardCash="15" TextId="33052"/>
+    <List1 Comment="已解鎖8種魔法" Level="2" Num="8" RewardCash="40" TextId="33053"/>
+    <List2 Comment="已解鎖10種魔法" Level="3" Num="10" RewardCash="100" TextId="33054"/>
+  </List>
+  <List KindID="18" Name="超級粉絲" NameID="32019" ImageIcon="icon/Achievement/fuben.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="副本獲得50次英雄碎片" Level="1" Num="50" RewardCash="15" TextId="33055"/>
+    <List1 Comment="副本獲得200次英雄碎片" Level="2" Num="200" RewardCash="40" TextId="33056"/>
+    <List2 Comment="副本獲得1,000次英雄碎片" Level="3" Num="1000" RewardCash="100" TextId="33057"/>
+  </List>
+  <List KindID="19" Name="戰爭榮耀" NameID="32020" ImageIcon="icon/Achievement/zhanli.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="成功獲得5,000榮譽值" Level="1" Num="5000" RewardCash="20" TextId="33058"/>
+    <List1 Comment="成功獲得200,000榮譽值" Level="2" Num="200000" RewardCash="100" TextId="33059"/>
+    <List2 Comment="成功獲得1,000,000榮譽值" Level="3" Num="1000000" RewardCash="195" TextId="33060"/>
+  </List>
+  <List KindID="20" Name="想我了吧" NameID="32021" ImageIcon="icon/Achievement/days.png.pvr.ccz" Hide="" OrderID="">
+    <List0 Comment="累計上線天數達到7天" Level="1" Num="7" RewardCash="65" TextId="33061"/>
+    <List1 Comment="累計上線天數達到30天" Level="2" Num="30" RewardCash="195" TextId="33062"/>
+    <List2 Comment="累計上線天數達到90天" Level="3" Num="90" RewardCash="650" TextId="33063"/>
+  </List>
+  <List KindID="25" Name="充值送英雄" NameID="32021" ImageIcon="icon/CashReward/3.pvr.ccz" Hide="1" OrderID="">
+    <List0 Comment="购买230点券送英雄" Level="1" Num="230" SkillID="241" TextId="34051"/>
+    <List1 Comment="购买600点券送英雄" Level="2" Num="600" SkillID="502" TextId="34052"/>
+    <List2 Comment="购买3000点券送英雄" Level="3" Num="3000" SkillID="451" TextId="34053"/>
+    <List3 Comment="购买15000点券送英雄" Level="4" Num="15000" SkillID="503" TextId="34054"/>
+    <List4 Comment="购买50000点券送英雄" Level="5" Num="50000" SkillID="221" TextId="34055"/>
+  </List>
+  <List KindID="26" Name="充值送荣誉" NameID="32021" ImageIcon="icon/CashReward/3.pvr.ccz" Hide="1" OrderID="">
+    <List0 Comment="购买230点券送3,000荣誉" Level="1" Num="230" RewardHonor="3000" TextId="33068"/>
+    <List1 Comment="购买600点券送10,000荣誉" Level="2" Num="600" RewardHonor="10000" TextId="33069"/>
+    <List2 Comment="购买3,000点券送20,000荣誉" Level="3" Num="3000" RewardHonor="20000" TextId="33070"/>
+    <List3 Comment="购买15,000点券送30,000荣誉" Level="4" Num="15000" RewardHonor="30000" TextId="33071"/>
+    <List4 Comment="购买50,000点券送50,000荣誉" Level="5" Num="50000" RewardHonor="50000" TextId="33072"/>
+  </List>
+  <List KindID="21" Name="每日任务" NameID="32021" ImageIcon="icon/CashReward/1.pvr.ccz" Hide="1" OrderID="">
+    <List0 Comment="登陸獎勵" Level="1" Num="1" RewardCash="5" TextId="33064"/>
+  </List>
+  <List KindID="22" Name="每日任务" NameID="32021" ImageIcon="icon/CashReward/1.pvr.ccz" Hide="1" OrderID="">
+    <List0 Comment="參加10次競技場" Level="1" Num="10" RewardCash="5" TextId="33065"/>
+  </List>
+  <List KindID="23" Name="每日任务" NameID="32021" ImageIcon="icon/CashReward/1.pvr.ccz" Hide="1" OrderID="">
+    <List0 Comment="成功搶奪30*战斗力金幣" Level="1" Num="30" RewardCash="10" TextId="33066"/>
+  </List>
+  <List KindID="24" Name="每日任务" NameID="32021" ImageIcon="icon/CashReward/1.pvr.ccz" Hide="1" OrderID="">
+    <List0 Comment="成功搶奪30*战斗力魔水" Level="1" Num="30" RewardCash="10" TextId="33067"/>
+  </List>
+</Achievement>

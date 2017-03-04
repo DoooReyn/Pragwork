@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<world_state Name="世界地图建筑状态">
+<List ID="1" button_id="1" />
+<List ID="2" button_id="1" />
+<List ID="3" button_id="1,3" />
+<List ID="4" button_id="2,4" />
+<List ID="5" button_id="2,5" />
+<List ID="6" button_id="2" />
+<List ID="7" button_id="2,5" />
+</world_state>

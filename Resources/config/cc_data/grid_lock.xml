@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<grid_lock Name="格子解锁">
+<List id="4" minLevel="8" maxLevel="9" lock_xy="20,20;104,29" lock="1" name="10302" describe
+="2156" />
+<List id="3" minLevel="6" maxLevel="7" lock_xy="20,30;104,39" lock="1" name="10302" describe
+="2157" />
+<List id="2" minLevel="4" maxLevel="5" lock_xy="20,40;104,49" lock="1" name="10302" describe
+="2158" />
+<List id="1" minLevel="2" maxLevel="3" lock_xy="20,50;104,59" lock="1" name="10302" describe
+="2159" />
+<List id="5" minLevel="0" maxLevel="3" lock_xy="20,60;104,104" lock="1" name="10302" describe
+="2159" />
+</grid_lock>

@@ -1,0 +1,17 @@
+﻿<Config Name="TIPS">
+	<List ID = "1" TxtID="201"/>
+	<List ID = "2" TxtID="202"/>
+	<List ID = "3" TxtID="203"/>
+    <List ID ="4" TxtID="204"/>
+    <List ID ="5" TxtID="205"/>
+    <List ID ="6" TxtID="206"/>
+    <List ID ="7" TxtID="207"/>
+    <List ID ="8" TxtID="208"/>
+    <List ID ="9" TxtID="209"/>
+    <List ID ="10" TxtID="210"/>
+    <List ID ="11" TxtID="211"/>
+	<List ID ="12" TxtID="212"/>
+	<List ID ="13" TxtID="213"/>
+</Config>
+
+

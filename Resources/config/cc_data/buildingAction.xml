@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Action>
+  <Action ID="4">
+    <Level LevelID="5" maxLevel="5" minLevel="5">
+      <List X="-64" Y="87" actionId="24" actionStatus="1" actionType="9" delay="9" fileName="buildingeffect/action_24.png" frameCount="11" frameName="action_24_%d.png" zOrder="1"/>
+      <List X="-55" Y="21" actionId="25" actionStatus="1" actionType="9" delay="9" fileName="buildingeffect/action_25.png" frameCount="11" frameName="action_25_%d.png" zOrder="1"/>
+    </Level>
+    <Level LevelID="3" maxLevel="3" minLevel="3">
+      <List X="-36" Y="32" actionId="25" actionStatus="1" actionType="9" delay="9" fileName="buildingeffect/action_25.png" frameCount="11" frameName="action_25_%d.png" zOrder="1"/>
+      <List X="-44" Y="88" actionId="24" actionStatus="1" actionType="9" delay="9" fileName="buildingeffect/action_24.png" frameCount="11" frameName="action_24_%d.png" zOrder="1"/>
+    </Level>
+    <Level LevelID="2" maxLevel="2" minLevel="2">
+      <List X="-43" Y="12" actionId="25" actionStatus="1" actionType="9" delay="9" fileName="buildingeffect/action_25.png" frameCount="11" frameName="action_25_%d.png" zOrder="1"/>
+      <List X="-61" Y="118" actionId="24" actionStatus="1" actionType="9" delay="9" fileName="buildingeffect/action_24.png" frameCount="11" frameName="action_24_%d.png" zOrder="1"/>
+    </Level>
+    <Level LevelID="6" maxLevel="6" minLevel="6">
+      <List X="-48" Y="90" actionId="24" actionStatus="1" actionType="9" delay="9" fileName="buildingeffect/action_24.png" frameCount="11" frameName="action_24_%d.png" zOrder="1"/>
+      <List X="-38" Y="11" actionId="25" actionStatus="1" actionType="9" delay="9" fileName="buildingeffect/action_25.png" frameCount="11" frameName="action_25_%d.png" zOrder="1"/>
+    </Level>
+    <Level LevelID="7" maxLevel="20" minLevel="7">
+      <List X="-56" Y="91" actionId="24" actionStatus="1" actionType="9" delay="9" fileName="buildingeffect/action_24.png" frameCount="11" frameName="action_24_%d.png" zOrder="1"/>
+      <List X="-41" Y="25" actionId="25" actionStatus="1" actionType="9" delay="9" fileName="buildingeffect/action_25.png" frameCount="11" frameName="action_25_%d.png" zOrder="1"/>
+    </Level>
+    <Level LevelID="4" maxLevel="4" minLevel="4">
+      <List X="-45" Y="17" actionId="25" actionStatus="1" actionType="9" delay="9" fileName="buildingeffect/action_25.png" frameCount="11" frameName="action_25_%d.png" zOrder="1"/>
+      <List X="-61" Y="90" actionId="24" actionStatus="1" actionType="9" delay="9" fileName="buildingeffect/action_24.png" frameCount="11" frameName="action_24_%d.png" zOrder="1"/>
+    </Level>
+    <Level LevelID="1" maxLevel="1" minLevel="1">
+      <List X="-53" Y="98" actionId="24" actionStatus="1" actionType="9" delay="9" fileName="buildingeffect/action_24.png" frameCount="11" frameName="action_24_%d.png" zOrder="1"/>
+      <List X="-27" Y="33" actionId="25" actionStatus="1" actionType="9" delay="10" fileName="buildingeffect/action_25.png" frameCount="11" frameName="action_25_%d.png" zOrder="1"/>
+    </Level>
+  </Action>
+  <Action ID="5">
+    <Level LevelID="7" maxLevel="20" minLevel="7">
+      <List X="1" Y="-3" actionId="23" actionStatus="1" actionType="9" delay="8" fileName="buildingeffect/action_23.png" frameCount="25" frameName="action_23_%d.png" zOrder="1"/>
+    </Level>
+    <Level LevelID="1" maxLevel="1" minLevel="1">
+      <List X="0" Y="1" actionId="17" actionStatus="1" actionType="9" delay="8" fileName="buildingeffect/action_17.png" frameCount="25" frameName="action_17_%d.png" zOrder="1"/>
+    </Level>
+    <Level LevelID="6" maxLevel="6" minLevel="6">
+      <List X="0" Y="-1" actionId="22" actionStatus="1" actionType="9" delay="8" fileName="buildingeffect/action_22.png" frameCount="25" frameName="action_22_%d.png" zOrder="1"/>
+    </Level>
+    <Level LevelID="2" maxLevel="2" minLevel="2">
+      <List X="0" Y="-2" actionId="18" actionStatus="1" actionType="9" delay="8" fileName="buildingeffect/action_18.png" frameCount="25" frameName="action_18_%d.png" zOrder="1"/>
+    </Level>
+    <Level LevelID="5" maxLevel="5" minLevel="5">
+      <List X="3" Y="-2" actionId="21" actionStatus="1" actionType="9" delay="8" fileName="buildingeffect/action_21.png" frameCount="25" frameName="action_21_%d.png" zOrder="1"/>
+    </Level>
+    <Level LevelID="4" maxLevel="4" minLevel="4">
+      <List X="4" Y="-3" actionId="20" actionStatus="1" actionType="9" delay="8" fileName="buildingeffect/action_20.png" frameCount="25" frameName="action_20_%d.png" zOrder="1"/>
+    </Level>
+    <Level LevelID="3" maxLevel="3" minLevel="3">
+      <List X="0" Y="0" actionId="19" actionStatus="1" actionType="9" delay="8" fileName="buildingeffect/action_19.png" frameCount="25" frameName="action_19_%d.png" zOrder="1"/>
+    </Level>
+  </Action>
+  <Action ID="23">
+    <Level LevelID="4" maxLevel="4" minLevel="4">
+      <List X="3" Y="8" actionId="30" actionStatus="1" actionType="9" delay="10" fileName="buildingeffect/action_30.png" frameCount="17" frameName="action_30_%d.png" zOrder="2"/>
+    </Level>
+    <Level LevelID="1" maxLevel="1" minLevel="1">
+      <List X="2" Y="-1" actionId="26" actionStatus="1" actionType="9" delay="10" fileName="buildingeffect/action_26.png" frameCount="17" frameName="action_26_%d.png" zOrder="1"/>
+    </Level>
+    <Level LevelID="5" maxLevel="5" minLevel="5">
+      <List X="2" Y="15" actionId="31" actionStatus="1" actionType="9" delay="10" fileName="buildingeffect/action_31.png" frameCount="17" frameName="action_31_%d.png" zOrder="1"/>
+    </Level>
+    <Level LevelID="6" maxLevel="6" minLevel="6">
+      <List X="2" Y="19" actionId="32" actionStatus="1" actionType="9" delay="10" fileName="buildingeffect/action_32.png" frameCount="17" frameName="action_32_%d.png" zOrder="1"/>
+    </Level>
+    <Level LevelID="2" maxLevel="2" minLevel="2">
+      <List X="-6" Y="-2" actionId="28" actionStatus="1" actionType="9" delay="10" fileName="buildingeffect/action_28.png" frameCount="17" frameName="action_28_%d.png" zOrder="1"/>
+    </Level>
+    <Level LevelID="7" maxLevel="7" minLevel="7">
+      <List X="1" Y="15" actionId="33" actionStatus="1" actionType="9" delay="10" fileName="buildingeffect/action_33.png" frameCount="17" frameName="action_33_%d.png" zOrder="1"/>
+    </Level>
+    <Level LevelID="3" maxLevel="3" minLevel="3">
+      <List X="-6" Y="-5" actionId="29" actionStatus="1" actionType="9" delay="10" fileName="buildingeffect/action_29.png" frameCount="17" frameName="action_29_%d.png" zOrder="1"/>
+    </Level>
+  </Action>
+  <Action ID="2">
+    <Level LevelID="1" maxLevel="20" minLevel="1">
+      <List X="-41" Y="-139" actionId="9" actionStatus="1" actionType="9" delay="10" fileName="buildingeffect/action_9.png" frameCount="21" frameName="action_9_%d.png" zOrder="0"/>
+    </Level>
+  </Action>
+  <Action ID="26">
+    <Level LevelID="1" maxLevel="20" minLevel="1">
+      <List X="-1" Y="-72" actionId="27" actionStatus="1" actionType="9" delay="16" fileName="buildingeffect/action_27.png" frameCount="26" frameName="action_27_%d.png" zOrder="1"/>
+    </Level>
+  </Action>
+</Action>

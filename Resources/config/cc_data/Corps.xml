@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Corps Name="部落" CreateMoney="500000" InviteMoney="60">
+  <List KindID="0">
+    <List Name="聯盟-I" NameID="36079" Comment="聯盟人數可招收人數30" TextId="36089" Level="1" LeaguerNum="30" UpgradeMoney="400" ImageIcon="icon/Corps/100.png"/>
+    <List Name="聯盟-II" NameID="36080" Comment="聯盟人數可招收人數35" TextId="36090" Level="2" LeaguerNum="35" UpgradeMoney="2100" ImageIcon="icon/Corps/100.png"/>
+    <List Name="聯盟-III" NameID="36081" Comment="聯盟人數可招收人數40" TextId="36091" Level="3" LeaguerNum="40" UpgradeMoney="4800" ImageIcon="icon/Corps/100.png"/>
+    <List Name="聯盟-IV" NameID="36082" Comment="聯盟人數可招收人數45" TextId="36092" Level="4" LeaguerNum="45" UpgradeMoney="10800" ImageIcon="icon/Corps/100.png"/>
+    <List Name="聯盟-V" NameID="36083" Comment="聯盟人數可招收人數50" TextId="36093" Level="5" LeaguerNum="50" UpgradeMoney="18000" ImageIcon="icon/Corps/100.png"/>
+    <List Name="聯盟-VI" NameID="36084" Comment="聯盟人數可招收人數55" TextId="36094" Level="6" LeaguerNum="55" UpgradeMoney="33000" ImageIcon="icon/Corps/100.png"/>
+    <List Name="聯盟-VII" NameID="36085" Comment="聯盟人數可招收人數60" TextId="36095" Level="7" LeaguerNum="60" UpgradeMoney="63000" ImageIcon="icon/Corps/100.png"/>
+    <List Name="聯盟-VIII" NameID="36086" Comment="聯盟人數可招收人數65" TextId="36096" Level="8" LeaguerNum="65" UpgradeMoney="97500" ImageIcon="icon/Corps/100.png"/>
+    <List Name="聯盟-IX" NameID="36087" Comment="聯盟人數可招收人數70" TextId="36097" Level="9" LeaguerNum="70" UpgradeMoney="168000" ImageIcon="icon/Corps/100.png"/>
+    <List Name="聯盟-X" NameID="36088" Comment="聯盟人數可招收人數75" TextId="36098" Level="10" LeaguerNum="75" ImageIcon="icon/Corps/100.png"/>
+  </List>
+  <List KindID="1">
+    <List Name="搶奪戰旗-I" NameID="36059" Comment="在搶奪基礎上，額外增加10%的魔水和金幣搶奪量" TextId="36069" ID="1" GroupID="0" Level="1" FrontID="1" UpgradeMoney="1800" CostMoney="400" Num="100" ResourcesAddition="10" MagicID="100" ImageIcon="icon/Corps/101.png" Buy_PersonalMoney="1"/>
+    <List Name="搶奪戰旗-II" NameID="36060" Comment="在搶奪基礎上，額外增加15%的魔水和金幣搶奪量" TextId="36070" ID="2" GroupID="0" Level="2" FrontID="3" UpgradeMoney="4800" CostMoney="400" Num="100" ResourcesAddition="15" MagicID="100" ImageIcon="icon/Corps/101.png" Buy_PersonalMoney="1"/>
+    <List Name="搶奪戰旗-III" NameID="36061" Comment="在搶奪基礎上，額外增加20%的魔水和金幣搶奪量" TextId="36071" ID="3" GroupID="0" Level="3" FrontID="5" UpgradeMoney="12000" CostMoney="400" Num="100" ResourcesAddition="20" MagicID="100" ImageIcon="icon/Corps/101.png" Buy_PersonalMoney="1"/>
+    <List Name="搶奪戰旗-IV" NameID="36062" Comment="在搶奪基礎上，額外增加25%的魔水和金幣搶奪量" TextId="36072" ID="4" GroupID="0" Level="4" FrontID="7" UpgradeMoney="28800" CostMoney="400" Num="100" ResourcesAddition="25" MagicID="100" ImageIcon="icon/Corps/101.png" Buy_PersonalMoney="1"/>
+    <List Name="搶奪戰旗-V" NameID="36063" Comment="在搶奪基礎上，額外增加30%的魔水和金幣搶奪量" TextId="36073" ID="5" GroupID="0" Level="5" FrontID="9" CostMoney="400" Num="100" ResourcesAddition="30" MagicID="100" ImageIcon="icon/Corps/101.png" Buy_PersonalMoney="1"/>
+    <List Name="減免戰旗-I" NameID="36064" Comment="已出戰兵種受到的傷害減4%（不包含英雄）" TextId="36074" ID="6" GroupID="1" Level="1" FrontID="2" UpgradeMoney="2100" CostMoney="500" Num="100" LowerHurt="4" SkillID="3051" MagicID="101" ImageIcon="icon/Corps/102.png" Buy_PersonalMoney="1"/>
+    <List Name="減免戰旗-II" NameID="36065" Comment="已出戰兵種受到的傷害減8%（不包含英雄）" TextId="36075" ID="7" GroupID="1" Level="2" FrontID="4" UpgradeMoney="5400" CostMoney="500" Num="100" LowerHurt="8" SkillID="3052" MagicID="101" ImageIcon="icon/Corps/102.png" Buy_PersonalMoney="1"/>
+    <List Name="減免戰旗-III" NameID="36066" Comment="已出戰兵種受到的傷害減12%（不包含英雄）" TextId="36076" ID="8" GroupID="1" Level="3" FrontID="6" UpgradeMoney="13200" CostMoney="500" Num="100" LowerHurt="12" SkillID="3053" MagicID="101" ImageIcon="icon/Corps/102.png" Buy_PersonalMoney="1"/>
+    <List Name="減免戰旗-IV" NameID="36067" Comment="已出戰兵種受到的傷害減16%（不包含英雄）" TextId="36077" ID="9" GroupID="1" Level="4" FrontID="8" UpgradeMoney="31200" CostMoney="500" Num="100" LowerHurt="16" SkillID="3054" MagicID="101" ImageIcon="icon/Corps/102.png" Buy_PersonalMoney="1"/>
+    <List Name="減免戰旗-V" NameID="36068" Comment="已出戰兵種受到的傷害減20%（不包含英雄）" TextId="36078" ID="10" GroupID="1" Level="5" FrontID="10" CostMoney="500" Num="100" LowerHurt="20" SkillID="3055" MagicID="101" ImageIcon="icon/Corps/102.png" Buy_PersonalMoney="1"/>
+  </List>
+  <List KindID="2">
+    <List Name="首領" NameID="36099" ID="0"/>
+    <List Name="長老" NameID="36100" ID="1" DonateMoney="10000"/>
+    <List Name="精英" NameID="36101" ID="2" DonateMoney="3000"/>
+    <List Name="成員" NameID="36102" ID="3" DonateMoney="0"/>
+  </List>
+  <List KindID="3">
+    <List Name="收費旗幟" ID="1" Cash="300" ImageIcon="icon/Corps/1.png"/>
+    <List Name="收費旗幟" ID="2" Cash="300" ImageIcon="icon/Corps/2.png"/>
+    <List Name="收費旗幟" ID="3" Cash="300" ImageIcon="icon/Corps/3.png"/>
+    <List Name="收費旗幟" ID="4" Cash="300" ImageIcon="icon/Corps/4.png"/>
+    <List Name="收費旗幟" ID="5" Cash="300" ImageIcon="icon/Corps/5.png"/>
+    <List Name="收費旗幟" ID="6" Cash="300" ImageIcon="icon/Corps/6.png"/>
+    <List Name="收費旗幟" ID="7" Cash="300" ImageIcon="icon/Corps/7.png"/>
+    <List Name="收費旗幟" ID="8" Cash="300" ImageIcon="icon/Corps/8.png"/>
+    <List Name="收費旗幟" ID="9" Cash="300" ImageIcon="icon/Corps/9.png"/>
+    <List Name="收費旗幟" ID="10" Cash="300" ImageIcon="icon/Corps/10.png"/>
+    <List Name="收費旗幟" ID="11" Cash="300" ImageIcon="icon/Corps/11.png"/>
+    <List Name="收費旗幟" ID="12" Cash="300" ImageIcon="icon/Corps/12.png"/>
+    <List Name="收費旗幟" ID="13" Cash="300" ImageIcon="icon/Corps/13.png"/>
+    <List Name="收費旗幟" ID="14" Cash="300" ImageIcon="icon/Corps/14.png"/>
+    <List Name="收費旗幟" ID="15" Cash="300" ImageIcon="icon/Corps/15.png"/>
+    <List Name="收費旗幟" ID="16" Cash="300" ImageIcon="icon/Corps/16.png"/>
+    <List Name="收費旗幟" ID="17" Cash="300" ImageIcon="icon/Corps/17.png"/>
+    <List Name="收費旗幟" ID="18" Cash="300" ImageIcon="icon/Corps/18.png"/>
+    <List Name="收費旗幟" ID="19" Cash="300" ImageIcon="icon/Corps/19.png"/>
+    <List Name="收費旗幟" ID="20" Cash="300" ImageIcon="icon/Corps/20.png"/>
+    <List Name="免費旗幟" ID="21" ImageIcon="icon/Corps/21.png"/>
+    <List Name="免費旗幟" ID="22" ImageIcon="icon/Corps/22.png"/>
+    <List Name="免費旗幟" ID="23" ImageIcon="icon/Corps/23.png"/>
+    <List Name="免費旗幟" ID="24" ImageIcon="icon/Corps/24.png"/>
+    <List Name="免費旗幟" ID="25" ImageIcon="icon/Corps/25.png"/>
+    <List Name="免費旗幟" ID="26" ImageIcon="icon/Corps/26.png"/>
+    <List Name="免費旗幟" ID="27" ImageIcon="icon/Corps/27.png"/>
+    <List Name="免費旗幟" ID="28" ImageIcon="icon/Corps/28.png"/>
+    <List Name="免費旗幟" ID="29" ImageIcon="icon/Corps/29.png"/>
+    <List Name="免費旗幟" ID="30" ImageIcon="icon/Corps/30.png"/>
+    <List Name="免費旗幟" ID="31" ImageIcon="icon/Corps/31.png"/>
+    <List Name="免費旗幟" ID="32" ImageIcon="icon/Corps/32.png"/>
+    <List Name="免費旗幟" ID="33" ImageIcon="icon/Corps/33.png"/>
+    <List Name="免費旗幟" ID="34" ImageIcon="icon/Corps/34.png"/>
+    <List Name="免費旗幟" ID="35" ImageIcon="icon/Corps/35.png"/>
+    <List Name="免費旗幟" ID="36" ImageIcon="icon/Corps/36.png"/>
+    <List Name="免費旗幟" ID="37" ImageIcon="icon/Corps/37.png"/>
+    <List Name="免費旗幟" ID="38" ImageIcon="icon/Corps/38.png"/>
+    <List Name="免費旗幟" ID="39" ImageIcon="icon/Corps/39.png"/>
+    <List Name="免費旗幟" ID="40" ImageIcon="icon/Corps/40.png"/>
+    <List Name="免費旗幟" ID="41" ImageIcon="icon/Corps/41.png"/>
+    <List Name="免費旗幟" ID="42" ImageIcon="icon/Corps/42.png"/>
+    <List Name="免費旗幟" ID="43" ImageIcon="icon/Corps/43.png"/>
+    <List Name="免費旗幟" ID="44" ImageIcon="icon/Corps/44.png"/>
+    <List Name="免費旗幟" ID="45" ImageIcon="icon/Corps/45.png"/>
+    <List Name="免費旗幟" ID="46" ImageIcon="icon/Corps/46.png"/>
+    <List Name="免費旗幟" ID="47" ImageIcon="icon/Corps/47.png"/>
+    <List Name="免費旗幟" ID="48" ImageIcon="icon/Corps/48.png"/>
+    <List Name="免費旗幟" ID="49" ImageIcon="icon/Corps/49.png"/>
+    <List Name="免費旗幟" ID="50" ImageIcon="icon/Corps/50.png"/>
+  </List>
+  <List KindID="4">
+    <List Name="我是BOSS-I" ID="1" Level="1" FrontID="1" CostMoney="50" Time="1800" HeroID="571,180,0,76" Honor="500" RankHonor="3000,2500,2000,1500,1200,1000,800,700,600,500" HP="15000000" ImageIcon="icon/hero/571.png" PosX="41" PosY="47"/>
+    <List Name="我是BOSS-II" ID="2" Level="2" FrontID="3" CostMoney="300" Time="1800" HeroID="581,180,0,76" Honor="1000" RankHonor="6000,5000,4000,3000,2400,2000,1600,1400,1200,1000" HP="20000000" ImageIcon="icon/hero/571.png" PosX="41" PosY="47"/>
+    <List Name="我是BOSS-III" ID="3" Level="3" FrontID="5" CostMoney="600" Time="1800" HeroID="591,180,0,76" Honor="1500" RankHonor="10000,7500,6000,4500,3600,3000,2400,2100,1800,1500" HP="25000000" ImageIcon="icon/hero/571.png" PosX="41" PosY="47"/>
+  </List>
+</Corps>
+<!--
+CreateMoney           创建部落需要金币
+InviteMoney           邀请花费财富
+Level                 部落等级
+LeaguerNum            部落人数
+UpgradeMoney          升级需要部落财富
+CostMoney             购买需要部落财富
+Num                   购买数量
+DonateMoney           职位捐献数量
+FrontID               天赋开启前置条件
+Buy_PersonalMoney     成员购买需要个人财富
+ResourcesAddition     額外資源加成
+LowerHurt             减少伤害
+HeroID                对应的英雄ID
+Honor                 参与荣誉
+RankHonor             排名荣誉
+-->

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Config Name="玩家PVP段位配置表">
+<List RankLevel="1" RankNameID="1阶" LowerLimit="0" UpperLimit="1100" ResourcesRate="100" GoldLimit="100000" PowerLimit="100000" WinGold="10000" WinPower="10000" />
+<List RankLevel="2" RankNameID="2阶" LowerLimit="1100" UpperLimit="1400" ResourcesRate="100" GoldLimit="200000" PowerLimit="200000" WinGold="20000" WinPower="20000" />
+<List RankLevel="3" RankNameID="3阶" LowerLimit="1400" UpperLimit="1700" ResourcesRate="150" GoldLimit="400000" PowerLimit="400000" WinGold="30000" WinPower="30000" />
+<List RankLevel="4" RankNameID="4阶" LowerLimit="1700" UpperLimit="2000" ResourcesRate="150" GoldLimit="500000" PowerLimit="500000" WinGold="40000" WinPower="40000" />
+<List RankLevel="5" RankNameID="5阶" LowerLimit="2000" UpperLimit="2500" ResourcesRate="200" GoldLimit="600000" PowerLimit="600000" WinGold="50000" WinPower="50000" />
+<List RankLevel="6" RankNameID="6阶" LowerLimit="2500" UpperLimit="3000" ResourcesRate="200" GoldLimit="700000" PowerLimit="700000" WinGold="60000" WinPower="60000" />
+<List RankLevel="7" RankNameID="大师" LowerLimit="3000" UpperLimit="9999" ResourcesRate="300" GoldLimit="800000" PowerLimit="800000" WinGold="70000" WinPower="70000" />
+<List RankLevel="99" RankNameID="最强王者（最高等级段的排名前50名）" LowerLimit="3000" UpperLimit="9999" ResourcesRate="400" GoldLimit="900000" PowerLimit="900000" WinGold="80000" WinPower="80000" />
+</Config>

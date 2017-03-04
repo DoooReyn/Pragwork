@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<RewardTemplate>
+  <List ID="0" Gold="0" Crystal="0" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="1" Gold="150" Crystal="150" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="2" ItemChanceList="50;50;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="2" Gold="300" Crystal="300" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="3" Gold="450" Crystal="450" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="4" Gold="600" Crystal="600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="5" Gold="750" Crystal="750" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="6" Gold="900" Crystal="900" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="7" Gold="1050" Crystal="1050" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="8" Gold="1200" Crystal="1200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="9" Gold="1350" Crystal="1350" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10" Gold="1500" Crystal="1500" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="11" Gold="1650" Crystal="1650" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="12" Gold="1800" Crystal="1800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="13" Gold="1950" Crystal="1950" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="14" Gold="2100" Crystal="2100" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="15" Gold="200" Crystal="200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="16" Gold="400" Crystal="400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="17" Gold="2250" Crystal="2250" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="18" Gold="2400" Crystal="2400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="19" Gold="2550" Crystal="2550" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="20" Gold="2700" Crystal="2700" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="21" Gold="2850" Crystal="2850" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="22" Gold="3000" Crystal="3000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="23" Gold="3150" Crystal="3150" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="24" Gold="3300" Crystal="3300" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="25" Gold="3450" Crystal="3450" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="26" Gold="3600" Crystal="3600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="27" Gold="3750" Crystal="3750" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="28" Gold="3900" Crystal="3900" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="29" Gold="4050" Crystal="4050" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="30" Gold="4200" Crystal="4200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="31" Gold="600" Crystal="600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="32" Gold="800" Crystal="800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="33" Gold="4350" Crystal="4350" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="34" Gold="4500" Crystal="4500" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="35" Gold="4650" Crystal="4650" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="36" Gold="4800" Crystal="4800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="37" Gold="4950" Crystal="4950" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="38" Gold="5100" Crystal="5100" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="39" Gold="5250" Crystal="5250" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="40" Gold="5400" Crystal="5400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="41" Gold="5550" Crystal="5550" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="42" Gold="5700" Crystal="5700" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="43" Gold="5850" Crystal="5850" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="44" Gold="6000" Crystal="6000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="45" Gold="6150" Crystal="6150" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="46" Gold="6300" Crystal="6300" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="47" Gold="1000" Crystal="1000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="48" Gold="1200" Crystal="1200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="49" Gold="6450" Crystal="6450" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="50" Gold="6600" Crystal="6600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="51" Gold="6750" Crystal="6750" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="52" Gold="6900" Crystal="6900" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="53" Gold="7050" Crystal="7050" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="54" Gold="7200" Crystal="7200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="55" Gold="7350" Crystal="7350" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="56" Gold="7500" Crystal="7500" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="57" Gold="7650" Crystal="7650" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="58" Gold="7800" Crystal="7800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="59" Gold="7950" Crystal="7950" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="60" Gold="8100" Crystal="8100" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="61" Gold="8250" Crystal="8250" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="62" Gold="8400" Crystal="8400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="63" Gold="1400" Crystal="1400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="64" Gold="1600" Crystal="1600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="65" Gold="8550" Crystal="8550" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="66" Gold="8700" Crystal="8700" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="67" Gold="8850" Crystal="8850" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="68" Gold="9000" Crystal="9000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="69" Gold="9150" Crystal="9150" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="70" Gold="9300" Crystal="9300" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="71" Gold="9450" Crystal="9450" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="72" Gold="9600" Crystal="9600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="73" Gold="9750" Crystal="9750" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="74" Gold="9900" Crystal="9900" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="75" Gold="10050" Crystal="10050" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="76" Gold="10200" Crystal="10200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="77" Gold="10350" Crystal="10350" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="78" Gold="10500" Crystal="10500" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="79" Gold="10650" Crystal="10650" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="80" Gold="1800" Crystal="1800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="81" Gold="2000" Crystal="2000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="82" Gold="10800" Crystal="10800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="83" Gold="10950" Crystal="10950" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="84" Gold="11100" Crystal="11100" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="85" Gold="11250" Crystal="11250" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="86" Gold="11400" Crystal="11400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="87" Gold="11550" Crystal="11550" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="88" Gold="11700" Crystal="11700" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="89" Gold="11850" Crystal="11850" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="90" Gold="12000" Crystal="12000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="91" Gold="12150" Crystal="12150" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="92" Gold="12300" Crystal="12300" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="93" Gold="12450" Crystal="12450" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="94" Gold="12600" Crystal="12600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="95" Gold="12750" Crystal="12750" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="96" Gold="2200" Crystal="2200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="97" Gold="2400" Crystal="2400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="98" Gold="2600" Crystal="2600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="99" Gold="12900" Crystal="12900" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="100" Gold="13050" Crystal="13050" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="101" Gold="13200" Crystal="13200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="102" Gold="13350" Crystal="13350" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="103" Gold="13500" Crystal="13500" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="104" Gold="13650" Crystal="13650" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="105" Gold="13800" Crystal="13800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10004" Gold="2800" Crystal="2800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10008" Gold="3000" Crystal="3000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10011" Gold="3200" Crystal="3200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10015" Gold="3400" Crystal="3400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10019" Gold="3600" Crystal="3600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10023" Gold="3800" Crystal="3800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10026" Gold="4000" Crystal="4000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10030" Gold="4200" Crystal="4200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10034" Gold="4400" Crystal="4400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10038" Gold="4600" Crystal="4600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10041" Gold="4800" Crystal="4800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10045" Gold="5000" Crystal="5000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10049" Gold="5200" Crystal="5200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10053" Gold="5400" Crystal="5400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10056" Gold="5600" Crystal="5600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10060" Gold="5800" Crystal="5800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10064" Gold="6000" Crystal="6000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10068" Gold="15000" Crystal="15000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10071" Gold="15000" Crystal="15000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10075" Gold="15000" Crystal="15000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10079" Gold="15000" Crystal="15000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10083" Gold="15000" Crystal="15000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10086" Gold="15000" Crystal="15000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10090" Gold="15000" Crystal="15000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10094" Gold="15000" Crystal="15000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10098" Gold="15000" Crystal="15000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10101" Gold="15000" Crystal="15000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10105" Gold="15000" Crystal="15000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="5000;5000;" MustGetItemId="10600" ItemCount="1" Times="3" />
+  <List ID="10001" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="10002" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="10003" Gold="0" Crystal="0" diamond="500" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="20001" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="20002" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="20003" Gold="0" Crystal="0" diamond="500" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="30001" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="30002" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="30003" Gold="0" Crystal="0" diamond="500" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="40001" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="40002" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="40003" Gold="0" Crystal="0" diamond="500" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="50001" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="50002" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="50003" Gold="0" Crystal="0" diamond="500" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="60001" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="60002" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="60003" Gold="0" Crystal="0" diamond="500" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="70001" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="70002" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="70003" Gold="0" Crystal="0" diamond="500" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="80001" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="80002" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="80003" Gold="0" Crystal="0" diamond="500" ItemList="10600;3000;" ItemCountList="10;100;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="10301" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="10302" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="10303" Gold="0" Crystal="0" diamond="500" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="20301" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="20302" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="20303" Gold="0" Crystal="0" diamond="500" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="30301" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="30302" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="30303" Gold="0" Crystal="0" diamond="500" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="40301" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="40302" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="40303" Gold="0" Crystal="0" diamond="500" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="50301" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="50302" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="50303" Gold="0" Crystal="0" diamond="500" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="60301" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="60302" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="60303" Gold="0" Crystal="0" diamond="500" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="70301" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="70302" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="70303" Gold="0" Crystal="0" diamond="500" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="80301" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="80302" Gold="0" Crystal="0" diamond="200" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="80303" Gold="0" Crystal="0" diamond="500" ItemList="10600;3000;" ItemCountList="20;200;" ItemDropType="1" ItemChanceList="10000;10000;" />
+  <List ID="100001" Gold="450" Crystal="450" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="2" ItemChanceList="50;50;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100002" Gold="900" Crystal="900" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100003" Gold="1350" Crystal="1350" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100004" Gold="1800" Crystal="1800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100005" Gold="2250" Crystal="2250" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100006" Gold="2700" Crystal="2700" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100007" Gold="3150" Crystal="3150" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100008" Gold="3600" Crystal="3600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100009" Gold="4050" Crystal="4050" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100010" Gold="4500" Crystal="4500" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100011" Gold="4950" Crystal="4950" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100012" Gold="5400" Crystal="5400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100013" Gold="5850" Crystal="5850" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100014" Gold="6300" Crystal="6300" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100015" Gold="600" Crystal="600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100016" Gold="1200" Crystal="1200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100017" Gold="6750" Crystal="6750" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100018" Gold="7200" Crystal="7200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100019" Gold="7650" Crystal="7650" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100020" Gold="8100" Crystal="8100" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100021" Gold="8550" Crystal="8550" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100022" Gold="9000" Crystal="9000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100023" Gold="9450" Crystal="9450" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100024" Gold="9900" Crystal="9900" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100025" Gold="10350" Crystal="10350" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100026" Gold="10800" Crystal="10800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100027" Gold="11250" Crystal="11250" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100028" Gold="11700" Crystal="11700" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100029" Gold="12150" Crystal="12150" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100030" Gold="12600" Crystal="12600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100031" Gold="1800" Crystal="1800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100032" Gold="2400" Crystal="2400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100033" Gold="13050" Crystal="13050" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100034" Gold="13500" Crystal="13500" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100035" Gold="13950" Crystal="13950" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100036" Gold="14400" Crystal="14400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100037" Gold="14850" Crystal="14850" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100038" Gold="15300" Crystal="15300" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100039" Gold="15750" Crystal="15750" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100040" Gold="16200" Crystal="16200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100041" Gold="16650" Crystal="16650" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100042" Gold="17100" Crystal="17100" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100043" Gold="17550" Crystal="17550" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100044" Gold="18000" Crystal="18000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100045" Gold="18450" Crystal="18450" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100046" Gold="18900" Crystal="18900" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100047" Gold="3000" Crystal="3000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100048" Gold="3600" Crystal="3600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100049" Gold="19350" Crystal="19350" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100050" Gold="19800" Crystal="19800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100051" Gold="20250" Crystal="20250" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100052" Gold="20700" Crystal="20700" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100053" Gold="21150" Crystal="21150" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100054" Gold="21600" Crystal="21600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100055" Gold="22050" Crystal="22050" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100056" Gold="22500" Crystal="22500" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100057" Gold="22950" Crystal="22950" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100058" Gold="23400" Crystal="23400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100059" Gold="23850" Crystal="23850" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100060" Gold="24300" Crystal="24300" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100061" Gold="24750" Crystal="24750" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100062" Gold="25200" Crystal="25200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100063" Gold="4200" Crystal="4200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100064" Gold="4800" Crystal="4800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100065" Gold="25650" Crystal="25650" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100066" Gold="26100" Crystal="26100" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100067" Gold="26550" Crystal="26550" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100068" Gold="27000" Crystal="27000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100069" Gold="27450" Crystal="27450" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100070" Gold="27900" Crystal="27900" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100071" Gold="28350" Crystal="28350" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100072" Gold="28800" Crystal="28800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100073" Gold="29250" Crystal="29250" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100074" Gold="29700" Crystal="29700" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100075" Gold="30150" Crystal="30150" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100076" Gold="30600" Crystal="30600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100077" Gold="31050" Crystal="31050" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100078" Gold="31500" Crystal="31500" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100079" Gold="31950" Crystal="31950" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100080" Gold="5400" Crystal="5400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100081" Gold="6000" Crystal="6000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100082" Gold="32400" Crystal="32400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100083" Gold="32850" Crystal="32850" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100084" Gold="33300" Crystal="33300" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100085" Gold="33750" Crystal="33750" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100086" Gold="34200" Crystal="34200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100087" Gold="34650" Crystal="34650" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100088" Gold="35100" Crystal="35100" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100089" Gold="35550" Crystal="35550" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100090" Gold="36000" Crystal="36000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100091" Gold="36450" Crystal="36450" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100092" Gold="36900" Crystal="36900" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100093" Gold="37350" Crystal="37350" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100094" Gold="37800" Crystal="37800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100095" Gold="38250" Crystal="38250" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100096" Gold="6600" Crystal="6600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100097" Gold="7200" Crystal="7200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100098" Gold="7800" Crystal="7800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100099" Gold="38700" Crystal="38700" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100100" Gold="39150" Crystal="39150" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100101" Gold="39600" Crystal="39600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100102" Gold="40050" Crystal="40050" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100103" Gold="40500" Crystal="40500" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100104" Gold="40950" Crystal="40950" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="100105" Gold="41400" Crystal="41400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110004" Gold="8400" Crystal="8400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110008" Gold="9000" Crystal="9000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110011" Gold="9600" Crystal="9600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110015" Gold="10200" Crystal="10200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110019" Gold="10800" Crystal="10800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110023" Gold="11400" Crystal="11400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110026" Gold="12000" Crystal="12000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110030" Gold="12600" Crystal="12600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110034" Gold="13200" Crystal="13200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110038" Gold="13800" Crystal="13800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110041" Gold="14400" Crystal="14400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110045" Gold="15000" Crystal="15000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110049" Gold="15600" Crystal="15600" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110053" Gold="16200" Crystal="16200" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110056" Gold="16800" Crystal="16800" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110060" Gold="17400" Crystal="17400" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110064" Gold="18000" Crystal="18000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110068" Gold="45000" Crystal="45000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110071" Gold="45000" Crystal="45000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110075" Gold="45000" Crystal="45000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110079" Gold="45000" Crystal="45000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110083" Gold="45000" Crystal="45000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110086" Gold="45000" Crystal="45000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110090" Gold="45000" Crystal="45000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110094" Gold="45000" Crystal="45000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110098" Gold="45000" Crystal="45000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110101" Gold="45000" Crystal="45000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+  <List ID="110105" Gold="45000" Crystal="45000" diamond="0" ItemList="1001;200;" ItemCountList="1;1;" ItemDropType="1" ItemChanceList="10000;10000;" MustGetItemId="10600" ItemCount="2" Times="1" />
+</RewardTemplate>

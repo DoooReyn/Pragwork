@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Config XXName="商店配置表">
+<List Type="1" NameId="1604" Img1="icon/shop/1.png.pvr.ccz" Text="资源建筑" >
+<list Id="4" Icon="icon/shop/4_1_1.png.pvr.ccz" />
+<list Id="5" Icon="icon/shop/5_1_1.png.pvr.ccz" />
+<list Id="6" Icon="icon/shop/6_1_1.png.pvr.ccz" />
+<list Id="7" Icon="icon/shop/7_1_1.png.pvr.ccz" />
+</List>
+<List Type="2" NameId="1207" Img1="icon/shop/2.png.pvr.ccz" Text="进攻建筑" >
+<list Id="2" Icon="icon/shop/2_1_1.png.pvr.ccz" />
+<list Id="3" Icon="icon/shop/3_1_1.png.pvr.ccz" />
+<list Id="12" Icon="icon/shop/12_1_1.png.pvr.ccz" />
+<list Id="15" Icon="icon/shop/15_1_1.png.pvr.ccz" />
+</List>
+<List Type="3" NameId="1606" Img1="icon/shop/3.png.pvr.ccz" Text="防守建筑" >
+<list Id="22" Icon="icon/shop/22_1_1.png.pvr.ccz" />
+<list Id="23" Icon="icon/shop/23_1_1.png.pvr.ccz" />
+<list Id="24" Icon="icon/shop/24_1_1.png.pvr.ccz" />
+<list Id="25" Icon="icon/shop/25_1_1.png.pvr.ccz" />
+<list Id="26" Icon="icon/shop/26_1_1.png.pvr.ccz" />
+</List>
+</Config>

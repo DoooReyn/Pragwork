@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ExchangeChip Name="碎片兑换">
+  <List KindID="10">
+    <List0 ID="501" Name="史莱姆" HeroChipNum="5"/>
+    <List1 ID="502" Name="水晶史莱姆" HeroChipNum="30"/>
+    <List2 ID="503" Name="皇冠史莱姆" HeroChipNum="150"/>
+  </List>
+  <List KindID="0">
+    <List0 ID="241" Name="天使" HeroChipNum="30"/>
+    <List1 ID="491" Name="掠夺者" HeroChipNum="32"/>
+    <List2 ID="331" Name="山岭巨人" HeroChipNum="34"/>
+    <List3 ID="401" Name="工程师" HeroChipNum="36"/>
+    <List4 ID="411" Name="冰霜女巫" HeroChipNum="38"/>
+    <List5 ID="441" Name="怨恨幽灵" HeroChipNum="40"/>
+    <List6 ID="481" Name="炼金术士" HeroChipNum="42"/>
+    <List7 ID="311" Name="游侠" HeroChipNum="44"/>
+  </List>
+  <List KindID="1">
+    <List0 ID="211" Name="角斗士" HeroChipNum="350"/>
+    <List1 ID="301" Name="刺客" HeroChipNum="360"/>
+    <List2 ID="321" Name="狼人" HeroChipNum="370"/>
+    <List3 ID="431" Name="独眼巨人" HeroChipNum="380"/>
+    <List4 ID="461" Name="萨满" HeroChipNum="390"/>
+    <List5 ID="451" Name="熊猫武者" HeroChipNum="500"/>
+    <List6 ID="511" Name="毒蛇女王" HeroChipNum="600"/>
+    <List7 ID="561" Name="冰魔" HeroChipNum="620"/>
+  </List>
+  <List KindID="2">
+    <List0 ID="201" Name="圣殿骑士" HeroChipNum="1200"/>
+    <List2 ID="421" Name="高山之王" HeroChipNum="1400"/>
+    <List1 ID="341" Name="死神" HeroChipNum="1600"/>
+    <List3 ID="471" Name="德鲁伊" HeroChipNum="1800"/>
+    <List4 ID="231" Name="影舞者" HeroChipNum="2000"/>
+    <List5 ID="521" Name="雷神" HeroChipNum="2200"/>
+  </List>
+</ExchangeChip>
+<!--
+KindID       客户端分类10:经验类 0:绿色卡帕 1:蓝色卡牌 2：紫色卡牌
+ID           英雄ID
+Name         英雄名称
+HeroChipNum  兑换的碎片
+-->

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Levels Name="经验配置" Quality_1="1" Quality_2="2" Quality_3="3">
+<List Level="1" Exp="100" Comments="升级需要技能书*100" />
+<List Level="2" Exp="600" Comments="升级需要技能书*600" />
+<List Level="3" Exp="2100" Comments="升级需要技能书*2100" />
+<List Level="4" Exp="3600" Comments="升级需要技能书*3600" />
+<List Level="5" Exp="5100" Comments="升级需要技能书*5100" />
+<List Level="6" Exp="6600" Comments="升级需要技能书*6600" />
+<List Level="7" Exp="8100" Comments="升级需要技能书*8100" />
+<List Level="8" Exp="9600" Comments="升级需要技能书*9600" />
+<List Level="9" Exp="0" Comments="满级" />
+</Levels>

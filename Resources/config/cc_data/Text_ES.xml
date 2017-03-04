@@ -1,0 +1,1483 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Config XXName="【西班牙】文字描述ID配置表">
+  <Text Type="1" TypeTxt="通用">
+    <List Id="1" Txt="Aceptar" />
+    <List Id="2" Txt="Cancelar" />
+    <List Id="3" Txt="Jugador" />
+    <List Id="4" Txt="Enviar" />
+    <List Id="5" Txt="¡Compraste exitosamente %d Gemas!" />
+    <List Id="6" Txt="¡Tu magia está llena!" />
+    <List Id="7" Txt="¿Estás seguro que deseas irte?" />
+    <List Id="8" Txt="EXP:" />
+    <List Id="9" Txt="Actualizar" />
+    <List Id="10" Txt="Versión" />
+    <List Id="11" Txt="Copyright 2012-2013 IGG.COM Todos los Derechos Reservados" />
+    <List Id="12" Txt="Help.castle.es@igg.com" />
+    <List Id="13" Txt="Tú" />
+    <List Id="14" Txt="¡Bono!" />
+    <List Id="15" Txt="Vender" />
+    <List Id="16" Txt="Batalla" />
+    <List Id="17" Txt="Has estado ausente por un tiempo. Toca Recargar para regresar al juego." />
+    <List Id="18" Txt="¿Sigues ahí?" />
+    <List Id="19" Txt="Recargar" />
+    <List Id="20" Txt="Saltar" />
+    <List Id="21" Txt="Iniciar" />
+    <List Id="22" Txt="Cargando" />
+    <List Id="23" Txt="Insignias de Honor" />
+    <List Id="24" Txt="NONE" />
+    <List Id="51" Txt="Información" />
+    <List Id="52" Txt="Subir Nv" />
+    <List Id="53" Txt="Contratar" />
+    <List Id="54" Txt="Juntar" />
+    <List Id="55" Txt="Héroe" />
+    <List Id="56" Txt="Quitar" />
+    <List Id="57" Txt="Magia" />
+    <List Id="58" Txt="Entrenamiento" />
+    <List Id="59" Txt="Entrar" />
+    <List Id="60" Txt="Cambiar Héroes" />
+    <List Id="61" Txt="%s (Nv %d)" />
+    <List Id="62" Txt="Fila Llena" />
+    <List Id="63" Txt="Acabar" />
+    <List Id="64" Txt="%s Nv %d -> %d" />
+    <List Id="65" Txt="Fallo en la conexión" />
+    <List Id="66" Txt="Refrescar la conexión" />
+    <List Id="67" Txt="Salir" />
+    <List Id="68" Txt="Aviso" />
+    <List Id="69" Txt="¡No tienes suficientes Gemas! ¿Deseas comprar más?" />
+    <List Id="70" Txt="Ingresa tu Nombre" />
+    <List Id="71" Txt="¡Este nombre ya está en uso o contiene un carácter no válido! Intenta un nombre diferente." />
+    <List Id="72" Txt="Girar" />
+    <List Id="73" Txt="Nv de Lote" />
+    <List Id="74" Txt="Nv %d" />
+    <List Id="75" Txt="Algo está mal con tu cuenta. Contactate a Soporte en Línea para pedir ayuda." />
+    <List Id="76" Txt="¡Batalla terminada! ¡Tú objetivo está en línea!" />
+    <List Id="77" Txt="EUR" />
+    <List Id="78" Txt="Mundo" />
+    <List Id="99" Txt="Consumir" />
+    <List Id="100" Txt="Promover" />
+    <List Id="101" Txt="Las Tropas son importantes, tanto para el ataque como para la defensa." />
+    <List Id="102" Txt="Las Tropas sobrevivientes volverán a tu Base." />
+    <List Id="103" Txt="Al atacar, toca la pantalla para desplegar tus Tropas. También puedes desplegar tus Tropas rápidamente manteniendo tu dedo en la pantalla." />
+    <List Id="104" Txt="No puedes desplegar tus Tropas en áreas en rojo." />
+    <List Id="105" Txt="Puedes reclutar tropas en el Campamento Militar. Las Tropas defenderán el área que rodea su Campamento Militar." />
+    <List Id="106" Txt="Mejora tu Campamento Militar para expandir su capacidad, fila de reclutamiento y el radio que tus Tropas patrullarán." />
+    <List Id="107" Txt="¡Completa Calabozos para ganar muchos Recursos y demostrar tu poder militar!" />
+    <List Id="108" Txt="¡Junta Fragmentos de Héroe en los Calabozos para cambiarlos por Héroes poderosos!" />
+    <List Id="109" Txt="¡Construye y mejora estructuras, expande tu pueblo y mejora las defensas de tu ciudad para crear una fortaleza impenetrable!" />
+    <List Id="110" Txt="Colocar y ordenar con cuidado tus edificios es la clave para una defensa efectiva." />
+    <List Id="111" Txt="Guía de Novato" />
+    <List Id="112" Txt="¡Mejora tu [Ayuntamiento] para desbloquear más Edificios y niveles!" />
+    <List Id="113" Txt="¡Mejorar tu [Ayuntamiento] debería ser tu meta #1!" />
+    <List Id="114" Txt="Elige un edificio para moverlo a un espacio vacío. No puedes colocar un edificio encima de otro." />
+    <List Id="115" Txt="Verás un ícono rojo en el botón de Tienda cuando haya nuevos edificios disponibles." />
+    <List Id="116" Txt="Estas son Insignias de Honor, uno de los recursos más importantes.
+Pueden usarse para contratar Héroes y subir sus Niveles de Estrella.
+Se obtienen principalmente en la Arena, pero también se pueden obtener en Asaltos y Calabozos.El máximo de Insignias de Honor es 1 millón." />
+    <List Id="117" Txt="Este es tu Poder. Representa tu capacidad general.
+Aumenta tu Poder mejorando edificios y entrenando Tropas y Héroes.
+Tus oponentes para Asaltos se determinan en base a tu Poder." />
+    <List Id="201" Txt="Los Héroes juegan un gran papel en batalla. Sería bueno entrenarlos constantemente." />
+    <List Id="202" Txt="Mejorar las tropas no solo las hace más fuertes, sino también desbloquea otros tipos de tropas." />
+    <List Id="203" Txt="Pon atención a la relación entre tropas diferentes. Podría darte una ventaja en el combate." />
+    <List Id="204" Txt="Los Héroes subirán de nivel mientras más los uses en batallas." />
+    <List Id="205" Txt="Mientras más alto sea tu rango de Arena, más Puntos de Gloria tendrás." />
+    <List Id="206" Txt="El uso prudente de la magia puede cambiar una mala situación." />
+    <List Id="207" Txt="Puedes comprar objetos para proteger tu castillo de ataques mientras estés desconectado." />
+    <List Id="208" Txt="Los Calabozos son una buena fuente de recursos y una buena forma de entrenar tropas." />
+    <List Id="209" Txt="¡Las Torres Básicas mejoradas tienen mejores capacidades defensivas y pueden convertirse en torres especiales!" />
+    <List Id="210" Txt="¡Ordena con cuidado tus edificios para hacer más lento el paso de los enemigos!" />
+    <List Id="211" Txt="¡Contrata más Héroes poderosos en el Altar de Héroes!" />
+    <List Id="212" Txt="Las babas no pueden usarse en batalla. Se usan para subir los niveles de habilidad de tus Héroes." />
+    <List Id="213" Txt="Puedes contratar Héroes pagando con Fragmentos, Gemas u Honor." />
+    <List Id="500" Txt="Cargando Info. del Dispositivo..." />
+    <List Id="501" Txt="¡Fallo en carga de la Info. del Dispositivo!" />
+    <List Id="502" Txt="¡Se Cargó la Info. del Dispositivo!" />
+    <List Id="510" Txt="Cargando Info. de la Versión..." />
+    <List Id="511" Txt="¡Fallo en carga de la Info. de la Versión!" />
+    <List Id="512" Txt="¡Se cargó la Info. de la Versión!" />
+    <List Id="520" Txt="Cargando Info. de la Cuenta..." />
+    <List Id="521" Txt="¡Fallo en carga de la Info. de la Cuenta!" />
+    <List Id="522" Txt="¡Se cargó la Info. de la Cuenta!" />
+    <List Id="530" Txt="Conectándose al Servidor..." />
+    <List Id="531" Txt="¡La conexión al Servidor de Inicio falló!" />
+    <List Id="532" Txt="¡Conexión al Servidor de Inicio exitosa!" />
+    <List Id="540" Txt="Entrando al Servidor..." />
+    <List Id="541" Txt="¡La conexión al Servidor del Juego falló!" />
+    <List Id="542" Txt="¡Conexión al Servidor del Juego exitosa!" />
+    <List Id="550" Txt="¡Error de Red!" />
+    <List Id="551" Txt="¡La conexión falló! Revisa el estado de tu red e inténtalo de nuevo." />
+    <List Id="552" Txt="Tu nombre solo puede tener caracteres alfanuméricos." />
+    <List Id="553" Txt="¡Tu nombre es muy largo!" />
+    <List Id="554" Txt="¡Error del Servidor: %d!" />
+    <List Id="1001" Txt="PS:" />
+    <List Id="1002" Txt="Producción:" />
+    <List Id="1003" Txt="Almacenamiento:" />
+    <List Id="1004" Txt="Tiempo de Mejora" />
+    <List Id="1005" Txt="Recursos Necesarios" />
+    <List Id="1006" Txt="Ataque" />
+    <List Id="1007" Txt="DAÑO:" />
+    <List Id="1008" Txt="Rango de Ataque:" />
+    <List Id="1101" Txt="Capacidad" />
+    <List Id="1102" Txt="Tiempo Total" />
+    <List Id="1103" Txt="Espacio Necesario" />
+    <List Id="1104" Txt="Costo de Producción" />
+    <List Id="1105" Txt="Terminar Ahora" />
+    <List Id="1106" Txt="Espacio:" />
+    <List Id="1120" Txt="Toca el ícono de un Héroe para desplegarlo." />
+    <List Id="1201" Txt="Clasificaciones" />
+    <List Id="1202" Txt="Rango" />
+    <List Id="1203" Txt="Nombre:" />
+    <List Id="1204" Txt="Poder:" />
+    <List Id="1205" Txt="Opciones" />
+    <List Id="1206" Txt="Ver" />
+    <List Id="1207" Txt="Ataques" />
+    <List Id="1301" Txt="Mostrar cañones de cambio. Toca para cambiar." />
+    <List Id="1302" Txt="Mejorar" />
+    <List Id="1401" Txt="Acabar" />
+    <List Id="1402" Txt="Recompensa:" />
+    <List Id="1501" Txt="Inicio de la Batalla" />
+    <List Id="1502" Txt="Tiempo Restante" />
+    <List Id="1503" Txt="Botín Disponible" />
+    <List Id="1504" Txt="Terminar Batalla" />
+    <List Id="1505" Txt="Mis Pérdidas" />
+    <List Id="1506" Txt="Pérdidas del Enemigo" />
+    <List Id="1507" Txt="Siguiente" />
+    <List Id="1508" Txt="No tienes suficiente Oro." />
+    <List Id="1509" Txt="No tienes suficientes tropas para lanzar un ataque." />
+    <List Id="1510" Txt="No puedes atacar a un objetivo con un escudo activo." />
+    <List Id="1511" Txt="No puedes atacar a un objetivo mientras está en línea." />
+    <List Id="1512" Txt="Reportes de la Batalla" />
+    <List Id="1513" Txt="Hace %s" />
+    <List Id="1514" Txt="No puedes atacar a tu objetivo mientras está en batalla." />
+    <List Id="1515" Txt="Victoria" />
+    <List Id="1516" Txt="Derrota" />
+    <List Id="1517" Txt="Ganaste:" />
+    <List Id="1518" Txt="Perdiste:" />
+    <List Id="1519" Txt="Tu escudo se desactivará si atacas a otro jugador. ¿Estás seguro que deseas atacar?" />
+    <List Id="1601" Txt="Tesoro" />
+    <List Id="1602" Txt="Escudos" />
+    <List Id="1603" Txt="Decoraciones" />
+    <List Id="1604" Txt="Recursos" />
+    <List Id="1605" Txt="Ejército" />
+    <List Id="1606" Txt="Defensas" />
+    <List Id="1607" Txt="Tienda" />
+    <List Id="1608" Txt="Necesita Nv %d %s" />
+    <List Id="1609" Txt="Requiere %d de Nv %s para desbloquear." />
+    <List Id="1611" Txt="Comprar Gemas" />
+    <List Id="1612" Txt="Comprar Oro" />
+    <List Id="1613" Txt="Comprar Maná" />
+    <List Id="1614" Txt="240 Gemas" />
+    <List Id="1615" Txt="600 Gemas" />
+    <List Id="1616" Txt="1,200 Gemas" />
+    <List Id="1617" Txt="Comprar 10% de Oro" />
+    <List Id="1618" Txt="Comprar 50% de Oro" />
+    <List Id="1619" Txt="Llena tu Bóveda de Oro" />
+    <List Id="1620" Txt="Comprar 10% de Maná" />
+    <List Id="1621" Txt="Comprar 50% de Maná" />
+    <List Id="1622" Txt="Llena tu Bóveda de Maná" />
+    <List Id="1623" Txt="Activar Escudo" />
+    <List Id="1624" Txt="%d Horas" />
+    <List Id="1625" Txt="%d de Oro" />
+    <List Id="1626" Txt="%d de Maná" />
+    <List Id="1627" Txt="No se puede comprar" />
+    <List Id="1628" Txt="Necesitarás más Oro para esto." />
+    <List Id="1629" Txt="Necesitarás más Maná para esto." />
+    <List Id="1630" Txt="Necesitarás más Gemas para esto." />
+    <List Id="1631" Txt="¿Deseas comprar %d de Oro?" />
+    <List Id="1632" Txt="¿Deseas comprar %d de Maná?" />
+    <List Id="1633" Txt="¿Deseas comprar más Gemas?" />
+    <List Id="1634" Txt="Comprar Oro" />
+    <List Id="1635" Txt="Comprar Maná" />
+    <List Id="1636" Txt="¡Los Constructores están ocupados!" />
+    <List Id="1637" Txt="¿Deseas liberar a un constructor para terminar otra construcción?" />
+    <List Id="1638" Txt="Acelerar" />
+    <List Id="1639" Txt="¿Terminar ahora?" />
+    <List Id="1640" Txt="¿Deseas comprar %s?" />
+    <List Id="1641" Txt="¿Deseas comprar %s %s?" />
+    <List Id="1642" Txt="Maná" />
+    <List Id="1643" Txt="Oro" />
+    <List Id="1644" Txt="Duración del Escudo" />
+    <List Id="1651" Txt="Mejora el Ayuntamiento para añadir más Edificios." />
+    <List Id="1652" Txt="Alcanzaste el maximo de Edificios" />
+    <List Id="1653" Txt="Añadir Constructores" />
+    <List Id="1654" Txt="¿Deseas añadir más Constructores?" />
+    <List Id="1655" Txt="¿Deseas comprar %d de Oro para acelerar la construcción?" />
+    <List Id="1656" Txt="¿Deseas comprar %d de Maná y acelerar la construcción?" />
+    <List Id="1657" Txt="Si cancelas esta mejora, solamente recuperarás el 50% de tus recursos. ¿Estás seguro que deseas cancelar esto?" />
+    <List Id="1658" Txt="¿Deseas gastar %d de Oro para subir todo de nivel?" />
+    <List Id="1659" Txt="2,400 Gemas" />
+    <List Id="1660" Txt="6,000 Gemas" />
+    <List Id="1661" Txt="12,000 Gemas" />
+    <List Id="1671" Txt="Escudo de Madera" />
+    <List Id="1672" Txt="Escudo de Hierro" />
+    <List Id="1673" Txt="Escudo Dorado" />
+    <List Id="1674" Txt="Esto costará %d Gemas. ¿Estás seguro?" />
+    <List Id="1701" Txt="Configuración" />
+    <List Id="1702" Txt="Música" />
+    <List Id="1703" Txt="Sonidos" />
+    <List Id="1704" Txt="Idioma" />
+    <List Id="1705" Txt="Acerca de" />
+    <List Id="1706" Txt="Ayuda" />
+    <List Id="1707" Txt="Cerrar" />
+    <List Id="1801" Txt="Elige un Héroe para consumir." />
+    <List Id="1802" Txt="Elige" />
+    <List Id="1803" Txt="Contratar" />
+    <List Id="1804" Txt="Nivel" />
+    <List Id="1805" Txt="Mejorar" />
+    <List Id="1806" Txt="Requisitos para Mejorar" />
+    <List Id="1807" Txt="Terminar" />
+    <List Id="1808" Txt="Consumir" />
+    <List Id="1809" Txt="Extraer Una Vez" />
+    <List Id="1810" Txt="Extraer 5" />
+    <List Id="1811" Txt="Contrata con Puntos de Gloria" />
+    <List Id="1812" Txt="Contrata con Gemas" />
+    <List Id="1813" Txt="Contrata un Héroe con Puntos de Gloria." />
+    <List Id="1814" Txt="Contrata un Héroe usando Cupones. ¡Podrías obtener un Héroe especial!" />
+    <List Id="1815" Txt="¡Felicidades!" />
+    <List Id="1816" Txt="Tienda de Héroe" />
+    <List Id="1817" Txt="Contrata con Fragmentos" />
+    <List Id="1818" Txt="Estímulos de EXP" />
+    <List Id="1819" Txt="Estrella" />
+    <List Id="1820" Txt="¿Deseas revivir a este Héroe?" />
+    <List Id="1821" Txt="Has escogido un Héroe de rango alto. ¿Seguro que deseas consumirlo?" />
+  </Text>
+  <Text Type="2" TypeTxt="建筑名称">
+    <List Id="10001" Txt="Ayuntamiento" />
+    <List Id="10002" Txt="Altar de Héroes" />
+    <List Id="10003" Txt="Campamento Militar" />
+    <List Id="10004" Txt="Mina de Oro" />
+    <List Id="10005" Txt="Molino de Maná" />
+    <List Id="10006" Txt="Bóveda de Oro" />
+    <List Id="10007" Txt="Bóveda de Maná" />
+    <List Id="10008" Txt="Torre de Vigilancia" />
+    <List Id="10009" Txt="Torre de Arqueros" />
+    <List Id="10010" Txt="Torre de Magia" />
+    <List Id="10011" Txt="Arena" />
+    <List Id="10012" Txt="Salón de Reliquias" />
+    <List Id="10013" Txt="Muro" />
+    <List Id="10014" Txt="Trampa de Bombas" />
+    <List Id="10015" Txt="Base de Héroes" />
+    <List Id="10016" Txt="Centro de Entrenamiento" />
+    <List Id="10017" Txt="Lápida" />
+    <List Id="10018" Txt="Torre de Cañón" />
+    <List Id="10019" Txt="Salón de la Gloria" />
+    <List Id="10021" Txt="Trampa al Héroe" />
+    <List Id="10101" Txt="Flor I" />
+    <List Id="10102" Txt="Flor II" />
+    <List Id="10103" Txt="Flor III" />
+    <List Id="10104" Txt="Flor IV" />
+    <List Id="10105" Txt="Flor V" />
+    <List Id="10111" Txt="Estatua I" />
+    <List Id="10112" Txt="Estatua II" />
+    <List Id="10113" Txt="Estatua III" />
+    <List Id="10114" Txt="Estatua IV" />
+    <List Id="10115" Txt="Estatua V" />
+    <List Id="10121" Txt="Otros I" />
+    <List Id="10122" Txt="Otros II" />
+    <List Id="10123" Txt="Otros III" />
+    <List Id="10124" Txt="Otros IV" />
+    <List Id="10125" Txt="Otros V" />
+    <List Id="10131" Txt="Césped I" />
+    <List Id="10132" Txt="Césped II" />
+    <List Id="10133" Txt="Césped III" />
+    <List Id="10134" Txt="Césped IV" />
+    <List Id="10135" Txt="Césped V" />
+    <List Id="10141" Txt="Roca I" />
+    <List Id="10142" Txt="Roca II" />
+    <List Id="10143" Txt="Roca III" />
+    <List Id="10144" Txt="Roca IV" />
+    <List Id="10145" Txt="Roca V" />
+    <List Id="10151" Txt="Árbol I" />
+    <List Id="10152" Txt="Árbol II" />
+    <List Id="10153" Txt="Árbol III" />
+    <List Id="10154" Txt="Árbol IV" />
+    <List Id="10155" Txt="Árbol V" />
+    <List Id="10201" Txt="A" />
+    <List Id="10202" Txt="B" />
+    <List Id="10203" Txt="C" />
+    <List Id="10204" Txt="D" />
+    <List Id="10205" Txt="E" />
+    <List Id="10206" Txt="F" />
+    <List Id="10207" Txt="G" />
+    <List Id="10208" Txt="H" />
+    <List Id="10209" Txt="I" />
+    <List Id="10210" Txt="J" />
+    <List Id="10211" Txt="K" />
+    <List Id="10212" Txt="L" />
+    <List Id="10213" Txt="M" />
+    <List Id="10214" Txt="N" />
+    <List Id="10215" Txt="O" />
+    <List Id="10216" Txt="P" />
+    <List Id="10217" Txt="Q" />
+    <List Id="10218" Txt="R" />
+    <List Id="10219" Txt="S" />
+    <List Id="10220" Txt="T" />
+    <List Id="10221" Txt="U" />
+    <List Id="10222" Txt="V" />
+    <List Id="10223" Txt="W" />
+    <List Id="10224" Txt="X" />
+    <List Id="10225" Txt="Y" />
+    <List Id="10226" Txt="Z" />
+    <List Id="10227" Txt="0" />
+    <List Id="10228" Txt="1" />
+    <List Id="10229" Txt="2" />
+    <List Id="10230" Txt="3" />
+    <List Id="10231" Txt="4" />
+    <List Id="10232" Txt="5" />
+    <List Id="10233" Txt="6" />
+    <List Id="10234" Txt="7" />
+    <List Id="10235" Txt="8" />
+    <List Id="10236" Txt="9" />
+    <List Id="10301" Txt="Puedes usar cualquier combinación de letras y números." />
+  </Text>
+  <Text Type="3" TypeTxt="建筑描述">
+    <List Id="20001" Txt="Tu edificio principal. Su nivel afecta el número, tipo y nivel máximo de los otros edificios." />
+    <List Id="20002" Txt="Puedes contratar y entrenar Héroes aquí. Las mejoras posteriores reducen las veces de resurrección del Héroe." />
+    <List Id="20003" Txt="Produce una variedad de tropas. Sube de nivel para aumentar la cantidad máxima de tropas. Las Tropas se desplegarán automáticamente al ser atacadas." />
+    <List Id="20004" Txt="Produce Oro. Sube de nivel para aumentar la producción y el espacio de almacenamiento." />
+    <List Id="20005" Txt="Produce Maná. Sube de nivel para aumentar la producción y el espacio de almacenamiento." />
+    <List Id="20006" Txt="Almacena el Oro recolectado. Sube de nivel para aumentar el espacio de almacenamiento." />
+    <List Id="20007" Txt="Almacena el Maná recolectado. Sube de nivel para aumentar el espacio de almacenamiento." />
+    <List Id="20008" Txt="Torre defensiva básica. Ataca a las tropas enemigas. Puede mejorarse a torres especializadas después del Nv 10." />
+    <List Id="20009" Txt="Una versión mejorada de la Torre Básica Nv 10. Ataca a un objetivo rápidamente." />
+    <List Id="20010" Txt="Una versión mejorada de la Torre Básica Nv 10. Ataca a varios objetivos a la vez." />
+    <List Id="20011" Txt="¡Únete a la Arena para tener un lugar en las Clasificaciones y ganar grandes premios!" />
+    <List Id="20012" Txt="Investiga equipos que sean esenciales para asaltos." />
+    <List Id="20013" Txt="Tu primera línea de defensa. Colócalos estratégicamente para entorpecer el avance del enemigo." />
+    <List Id="20014" Txt="Explota y otorga DAÑO a los primeros enemigos que se acercan a esta trampa en un cierto rango. Se utiliza una sola vez. No tiene efecto en unidades voladoras." />
+    <List Id="20015" Txt="Los Héroes son puestos aquí para defender de ataques entrantes. También puedes enviarlos a asaltos." />
+    <List Id="20016" Txt="Mejora tropas y desbloquea una mayor variedad de tropas." />
+    <List Id="20017" Txt="Una lápida que aparece cuando una tropa muere." />
+    <List Id="20018" Txt="Una versión mejorada de la Torre Básica. Su cañón daña a todos los enemigos que rodean su objetivo." />
+    <List Id="20019" Txt="Salón de la Gloria" />
+    <List Id="20020" Txt="Rango:" />
+    <List Id="20021" Txt="¡Heroes que se acercan pondrán desencadenar esta trampa explosiva! Otorga un daño igual al 10% de PS Máximo a todos los Héroes en un determinado rango. Posiciona las Trampas juntas para un poder más devastador. Se utiliza una sola vez. No tiene efecto en unidades voladoras." />
+    <List Id="20101" Txt="Flores Decorativas" />
+    <List Id="20102" Txt="Flores Decorativas" />
+    <List Id="20103" Txt="Flores Decorativas" />
+    <List Id="20104" Txt="Flores Decorativas" />
+    <List Id="20105" Txt="Flores Decorativas" />
+    <List Id="20111" Txt="Estatua Decorativa" />
+    <List Id="20112" Txt="Estatua Decorativa" />
+    <List Id="20113" Txt="Estatua Decorativa" />
+    <List Id="20114" Txt="Estatua Decorativa" />
+    <List Id="20115" Txt="Estatua Decorativa" />
+    <List Id="20121" Txt="Objeto Decorativo" />
+    <List Id="20122" Txt="Objeto Decorativo" />
+    <List Id="20123" Txt="Objeto Decorativo" />
+    <List Id="20124" Txt="Objeto Decorativo" />
+    <List Id="20125" Txt="Objeto Decorativo" />
+    <List Id="20131" Txt="Puede quitarse." />
+    <List Id="20132" Txt="Puede quitarse." />
+    <List Id="20133" Txt="Puede quitarse." />
+    <List Id="20134" Txt="Puede quitarse." />
+    <List Id="20135" Txt="Puede quitarse." />
+    <List Id="20141" Txt="Puede quitarse." />
+    <List Id="20142" Txt="Puede quitarse." />
+    <List Id="20143" Txt="Puede quitarse." />
+    <List Id="20144" Txt="Puede quitarse." />
+    <List Id="20145" Txt="Puede quitarse." />
+    <List Id="20151" Txt="Puede quitarse." />
+    <List Id="20152" Txt="Puede quitarse." />
+    <List Id="20153" Txt="Puede quitarse." />
+    <List Id="20154" Txt="Puede quitarse." />
+    <List Id="20155" Txt="Puede quitarse." />
+  </Text>
+  <Text Type="4" TypeTxt="魔法">
+    <List Id="30001" Txt="Lluvia de Flechas" />
+    <List Id="30002" Txt="Lluvia de Flechas" />
+    <List Id="30003" Txt="Lluvia de Flechas" />
+    <List Id="30004" Txt="Lluvia de Flechas" />
+    <List Id="30005" Txt="Lluvia de Flechas" />
+    <List Id="30006" Txt="Restauración" />
+    <List Id="30007" Txt="Restauración" />
+    <List Id="30008" Txt="Restauración" />
+    <List Id="30009" Txt="Restauración" />
+    <List Id="30010" Txt="Restauración" />
+    <List Id="30011" Txt="Fervor de Ares" />
+    <List Id="30012" Txt="Fervor de Ares" />
+    <List Id="30013" Txt="Fervor de Ares" />
+    <List Id="30014" Txt="Fervor de Ares" />
+    <List Id="30015" Txt="Fervor de Ares" />
+    <List Id="30016" Txt="Huracán" />
+    <List Id="30017" Txt="Huracán" />
+    <List Id="30018" Txt="Huracán" />
+    <List Id="30019" Txt="Huracán" />
+    <List Id="30020" Txt="Huracán" />
+    <List Id="30021" Txt="Ángel Guardián" />
+    <List Id="30022" Txt="Ángel Guardián" />
+    <List Id="30023" Txt="Ángel Guardián" />
+    <List Id="30024" Txt="Ángel Guardián" />
+    <List Id="30025" Txt="Ángel Guardián" />
+    <List Id="30026" Txt="Meteoro" />
+    <List Id="30027" Txt="Meteoro" />
+    <List Id="30028" Txt="Meteoro" />
+    <List Id="30029" Txt="Meteoro" />
+    <List Id="30030" Txt="Meteoro" />
+    <List Id="30031" Txt="Desastre" />
+    <List Id="30032" Txt="Desastre" />
+    <List Id="30033" Txt="Desastre" />
+    <List Id="30034" Txt="Desastre" />
+    <List Id="30035" Txt="Desastre" />
+    <List Id="30036" Txt="Furor de Ares" />
+    <List Id="30037" Txt="Furor de Ares" />
+    <List Id="30038" Txt="Furor de Ares" />
+    <List Id="30039" Txt="Furor de Ares" />
+    <List Id="30040" Txt="Furor de Ares" />
+    <List Id="30041" Txt="Vuelo de Fénix" />
+    <List Id="30042" Txt="Vuelo de Fénix" />
+    <List Id="30043" Txt="Vuelo de Fénix" />
+    <List Id="30044" Txt="Vuelo de Fénix" />
+    <List Id="30045" Txt="Vuelo de Fénix" />
+    <List Id="30046" Txt="Tormenta de Nieve" />
+    <List Id="30047" Txt="Tormenta de Nieve" />
+    <List Id="30048" Txt="Tormenta de Nieve" />
+    <List Id="30049" Txt="Tormenta de Nieve" />
+    <List Id="30050" Txt="Tormenta de Nieve" />
+  </Text>
+  <Text Type="5" TypeTxt="魔法描述">
+    <List Id="31001" Txt="Llueven flechas en un área y causan 8% de PS Máx +120 DAÑO a todas las tropas enemigas dentro del área por 8 segs. No afecta edificios." />
+    <List Id="31002" Txt="Llueven flechas en un área y causan 8% de PS Máx +240 DAÑO a todas las tropas enemigas dentro del área por 8 segs. No afecta edificios." />
+    <List Id="31003" Txt="Llueven flechas en un área y causan 8% de PS Máx +360 DAÑO a todas las tropas enemigas dentro del área por 8 segs. No afecta edificios." />
+    <List Id="31004" Txt="Llueven flechas en un área y causan 8% de PS Máx +480 DAÑO a todas las tropas enemigas dentro del área por 8 segs. No afecta edificios." />
+    <List Id="31005" Txt="Llueven flechas en un área y causan 8% de PS Máx +600 DAÑO a todas las tropas enemigas dentro del área por 8 segs. No afecta edificios." />
+    <List Id="31006" Txt="Crea un aro de sanación en el campo de batalla, sanando a todas las tropas amigas en el área en un 6% de su PS Máx +10 PS cada seg. por 8 segs." />
+    <List Id="31007" Txt="Crea un aro de sanación en el campo de batalla, sanando a todas las tropas amigas en el área en un 8% de su PS Máx +20 PS cada seg. por 8 segs." />
+    <List Id="31008" Txt="Crea un aro de sanación en el campo de batalla, sanando a todas las tropas amigas en el área en un 10% de su PS Máx +30 PS cada seg. por 8 segs." />
+    <List Id="31009" Txt="Crea un aro de sanación en el campo de batalla, sanando a todas las tropas amigas en el área en un 12% de su PS Máx +40 PS cada seg. por 8 segs." />
+    <List Id="31010" Txt="Crea un aro de sanación en el campo de batalla, sanando a todas las tropas amigas en el área en un 15% de su PS Máx +50 PS cada seg. por 8 segs." />
+    <List Id="31011" Txt="Invoca la fuerza de Ares sobre todas tus tropas, dándoles +5% ATQ hasta terminar la batalla." />
+    <List Id="31012" Txt="Invoca la fuerza de Ares sobre todas tus tropas, dándoles +8% ATQ hasta terminar la batalla." />
+    <List Id="31013" Txt="Invoca la fuerza de Ares sobre todas tus tropas, dándoles +11% ATQ hasta terminar la batalla." />
+    <List Id="31014" Txt="Invoca la fuerza de Ares sobre todas tus tropas, dándoles +14% ATQ hasta terminar la batalla." />
+    <List Id="31015" Txt="Invoca la fuerza de Ares sobre todas tus tropas, dándoles +17% ATQ hasta terminar la batalla." />
+    <List Id="31016" Txt="Barre la base enemiga con un huracán, causando 8% Máx PS +800 DAÑO por 8 segs. a todos los edificios enemigos a su paso. Mueve tu dispositivo para guiar el paso de la tormenta." />
+    <List Id="31017" Txt="Barre la base enemiga con un huracán, causando 16% Máx PS +1040 DAÑO por 8 segs. a todos los edificios enemigos a su paso. Mueve tu dispositivo para guiar el paso de la tormenta." />
+    <List Id="31018" Txt="Barre la base enemiga con un huracán, causando 24% Máx PS +1280 DAÑO por 8 segs. a todos los edificios enemigos a su paso. Mueve tu dispositivo para guiar el paso de la tormenta." />
+    <List Id="31019" Txt="Barre la base enemiga con un huracán, causando 32% Máx PS +1520 DAÑO por 8 segs. a todos los edificios enemigos a su paso. Mueve tu dispositivo para guiar el paso de la tormenta." />
+    <List Id="31020" Txt="Barre la base enemiga con un huracán, causando 40% Máx PS +1760 DAÑO por 8 segs. a todos los edificios enemigos a su paso. Mueve tu dispositivo para guiar el paso de la tormenta." />
+    <List Id="31021" Txt="Invoca la protección de un ángel, dando invulnerabilidad a 6 tropas amigas en el área por 6 segs." />
+    <List Id="31022" Txt="Invoca la protección de un ángel, dando invulnerabilidad a 8 tropas amigas en el área por 6 segs." />
+    <List Id="31023" Txt="Invoca la protección de un ángel, dando invulnerabilidad a 10 tropas amigas en el área por 6 segs." />
+    <List Id="31024" Txt="Invoca la protección de un ángel, dando invulnerabilidad a 12 tropas amigas en el área por 6 segs." />
+    <List Id="31025" Txt="Invoca la protección de un ángel, dando invulnerabilidad a 14 tropas amigas en el área por 6 segs." />
+    <List Id="31026" Txt="Crea una lluvia de meteoros en un área, causando 12% de PS Máx de DAÑO a todos los enemigos en el área por 6 segs." />
+    <List Id="31027" Txt="Crea una lluvia de meteoros en un área, causando 18% de PS Máx de DAÑO a todos los enemigos en el área por 6 segs." />
+    <List Id="31028" Txt="Crea una lluvia de meteoros en un área, causando 24% de PS Máx de DAÑO a todos los enemigos en el área por 6 segs." />
+    <List Id="31029" Txt="Crea una lluvia de meteoros en un área, causando 30% de PS Máx de DAÑO a todos los enemigos en el área por 6 segs." />
+    <List Id="31030" Txt="Crea una lluvia de meteoros en un área, causando 36% de PS Máx de DAÑO a todos los enemigos en el área por 6 segs." />
+    <List Id="31031" Txt="Rueda una enorme roca en todo el campo de batalla, causando 10% de PS Máx +300 DAÑO por 5 segs. a todos los edificios enemigos a su paso. También reduce 20% el ATQ de las tropas afectadas por 5 segs. Mueve tu dispositivo para guiar la roca." />
+    <List Id="31032" Txt="Rueda una enorme roca en todo el campo de batalla, causando 10% de PS Máx +450 DAÑO por 5 segs. a todos los edificios enemigos a su paso. También reduce 25% el ATQ de las tropas afectadas por 5 segs. Mueve tu dispositivo para guiar la roca." />
+    <List Id="31033" Txt="Rueda una enorme roca en todo el campo de batalla, causando 10% de PS Máx +600 DAÑO por 5 segs. a todos los edificios enemigos a su paso. También reduce 30% el ATQ de las tropas afectadas por 5 segs. Mueve tu dispositivo para guiar la roca." />
+    <List Id="31034" Txt="Rueda una enorme roca en todo el campo de batalla, causando 10% de PS Máx +750 DAÑO por 5 segs. a todos los edificios enemigos a su paso. También reduce 35% el ATQ de las tropas afectadas por 5 segs. Mueve tu dispositivo para guiar la roca." />
+    <List Id="31035" Txt="Rueda una enorme roca en todo el campo de batalla, causando 10% de PS Máx +900 DAÑO por 5 segs. a todos los edificios enemigos a su paso. También reduce 40% el ATQ de las tropas afectadas por 5 segs. Mueve tu dispositivo para guiar la roca." />
+    <List Id="31036" Txt="La sed de sangre de Ares se apodera de las tropas amigas en un área por 8 segs., otorgando +20% ATQ, VEL ATQ y VEL MOV." />
+    <List Id="31037" Txt="La sed de sangre de Ares se apodera de las tropas amigas en un área por 9 segs., otorgando +30% ATQ, VEL ATQ y VEL MOV." />
+    <List Id="31038" Txt="La sed de sangre de Ares se apodera de las tropas amigas en un área por 11 segs., otorgando +40% ATQ, VEL ATQ y VEL MOV." />
+    <List Id="31039" Txt="La sed de sangre de Ares se apodera de las tropas amigas en un área por 12 segs., otorgando +50% ATQ, VEL ATQ y VEL MOV." />
+    <List Id="31040" Txt="La sed de sangre de Ares se apodera de las tropas amigas en un área por 15 segs., otorgando +60% ATQ, VEL ATQ y VEL MOV." />
+    <List Id="31041" Txt="Invoca un fénix que vuela por el campo de batalla por 10 segs., reviviendo al azar a 6 tropas amigas a su paso. No afecta a los Héroes. Guía al fénix arrastrando tu dedo en la pantalla." />
+    <List Id="31042" Txt="Invoca un fénix que vuela por el campo de batalla por 10 segs., reviviendo al azar a 12 tropas amigas a su paso. No afecta a los Héroes. Guía al fénix arrastrando tu dedo en la pantalla." />
+    <List Id="31043" Txt="Invoca un fénix que vuela por el campo de batalla por 10 segs., reviviendo al azar a 18 tropas amigas a su paso. No afecta a los Héroes. Guía al fénix arrastrando tu dedo en la pantalla." />
+    <List Id="31044" Txt="Invoca un fénix que vuela por el campo de batalla por 10 segs., reviviendo al azar a 24 tropas amigas a su paso. No afecta a los Héroes. Guía al fénix arrastrando tu dedo en la pantalla." />
+    <List Id="31045" Txt="Invoca un fénix que vuela por el campo de batalla por 10 segs., reviviendo al azar a 30 tropas amigas a su paso. No afecta a los Héroes. Guía al fénix arrastrando tu dedo en la pantalla." />
+    <List Id="31046" Txt="Cubre un área con tormenta de nieve y causa 6% de PS Máx +200 DAÑO a todos los enemigos en el área. También Congela a las tropas afectadas por 6 segs." />
+    <List Id="31047" Txt="Cubre un área con tormenta de nieve y causa 7% de PS Máx +400 DAÑO a todos los enemigos en el área. También Congela a las tropas afectadas por 7 segs." />
+    <List Id="31048" Txt="Cubre un área con tormenta de nieve y causa 8% de PS Máx +600 DAÑO a todos los enemigos en el área. También Congela a las tropas afectadas por 9 segs." />
+    <List Id="31049" Txt="Cubre un área con tormenta de nieve y causa 9% de PS Máx +800 DAÑO a todos los enemigos en el área. También Congela a las tropas afectadas por 11 segs." />
+    <List Id="31050" Txt="Cubre un área con tormenta de nieve y causa 10% de PS Máx +1,000 DAÑO a todos los enemigos en el área. También Congela a las tropas afectadas por 13 segs." />
+  </Text>
+  <Text Type="6" TypeTxt="任务标题">
+    <List Id="32001" Txt="Ayuntamiento" />
+    <List Id="32002" Txt="Hallazgo de Oro" />
+    <List Id="32003" Txt="Alijo de Maná" />
+    <List Id="32004" Txt="Guerreros Inminentes" />
+    <List Id="32005" Txt="Magnate de Oro" />
+    <List Id="32006" Txt="Magnate de Maná" />
+    <List Id="32007" Txt="Misión Posible" />
+    <List Id="32008" Txt="Perfeccionista" />
+    <List Id="32009" Txt="Valor de Victoria" />
+    <List Id="32010" Txt="Destino de Derrota" />
+    <List Id="32011" Txt="Los Vengadores" />
+    <List Id="32012" Txt="Soy Leyenda" />
+    <List Id="32013" Txt="¡Hay Mucha Gente!" />
+    <List Id="32014" Txt="Camino al Poder" />
+    <List Id="32015" Txt="Despejado" />
+    <List Id="32016" Txt="Indomable" />
+    <List Id="32017" Txt="¡Ay!" />
+    <List Id="32018" Txt="Dominio de Magia" />
+    <List Id="32019" Txt="Fan Número Uno" />
+    <List Id="32020" Txt="Gloria de Batalla" />
+    <List Id="32021" Txt="¿Me Extrañaste?" />
+  </Text>
+  <Text Type="7" TypeTxt="任务描述">
+    <List Id="33001" Txt="El Ayuntamiento llega al Nv 4." />
+    <List Id="33002" Txt="El Ayuntamiento llega al Nv 12." />
+    <List Id="33003" Txt="El Ayuntamiento llega al Nv 20." />
+    <List Id="33004" Txt="La Bóveda de Oro llega al Nv 4." />
+    <List Id="33005" Txt="La Bóveda de Oro llega al Nv 12." />
+    <List Id="33006" Txt="La Bóveda de Oro llega al Nv 20." />
+    <List Id="33007" Txt="La Bóveda de Maná llega al Nv 4." />
+    <List Id="33008" Txt="La Bóveda de Maná llega al Nv 12." />
+    <List Id="33009" Txt="La Bóveda de Maná llega al Nv 20." />
+    <List Id="33010" Txt="Llega a 1,000 de Poder." />
+    <List Id="33011" Txt="Llega a 15,000 de Poder." />
+    <List Id="33012" Txt="Llega a 35,000 de Poder." />
+    <List Id="33013" Txt="Junta 100,000 de Oro en total." />
+    <List Id="33014" Txt="Junta 5,000,000 de Oro en total." />
+    <List Id="33015" Txt="Junta 20,000,000 de Oro en total." />
+    <List Id="33016" Txt="Junta 100,000 de Maná en total." />
+    <List Id="33017" Txt="Junta 5,000,000 de Maná en total." />
+    <List Id="33018" Txt="Junta 20,000,000 de Maná en total." />
+    <List Id="33019" Txt="Termina 5 Calabozos." />
+    <List Id="33020" Txt="Termina 50 Calabozos." />
+    <List Id="33021" Txt="Termina 100 Calabozos." />
+    <List Id="33022" Txt="Gana 3 Estrellas en 10 Etapas." />
+    <List Id="33023" Txt="Gana 3 Estrellas en 50 Calabozos." />
+    <List Id="33024" Txt="Gana 3 Estrellas en 100 Calabozos." />
+    <List Id="33025" Txt="Gana 20 ataques contra otros jugadores." />
+    <List Id="33026" Txt="Gana 200 ataques contra otros jugadores." />
+    <List Id="33027" Txt="Gana 1,000 ataques contra otros jugadores." />
+    <List Id="33028" Txt="Pierde 20 ataques contra otros jugadores." />
+    <List Id="33029" Txt="Pierde 200 ataques contra otros jugadores." />
+    <List Id="33030" Txt="Pierde 1,000 ataques contra otros jugadores." />
+    <List Id="33031" Txt="Ten un Héroe 3 Estrellas." />
+    <List Id="33032" Txt="Ten un Héroe 6 Estrellas." />
+    <List Id="33033" Txt="Ten un Héroe 9 Estrellas." />
+    <List Id="33034" Txt="Posee una Tropa 5 Estrellas." />
+    <List Id="33035" Txt="Posee 6 tipos de Tropas 5 Estrellas." />
+    <List Id="33036" Txt="Posee 12 tipos de Tropas 5 Estrellas." />
+    <List Id="33037" Txt="Posee 2 tipos de Tropas." />
+    <List Id="33038" Txt="Posee 6 tipos de Tropas." />
+    <List Id="33039" Txt="Posee 12 tipos de Tropas." />
+    <List Id="33040" Txt="Termina 5 obstáculos." />
+    <List Id="33041" Txt="Termina 15 obstáculos." />
+    <List Id="33042" Txt="Termina 30 obstáculos." />
+    <List Id="33043" Txt="Destruye 100 Muros en Asaltos." />
+    <List Id="33044" Txt="Destruye 800 Muros en Asaltos." />
+    <List Id="33045" Txt="Destruye 3,000 Muros en Asaltos." />
+    <List Id="33046" Txt="Gana 10 batallas de Arena." />
+    <List Id="33047" Txt="Gana 200 batallas de Arena." />
+    <List Id="33048" Txt="Gana 1,000 batallas de Arena." />
+    <List Id="33049" Txt="Pierde 10 batallas de Arena." />
+    <List Id="33050" Txt="Pierde 200 batallas de Arena." />
+    <List Id="33051" Txt="Pierde 1,000 batallas de Arena." />
+    <List Id="33052" Txt="Desbloquea 4 tipos de Hechizos." />
+    <List Id="33053" Txt="Desbloquea 8 tipos de Hechizos." />
+    <List Id="33054" Txt="Desbloquea 10 tipos de Hechizos." />
+    <List Id="33055" Txt="Obtén 50 Fragmentos de Héroe en los Calabozos." />
+    <List Id="33056" Txt="Obtén 200 Fragmentos de Héroe en los Calabozos." />
+    <List Id="33057" Txt="Obtén 1,000 Fragmentos de Héroe en los Calabozos." />
+    <List Id="33058" Txt="Gana 5,000 Puntos de Gloria." />
+    <List Id="33059" Txt="Gana 200,000 Puntos de Gloria." />
+    <List Id="33060" Txt="Gana 1,000,000 Puntos de Gloria." />
+    <List Id="33061" Txt="Inicia sesión por 7 días." />
+    <List Id="33062" Txt="Inicia sesión por 30 días." />
+    <List Id="33063" Txt="Inicia sesión por 90 días." />
+    <List Id="33064" Txt="¡Premio por Iniciar Sesión!" />
+    <List Id="33065" Txt="¡Pelea en la Arena!" />
+    <List Id="33066" Txt="¡Róbale Oro a otro jugador!" />
+    <List Id="33067" Txt="¡Róbale Maná a otro jugador!" />
+    <List Id="33068" Txt="¡Compra 230 Gemas para obtener 3000 Insignias de Honor!" />
+    <List Id="33069" Txt="¡Compra 600 Gemas para obtener 10,000 Insignias de Honor!" />
+    <List Id="33070" Txt="¡Compra 3,000 Gemas para obtener 20,000 Insignias de Honor!" />
+    <List Id="33071" Txt="¡Compra 15,000 Gemas para obtener 30,000 Insignias de Honor!" />
+    <List Id="33072" Txt="¡Compra 50,000 Gemas para obtener 50,000 Insignias de Honor!" />
+  </Text>
+  <Text Type="8" TypeTxt="兵种名称">
+    <List Id="50001" Txt="Guardián" />
+    <List Id="50002" Txt="Cazador" />
+    <List Id="50003" Txt="Piromante" />
+    <List Id="50004" Txt="Humárbol" />
+    <List Id="50005" Txt="Enano de Martillo" />
+    <List Id="50006" Txt="Centauro" />
+    <List Id="50007" Txt="Griffin" />
+    <List Id="50008" Txt="Mecahombre" />
+    <List Id="50009" Txt="Ogro Salvaje" />
+    <List Id="50010" Txt="Enano de Escopeta" />
+    <List Id="50011" Txt="Dragón Mágico" />
+    <List Id="50012" Txt="Ornitóptero" />
+  </Text>
+  <Text Type="9" TypeTxt="兵种描述">
+    <List Id="60001" Txt="El más básico pero el más leal de los guerreros. Este guardián marcha sin temerle a la muerte. El entrenamiento de uno requiere un costo mínimo, pero nadie niega su utilidad en cualquier ejército." />
+    <List Id="60002" Txt="Un segador que golpea a distancia. Cualquier enemigo a su vista, ya sea en aire o en tierra, temblará por su vida." />
+    <List Id="60003" Txt="Mientras un grupo de Piromantes pueda mantenerse alejado del peligro, podrán arrasar toda una base por completo." />
+    <List Id="60004" Txt="Un guerrero forestal con fuerza ilimitada. Que no te engañe su aspecto perezoso. Cuando se trata de defensa, son lo más temible que hayas visto." />
+    <List Id="60005" Txt="Nada frena la avaricia por oro de los Enanos. Aún por un puñado de monedas, acabarán con quien se interponga en su camino al oro." />
+    <List Id="60006" Txt="Los otros habitantes del bosque los tienen en alta estima. Los Guardabosques son una fuerza organizada y unida. Con sus habilidades y precisión con las armas, ¡quien los ataque raramente vivirá para contarlo!" />
+    <List Id="60007" Txt="Antes de que los dragones entraran al mundo, los Griffins eran dueños del cielo. Estas bestias sedientas de sangre destrozarían a cualquiera que les sea desagradable." />
+    <List Id="60008" Txt="Un enigma. Nadie sabe de dónde vienen esos gigantes o qué hay más allá de su armadura. ¡Sin embargo, se sabe que estos titanes atacan con ferocidad intrépida!" />
+    <List Id="60009" Txt="Robustos y avariciosos por naturaleza, con una sed insaciable de sangre. Esto es lo que hace a los temidos Señores Salvajes una raza con un prestigio firme en la naturaleza." />
+    <List Id="60010" Txt="Habiendo aprendido el uso de armas de fuego, los previamente imparables Enanos se han vuelto tan incontrolables que desafían la autoridad de muchos héroes." />
+    <List Id="60011" Txt="Aquel que se interponga en el paso del aliento de un dragón es arrasado por completo sin importar lo bien que la bestia se haya cepillado esa mañana." />
+    <List Id="60012" Txt="El resultado de la innovación tecnológica. En el momento en que tu enemigo quiera descubrir qué es, él ya lo habrá pulverizado." />
+    <List Id="60013" Txt="Detalles de la Tropa." />
+    <List Id="60014" Txt="Toca el ícono de la Tropa para Subir Nv" />
+    <List Id="60015" Txt="Nv %d" />
+    <List Id="60016" Txt="Nv (%d - %d)" />
+    <List Id="60017" Txt="Toca la Tropa que desees contratar para iniciar." />
+    <List Id="60018" Txt="Contratar (%d/%d)" />
+    <List Id="60019" Txt="La fila está llena. No puedes entrenar más Tropas." />
+    <List Id="60020" Txt="Tu Campamento está lleno. No puedes terminar este entrenamiento." />
+    <List Id="60021" Txt="Costo para Subir Nv" />
+    <List Id="60022" Txt="Lleno" />
+    <List Id="60023" Txt="Vacío" />
+    <List Id="60024" Txt="Desafíar Ahora" />
+    <List Id="60101" Txt="Normal" />
+    <List Id="60102" Txt="Clasificado" />
+    <List Id="60103" Txt="Magia" />
+    <List Id="60104" Txt="Destructivo" />
+    <List Id="60105" Txt="Heroico" />
+    <List Id="60106" Txt="Armadura Ligera" />
+    <List Id="60107" Txt="Armadura Media" />
+    <List Id="60108" Txt="Armadura Pesada" />
+    <List Id="60109" Txt="Armadura de Construcción" />
+    <List Id="60110" Txt="Armadura Heroica" />
+    <List Id="60111" Txt="Causa %d%% de daño a la Armadura Ligera." />
+    <List Id="60112" Txt="Causa %d%% de daño a la Armadura Media." />
+    <List Id="60113" Txt="Causa %d%% de daño a la Armadura Pesada." />
+    <List Id="60114" Txt="Causa %d%% de daño a la Armadura de Construcción." />
+    <List Id="60115" Txt="Causa %d%% de daño a la Armadura Heroica." />
+    <List Id="60121" Txt="Elige Objetivo" />
+    <List Id="60122" Txt="Tropa" />
+    <List Id="60123" Txt="Héroe" />
+    <List Id="60124" Txt="Edificio de Recursos" />
+    <List Id="60125" Txt="Edificio de Defensa" />
+    <List Id="60126" Txt="Muro" />
+    <List Id="60127" Txt="Elige Edificio" />
+    <List Id="60128" Txt="Objetivo Aéreo" />
+    <List Id="60131" Txt="Tierra" />
+    <List Id="60132" Txt="Aire" />
+    <List Id="60133" Txt="Tierra &amp; Aire" />
+    <List Id="60134" Txt="Tipo de Ataque: %s" />
+    <List Id="60135" Txt="Tipo de Armadura: %s" />
+    <List Id="60201" Txt="DAÑO:" />
+    <List Id="60202" Txt="PS:" />
+    <List Id="60203" Txt="Costo de Contratación:" />
+    <List Id="60204" Txt="Objetivo Prioritario:" />
+    <List Id="60205" Txt="Objetivo:" />
+    <List Id="60206" Txt="Espacio Ocupado:" />
+    <List Id="60207" Txt="Tiempo de Contratación:" />
+    <List Id="60208" Txt="VEL MOV:" />
+    <List Id="60209" Txt="Info. de daño" />
+    <List Id="60301" Txt="Defensa" />
+    <List Id="60302" Txt="Clasificación" />
+    <List Id="60303" Txt="Premio" />
+    <List Id="60304" Txt="¡Hace %s, derrotaste a %s y subiste %s de rango!" />
+    <List Id="60305" Txt="Hace %s, fuiste derrotado por %s. Tu rango bajó por %s." />
+    <List Id="60306" Txt="Hace %s, retaste a %s, pero te derrotaron. Tu rango no ha cambiado." />
+    <List Id="60307" Txt="Hace %s, fuiste retado por %s, pero no te derrotaron. Tu rango no ha cambiado." />
+    <List Id="60308" Txt="Editar Configuración" />
+    <List Id="60309" Txt="¡Configuración Exitosa!" />
+    <List Id="60310" Txt="Necesitas al menos 1 Héroe." />
+    <List Id="60311" Txt="Ya seleccionaste el número máximo de Héroes." />
+    <List Id="60312" Txt="Ya gastaste tus oportunidades de batalla." />
+    <List Id="60313" Txt="Oportunidades de Desafío:" />
+    <List Id="60314" Txt="Tiempo:" />
+    <List Id="60315" Txt="Desafío" />
+    <List Id="60316" Txt="¡Insignias de Honor incrementado en %d!" />
+    <List Id="60317" Txt="¡El Rango no ha Cambiado!" />
+    <List Id="60318" Txt="No puedes retar. Actualmente estás siendo retado." />
+    <List Id="60319" Txt="No puedes retar. Tu objetivo está actualmente en una batalla." />
+    <List Id="60501" Txt="Entrena a tu %s a Nv %d." />
+    <List Id="60502" Txt="Abrir Condiciones" />
+    <List Id="60503" Txt="No se ha desbloqueado aún. ¿Ir al Centro de Entrenamiento?" />
+  </Text>
+  <Text Type="10" TypeTxt="英雄名称">
+    <List Id="70201" Txt="Paladín" />
+    <List Id="70211" Txt="Ejecutador" />
+    <List Id="70221" Txt="Mago Espiritual" />
+    <List Id="70231" Txt="Ninja" />
+    <List Id="70241" Txt="Ángel" />
+    <List Id="70301" Txt="Asesino" />
+    <List Id="70311" Txt="Tirador" />
+    <List Id="70321" Txt="Hombre Lobo" />
+    <List Id="70331" Txt="Gigante del Monte" />
+    <List Id="70341" Txt="Súcubo" />
+    <List Id="70401" Txt="Ingeniero" />
+    <List Id="70411" Txt="Bruja Helada" />
+    <List Id="70421" Txt="Campeón" />
+    <List Id="70431" Txt="Cíclope" />
+    <List Id="70441" Txt="Dríada" />
+    <List Id="70451" Txt="Pain-Da" />
+    <List Id="70461" Txt="Chamán" />
+    <List Id="70471" Txt="Druida" />
+    <List Id="70481" Txt="Alquimista" />
+    <List Id="70491" Txt="Saqueador" />
+    <List Id="70501" Txt="Baba" />
+    <List Id="70502" Txt="Destilado de Cristal" />
+    <List Id="70503" Txt="Campeón Gelatinoso" />
+    <List Id="70504" Txt="Explorador Centauro" />
+    <List Id="70505" Txt="Elite Centauro" />
+    <List Id="70506" Txt="Rey Centauro" />
+    <List Id="70511" Txt="Reina Serpiente" />
+    <List Id="70521" Txt="Trueno Dorado" />
+    <List Id="70541" Txt="Jefe Minotauro" />
+    <List Id="70561" Txt="Demonio de Hielo" />
+    <List Id="70581" Txt="Oso Pardo Segador" />
+    <List Id="70601" Txt="Principe Calabaza" />
+  </Text>
+  <Text Type="11" TypeTxt="英雄技能">
+    <List Id="75001" Txt="Escudo Divino" />
+    <List Id="75011" Txt="Resurrección" />
+    <List Id="75021" Txt="Temblor" />
+    <List Id="75031" Txt="Estruendo" />
+    <List Id="75041" Txt="Misil de Magia" />
+    <List Id="75051" Txt="Misticismo" />
+    <List Id="75061" Txt="Corte" />
+    <List Id="75071" Txt="Guerrero Sombra" />
+    <List Id="75081" Txt="Sanar" />
+    <List Id="75091" Txt="Volar" />
+    <List Id="75101" Txt="Asesinar" />
+    <List Id="75111" Txt="Resplandor" />
+    <List Id="75121" Txt="Flechas Fraccionadoras" />
+    <List Id="75131" Txt="Tiro Letal" />
+    <List Id="75141" Txt="Furia" />
+    <List Id="75151" Txt="Succionador de Vida" />
+    <List Id="75161" Txt="Relámpago" />
+    <List Id="75171" Txt="Explosión de Energía" />
+    <List Id="75181" Txt="Látigo de la Muerte" />
+    <List Id="75191" Txt="Péndulo de la Destrucción" />
+    <List Id="75201" Txt="Erupción de Lava" />
+    <List Id="75211" Txt="Escudo de Flama" />
+    <List Id="75221" Txt="Estocada Helada" />
+    <List Id="75231" Txt="Asalto Helado" />
+    <List Id="75241" Txt="Martillo Tormentoso" />
+    <List Id="75251" Txt="Electrizar" />
+    <List Id="75261" Txt="Onda de Choque" />
+    <List Id="75271" Txt="Contraatacar" />
+    <List Id="75281" Txt="Grillete" />
+    <List Id="75291" Txt="Volar" />
+    <List Id="75301" Txt="Tiro de Roca" />
+    <List Id="75311" Txt="Cardos Verdes" />
+    <List Id="75321" Txt="Maldición" />
+    <List Id="75331" Txt="Tótem de la Muerte" />
+    <List Id="75341" Txt="Energético" />
+    <List Id="75351" Txt="Enredar" />
+    <List Id="75361" Txt="Tiro de Alquimia" />
+    <List Id="75371" Txt="Fuego de Alquimista" />
+    <List Id="75381" Txt="Equipar" />
+    <List Id="75391" Txt="Destruir" />
+    <List Id="75401" Txt="Niebla Tóxica" />
+    <List Id="75421" Txt="Tormenta Eléctrica" />
+    <List Id="75441" Txt="Celebrar" />
+    <List Id="75461" Txt="Transformar" />
+    <List Id="75481" Txt="Recolectar Alma" />
+    <List Id="75501" Txt="Neblina helada" />
+    <List Id="85001" Txt="Revivir" />
+    <List Id="85011" Txt="Golpe Pesado" />
+    <List Id="85021" Txt="Revitalizar" />
+    <List Id="85031" Txt="Quemar" />
+    <List Id="85041" Txt="Autodestruir" />
+    <List Id="85051" Txt="Golpe Mortal" />
+    <List Id="85061" Txt="Guardia de Flama" />
+    <List Id="85071" Txt="Concha de Cuchillas" />
+    <List Id="85081" Txt="Dispersar" />
+    <List Id="85091" Txt="Alentar" />
+    <List Id="85101" Txt="Debilitar" />
+    <List Id="85111" Txt="Furioso" />
+    <List Id="85121" Txt="Piel de Piedra" />
+    <List Id="85131" Txt="Dios de la Guerra" />
+    <List Id="85141" Txt="Tenacidad" />
+    <List Id="85511" Txt="Golpe de Cuerpo" />
+    <List Id="85521" Txt="Tiro Tronando" />
+    <List Id="85531" Txt="Estampida" />
+  </Text>
+  <Text Type="12" TypeTxt="技能描述">
+    <List Id="80001" Txt="Fortalece las defensas. Reduce 40% el daño recibido por 5 segs." />
+    <List Id="80002" Txt="Fortalece las defensas. Reduce 50% el daño recibido por 5 segs." />
+    <List Id="80003" Txt="Fortalece las defensas. Reduce 60% el daño recibido por 5 segs." />
+    <List Id="80004" Txt="Fortalece las defensas. Reduce 65% el daño recibido por 5 segs." />
+    <List Id="80005" Txt="Fortalece las defensas. Reduce 70% el daño recibido por 5 segs." />
+    <List Id="80006" Txt="Fortalece las defensas. Reduce 75% el daño recibido por 5 segs." />
+    <List Id="80007" Txt="Fortalece las defensas. Reduce 80% el daño recibido por 5 segs." />
+    <List Id="80008" Txt="Fortalece las defensas. Reduce 85% el daño recibido por 5 segs." />
+    <List Id="80009" Txt="Fortalece las defensas. Reduce 90% el daño recibido por 5 segs." />
+    <List Id="80021" Txt="Causa 100% DAÑO al objetivo e inflige Coma por 1 seg." />
+    <List Id="80022" Txt="Causa 150% DAÑO al objetivo e inflige Coma por 1 seg." />
+    <List Id="80023" Txt="Causa 200% DAÑO al objetivo e inflige Coma por 1 seg." />
+    <List Id="80024" Txt="Causa 220% DAÑO al objetivo e inflige Coma por 2 segs." />
+    <List Id="80025" Txt="Causa 250% DAÑO al objetivo e inflige Coma por 2 segs." />
+    <List Id="80026" Txt="Causa 280% DAÑO al objetivo e inflige Coma por 2 segs." />
+    <List Id="80027" Txt="Causa 300% DAÑO al objetivo e inflige Coma por 3 segs." />
+    <List Id="80028" Txt="Causa 330% DAÑO al objetivo e inflige Coma por 3 segs." />
+    <List Id="80029" Txt="Causa 360% DAÑO al objetivo e inflige Coma por 3 segs." />
+    <List Id="80041" Txt="Causa 200% DAÑO a 2 objetivos cercanos al azar." />
+    <List Id="80042" Txt="Causa 220% DAÑO a 3 objetivos cercanos al azar." />
+    <List Id="80043" Txt="Causa 240% DAÑO a 4 objetivos cercanos al azar." />
+    <List Id="80044" Txt="Causa 260% DAÑO a 5 objetivos cercanos al azar." />
+    <List Id="80045" Txt="Causa 280% DAÑO a 6 objetivos cercanos al azar." />
+    <List Id="80046" Txt="Causa 300% DAÑO a 7 objetivos cercanos al azar." />
+    <List Id="80047" Txt="Causa 320% DAÑO a 8 objetivos cercanos al azar." />
+    <List Id="80048" Txt="Causa 340% DAÑO a 9 objetivos cercanos al azar." />
+    <List Id="80049" Txt="Causa 360% DAÑO a 10 objetivos cercanos al azar." />
+    <List Id="80061" Txt="Causa 300% DAÑO al objetivo." />
+    <List Id="80062" Txt="Causa 400% DAÑO al objetivo." />
+    <List Id="80063" Txt="Causa 450% DAÑO al objetivo." />
+    <List Id="80064" Txt="Causa 500% DAÑO al objetivo." />
+    <List Id="80065" Txt="Causa 550% DAÑO al objetivo." />
+    <List Id="80066" Txt="Causa 600% DAÑO al objetivo." />
+    <List Id="80067" Txt="Causa 650% DAÑO al objetivo." />
+    <List Id="80068" Txt="Causa 700% DAÑO al objetivo." />
+    <List Id="80069" Txt="Causa 750% DAÑO al objetivo." />
+    <List Id="80081" Txt="Restaura los PS de una unidad amiga un 200% ATQ." />
+    <List Id="80082" Txt="Restaura los PS de una unidad amiga un 230% ATQ." />
+    <List Id="80083" Txt="Restaura los PS de una unidad amiga un 260% ATQ." />
+    <List Id="80084" Txt="Restaura los PS de una unidad amiga un 290% ATQ." />
+    <List Id="80085" Txt="Restaura los PS de una unidad amiga un 320% ATQ." />
+    <List Id="80086" Txt="Restaura los PS de una unidad amiga un 350% ATQ." />
+    <List Id="80087" Txt="Restaura los PS de una unidad amiga un 380% ATQ." />
+    <List Id="80088" Txt="Restaura los PS de una unidad amiga un 410% ATQ." />
+    <List Id="80089" Txt="Restaura los PS de una unidad amiga un 440% ATQ." />
+    <List Id="80101" Txt="Causa 250% DAÑO al objetivo que tenga menos PS." />
+    <List Id="80102" Txt="Causa 300% DAÑO al objetivo que tenga menos PS." />
+    <List Id="80103" Txt="Causa 330% DAÑO al objetivo que tenga menos PS." />
+    <List Id="80104" Txt="Causa 360% DAÑO al objetivo que tenga menos PS." />
+    <List Id="80105" Txt="Causa 390% DAÑO al objetivo que tenga menos PS." />
+    <List Id="80106" Txt="Causa 420% DAÑO al objetivo que tenga menos PS." />
+    <List Id="80107" Txt="Causa 450% DAÑO al objetivo que tenga menos PS." />
+    <List Id="80108" Txt="Causa 480% DAÑO al objetivo que tenga menos PS." />
+    <List Id="80109" Txt="Causa 510% DAÑO al objetivo que tenga menos PS." />
+    <List Id="80121" Txt="Causa 130% DAÑO a 3 objetivos cercanos al azar." />
+    <List Id="80122" Txt="Causa 180% DAÑO a 3 objetivos cercanos al azar." />
+    <List Id="80123" Txt="Causa 210% DAÑO a 3 objetivos cercanos al azar." />
+    <List Id="80124" Txt="Causa 240% DAÑO a 3 objetivos cercanos al azar." />
+    <List Id="80125" Txt="Causa 270% DAÑO a 3 objetivos cercanos al azar." />
+    <List Id="80126" Txt="Causa 300% DAÑO a 3 objetivos cercanos al azar." />
+    <List Id="80127" Txt="Causa 330% DAÑO a 3 objetivos cercanos al azar." />
+    <List Id="80128" Txt="Causa 360% DAÑO a 3 objetivos cercanos al azar." />
+    <List Id="80129" Txt="Causa 390% DAÑO a 3 objetivos cercanos al azar." />
+    <List Id="80141" Txt="Aumenta 30% el ATQ por 5 segs." />
+    <List Id="80142" Txt="Aumenta 50% el ATQ por 5 segs." />
+    <List Id="80143" Txt="Aumenta 70% el ATQ por 5 segs." />
+    <List Id="80144" Txt="Aumenta 80% el ATQ por 6 segs." />
+    <List Id="80145" Txt="Aumenta 110% el ATQ por 6 segs." />
+    <List Id="80146" Txt="Aumenta 120% el ATQ por 6 segs." />
+    <List Id="80147" Txt="Aumenta 130% el ATQ por 7 segs." />
+    <List Id="80148" Txt="Aumenta 150% el ATQ por 7 segs." />
+    <List Id="80149" Txt="Aumenta 170% el ATQ por 7 segs." />
+    <List Id="80161" Txt="Causa 150% DAÑO a todos los enemigos circundantes." />
+    <List Id="80162" Txt="Causa 200% DAÑO a todos los enemigos circundantes." />
+    <List Id="80163" Txt="Causa 230% DAÑO a todos los enemigos circundantes." />
+    <List Id="80164" Txt="Causa 250% DAÑO a todos los enemigos circundantes." />
+    <List Id="80165" Txt="Causa 270% DAÑO a todos los enemigos circundantes." />
+    <List Id="80166" Txt="Causa 290% DAÑO a todos los enemigos circundantes." />
+    <List Id="80167" Txt="Causa 310% DAÑO a todos los enemigos circundantes." />
+    <List Id="80168" Txt="Causa 330% DAÑO a todos los enemigos circundantes." />
+    <List Id="80169" Txt="Causa 350% DAÑO a todos los enemigos circundantes." />
+    <List Id="80181" Txt="Causa 15% daño a su objetivo del Maximo de PS y reduce su ATQ en 15% por 5 segs." />
+    <List Id="80182" Txt="Causa 20% daño a su objetivo del Maximo de PS y reduce su ATQ en 20% por 5 segs." />
+    <List Id="80183" Txt="Causa 23% daño a su objetivo del Maximo de PS y reduce su ATQ en 23% por 5 segs." />
+    <List Id="80184" Txt="Causa 26% daño a su objetivo del Maximo de PS y reduce su ATQ en 26% por 5 segs." />
+    <List Id="80185" Txt="Causa 29% daño a su objetivo del Maximo de PS y reduce su ATQ en 29% por 5 segs." />
+    <List Id="80186" Txt="Causa 32% daño a su objetivo del Maximo de PS y reduce su ATQ en 32% por 5 segs." />
+    <List Id="80187" Txt="Causa 35% daño a su objetivo del Maximo de PS y reduce su ATQ en 35% por 5 segs." />
+    <List Id="80188" Txt="Causa 38% daño a su objetivo del Maximo de PS y reduce su ATQ en 38% por 5 segs." />
+    <List Id="80189" Txt="Causa 41% daño a su objetivo del Maximo de PS y reduce su ATQ en 41% por 5 segs." />
+    <List Id="80201" Txt="Causa 110% DAÑO a todos los enemigos en el área." />
+    <List Id="80202" Txt="Causa 150% DAÑO a todos los enemigos en el área." />
+    <List Id="80203" Txt="Causa 170% DAÑO a todos los enemigos en el área." />
+    <List Id="80204" Txt="Causa 190% DAÑO a todos los enemigos en el área." />
+    <List Id="80205" Txt="Causa 210% DAÑO a todos los enemigos en el área." />
+    <List Id="80206" Txt="Causa 230% DAÑO a todos los enemigos en el área." />
+    <List Id="80207" Txt="Causa 250% DAÑO a todos los enemigos en el área." />
+    <List Id="80208" Txt="Causa 270% DAÑO a todos los enemigos en el área." />
+    <List Id="80209" Txt="Causa 290% DAÑO a todos los enemigos en el área." />
+    <List Id="80221" Txt="Causa 150% DAÑO al objetivo y reduce 10% su VEL ATQ y VEL MOV por 6 segs." />
+    <List Id="80222" Txt="Causa 200% DAÑO al objetivo y reduce 15% su VEL ATQ y VEL MOV por 6 segs." />
+    <List Id="80223" Txt="Causa 230% DAÑO al objetivo y reduce 17% su VEL ATQ y VEL MOV por 6 segs." />
+    <List Id="80224" Txt="Causa 240% DAÑO al objetivo y reduce 18% su VEL ATQ y VEL MOV por 7 segs." />
+    <List Id="80225" Txt="Causa 260% DAÑO al objetivo y reduce 20% su VEL ATQ y VEL MOV por 7 segs." />
+    <List Id="80226" Txt="Causa 280% DAÑO al objetivo y reduce 22% su VEL ATQ y VEL MOV por 7 segs." />
+    <List Id="80227" Txt="Causa 290% DAÑO al objetivo y reduce 23% su VEL ATQ y VEL MOV por 8 segs." />
+    <List Id="80228" Txt="Causa 310% DAÑO al objetivo y reduce 25% su VEL ATQ y VEL MOV por 8 segs." />
+    <List Id="80229" Txt="Causa 330% DAÑO al objetivo y reduce 27% su VEL ATQ y VEL MOV por 8 segs." />
+    <List Id="80241" Txt="Causa 100% DAÑO a 3 objetivos cercanos al azar, infligiendo Coma por 3 segs." />
+    <List Id="80242" Txt="Causa 150% DAÑO a 3 objetivos cercanos al azar, infligiendo Coma por 3 segs." />
+    <List Id="80243" Txt="Causa 180% DAÑO a 3 objetivos cercanos al azar, infligiendo Coma por 3 segs." />
+    <List Id="80244" Txt="Causa 200% DAÑO a 3 objetivos cercanos al azar, infligiendo Coma por 3 segs." />
+    <List Id="80245" Txt="Causa 220% DAÑO a 3 objetivos cercanos al azar, infligiendo Coma por 3 segs." />
+    <List Id="80246" Txt="Causa 240% DAÑO a 3 objetivos cercanos al azar, infligiendo Coma por 3 segs." />
+    <List Id="80247" Txt="Causa 270% DAÑO a 3 objetivos cercanos al azar, infligiendo Coma por 3 segs." />
+    <List Id="80248" Txt="Causa 290% DAÑO a 3 objetivos cercanos al azar, infligiendo Coma por 3 segs." />
+    <List Id="80249" Txt="Causa 310% DAÑO a 3 objetivos cercanos al azar, infligiendo Coma por 3 segs." />
+    <List Id="80261" Txt="Causa 100% DAÑO a todos los enemigos en un arco." />
+    <List Id="80262" Txt="Causa 150% DAÑO a todos los enemigos en un arco." />
+    <List Id="80263" Txt="Causa 170% DAÑO a todos los enemigos en un arco." />
+    <List Id="80264" Txt="Causa 190% DAÑO a todos los enemigos en un arco." />
+    <List Id="80265" Txt="Causa 210% DAÑO a todos los enemigos en un arco." />
+    <List Id="80266" Txt="Causa 230% DAÑO a todos los enemigos en un arco." />
+    <List Id="80267" Txt="Causa 250% DAÑO a todos los enemigos en un arco." />
+    <List Id="80268" Txt="Causa 270% DAÑO a todos los enemigos en un arco." />
+    <List Id="80269" Txt="Causa 290% DAÑO a todos los enemigos en un arco." />
+    <List Id="80281" Txt="Causa 100% de daño al objetivo, infligiendo Coma por 1 seg." />
+    <List Id="80282" Txt="Causa 150% de daño al objetivo, infligiendo Coma por 1 seg." />
+    <List Id="80283" Txt="Causa 180% de daño al objetivo, infligiendo Coma por 1 seg." />
+    <List Id="80284" Txt="Causa 190% de daño al objetivo, infligiendo Coma por 2 segs." />
+    <List Id="80285" Txt="Causa 220% de daño al objetivo, infligiendo Coma por 2 segs." />
+    <List Id="80286" Txt="Causa 250% de daño al objetivo, infligiendo Coma por 2 segs." />
+    <List Id="80287" Txt="Causa 260% de daño al objetivo, infligiendo Coma por 3 segs." />
+    <List Id="80288" Txt="Causa 290% de daño al objetivo, infligiendo Coma por 3 segs." />
+    <List Id="80289" Txt="Causa 320% de daño al objetivo, infligiendo Coma por 3 segs." />
+    <List Id="80301" Txt="Causa 250% de daño a un enemigo al azar en el campo de batalla." />
+    <List Id="80302" Txt="Causa 320% de daño a un enemigo al azar en el campo de batalla." />
+    <List Id="80303" Txt="Causa 360% de daño a un enemigo al azar en el campo de batalla." />
+    <List Id="80304" Txt="Causa 400% de daño a un enemigo al azar en el campo de batalla." />
+    <List Id="80305" Txt="Causa 440% de daño a un enemigo al azar en el campo de batalla." />
+    <List Id="80306" Txt="Causa 480% de daño a un enemigo al azar en el campo de batalla." />
+    <List Id="80307" Txt="Causa 520% de daño a un enemigo al azar en el campo de batalla." />
+    <List Id="80308" Txt="Causa 560% de daño a un enemigo al azar en el campo de batalla." />
+    <List Id="80309" Txt="Causa 600% de daño a un enemigo al azar en el campo de batalla." />
+    <List Id="80321" Txt="Reduce 25% el ATQ del objetivo por 6 segs." />
+    <List Id="80322" Txt="Reduce 35% el ATQ del objetivo por 6 segs." />
+    <List Id="80323" Txt="Reduce 42% el ATQ del objetivo por 6 segs." />
+    <List Id="80324" Txt="Reduce 44% el ATQ del objetivo por 7 segs." />
+    <List Id="80325" Txt="Reduce 48% el ATQ del objetivo por 7 segs." />
+    <List Id="80326" Txt="Reduce 52% el ATQ del objetivo por 7 segs." />
+    <List Id="80327" Txt="Reduce 54% el ATQ del objetivo por 8 segs." />
+    <List Id="80328" Txt="Reduce 57% el ATQ del objetivo por 8 segs." />
+    <List Id="80329" Txt="Reduce 60% el ATQ del objetivo por 8 segs." />
+    <List Id="80341" Txt="Restaura los PS de 2 aliados cercanos con los PS más bajos en 200% ATQ y aumenta 15% su ATQ por 5 segs." />
+    <List Id="80342" Txt="Restaura los PS de 3 aliados cercanos con los PS más bajos en 210% ATQ y aumenta 20% su ATQ por 5 segs." />
+    <List Id="80343" Txt="Restaura los PS de 4 aliados cercanos con los PS más bajos en 220% ATQ y aumenta 23% su ATQ por 5 segs." />
+    <List Id="80344" Txt="Restaura los PS de 5 aliados cercanos con los PS más bajos en 230% ATQ y aumenta 25% su ATQ por 5 segs." />
+    <List Id="80345" Txt="Restaura los PS de 6 aliados cercanos con los PS más bajos en 240% ATQ y aumenta 26% su ATQ por 5 segs." />
+    <List Id="80346" Txt="Restaura los PS de 7 aliados cercanos con los PS más bajos en 250% ATQ y aumenta 28% su ATQ por 5 segs." />
+    <List Id="80347" Txt="Restaura los PS de 8 aliados cercanos con los PS más bajos en 260% ATQ y aumenta 29% su ATQ por 5 segs." />
+    <List Id="80348" Txt="Restaura los PS de 9 aliados cercanos con los PS más bajos en 270% ATQ y aumenta 31% su ATQ por 5 segs." />
+    <List Id="80349" Txt="Restaura los PS de 10 aliados cercanos con los PS más bajos en 280% ATQ y aumenta 32% su ATQ por 5 segs." />
+    <List Id="80361" Txt="Causa 180% DAÑO al objetivo." />
+    <List Id="80362" Txt="Causa 250% DAÑO al objetivo." />
+    <List Id="80363" Txt="Causa 300% DAÑO al objetivo." />
+    <List Id="80364" Txt="Causa 340% DAÑO al objetivo." />
+    <List Id="80365" Txt="Causa 380% DAÑO al objetivo." />
+    <List Id="80366" Txt="Causa 420% DAÑO al objetivo." />
+    <List Id="80367" Txt="Causa 460% DAÑO al objetivo." />
+    <List Id="80368" Txt="Causa 500% DAÑO al objetivo." />
+    <List Id="80369" Txt="Causa 540% DAÑO al objetivo." />
+    <List Id="80381" Txt="Reduce 15% el DAÑO recibido por 6 segs." />
+    <List Id="80382" Txt="Reduce 20% el DAÑO recibido por 6 segs." />
+    <List Id="80383" Txt="Reduce 23% el DAÑO recibido por 6 segs." />
+    <List Id="80384" Txt="Reduce 26% el DAÑO recibido por 6 segs." />
+    <List Id="80385" Txt="Reduce 29% el DAÑO recibido por 6 segs." />
+    <List Id="80386" Txt="Reduce 32% el DAÑO recibido por 6 segs." />
+    <List Id="80387" Txt="Reduce 35% el DAÑO recibido por 6 segs." />
+    <List Id="80388" Txt="Reduce 38% el DAÑO recibido por 6 segs." />
+    <List Id="80389" Txt="Reduce 41% el DAÑO recibido por 6 segs." />
+    <List Id="80401" Txt="Envenena a todos los enemigos cercanos, cada 0.5 Segs causa 8% DAÑO de ataque normal y 15 DAÑO fijo por 6 Segs." />
+    <List Id="80402" Txt="Envenena a todos los enemigos cercanos, cada 0.5 Segs causa 10% DAÑO de ataque normal y 25 DAÑO fijo por 6 Segs." />
+    <List Id="80403" Txt="Envenena a todos los enemigos cercanos, cada 0.5 Segs causa 13% DAÑO de ataque normal y 35 DAÑO fijo por 6 Segs." />
+    <List Id="80404" Txt="Envenena a todos los enemigos cercanos, cada 0.5 Segs causa 15% DAÑO de ataque normal y 45 DAÑO fijo por 6 Segs." />
+    <List Id="80405" Txt="Envenena a todos los enemigos cercanos, cada 0.5 Segs causa 18% DAÑO de ataque normal y 55 DAÑO fijo por 6 Segs." />
+    <List Id="80406" Txt="Envenena a todos los enemigos cercanos, cada 0.5 Segs causa 20% DAÑO de ataque normal y 65 DAÑO fijo por 6 Segs." />
+    <List Id="80407" Txt="Envenena a todos los enemigos cercanos, cada 0.5 Segs causa 23% DAÑO de ataque normal y 75 DAÑO fijo por 6 Segs." />
+    <List Id="80408" Txt="Envenena a todos los enemigos cercanos, cada 0.5 Segs causa 25% DAÑO de ataque normal y 85 DAÑO fijo por 6 Segs." />
+    <List Id="80409" Txt="Envenena a todos los enemigos cercanos, cada 0.5 Segs causa 28% DAÑO de ataque normal y 95 DAÑO fijo por 6 Segs." />
+    <List Id="80421" Txt="Los rayos caen a un objetivo aleatorio, causa 200% DAÑO y infligiendo Coma a todos los enemigos cercanos por 1.5 segs." />
+    <List Id="80422" Txt="Los rayos caen a un objetivo aleatorio, causa 230% DAÑO y infligiendo Coma a todos los enemigos cercanos por 1.5 segs." />
+    <List Id="80423" Txt="Los rayos caen a un objetivo aleatorio, causa 260% DAÑO y infligiendo Coma a todos los enemigos cercanos por 1.5 segs." />
+    <List Id="80424" Txt="Los rayos caen a un objetivo aleatorio, causa 290% DAÑO y infligiendo Coma a todos los enemigos cercanos por 1.5 segs." />
+    <List Id="80425" Txt="Los rayos caen a un objetivo aleatorio, causa 320% DAÑO y infligiendo Coma a todos los enemigos cercanos por 1.5 segs." />
+    <List Id="80426" Txt="Los rayos caen a un objetivo aleatorio, causa 3500% DAÑO y infligiendo Coma a todos los enemigos cercanos por 1.5 segs." />
+    <List Id="80427" Txt="Los rayos caen a un objetivo aleatorio, causa 380% DAÑO y infligiendo Coma a todos los enemigos cercanos por 1.5 segs." />
+    <List Id="80428" Txt="Los rayos caen a un objetivo aleatorio, causa 410% DAÑO y infligiendo Coma a todos los enemigos cercanos por 1.5 segs." />
+    <List Id="80429" Txt="Los rayos caen a un objetivo aleatorio, causa 440% DAÑO y infligiendo Coma a todos los enemigos cercanos por 1.5 segs." />
+    <List Id="80441" Txt="Incrementa ATQ, indice de ATQ, y VEL MOV de aliados en 10% por 8 segs." />
+    <List Id="80442" Txt="Incrementa ATQ, indice de ATQ, y VEL MOV de aliados en 15% por 8 segs." />
+    <List Id="80443" Txt="Incrementa ATQ, indice de ATQ, y VEL MOV de aliados en 20% por 8 segs." />
+    <List Id="80444" Txt="Incrementa ATQ, indice de ATQ, y VEL MOV de aliados en 25% por 8 segs." />
+    <List Id="80445" Txt="Incrementa ATQ, indice de ATQ, y VEL MOV de aliados en 30% por 8 segs." />
+    <List Id="80446" Txt="Incrementa ATQ, indice de ATQ, y VEL MOV de aliados en 35% por 8 segs." />
+    <List Id="80447" Txt="Incrementa ATQ, indice de ATQ, y VEL MOV de aliados en 40% por 8 segs." />
+    <List Id="80448" Txt="Incrementa ATQ, indice de ATQ, y VEL MOV de aliados en 45% por 8 segs." />
+    <List Id="80449" Txt="Incrementa ATQ, indice de ATQ, y VEL MOV de aliados en 50% por 8 segs." />
+    <List Id="80481" Txt="Absorve 15% de PS de 2 enemigos." />
+    <List Id="80482" Txt="Absorve 15% de PS de 3 enemigos." />
+    <List Id="80483" Txt="Absorve 15% de PS de 4 enemigos." />
+    <List Id="80484" Txt="Absorve 15% de PS de 5 enemigos." />
+    <List Id="80485" Txt="Absorve 15% de PS de 6 enemigos." />
+    <List Id="80486" Txt="Absorve 15% de PS de 7 enemigos." />
+    <List Id="80487" Txt="Absorve 15% de PS de 8 enemigos." />
+    <List Id="80488" Txt="Absorve 15% de PS de 9 enemigos." />
+    <List Id="80489" Txt="Absorve 15% de PS de 10 enemigos." />
+    <List Id="80501" Txt="Reduce la VEL de MOV de 6 enemigos al azar en el mapa en 30% por 6 segs." />
+    <List Id="80502" Txt="Reduce la VEL de MOV de 8 enemigos al azar en el mapa en 35% por 7 segs." />
+    <List Id="80503" Txt="Reduce la VEL de MOV de 10 enemigos al azar en el mapa en 40% por 8 segs." />
+    <List Id="80504" Txt="Reduce la VEL de MOV de 12 enemigos al azar en el mapa en 45% por 9 segs." />
+    <List Id="80505" Txt="Reduce la VEL de MOV de 14 enemigos al azar en el mapa en 50% por 10 segs." />
+    <List Id="80506" Txt="Reduce la VEL de MOV de 16 enemigos al azar en el mapa en 55% por 11 segs." />
+    <List Id="80507" Txt="Reduce la VEL de MOV de 18 enemigos al azar en el mapa en 60% por 12 segs." />
+    <List Id="80508" Txt="Reduce la VEL de MOV de 20 enemigos al azar en el mapa en 65% por 13 segs." />
+    <List Id="80509" Txt="Reduce la VEL de MOV de 22 enemigos al azar en el mapa en 70% por 14 segs." />
+    <List Id="85501" Txt="Sacrificio" />
+    <List Id="85502" Txt="Sacrificio Medio" />
+    <List Id="85503" Txt="Sacrificio Alto" />
+    <List Id="90001" Txt="Revive con 10% de PS restaurado." />
+    <List Id="90002" Txt="Revive con 15% de PS restaurado." />
+    <List Id="90003" Txt="Revive con 20% de PS restaurado." />
+    <List Id="90004" Txt="Revive con 25% de PS restaurado." />
+    <List Id="90005" Txt="Revive con 30% de PS restaurado." />
+    <List Id="90011" Txt="Tiene 10% de posibilidad de infligir Coma por 1 seg. en el objetivo al atacar." />
+    <List Id="90012" Txt="Tiene 10% de posibilidad de infligir Coma por 1.5 seg. en el objetivo al atacar." />
+    <List Id="90013" Txt="Tiene 10% de posibilidad de infligir Coma por 2 segs. en el objetivo al atacar." />
+    <List Id="90014" Txt="Tiene 10% de posibilidad de infligir Coma por 2.5 segs. en el objetivo al atacar." />
+    <List Id="90015" Txt="Tiene 10% de posibilidad de infligir Coma por 3 segs. en el objetivo al atacar." />
+    <List Id="90021" Txt="Gana 20% de Energía al iniciar la batalla." />
+    <List Id="90022" Txt="Gana 40% de Energía al iniciar la batalla." />
+    <List Id="90023" Txt="Gana 60% de Energía al iniciar la batalla." />
+    <List Id="90024" Txt="Gana 80% de Energía al iniciar la batalla." />
+    <List Id="90025" Txt="Gana 100% de Energía al iniciar la batalla." />
+    <List Id="90031" Txt="Tiene 5% de posibilidad de negar todo daño al ser atacado." />
+    <List Id="90032" Txt="Tiene 6% de posibilidad de negar todo daño al ser atacado." />
+    <List Id="90033" Txt="Tiene 7% de posibilidad de negar todo daño al ser atacado." />
+    <List Id="90034" Txt="Tiene 8% de posibilidad de negar todo daño al ser atacado." />
+    <List Id="90035" Txt="Tiene 9% de posibilidad de negar todo daño al ser atacado." />
+    <List Id="90041" Txt="Causa 100% de daño a los enemigos cercanos tras morir." />
+    <List Id="90042" Txt="Causa 175% de daño a los enemigos cercanos tras morir." />
+    <List Id="90043" Txt="Causa 250% de daño a los enemigos cercanos tras morir." />
+    <List Id="90044" Txt="Causa 325% de daño a los enemigos cercanos tras morir." />
+    <List Id="90045" Txt="Causa 400% de daño a los enemigos cercanos tras morir." />
+    <List Id="90051" Txt="Tiene 10% de posibilidad de causar 3 veces más daño al atacar." />
+    <List Id="90052" Txt="Tiene 10% de posibilidad de causar 4 veces más daño al atacar." />
+    <List Id="90053" Txt="Tiene 10% de posibilidad de causar 5 veces más daño al atacar." />
+    <List Id="90054" Txt="Tiene 10% de posibilidad de causar 6 veces más daño al atacar." />
+    <List Id="90055" Txt="Tiene 10% de posibilidad de causar 7 veces más daño al atacar." />
+    <List Id="90061" Txt="Desvía 8% del daño recibido." />
+    <List Id="90062" Txt="Desvía 11% del daño recibido." />
+    <List Id="90063" Txt="Desvía 14% del daño recibido." />
+    <List Id="90064" Txt="Desvía 17% del daño recibido." />
+    <List Id="90065" Txt="Desvía 20% del daño recibido." />
+    <List Id="90071" Txt="Tiene 5% de posibilidad de desviar el 100% del daño recibido." />
+    <List Id="90072" Txt="Tiene 6% de posibilidad de desviar el 100% del daño recibido." />
+    <List Id="90073" Txt="Tiene 7% de posibilidad de desviar el 100% del daño recibido." />
+    <List Id="90074" Txt="Tiene 8% de posibilidad de desviar el 100% del daño recibido." />
+    <List Id="90075" Txt="Tiene 9% de posibilidad de desviar el 100% del daño recibido." />
+    <List Id="90081" Txt="Reduce la Energía del objetivo por 5 al atacar." />
+    <List Id="90082" Txt="Reduce la Energía del objetivo por 10 al atacar." />
+    <List Id="90083" Txt="Reduce la Energía del objetivo por 15 al atacar." />
+    <List Id="90084" Txt="Reduce la Energía del objetivo por 20 al atacar." />
+    <List Id="90085" Txt="Reduce la Energía del objetivo por 25 al atacar." />
+    <List Id="90091" Txt="Tiene 25% de posibilidad de reducir 30% la VEL del enemigo por 5 segs. al atacar." />
+    <List Id="90092" Txt="Tiene 25% de posibilidad de reducir 40% la VEL del enemigo por 5 segs. al atacar." />
+    <List Id="90093" Txt="Tiene 25% de posibilidad de reducir 50% la VEL del enemigo por 5 segs. al atacar." />
+    <List Id="90094" Txt="Tiene 25% de posibilidad de reducir 60% la VEL del enemigo por 5 segs. al atacar." />
+    <List Id="90095" Txt="Tiene 25% de posibilidad de reducir 70% la VEL del enemigo por 5 segs. al atacar." />
+    <List Id="90101" Txt="Aumenta 10% la VEL MOV." />
+    <List Id="90102" Txt="Aumenta 20% la VEL MOV." />
+    <List Id="90103" Txt="Aumenta 30% la VEL MOV." />
+    <List Id="90104" Txt="Aumenta 40% la VEL MOV." />
+    <List Id="90105" Txt="Aumenta 50% la VEL MOV." />
+    <List Id="90111" Txt="Aumenta 10% la VEL ATQ." />
+    <List Id="90112" Txt="Aumenta 15% la VEL ATQ." />
+    <List Id="90113" Txt="Aumenta 20% la VEL ATQ." />
+    <List Id="90114" Txt="Aumenta 25% la VEL ATQ." />
+    <List Id="90115" Txt="Aumenta 30% la VEL ATQ." />
+    <List Id="90121" Txt="Reduce 5% el daño recibido." />
+    <List Id="90122" Txt="Reduce 10% el daño recibido." />
+    <List Id="90123" Txt="Reduce 15% el daño recibido." />
+    <List Id="90124" Txt="Reduce 20% el daño recibido." />
+    <List Id="90125" Txt="Reduce 25% el daño recibido." />
+    <List Id="90131" Txt="Aumenta 10% el ATQ." />
+    <List Id="90132" Txt="Aumenta 15% el ATQ." />
+    <List Id="90133" Txt="Aumenta 20% el ATQ." />
+    <List Id="90134" Txt="Aumenta 25% el ATQ." />
+    <List Id="90135" Txt="Aumenta 30% el ATQ." />
+    <List Id="90141" Txt="Aumenta 10% los PS." />
+    <List Id="90142" Txt="Aumenta 15% los PS." />
+    <List Id="90143" Txt="Aumenta 20% los PS." />
+    <List Id="90144" Txt="Aumenta 25% los PS." />
+    <List Id="90145" Txt="Aumenta 30% los PS." />
+    <List Id="91000" Txt="(Cada actualización de talento cuesta 300 Gemas)" />
+    <List Id="91001" Txt="¿Deseas desbloquear un nuevo espacio de Héroe?" />
+    <List Id="91002" Txt="Cada Héroe adicional reclutado costará más. Los costos de reclutamiento volverán al precio base (500) mañana." />
+    <List Id="91003" Txt="Alcanzaste el Máximo de Espacios de Héroe." />
+    <List Id="91501" Txt="Da 100 de EXP de Habilidad cuando se sacrifica." />
+    <List Id="91502" Txt="Da 600 de EXP de Habilidad cuando se sacrifica." />
+    <List Id="91503" Txt="Da 3,000 de EXP de Habilidad cuando se sacrifica." />
+    <List Id="91511" Txt="Tiene 25% de oportunidad de desencadenar Onda de Choque, otorgando 250% ATQ como DAÑO a todos los objetivos en el frente." />
+    <List Id="91521" Txt="Tiene 25% de oportunidad de desencadenar Misil Mágico, otorgando 250% DAÑO a hasta 5 objetivos." />
+    <List Id="91531" Txt="Tiene 25% de oportunidad de otorgar 250% DAÑO a hasta 5 Heroes e infligir Coma por 2 Segs." />
+  </Text>
+  <Text Type="13" TypeTxt="名稱">
+    <List Id="34001" Txt="Calabozo 1" />
+    <List Id="34002" Txt="Calabozo 2" />
+    <List Id="34003" Txt="Calabozo 3" />
+    <List Id="34004" Txt="Calabozo 4" />
+    <List Id="34005" Txt="Calabozo 5" />
+    <List Id="34006" Txt="Calabozo 6" />
+    <List Id="34007" Txt="Calabozo 7" />
+    <List Id="34008" Txt="Calabozo 8" />
+    <List Id="34009" Txt="Logros" />
+    <List Id="34010" Txt="Completados:" />
+    <List Id="34011" Txt="Hechizo" />
+    <List Id="34012" Txt="Tiempo de Investigación" />
+    <List Id="34013" Txt="Calabozo" />
+    <List Id="34014" Txt="¡Los Calabozos con Calaveras tienen más posibilidades de dejar caer Fragmentos de Héroe!" />
+    <List Id="34015" Txt="Cambiar Héroes" />
+    <List Id="34016" Txt="¡Se desbloquea en el edificio Nv %d!" />
+    <List Id="34017" Txt="¡Ya tienes este hechizo!" />
+    <List Id="34018" Txt="LLENO" />
+    <List Id="34019" Txt="¡Juega Más!" />
+    <List Id="34020" Txt="¡Puede comprar 5 extras posibilidades de Calabozo a través de usar %d Gemas!" />
+    <List Id="34021" Txt="PS de Daño:" />
+    <List Id="34022" Txt="Daño Fijo:" />
+    <List Id="34023" Txt="PS de Recuperación:" />
+    <List Id="34024" Txt="Recuperación Fija:" />
+    <List Id="34025" Txt="Incrementar ATQ:" />
+    <List Id="34026" Txt="Duración de la Magia:" />
+    <List Id="34027" Txt="Daño a Edificios:" />
+    <List Id="34028" Txt="Daño Fijo a Edificios:" />
+    <List Id="34029" Txt="Duración Efectiva:" />
+    <List Id="34030" Txt="Reducir PS:" />
+    <List Id="34031" Txt="Daño Continuo:" />
+    <List Id="34032" Txt="Reducir ATQ:" />
+    <List Id="34033" Txt="VEL ATQ:" />
+    <List Id="34034" Txt="VEL MOV:" />
+    <List Id="34035" Txt="Número de Resurrecciones:" />
+    <List Id="34036" Txt="Duración Efectiva:" />
+    <List Id="34037" Txt="Tropas Invencibles:" />
+    <List Id="34038" Txt="Efecto de Magia:" />
+    <List Id="34039" Txt="Recomendar en Google+" />
+    <List Id="34040" Txt="¿Tes gusta?¡Calificanos!" />
+    <List Id="34041" Txt="¡Compra Gemas!" />
+    <List Id="34042" Txt="Consejo: Toca el hechizo para comprarlo." />
+    <List Id="34043" Txt="Sacrificio" />
+    <List Id="34044" Txt="Ordinario" />
+    <List Id="34045" Txt="Élite" />
+    <List Id="34046" Txt="Leyenda" />
+    <List Id="34047" Txt="Gana Gemas" />
+    <List Id="34048" Txt="Ir" />
+    <List Id="34049" Txt="Reclamar" />
+    <List Id="34050" Txt="¡Gemas Gratis!" />
+    <List Id="34051" Txt="¡Compra 230 Gemas para recibir un Héroe!" />
+    <List Id="34052" Txt="¡Compra 600 Gemas para recibir un Héroe!" />
+    <List Id="34053" Txt="¡Compra 3,000 Gemas para recibir un Héroe!" />
+    <List Id="34054" Txt="¡Compra 15,000 Gemas para recibir un Héroe!" />
+    <List Id="34055" Txt="¡Compra 50,000 Gemas para recibir un Héroe!" />
+    <List Id="34056" Txt="Intercambiar" />
+    <List Id="34057" Txt="¿Proceder con este intercambio?" />
+    <List Id="34058" Txt="¡No puedes atacar aquí! Por favor, elige otra área." />
+    <List Id="34059" Txt="¡Más Eventos!" />
+    <List Id="34060" Txt="¡Toca un hechizo para lanzarlo a un objetivo!" />
+    <List Id="34061" Txt="¡Puedes controlar hacia dónde se lanzará el hechizo moviendo tu dispositivo!" />
+    <List Id="34062" Txt="¡Puedes guiar el vuelo del Fénix!" />
+    <List Id="34063" Txt="Problemas de Pago" />
+    <List Id="34064" Txt="Problemas de Conexión" />
+    <List Id="34065" Txt="Otros Problemas" />
+    <List Id="34066" Txt="Comentarios" />
+    <List Id="34067" Txt="Oportunidades:" />
+    <List Id="34068" Txt="¡Los Fragmentos de Héroe pueden ser tirados en los Calabozos!" />
+    <List Id="34069" Txt="Colocar Héroe" />
+    <List Id="34070" Txt="Comprar Magia" />
+    <List Id="34071" Txt="Nivel:" />
+    <List Id="34072" Txt="Consejos:" />
+    <List Id="34073" Txt="ID de IGG:" />
+    <List Id="34074" Txt="Foro" />
+    <List Id="34075" Txt="Música" />
+    <List Id="34076" Txt="ENCENDER" />
+    <List Id="34077" Txt="Sonido" />
+    <List Id="34078" Txt="Idioma" />
+    <List Id="34079" Txt="Inglés" />
+    <List Id="34080" Txt="Términos de Servicio" />
+    <List Id="34081" Txt="Reportar Error" />
+    <List Id="34082" Txt="Política de Privacidad" />
+    <List Id="34083" Txt="Soporte en Línea" />
+    <List Id="34084" Txt="Correo Electrónico" />
+    <List Id="34085" Txt="Versión 1.00" />
+    <List Id="34086" Txt="Copyright 2012-2013 IGG.com Todos los Derechos Reservados" />
+    <List Id="34087" Txt="Help.castle.es@igg.com" />
+    <List Id="34088" Txt="APAGADO" />
+    <List Id="34089" Txt="Contratado con" />
+    <List Id="34090" Txt=" Insignias de Honor" />
+    <List Id="34091" Txt="Gemas" />
+    <List Id="34092" Txt="Fragmentos" />
+    <List Id="34093" Txt="Notificaciones" />
+    <List Id="34094" Txt="¡Cuenta a tus amigos!" />
+    <List Id="34095" Txt="¡Cuenta no enlazada!" />
+    <List Id="34096" Txt="Enlazar" />
+    <List Id="34097" Txt="¿Confirmar enlace?" />
+    <List Id="34098" Txt="Cambiar" />
+    <List Id="34099" Txt="¿Confirmar cambio?" />
+    <List Id="34100" Txt="¡Enlazado!" />
+    <List Id="34101" Txt="¡Enlazado satisfactoriamente!" />
+    <List Id="34102" Txt="¡Fallo al enlazar!" />
+    <List Id="34103" Txt="Anuncio de mantenimiento" />
+    <List Id="34104" Txt="¡Defensa satisfactoria!" />
+    <List Id="34105" Txt="¡Fallo al defender!" />
+    <List Id="34106" Txt="Amigos" />
+    <List Id="34107" Txt="Mensaje Privado" />
+    <List Id="34108" Txt="Agregar al amigo" />
+    <List Id="34109" Txt="¡Fallo al cambiar de cuenta!" />
+    <List Id="34110" Txt="Ingreso de invitado" />
+    <List Id="34111" Txt="Enlazando cuenta" />
+    <List Id="34112" Txt="A %s" />
+    <List Id="34113" Txt="Enlazar con Google+" />
+    <List Id="34114" Txt="Union de cuenta en proceso" />
+    <List Id="34115" Txt="¡Satisfactoria union de cuentas!" />
+    <List Id="34116" Txt="Por favor asegurese de que su cuenta está autorizada antes de unirla." />
+    <List Id="34117" Txt="Borrar amigo." />
+    <List Id="34118" Txt="¡Este jugador ya es tu amigo!" />
+    <List Id="34119" Txt="¡Tu lista de amigos está llena!" />
+    <List Id="34120" Txt="frecuencia de ataque:" />
+    <List Id="34121" Txt="¡Esta cuenta ya ha sido ligada!" />
+    <List Id="34122" Txt="Requerimientos" />
+    <List Id="34123" Txt="Habilidad defensiva:" />
+    <List Id="34124" Txt="Usted ya tiene una cuenta con GAME CENTER, ¿Desea ingresar con ella?" />
+    <List Id="34125" Txt="Su cuenta no está enlazada, entonces no será capaz de hablar. ¿Desea proceder y enlazar su cuenta primero?" />
+    <List Id="34126" Txt="Translation is missing" />
+    <List Id="34127" Txt="Translation is missing" />
+    <List Id="34128" Txt="Final" />
+    <List Id="34129" Txt="Translation is missing" />
+    <List Id="34130" Txt="Desplegar Héroes" />
+    <List Id="34131" Txt="Heroes de diferentes grados producirán diferentes efectos." />
+    <List Id="34132" Txt="Fallo al mirar!" />
+    <List Id="34133" Txt="Este gmail ha sido enlazado a otra cuenta." />
+    <List Id="34134" Txt="Help.castle.apple@igg.com" />
+    <List Id="34135" Txt="Los clasificaciones se actualizan diariamente a las 00:00" />
+    <List Id="34136" Txt="Translation is missing" />
+    <List Id="34137" Txt="Translation is missing" />
+    <List Id="34138" Txt="Por favor ingrese e intente nuevamente." />
+    <List Id="34139" Txt="Por favor intente nuevamente en 1 - 2 horas." />
+    <List Id="34140" Txt="Esta cuenta de Google ya está enlazada a otra cuenta. Por favor cambie su cuenta de Google e intente nuevamente." />
+    <List Id="34141" Txt="Esta cuenta ya está enlazada a otra cuenta. No hay necesidad de enlazar la cuenta nuevamente." />
+    <List Id="34142" Txt="Los rankings han cambiado en la lista de oponentes. Por favor selecciona un oponente." />
+    <List Id="34143" Txt="91VIP特权礼包" />
+    <List Id="34144" Txt="天盟&amp;91携手礼包" />
+    <List Id="34145" Txt="Efecto actual" />
+    <List Id="34146" Txt="Nada" />
+    <List Id="34147" Txt="Siguiente nivel" />
+    <List Id="34148" Txt="Ya al máximo nivel." />
+    <List Id="34149" Txt="Invitar" />
+    <List Id="34150" Txt="Comparte con tus amigos!" />
+    <List Id="34151" Txt="¡Unete a Castillo Furioso: Castle Clash! ¡El mejor juego! https://play.google.com/store/apps/details?id=com.igg.castleclash_es
+" />
+    <List Id="34152" Txt="公测大礼包" />
+    <List Id="34153" Txt="争霸大礼包" />
+    <List Id="34154" Txt="Español" />
+    <List Id="34155" Txt="关注小米游戏中心" />
+    <List Id="34156" Txt="关注小米论坛" />
+    <List Id="34157" Txt="¿Cambiar el Talento?" />
+    <List Id="34158" Txt="Cambiar" />
+    <List Id="34159" Txt="¿Estas seguro de querer saltar el Tutorial?" />
+  </Text>
+  <Text Type="14" TypeTxt="新炮臺信息">
+    <List Id="35000" Txt="Translation is missing" />
+    <List Id="35001" Txt="Rango de ATQ +3. Héroes serán dirigidos primero." />
+    <List Id="35002" Txt="Rango de ATQ +6. Héroes serán dirigidos primero." />
+    <List Id="35003" Txt="Rango de ATQ +9. Héroes serán dirigidos primero." />
+    <List Id="35004" Txt="Rango de ATQ +12. Héroes serán dirigidos primero." />
+    <List Id="35005" Txt="Rango de ATQ +15. Héroes serán dirigidos primero." />
+    <List Id="35011" Txt="Inflige 150% DAÑO a un Héroe." />
+    <List Id="35012" Txt="Inflige 200% DAÑO a un Héroe." />
+    <List Id="35013" Txt="Inflige 250% DAÑO a un Héroe." />
+    <List Id="35014" Txt="Inflige 300% DAÑO a un Héroe." />
+    <List Id="35015" Txt="Inflige 350% DAÑO a un Héroe." />
+    <List Id="35021" Txt="PS +10%. DAÑO Infligido +2%." />
+    <List Id="35022" Txt="PS +20%. DAÑO Infligido +4%." />
+    <List Id="35023" Txt="PS +30%. DAÑO Infligido +6%." />
+    <List Id="35024" Txt="PS +40%. DAÑO Infligido +8%." />
+    <List Id="35025" Txt="PS +50%. DAÑO Infligido +10%." />
+    <List Id="35031" Txt="DAÑO Infligido +20%" />
+    <List Id="35032" Txt="DAÑO Infligido +40%" />
+    <List Id="35033" Txt="DAÑO Infligido +60%" />
+    <List Id="35034" Txt="DAÑO Infligido +80%" />
+    <List Id="35035" Txt="DAÑO Infligido +100%" />
+    <List Id="35041" Txt="Area de ATQ +1." />
+    <List Id="35042" Txt="Area de ATQ +2." />
+    <List Id="35043" Txt="Area de ATQ +3." />
+    <List Id="35044" Txt="Area de ATQ +4." />
+    <List Id="35045" Txt="Area de ATQ +5." />
+    <List Id="35051" Txt="15% de oportunidad de lanzar 2 ATQs de cañón consecutivos." />
+    <List Id="35052" Txt="25% de oportunidad de lanzar 2 ATQs de cañón consecutivos." />
+    <List Id="35053" Txt="35% de oportunidad de lanzar 2 ATQs de cañón consecutivos." />
+    <List Id="35054" Txt="45% de oportunidad de lanzar 2 ATQs de cañón consecutivos." />
+    <List Id="35055" Txt="55% de oportunidad de lanzar 2 ATQs de cañón consecutivos." />
+    <List Id="35061" Txt="VEL ATQ +10%." />
+    <List Id="35062" Txt="VEL ATQ +20%." />
+    <List Id="35063" Txt="VEL ATQ +30%." />
+    <List Id="35064" Txt="VEL ATQ +40%." />
+    <List Id="35065" Txt="VEL ATQ +50%." />
+    <List Id="35071" Txt="5% de oportunidad de infligir Coma a un objetivo por 1.5 Segs." />
+    <List Id="35072" Txt="10% de oportunidad de infligir Coma a un objetivo por 1.5 Segs." />
+    <List Id="35073" Txt="15% de oportunidad de infligir Coma a un objetivo por 1.5 Segs." />
+    <List Id="35074" Txt="20% de oportunidad de infligir Coma a un objetivo por 1.5 Segs." />
+    <List Id="35075" Txt="25% de oportunidad de infligir Coma a un objetivo por 1.5 Segs." />
+    <List Id="35081" Txt="Objetivos de ATQ +1, DAÑO Infligido +5%" />
+    <List Id="35082" Txt="Objetivos de ATQ +2, DAÑO Infligido +10%" />
+    <List Id="35083" Txt="Objetivos de ATQ +3, DAÑO Infligido +15%" />
+    <List Id="35084" Txt="Objetivos de ATQ +4, DAÑO Infligido +20%" />
+    <List Id="35085" Txt="Objetivos de ATQ +5, DAÑO Infligido +25%" />
+  </Text>
+  <Text Type="15" TypeTxt="公会信息">
+    <List Id="36000" Txt="miss……" />
+    <List Id="36001" Txt="miss……" />
+    <List Id="36002" Txt="miss……" />
+    <List Id="36003" Txt="miss……" />
+    <List Id="36004" Txt="miss……" />
+    <List Id="36005" Txt="miss……" />
+    <List Id="36006" Txt="miss……" />
+    <List Id="36007" Txt="miss……" />
+    <List Id="36008" Txt="miss……" />
+    <List Id="36009" Txt="miss……" />
+    <List Id="36010" Txt="miss……" />
+    <List Id="36011" Txt="miss……" />
+    <List Id="36012" Txt="miss……" />
+    <List Id="36013" Txt="miss……" />
+    <List Id="36014" Txt="miss……" />
+    <List Id="36015" Txt="miss……" />
+    <List Id="36016" Txt="miss……" />
+    <List Id="36017" Txt="miss……" />
+    <List Id="36018" Txt="miss……" />
+    <List Id="36019" Txt="miss……" />
+    <List Id="36020" Txt="miss……" />
+    <List Id="36021" Txt="miss……" />
+    <List Id="36022" Txt="miss……" />
+    <List Id="36023" Txt="miss……" />
+    <List Id="36024" Txt="miss……" />
+    <List Id="36025" Txt="miss……" />
+    <List Id="36026" Txt="miss……" />
+    <List Id="36027" Txt="miss……" />
+    <List Id="36028" Txt="miss……" />
+    <List Id="36029" Txt="miss……" />
+    <List Id="36030" Txt="miss……" />
+    <List Id="36031" Txt="miss……" />
+    <List Id="36032" Txt="miss……" />
+    <List Id="36033" Txt="miss……" />
+    <List Id="36034" Txt="miss……" />
+    <List Id="36035" Txt="miss……" />
+    <List Id="36036" Txt="miss……" />
+    <List Id="36037" Txt="miss……" />
+    <List Id="36038" Txt="miss……" />
+    <List Id="36039" Txt="miss……" />
+    <List Id="36040" Txt="miss……" />
+    <List Id="36041" Txt="miss……" />
+    <List Id="36042" Txt="miss……" />
+    <List Id="36043" Txt="miss……" />
+    <List Id="36044" Txt="miss……" />
+    <List Id="36045" Txt="miss……" />
+    <List Id="36046" Txt="miss……" />
+    <List Id="36047" Txt="miss……" />
+    <List Id="36048" Txt="miss……" />
+    <List Id="36049" Txt="miss……" />
+    <List Id="36050" Txt="miss……" />
+    <List Id="36051" Txt="miss……" />
+    <List Id="36052" Txt="miss……" />
+    <List Id="36053" Txt="miss……" />
+    <List Id="36054" Txt="miss……" />
+    <List Id="36055" Txt="miss……" />
+    <List Id="36056" Txt="miss……" />
+    <List Id="36057" Txt="miss……" />
+    <List Id="36058" Txt="miss……" />
+    <List Id="36059" Txt="miss……" />
+    <List Id="36060" Txt="miss……" />
+    <List Id="36061" Txt="miss……" />
+    <List Id="36062" Txt="miss……" />
+    <List Id="36063" Txt="miss……" />
+    <List Id="36064" Txt="miss……" />
+    <List Id="36065" Txt="miss……" />
+    <List Id="36066" Txt="miss……" />
+    <List Id="36067" Txt="miss……" />
+    <List Id="36068" Txt="miss……" />
+    <List Id="36069" Txt="miss……" />
+    <List Id="36070" Txt="miss……" />
+    <List Id="36071" Txt="miss……" />
+    <List Id="36072" Txt="miss……" />
+    <List Id="36073" Txt="miss……" />
+    <List Id="36074" Txt="miss……" />
+    <List Id="36075" Txt="miss……" />
+    <List Id="36076" Txt="miss……" />
+    <List Id="36077" Txt="miss……" />
+    <List Id="36078" Txt="miss……" />
+    <List Id="36079" Txt="miss……" />
+    <List Id="36080" Txt="miss……" />
+    <List Id="36081" Txt="miss……" />
+    <List Id="36082" Txt="miss……" />
+    <List Id="36083" Txt="miss……" />
+    <List Id="36084" Txt="miss……" />
+    <List Id="36085" Txt="miss……" />
+    <List Id="36086" Txt="miss……" />
+    <List Id="36087" Txt="miss……" />
+    <List Id="36088" Txt="miss……" />
+    <List Id="36089" Txt="miss……" />
+    <List Id="36090" Txt="miss……" />
+    <List Id="36091" Txt="miss……" />
+    <List Id="36092" Txt="miss……" />
+    <List Id="36093" Txt="miss……" />
+    <List Id="36094" Txt="miss……" />
+    <List Id="36095" Txt="miss……" />
+    <List Id="36096" Txt="miss……" />
+    <List Id="36097" Txt="miss……" />
+    <List Id="36098" Txt="miss……" />
+    <List Id="36099" Txt="miss……" />
+    <List Id="36100" Txt="miss……" />
+    <List Id="36101" Txt="miss……" />
+    <List Id="36102" Txt="miss……" />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+  </Text>
+</Config>
+
+<!--
+建表时间【2013.08.22】 by CXG
+关联配置表：
+Building.xml
+-->

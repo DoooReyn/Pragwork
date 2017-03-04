@@ -1,0 +1,1482 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Config XXName="【德文】文字描述ID配置表">
+  <Text Type="1" TypeTxt="通用">
+    <List Id="1" Txt="OK" />
+    <List Id="2" Txt="Abbrechen" />
+    <List Id="3" Txt="Spieler" />
+    <List Id="4" Txt="Senden" />
+    <List Id="5" Txt="Erfolgreich bekommen: %d Edelsteine!" />
+    <List Id="6" Txt="Deine Magie ist voll!" />
+    <List Id="7" Txt="Möchtest du wirklich gehen?" />
+    <List Id="8" Txt="EP:" />
+    <List Id="9" Txt="Updaten" />
+    <List Id="10" Txt="Version" />
+    <List Id="11" Txt="Copyright 2012-2013 IGG.COM Alle Rechte vorbehalten" />
+    <List Id="12" Txt="Help.castle.de@igg.com" />
+    <List Id="13" Txt="Du" />
+    <List Id="14" Txt="Bonus!" />
+    <List Id="15" Txt="Verkaufen" />
+    <List Id="16" Txt="Kampf" />
+    <List Id="17" Txt="Du warst ein Weilchen nicht da. Tippe auf „Neu laden“, um das Spiel fortzusetzen." />
+    <List Id="18" Txt="Bist du noch da?" />
+    <List Id="19" Txt="Neu laden" />
+    <List Id="20" Txt="Überspringen" />
+    <List Id="21" Txt="Start" />
+    <List Id="22" Txt="Wird geladen" />
+    <List Id="23" Txt="Ruhmpunkte" />
+    <List Id="24" Txt="NONE" />
+    <List Id="51" Txt="Info" />
+    <List Id="52" Txt="Aufwerten" />
+    <List Id="53" Txt="Anwerben" />
+    <List Id="54" Txt="Sammeln" />
+    <List Id="55" Txt="Held" />
+    <List Id="56" Txt="Entfernen" />
+    <List Id="57" Txt="Magie" />
+    <List Id="58" Txt="Training" />
+    <List Id="59" Txt="Betreten" />
+    <List Id="60" Txt="Helden wechseln" />
+    <List Id="61" Txt="%s (Level %d)" />
+    <List Id="62" Txt="Volle Reihe" />
+    <List Id="63" Txt="Abschließen" />
+    <List Id="64" Txt="%s Lvl %d -> %d" />
+    <List Id="65" Txt="Verbindung fehlgeschlagen" />
+    <List Id="66" Txt="Verbindung aktualisieren" />
+    <List Id="67" Txt="Verlassen" />
+    <List Id="68" Txt="Benachrichtigung" />
+    <List Id="69" Txt="Du hast nicht genug Edelsteine! Möchtest du mehr kaufen?" />
+    <List Id="70" Txt="Gib deinen Namen ein." />
+    <List Id="71" Txt="Der Name ist bereits vergeben oder enthält ungültige Zeichen! Bitte versuche einen anderen Namen." />
+    <List Id="72" Txt="Drehen" />
+    <List Id="73" Txt="Alle aufwerten" />
+    <List Id="74" Txt="Lvl %d" />
+    <List Id="75" Txt="Mit deinem Konto ist etwas schiefgelaufen. Bitte wende dich an den Support." />
+    <List Id="76" Txt="Schlacht abgebrochen! Dein Ziel kommt gerade online!" />
+    <List Id="77" Txt="EUR" />
+    <List Id="78" Txt="Welt" />
+    <List Id="99" Txt="Opfern" />
+    <List Id="100" Txt="Befördern" />
+    <List Id="101" Txt="Kämpfer sind nicht nur für den Angriff, sondern auch für die Verteidigung wichtig." />
+    <List Id="102" Txt="Kämpfer, die eine Schlacht überleben, kehren zu deiner Basis zurück." />
+    <List Id="103" Txt="Tippe beim Angreifen auf den Bildschirm, um deine Kämpfer einzusetzen. Du kannst deine Kämpfer auch schnell einsetzen, indem du deinen Finger auf den Bildschirm hältst." />
+    <List Id="104" Txt="In rot schattierten Bereichen kannst du deine Kämpfer nicht einsetzen." />
+    <List Id="105" Txt="Im Heerlager kannst du Kämpfer rekrutieren. Kämpfer verteidigen die Umgebung ihres Heerlagers." />
+    <List Id="106" Txt="Verbessere dein Heerlager, um seine Kapazität, die Rektrutierungs-Warteschlange und den von Kämpfern patrouillierten Radius zu erweitern." />
+    <List Id="107" Txt="Schließe Dungeons ab, um Ressourcen zu erhalten und dich im Kampf zu beweisen!" />
+    <List Id="108" Txt="Sammle Heldensplitter aus Dungeons, um sie gegen mächtige Helden einzutauschen!" />
+    <List Id="109" Txt="Baue und verbessere Gebäude, erweitere deine Stadt und stärke Verteidungsanlagen, um eine uneinnehmbare Festung zu schaffen!" />
+    <List Id="110" Txt="Der Schlüssel einer wirksamen Verteidigung ist die Platzierung und Anordnung von Gebäuden." />
+    <List Id="111" Txt="Anfängerhilfe" />
+    <List Id="112" Txt="Verbessere dein [Rathaus], um mehr Gebäude freizuschalten und ihr Level zu erhöhen!" />
+    <List Id="113" Txt="Es sollte dein oberstes Ziel sein, dein [Rathaus] zu verbessern!" />
+    <List Id="114" Txt="Wähle ein Gebäude aus, um es an eine leere Stelle zu verschieben. Du kannst Gebäude nicht übereinander platzieren." />
+    <List Id="115" Txt="Wenn neue Gebäude verfügbar sind, erscheint ein rotes Symbol über der Shop-Schaltfläche." />
+    <List Id="116" Txt="Dies sind Ruhmpunkte, eine der wichtigsten Ressourcen.
+Du kannst damit Helden anwerben und ihr Sternlevel erhöhen.
+Man kann sie hauptsächlich in der Arena verdienen, aber auch bei Überfällen und in Dungeons.Ehrenzeichen - Limit: 1 Mil." />
+    <List Id="117" Txt="Dies ist deine Macht. Sie stellt deine Gesamtfähigkeit dar.
+Du erhöhst deine Macht, indem du Gebäude verbesserst oder Kämpfer und Helden trainierst.
+Deine Gegner bei Überfällen werden nach deiner Macht ausgewählt." />
+    <List Id="201" Txt="Helden spielen eine große Rolle in Schlachten. Sie sollten regelmäßig trainiert werden." />
+    <List Id="202" Txt="Eine Verbesserung macht Kämpfer nicht nur stärker, sondern schaltet auch weitere Kämpfertypen frei." />
+    <List Id="203" Txt="Achte auf das Wechselspiel verschiedener Kämpfer. Es könnte dir im Kampf einen Vorteil verschaffen." />
+    <List Id="204" Txt="Wenn du Helden oft in Schlachten einsetzt, steigen sie auf." />
+    <List Id="205" Txt="Je höher dein Arenarang ist, desto mehr Ruhmpunkte erhältst du." />
+    <List Id="206" Txt="Durch den Einsatz von Magie kannst du das Blatt wenden." />
+    <List Id="207" Txt="Du kannst Gegenstände kaufen, die dein Schloss vor Angriffen schützen, während du offline bist." />
+    <List Id="208" Txt="Dungeons sind nicht nur eine gute Ressourcenquelle, sondern dienen auch dem Training der Kämpfer." />
+    <List Id="209" Txt="Verbesserte einfache Türme haben bessere Verteidigungsfähigkeiten und können zu Spezialtürmen umgewandelt werden!" />
+    <List Id="210" Txt="Ordne deine Gebäude sorgsam an, um feindliche Angreifer zu bremsen!" />
+    <List Id="211" Txt="Wirb am Heldenaltar mächtigere Helden an!" />
+    <List Id="212" Txt="Schleime können in der Schlacht nicht verwendet werden. Stattdessen dienen sie dazu, das Fähigkeitslevel deiner Helden zu steigern." />
+    <List Id="213" Txt="Du kannst Helden anwerben, indem du Splitter, Edelsteine oder Ehre ausgibst." />
+    <List Id="500" Txt="Geräteinformationen laden..." />
+    <List Id="501" Txt="Laden der Geräteinformationen fehlgeschlagen!" />
+    <List Id="502" Txt="Geräteinformationen erfolgreich geladen!" />
+    <List Id="510" Txt="Versionsinfo laden..." />
+    <List Id="511" Txt="Laden der Versionsinfo fehlgeschlagen!" />
+    <List Id="512" Txt="Versionsinfo erfolgreich geladen!" />
+    <List Id="520" Txt="Kontoinformationen laden..." />
+    <List Id="521" Txt="Laden der Kontoinformationen fehlgeschlagen!" />
+    <List Id="522" Txt="Kontoinformationen erfolgreich geladen!" />
+    <List Id="530" Txt="Serververbindung wird hergestellt..." />
+    <List Id="531" Txt="Verbindung mit Login-Server fehlgeschlagen!" />
+    <List Id="532" Txt="Verbindung mit Login-Server erfolgreich!" />
+    <List Id="540" Txt="Server betreten..." />
+    <List Id="541" Txt="Verbindung mit Spielserver fehlgeschlagen!" />
+    <List Id="542" Txt="Verbindung mit Spielserver erfolgreich!" />
+    <List Id="550" Txt="Netzwerkfehler!" />
+    <List Id="551" Txt="Verbindung fehlgeschlagen! Bitte prüfe deinen Netzwerkstatus und versuche es erneut." />
+    <List Id="552" Txt="Dein Name darf nur alphanumerische Zeichen enthalten." />
+    <List Id="553" Txt="Dein Name ist zu lang!" />
+    <List Id="554" Txt="Serverfehler:%d!" />
+    <List Id="1001" Txt="LP:" />
+    <List Id="1002" Txt="Produktion:" />
+    <List Id="1003" Txt="Speicher:" />
+    <List Id="1004" Txt="Verbesserungszeit" />
+    <List Id="1005" Txt="Benötigte Ressourcen" />
+    <List Id="1006" Txt="Angriff" />
+    <List Id="1007" Txt="SCH:" />
+    <List Id="1008" Txt="Angriffsreichweite:" />
+    <List Id="1101" Txt="Kapazität" />
+    <List Id="1102" Txt="Gesamtzeit" />
+    <List Id="1103" Txt="Benötigter Platz" />
+    <List Id="1104" Txt="Produktionskosten" />
+    <List Id="1105" Txt="Jetzt abschließen" />
+    <List Id="1106" Txt="Platz:" />
+    <List Id="1120" Txt="Tippe auf das Symbol eines Helden, um ihn einzusetzen." />
+    <List Id="1201" Txt="Rangliste" />
+    <List Id="1202" Txt="Rang" />
+    <List Id="1203" Txt="Name:" />
+    <List Id="1204" Txt="Macht:" />
+    <List Id="1205" Txt="Optionen" />
+    <List Id="1206" Txt="Ansehen" />
+    <List Id="1207" Txt="Angriff" />
+    <List Id="1301" Txt="Wechselnde Geschütze anzeigen. Tippe, um zu wechseln." />
+    <List Id="1302" Txt="Sterne erhöhen" />
+    <List Id="1401" Txt="Abschließen" />
+    <List Id="1402" Txt="Belohnung:" />
+    <List Id="1501" Txt="Schlachtbeginn" />
+    <List Id="1502" Txt="Verbleibende Zeit" />
+    <List Id="1503" Txt="Greifbare Beute" />
+    <List Id="1504" Txt="Kampf beenden" />
+    <List Id="1505" Txt="Meine Verluste" />
+    <List Id="1506" Txt="Feindliche Verluste" />
+    <List Id="1507" Txt="Weiter" />
+    <List Id="1508" Txt="Du hast nicht genug Gold." />
+    <List Id="1509" Txt="Du hast nicht genug Kämpfer für einen Angriff." />
+    <List Id="1510" Txt="Du kannst kein Ziel mit einem aktiven Schild angreifen." />
+    <List Id="1511" Txt="Du kannst kein Ziel angreifen, wenn es online ist." />
+    <List Id="1512" Txt="Kampfberichte" />
+    <List Id="1513" Txt="Vor %s" />
+    <List Id="1514" Txt="Du kannst dein Ziel nicht angreifen, wenn es in einer Schlacht ist." />
+    <List Id="1515" Txt="Sieg" />
+    <List Id="1516" Txt="Niederlage" />
+    <List Id="1517" Txt="Du hast erhalten:" />
+    <List Id="1518" Txt="Du hast verloren:" />
+    <List Id="1519" Txt="Wenn du einen anderen Spieler angreifst, wird dein Schild deaktiviert. Willst du wirklich angreifen?" />
+    <List Id="1601" Txt="Schatz" />
+    <List Id="1602" Txt="Schilde" />
+    <List Id="1603" Txt="Dekorationen" />
+    <List Id="1604" Txt="Ressourcen" />
+    <List Id="1605" Txt="Militär" />
+    <List Id="1606" Txt="Verteidigung" />
+    <List Id="1607" Txt="Shop" />
+    <List Id="1608" Txt="Level %d %s erforderlich" />
+    <List Id="1609" Txt="%s Level %d zum Freischalten erforderlich." />
+    <List Id="1611" Txt="Edelsteine kaufen" />
+    <List Id="1612" Txt="Gold kaufen" />
+    <List Id="1613" Txt="Mana kaufen" />
+    <List Id="1614" Txt="240 Edelsteine" />
+    <List Id="1615" Txt="600 Edelsteine" />
+    <List Id="1616" Txt="1.200 Edelsteine" />
+    <List Id="1617" Txt="Golddepot um 10% füllen" />
+    <List Id="1618" Txt="Golddepot um 50% füllen" />
+    <List Id="1619" Txt="Golddepot füllen" />
+    <List Id="1620" Txt="Manadepot um 10% füllen" />
+    <List Id="1621" Txt="Manadepot um 50% füllen" />
+    <List Id="1622" Txt="Manadepot füllen" />
+    <List Id="1623" Txt="Schild aktivieren" />
+    <List Id="1624" Txt="%d Stunden" />
+    <List Id="1625" Txt="%d Gold" />
+    <List Id="1626" Txt="%d Mana" />
+    <List Id="1627" Txt="Kauf nicht möglich" />
+    <List Id="1628" Txt="Du brauchst mehr Gold dafür." />
+    <List Id="1629" Txt="Du brauchst mehr Mana dafür." />
+    <List Id="1630" Txt="Du brauchst mehr Edelsteine dafür." />
+    <List Id="1631" Txt="Willst du %d Gold kaufen?" />
+    <List Id="1632" Txt="Willst du %d Mana kaufen?" />
+    <List Id="1633" Txt="Willst du mehr Edelsteine kaufen?" />
+    <List Id="1634" Txt="Gold kaufen" />
+    <List Id="1635" Txt="Mana kaufen" />
+    <List Id="1636" Txt="Arbeiter sind beschäftigt!" />
+    <List Id="1637" Txt="Willst du einen Arbeiter freisetzen, indem du einen anderen Bau vollendest?" />
+    <List Id="1638" Txt="Beschleunigen" />
+    <List Id="1639" Txt="Jetzt abschließen?" />
+    <List Id="1640" Txt="Willst du %s kaufen?" />
+    <List Id="1641" Txt="Willst du %s %s kaufen?" />
+    <List Id="1642" Txt="Mana" />
+    <List Id="1643" Txt="Gold" />
+    <List Id="1644" Txt="Schilddauer" />
+    <List Id="1651" Txt="Verbessere dein Rathaus, um mehr Gebäude hinzuzufügen." />
+    <List Id="1652" Txt="Gebäudemaximum erreicht" />
+    <List Id="1653" Txt="Arbeiter hinzufügen" />
+    <List Id="1654" Txt="Willst du mehr Arbeiter hinzufügen?" />
+    <List Id="1655" Txt="Willst du %d Gold kaufen, um den Bau zu beschleunigen?" />
+    <List Id="1656" Txt="Willst du %d Mana kaufen, um den Bau zu beschleunigen?" />
+    <List Id="1657" Txt="Wenn du diese Verbesserung abbrichst, erhältst du nur 50% deiner Ressourcen zurück. Willst du wirklich abbrechen?" />
+    <List Id="1658" Txt="Willst du %d Gold ausgeben, um alle aufzuwerten?" />
+    <List Id="1659" Txt="2.400 Edelsteine" />
+    <List Id="1660" Txt="6.000 Edelsteine" />
+    <List Id="1661" Txt="12.000 Edelsteine" />
+    <List Id="1671" Txt="Holzschild" />
+    <List Id="1672" Txt="Eisenschild" />
+    <List Id="1673" Txt="Goldschild" />
+    <List Id="1674" Txt="Dies wird %d Edelsteine kosten. Bist du sicher?" />
+    <List Id="1701" Txt="Einstellungen" />
+    <List Id="1702" Txt="Musik" />
+    <List Id="1703" Txt="Sounds" />
+    <List Id="1704" Txt="Sprache" />
+    <List Id="1705" Txt="Über dieses Spiel" />
+    <List Id="1706" Txt="Hilfe" />
+    <List Id="1707" Txt="Schließen" />
+    <List Id="1801" Txt="Wähle einen Helden zum Verbrauch aus." />
+    <List Id="1802" Txt="Bitte wählen" />
+    <List Id="1803" Txt="Anwerben" />
+    <List Id="1804" Txt="Level" />
+    <List Id="1805" Txt="Verbesserung" />
+    <List Id="1806" Txt="Verbesserungsvorgaben" />
+    <List Id="1807" Txt="Entfernen" />
+    <List Id="1808" Txt="Verbrauchen" />
+    <List Id="1809" Txt="Einmal ziehen" />
+    <List Id="1810" Txt="5 ziehen" />
+    <List Id="1811" Txt="Mit Ruhmpunkten anwerben" />
+    <List Id="1812" Txt="Mit Edelsteinen anwerben" />
+    <List Id="1813" Txt="Wirb einen Helden mit Ruhmpunkten an." />
+    <List Id="1814" Txt="Wirb einen Helden mit Gutscheinen an. Vielleicht bekommst du einen seltenen Helden!" />
+    <List Id="1815" Txt="Glückwunsch!" />
+    <List Id="1816" Txt="Helden-Shop" />
+    <List Id="1817" Txt="Mit Splittern anwerben" />
+    <List Id="1818" Txt="EP-Booster" />
+    <List Id="1819" Txt="Stern" />
+    <List Id="1820" Txt="Möchtest du diesen Held wiederbeleben?" />
+    <List Id="1821" Txt="Einige hochstufigen Helden wurde ausgewählt. Bist du sicher, dass du sie verbrauchen willst?" />
+  </Text>
+  <Text Type="2" TypeTxt="建筑名称">
+    <List Id="10001" Txt="Rathaus" />
+    <List Id="10002" Txt="Heldenaltar" />
+    <List Id="10003" Txt="Heerlager" />
+    <List Id="10004" Txt="Goldmine" />
+    <List Id="10005" Txt="Manamühle" />
+    <List Id="10006" Txt="Golddepot" />
+    <List Id="10007" Txt="Manadepot" />
+    <List Id="10008" Txt="Wachturm" />
+    <List Id="10009" Txt="Bogenschützenturm" />
+    <List Id="10010" Txt="Magieturm" />
+    <List Id="10011" Txt="Arena" />
+    <List Id="10012" Txt="Relikthalle" />
+    <List Id="10013" Txt="Mauer" />
+    <List Id="10014" Txt="Bombenfalle" />
+    <List Id="10015" Txt="Heldenbasis" />
+    <List Id="10016" Txt="Trainingszentrum" />
+    <List Id="10017" Txt="Grabstein" />
+    <List Id="10018" Txt="Geschützturm" />
+    <List Id="10019" Txt="Ruhmeshalle" />
+    <List Id="10021" Txt="Heldenfalle" />
+    <List Id="10101" Txt="Blume I" />
+    <List Id="10102" Txt="Blume II" />
+    <List Id="10103" Txt="Blume III" />
+    <List Id="10104" Txt="Blume IV" />
+    <List Id="10105" Txt="Blume V" />
+    <List Id="10111" Txt="Statue I" />
+    <List Id="10112" Txt="Statue II" />
+    <List Id="10113" Txt="Statue III" />
+    <List Id="10114" Txt="Statue IV" />
+    <List Id="10115" Txt="Statue V" />
+    <List Id="10121" Txt="Andere I" />
+    <List Id="10122" Txt="Andere II" />
+    <List Id="10123" Txt="Andere III" />
+    <List Id="10124" Txt="Andere IV" />
+    <List Id="10125" Txt="Andere V" />
+    <List Id="10131" Txt="Gras I" />
+    <List Id="10132" Txt="Gras II" />
+    <List Id="10133" Txt="Gras III" />
+    <List Id="10134" Txt="Gras IV" />
+    <List Id="10135" Txt="Gras V" />
+    <List Id="10141" Txt="Felsen I" />
+    <List Id="10142" Txt="Felsen II" />
+    <List Id="10143" Txt="Felsen III" />
+    <List Id="10144" Txt="Felsen IV" />
+    <List Id="10145" Txt="Felsen V" />
+    <List Id="10151" Txt="Baum I" />
+    <List Id="10152" Txt="Baum II" />
+    <List Id="10153" Txt="Baum III" />
+    <List Id="10154" Txt="Baum IV" />
+    <List Id="10155" Txt="Baum V" />
+    <List Id="10201" Txt="A" />
+    <List Id="10202" Txt="B" />
+    <List Id="10203" Txt="C" />
+    <List Id="10204" Txt="D" />
+    <List Id="10205" Txt="E" />
+    <List Id="10206" Txt="F" />
+    <List Id="10207" Txt="G" />
+    <List Id="10208" Txt="H" />
+    <List Id="10209" Txt="I" />
+    <List Id="10210" Txt="J" />
+    <List Id="10211" Txt="K" />
+    <List Id="10212" Txt="L" />
+    <List Id="10213" Txt="M" />
+    <List Id="10214" Txt="N" />
+    <List Id="10215" Txt="O" />
+    <List Id="10216" Txt="P" />
+    <List Id="10217" Txt="Q" />
+    <List Id="10218" Txt="R" />
+    <List Id="10219" Txt="S" />
+    <List Id="10220" Txt="T" />
+    <List Id="10221" Txt="U" />
+    <List Id="10222" Txt="V" />
+    <List Id="10223" Txt="W" />
+    <List Id="10224" Txt="X" />
+    <List Id="10225" Txt="Y" />
+    <List Id="10226" Txt="Z" />
+    <List Id="10227" Txt="0" />
+    <List Id="10228" Txt="1" />
+    <List Id="10229" Txt="2" />
+    <List Id="10230" Txt="3" />
+    <List Id="10231" Txt="4" />
+    <List Id="10232" Txt="5" />
+    <List Id="10233" Txt="6" />
+    <List Id="10234" Txt="7" />
+    <List Id="10235" Txt="8" />
+    <List Id="10236" Txt="9" />
+    <List Id="10301" Txt="Du kannst Buchstaben und Ziffern beliebig kombinieren." />
+  </Text>
+  <Text Type="3" TypeTxt="建筑描述">
+    <List Id="20001" Txt="Dein Hauptgebäude. Es wirkt sich auf Anzahl, Art und Höchstlevel anderer Gebäude aus." />
+    <List Id="20002" Txt="Hier kannst du Helden anwerben und trainieren. Weitere Verbesserungen reduzieren die Wiederbelebungszeit von Helden." />
+    <List Id="20003" Txt="Produziert verschiedene Kämpfer. Aufwerten, um deine Kämpferhöchstzahl zu erhöhen. Kämpfer werden automatisch eingesetzt, wenn du angegriffen wirst." />
+    <List Id="20004" Txt="Produziert Gold. Aufwerten, um Produktion und Speicherplatz zu erhöhen." />
+    <List Id="20005" Txt="Produziert Mana. Aufwerten, um Produktion und Speicherplatz zu erhöhen." />
+    <List Id="20006" Txt="Speichert gesammeltes Gold. Aufwerten, um Speicherplatz zu erhöhen." />
+    <List Id="20007" Txt="Speichert gesammeltes Mana. Aufwerten, um Speicherplatz zu erhöhen." />
+    <List Id="20008" Txt="Einfacher Verteidigungsturm. Greift feindliche Kämpfer an. Kann nach Lvl 10 zu Spezialturm verbessert werden." />
+    <List Id="20009" Txt="Eine verbesserte Version des einfachen Lvl-10-Turms. Greift Einzelziele schnell an." />
+    <List Id="20010" Txt="Eine verbesserte Version des einfachen Lvl-10-Turms. Greift mehrere Ziele gleichzeitig an." />
+    <List Id="20011" Txt="Verdiene in der Arena einen Platz auf der Rangliste und gewinne tolle Preise!" />
+    <List Id="20012" Txt="Erforscht Ausrüstung, die für Überfälle wichtig ist." />
+    <List Id="20013" Txt="Deine erste Verteidigungsreihe. Platziere sie strategisch, um den Feind am Vorrücken zu hindern." />
+    <List Id="20014" Txt="Explodiert und fügt die gegnerischen Einheiten Schaden zu. Die Falle wird nicht von fliegenden Einheiten ausgelöst. Je mehr du zusammenlegst, desto besser wird der Effekt." />
+    <List Id="20015" Txt="Hier werden Helden positioniert, um Angriffe zurückzuschlagen. Du kannst sie auch auf Überfälle entsenden.Steige im Level auf, um das patrouillierte Gebiet, sowie die zugeteilten Fähigkeiten des Helden zu verbessern!" />
+    <List Id="20016" Txt="Verbessert Kämpfer und schaltet eine größere Vielfalt an Kämpfern frei." />
+    <List Id="20017" Txt="Ein Grabstein, der erscheint, wenn ein Kämpfer gefallen ist." />
+    <List Id="20018" Txt="Eine verbesserte Version des einfachen Turms. Sein Geschütz fügt allen Feinden in der Nähe des Ziels Schaden zu." />
+    <List Id="20019" Txt="Ruhmeshalle" />
+    <List Id="20020" Txt="Reichweite:" />
+    <List Id="20021" Txt="Herannahende Helden lösen eine explosive Falle aus! Fügt 10% der Max. LP der gegnerischen Helden im Kreis zu. Dieses Gebäude verschwindet nach einer Benutzung." />
+    <List Id="20101" Txt="Deko-Blumen" />
+    <List Id="20102" Txt="Deko-Blumen" />
+    <List Id="20103" Txt="Deko-Blumen" />
+    <List Id="20104" Txt="Deko-Blumen" />
+    <List Id="20105" Txt="Deko-Blumen" />
+    <List Id="20111" Txt="Deko-Statue" />
+    <List Id="20112" Txt="Deko-Statue" />
+    <List Id="20113" Txt="Deko-Statue" />
+    <List Id="20114" Txt="Deko-Statue" />
+    <List Id="20115" Txt="Deko-Statue" />
+    <List Id="20121" Txt="Deko-Gegenstand" />
+    <List Id="20122" Txt="Deko-Gegenstand" />
+    <List Id="20123" Txt="Deko-Gegenstand" />
+    <List Id="20124" Txt="Deko-Gegenstand" />
+    <List Id="20125" Txt="Deko-Gegenstand" />
+    <List Id="20131" Txt="Kann entfernt werden." />
+    <List Id="20132" Txt="Kann entfernt werden." />
+    <List Id="20133" Txt="Kann entfernt werden." />
+    <List Id="20134" Txt="Kann entfernt werden." />
+    <List Id="20135" Txt="Kann entfernt werden." />
+    <List Id="20141" Txt="Kann entfernt werden." />
+    <List Id="20142" Txt="Kann entfernt werden." />
+    <List Id="20143" Txt="Kann entfernt werden." />
+    <List Id="20144" Txt="Kann entfernt werden." />
+    <List Id="20145" Txt="Kann entfernt werden." />
+    <List Id="20151" Txt="Kann entfernt werden." />
+    <List Id="20152" Txt="Kann entfernt werden." />
+    <List Id="20153" Txt="Kann entfernt werden." />
+    <List Id="20154" Txt="Kann entfernt werden." />
+    <List Id="20155" Txt="Kann entfernt werden." />
+  </Text>
+  <Text Type="4" TypeTxt="魔法">
+    <List Id="30001" Txt="Pfeilhagel" />
+    <List Id="30002" Txt="Pfeilhagel" />
+    <List Id="30003" Txt="Pfeilhagel" />
+    <List Id="30004" Txt="Pfeilhagel" />
+    <List Id="30005" Txt="Pfeilhagel" />
+    <List Id="30006" Txt="Sanierung" />
+    <List Id="30007" Txt="Sanierung" />
+    <List Id="30008" Txt="Sanierung" />
+    <List Id="30009" Txt="Sanierung" />
+    <List Id="30010" Txt="Sanierung" />
+    <List Id="30011" Txt="Ares‘ Inbrunst" />
+    <List Id="30012" Txt="Ares‘ Inbrunst" />
+    <List Id="30013" Txt="Ares‘ Inbrunst" />
+    <List Id="30014" Txt="Ares‘ Inbrunst" />
+    <List Id="30015" Txt="Ares‘ Inbrunst" />
+    <List Id="30016" Txt="Windsturm" />
+    <List Id="30017" Txt="Windsturm" />
+    <List Id="30018" Txt="Windsturm" />
+    <List Id="30019" Txt="Windsturm" />
+    <List Id="30020" Txt="Windsturm" />
+    <List Id="30021" Txt="Schutzengel" />
+    <List Id="30022" Txt="Schutzengel" />
+    <List Id="30023" Txt="Schutzengel" />
+    <List Id="30024" Txt="Schutzengel" />
+    <List Id="30025" Txt="Schutzengel" />
+    <List Id="30026" Txt="Meteor" />
+    <List Id="30027" Txt="Meteor" />
+    <List Id="30028" Txt="Meteor" />
+    <List Id="30029" Txt="Meteor" />
+    <List Id="30030" Txt="Meteor" />
+    <List Id="30031" Txt="Katastrophe" />
+    <List Id="30032" Txt="Katastrophe" />
+    <List Id="30033" Txt="Katastrophe" />
+    <List Id="30034" Txt="Katastrophe" />
+    <List Id="30035" Txt="Katastrophe" />
+    <List Id="30036" Txt="Ares‘ Koller" />
+    <List Id="30037" Txt="Ares‘ Koller" />
+    <List Id="30038" Txt="Ares‘ Koller" />
+    <List Id="30039" Txt="Ares‘ Koller" />
+    <List Id="30040" Txt="Ares‘ Koller" />
+    <List Id="30041" Txt="Phönixflug" />
+    <List Id="30042" Txt="Phönixflug" />
+    <List Id="30043" Txt="Phönixflug" />
+    <List Id="30044" Txt="Phönixflug" />
+    <List Id="30045" Txt="Phönixflug" />
+    <List Id="30046" Txt="Schneesturm" />
+    <List Id="30047" Txt="Schneesturm" />
+    <List Id="30048" Txt="Schneesturm" />
+    <List Id="30049" Txt="Schneesturm" />
+    <List Id="30050" Txt="Schneesturm" />
+  </Text>
+  <Text Type="5" TypeTxt="魔法描述">
+    <List Id="31001" Txt="Lässt Pfeile auf einen Bereich hageln und fügt 8 Sek. lang allen dortigen Feinden 8% der Max. LP +120 SCH zu. Wirkt sich nicht auf Gebäude aus." />
+    <List Id="31002" Txt="Lässt Pfeile auf einen Bereich hageln und fügt 8 Sek. lang allen dortigen Feinden 8% der Max. LP +240 SCH zu. Wirkt sich nicht auf Gebäude aus." />
+    <List Id="31003" Txt="Lässt Pfeile auf einen Bereich hageln und fügt 8 Sek. lang allen dortigen Feinden 8% der Max. LP +360 SCH zu. Wirkt sich nicht auf Gebäude aus." />
+    <List Id="31004" Txt="Lässt Pfeile auf einen Bereich hageln und fügt 8 Sek. lang allen dortigen Feinden 8% der Max. LP +480 SCH zu. Wirkt sich nicht auf Gebäude aus." />
+    <List Id="31005" Txt="Lässt Pfeile auf einen Bereich hageln und fügt 8 Sek. lang allen dortigen Feinden 8% der Max. LP +600 SCH zu. Wirkt sich nicht auf Gebäude aus." />
+    <List Id="31006" Txt="Platziert einen heilenden Kreis auf dem Schlachtfeld und heilt 8 Sek. lang alle dortigen Freunde mit 6% ihrer Max. LP +10 LP pro Sekunde." />
+    <List Id="31007" Txt="Platziert einen heilenden Kreis auf dem Schlachtfeld und heilt 8 Sek. lang alle dortigen Freunde mit 8% ihrer Max. LP +20 LP pro Sekunde." />
+    <List Id="31008" Txt="Platziert einen heilenden Kreis auf dem Schlachtfeld und heilt 8 Sek. lang alle dortigen Freunde mit 10% ihrer Max. LP +30 LP pro Sekunde." />
+    <List Id="31009" Txt="Platziert einen heilenden Kreis auf dem Schlachtfeld und heilt 8 Sek. lang alle dortigen Freunde mit 12% ihrer Max. LP +40 LP pro Sekunde." />
+    <List Id="31010" Txt="Platziert einen heilenden Kreis auf dem Schlachtfeld und heilt 8 Sek. lang alle dortigen Freunde mit 15% ihrer Max. LP +50 LP pro Sekunde." />
+    <List Id="31011" Txt="Aktiviert Ares‘ Kraft für all deine Kämpfer und gewährt ihnen +5% ANG bis zum Ende der Schlacht." />
+    <List Id="31012" Txt="Aktiviert Ares‘ Kraft für all deine Kämpfer und gewährt ihnen +8% ANG bis zum Ende der Schlacht." />
+    <List Id="31013" Txt="Aktiviert Ares‘ Kraft für all deine Kämpfer und gewährt ihnen +11% ANG bis zum Ende der Schlacht." />
+    <List Id="31014" Txt="Aktiviert Ares‘ Kraft für all deine Kämpfer und gewährt ihnen +14% ANG bis zum Ende der Schlacht." />
+    <List Id="31015" Txt="Aktiviert Ares‘ Kraft für all deine Kämpfer und gewährt ihnen +17% ANG bis zum Ende der Schlacht." />
+    <List Id="31016" Txt="Lässt einen Orkan durch die Feindbasis wirbeln und fügt 8 Sek. lang allen Feindesgebäuden in seinem Pfad 8% der Max. LP +800 SCH zu. Kippe dein Gerät, um den Pfad des Orkans zu steuern." />
+    <List Id="31017" Txt="Lässt einen Orkan durch die Feindbasis wirbeln und fügt 8 Sek. lang allen Feindesgebäuden in seinem Pfad 16% der Max. LP +1040 SCH zu. Kippe dein Gerät, um den Pfad des Orkans zu steuern." />
+    <List Id="31018" Txt="Lässt einen Orkan durch die Feindbasis wirbeln und fügt 8 Sek. lang allen Feindesgebäuden in seinem Pfad 24% der Max. LP +1280 SCH zu. Kippe dein Gerät, um den Pfad des Orkans zu steuern." />
+    <List Id="31019" Txt="Lässt einen Orkan durch die Feindbasis wirbeln und fügt 8 Sek. lang allen Feindesgebäuden in seinem Pfad 32% der Max. LP +1520 SCH zu. Kippe dein Gerät, um den Pfad des Orkans zu steuern." />
+    <List Id="31020" Txt="Lässt einen Orkan durch die Feindbasis wirbeln und fügt 8 Sek. lang allen Feindesgebäuden in seinem Pfad 40% der Max. LP +1760 SCH zu. Kippe dein Gerät, um den Pfad des Orkans zu steuern." />
+    <List Id="31021" Txt="Beschwört den Schutz eines Engels und gewährt 6 Freunden in dem Bereich 6 Sek. lang Unverwundbarkeit." />
+    <List Id="31022" Txt="Beschwört den Schutz eines Engels und gewährt 8 Freunden in dem Bereich 6 Sek. lang Unverwundbarkeit." />
+    <List Id="31023" Txt="Beschwört den Schutz eines Engels und gewährt 10 Freunden in dem Bereich 6 Sek. lang Unverwundbarkeit." />
+    <List Id="31024" Txt="Beschwört den Schutz eines Engels und gewährt 12 Freunden in dem Bereich 6 Sek. lang Unverwundbarkeit." />
+    <List Id="31025" Txt="Beschwört den Schutz eines Engels und gewährt 14 Freunden in dem Bereich 6 Sek. lang Unverwundbarkeit." />
+    <List Id="31026" Txt="Lässt Meteoriten in einem Bereich einschlagen und fügt 6 Sek. lang allen dortigen Feinden 12% der Max. LP als SCH zu." />
+    <List Id="31027" Txt="Lässt Meteoriten in einem Bereich einschlagen und fügt 6 Sek. lang allen dortigen Feinden 18% der Max. LP als SCH zu." />
+    <List Id="31028" Txt="Lässt Meteoriten in einem Bereich einschlagen und fügt 6 Sek. lang allen dortigen Feinden 24% der Max. LP als SCH zu." />
+    <List Id="31029" Txt="Lässt Meteoriten in einem Bereich einschlagen und fügt 6 Sek. lang allen dortigen Feinden 30% der Max. LP als SCH zu." />
+    <List Id="31030" Txt="Lässt Meteoriten in einem Bereich einschlagen und fügt 6 Sek. lang allen dortigen Feinden 36% der Max. LP als SCH zu." />
+    <List Id="31031" Txt="Lässt einen riesigen Felsen über das Schlachtfeld rollen und fügt 5 Sek. lang allen Feinden in seinem Pfad 10% der Max. LP +300 SCH zu. Senkt außerdem 5 Sek. lang den ANG betroffener Kämpfer um 20%. Kippe dein Gerät, um den Felsen zu steuern." />
+    <List Id="31032" Txt="Lässt einen riesigen Felsen über das Schlachtfeld rollen und fügt 5 Sek. lang allen Feinden in seinem Pfad 10% der Max. LP +450 SCH zu. Senkt außerdem 5 Sek. lang den ANG betroffener Kämpfer um 25%. Kippe dein Gerät, um den Felsen zu steuern." />
+    <List Id="31033" Txt="Lässt einen riesigen Felsen über das Schlachtfeld rollen und fügt 5 Sek. lang allen Feinden in seinem Pfad 10% der Max. LP +600 SCH zu. Senkt außerdem 5 Sek. lang den ANG betroffener Kämpfer um 30%. Kippe dein Gerät, um den Felsen zu steuern." />
+    <List Id="31034" Txt="Lässt einen riesigen Felsen über das Schlachtfeld rollen und fügt 5 Sek. lang allen Feinden in seinem Pfad 10% der Max. LP +750 SCH zu. Senkt außerdem 5 Sek. lang den ANG betroffener Kämpfer um 35%. Kippe dein Gerät, um den Felsen zu steuern." />
+    <List Id="31035" Txt="Lässt einen riesigen Felsen über das Schlachtfeld rollen und fügt 5 Sek. lang allen Feinden in seinem Pfad 10% der Max. LP +900 SCH zu. Senkt außerdem 5 Sek. lang den ANG betroffener Kämpfer um 40%. Kippe dein Gerät, um den Felsen zu steuern." />
+    <List Id="31036" Txt="Ares' Blutrunst befällt 8 Sek. lang Freunde in einem Bereich und gewährt +20% ANG, ANG-GES, und BEW-GES." />
+    <List Id="31037" Txt="Ares' Blutrunst befällt 9 Sek. lang Freunde in einem Bereich und gewährt +30% ANG, ANG-GES, und BEW-GES." />
+    <List Id="31038" Txt="Ares' Blutrunst befällt 11 Sek. lang Freunde in einem Bereich und gewährt +40% ANG, ANG-GES, und BEW-GES." />
+    <List Id="31039" Txt="Ares' Blutrunst befällt 12 Sek. lang Freunde in einem Bereich und gewährt +50% ANG, ANG-GES, und BEW-GES." />
+    <List Id="31040" Txt="Ares' Blutrunst befällt 15 Sek. lang Freunde in einem Bereich und gewährt +60% ANG, ANG-GES, und BEW-GES." />
+    <List Id="31041" Txt="Beschwört einen Phönix, der 10 Sek. lang das Schlachtfeld überfliegt und auf seinem Weg 6 zufällige Freunde wiederbelebt. Wirkt sich nicht auf Helden aus. Lenke den Phönix, indem du den Finger über den Bildschirm ziehst." />
+    <List Id="31042" Txt="Beschwört einen Phönix, der 10 Sek. lang das Schlachtfeld überfliegt und auf seinem Weg 12 zufällige Freunde wiederbelebt. Wirkt sich nicht auf Helden aus. Lenke den Phönix, indem du den Finger über den Bildschirm ziehst." />
+    <List Id="31043" Txt="Beschwört einen Phönix, der 10 Sek. lang das Schlachtfeld überfliegt und auf seinem Weg 18 zufällige Freunde wiederbelebt. Wirkt sich nicht auf Helden aus. Lenke den Phönix, indem du den Finger über den Bildschirm ziehst." />
+    <List Id="31044" Txt="Beschwört einen Phönix, der 10 Sek. lang das Schlachtfeld überfliegt und auf seinem Weg 24 zufällige Freunde wiederbelebt. Wirkt sich nicht auf Helden aus. Lenke den Phönix, indem du den Finger über den Bildschirm ziehst." />
+    <List Id="31045" Txt="Beschwört einen Phönix, der 10 Sek. lang das Schlachtfeld überfliegt und auf seinem Weg 30 zufällige Freunde wiederbelebt. Wirkt sich nicht auf Helden aus. Lenke den Phönix, indem du den Finger über den Bildschirm ziehst." />
+    <List Id="31046" Txt="Hüllt einen Bereich in einen Schneesturm und fügt allen dortigen Feinden 6% der Max. LP +200 SCH zu. Lässt betroffene Kämpfer zudem 6 Sek. lang einfrieren." />
+    <List Id="31047" Txt="Hüllt einen Bereich in einen Schneesturm und fügt allen dortigen Feinden 7% der Max. LP +400 SCH zu. Lässt betroffene Kämpfer zudem 7 Sek. lang einfrieren." />
+    <List Id="31048" Txt="Hüllt einen Bereich in einen Schneesturm und fügt allen dortigen Feinden 8% der Max. LP +600 SCH zu. Lässt betroffene Kämpfer zudem 9 Sek. lang einfrieren." />
+    <List Id="31049" Txt="Hüllt einen Bereich in einen Schneesturm und fügt allen dortigen Feinden 9% der Max. LP +800 SCH zu. Lässt betroffene Kämpfer zudem 11 Sek. lang einfrieren." />
+    <List Id="31050" Txt="Hüllt einen Bereich in einen Schneesturm und fügt allen dortigen Feinden 10% der Max. LP +1,000 SCH zu. Lässt betroffene Kämpfer zudem 13 Sek. lang einfrieren." />
+  </Text>
+  <Text Type="6" TypeTxt="任务标题">
+    <List Id="32001" Txt="Rathaus" />
+    <List Id="32002" Txt="Goldschatz" />
+    <List Id="32003" Txt="Manaversteck" />
+    <List Id="32004" Txt="Drohende Krieger" />
+    <List Id="32005" Txt="Goldmagnat" />
+    <List Id="32006" Txt="Manamagnat" />
+    <List Id="32007" Txt="Mission möglich" />
+    <List Id="32008" Txt="Perfektionist" />
+    <List Id="32009" Txt="Siegesmut" />
+    <List Id="32010" Txt="Schmach der Niederlage" />
+    <List Id="32011" Txt="Die Rächer" />
+    <List Id="32012" Txt="Ich bin Legende" />
+    <List Id="32013" Txt="Ist das voll hier!" />
+    <List Id="32014" Txt="Weg zur Macht" />
+    <List Id="32015" Txt="Ungehindert" />
+    <List Id="32016" Txt="Unbezwingbar" />
+    <List Id="32017" Txt="Ach!" />
+    <List Id="32018" Txt="Magiebeherrschung" />
+    <List Id="32019" Txt="Größter Fan" />
+    <List Id="32020" Txt="Schlachtruhm" />
+    <List Id="32021" Txt="Vermisst du mich?" />
+  </Text>
+  <Text Type="7" TypeTxt="任务描述">
+    <List Id="33001" Txt="Rathaus erreicht Lvl 4." />
+    <List Id="33002" Txt="Rathaus erreicht Lvl 12." />
+    <List Id="33003" Txt="Rathaus erreicht Lvl 20." />
+    <List Id="33004" Txt="Golddepot erreicht Lvl 4." />
+    <List Id="33005" Txt="Golddepot erreicht Lvl 12." />
+    <List Id="33006" Txt="Golddepot erreicht Lvl 20." />
+    <List Id="33007" Txt="Manadepot erreicht Lvl 4." />
+    <List Id="33008" Txt="Manadepot erreicht Lvl 12." />
+    <List Id="33009" Txt="Manadepot erreicht Lvl 20." />
+    <List Id="33010" Txt="Erreiche 1.000 Macht." />
+    <List Id="33011" Txt="Erreiche 15.000 Macht." />
+    <List Id="33012" Txt="Erreiche 35.000 Macht." />
+    <List Id="33013" Txt="Sammle insgesamt 100.000 Gold." />
+    <List Id="33014" Txt="Sammle insgesamt 5.000.000 Gold." />
+    <List Id="33015" Txt="Sammle insgesamt 20.000.000 Gold." />
+    <List Id="33016" Txt="Sammle insgesamt 100.000 Mana." />
+    <List Id="33017" Txt="Sammle insgesamt 5.000.000 Mana." />
+    <List Id="33018" Txt="Sammle insgesamt 20.000.000 Mana." />
+    <List Id="33019" Txt="Schließe 5 Dungeons ab." />
+    <List Id="33020" Txt="Schließe 50 Dungeons ab." />
+    <List Id="33021" Txt="Schließe 100 Dungeons ab." />
+    <List Id="33022" Txt="Verdiene 3 Sterne in 10 Dungeons." />
+    <List Id="33023" Txt="Verdiene 3 Sterne in 50 Dungeons." />
+    <List Id="33024" Txt="Verdiene 3 Sterne in 100 Dungeons." />
+    <List Id="33025" Txt="Gewinne 20 Angriffe gegen andere Spieler." />
+    <List Id="33026" Txt="Gewinne 200 Angriffe gegen andere Spieler." />
+    <List Id="33027" Txt="Gewinne 1.000 Angriffe gegen andere Spieler." />
+    <List Id="33028" Txt="Verliere 20 Angriffe gegen andere Spieler." />
+    <List Id="33029" Txt="Verliere 200 Angriffe gegen andere Spieler." />
+    <List Id="33030" Txt="Verliere 1.000 Angriffe gegen andere Spieler." />
+    <List Id="33031" Txt="Habe einen 3-Stern-Helden." />
+    <List Id="33032" Txt="Habe einen 6-Stern-Helden." />
+    <List Id="33033" Txt="Habe einen 9-Stern-Helden." />
+    <List Id="33034" Txt="Besitze einen 5-Stern-Kämpfer." />
+    <List Id="33035" Txt="Besitze 6 Typen von 5-Stern-Kämpfern." />
+    <List Id="33036" Txt="Besitze 12 Typen von 5-Stern-Kämpfern." />
+    <List Id="33037" Txt="Besitze 2 Typen von Kämpfern." />
+    <List Id="33038" Txt="Besitze 6 Typen von Kämpfern." />
+    <List Id="33039" Txt="Besitze 12 Typen von Kämpfern." />
+    <List Id="33040" Txt="Entferne 5 Hindernisse." />
+    <List Id="33041" Txt="Entferne 15 Hindernisse." />
+    <List Id="33042" Txt="Entferne 30 Hindernisse." />
+    <List Id="33043" Txt="Zerstöre 100 Mauern bei Überfällen." />
+    <List Id="33044" Txt="Zerstöre 800 Mauern bei Überfällen." />
+    <List Id="33045" Txt="Zerstöre 3.000 Mauern bei Überfällen." />
+    <List Id="33046" Txt="Gewinne 10 Arena-Kämpfe." />
+    <List Id="33047" Txt="Gewinne 200 Arena-Kämpfe." />
+    <List Id="33048" Txt="Gewinne 1.000 Arena-Kämpfe." />
+    <List Id="33049" Txt="Verliere 10 Arena-Kämpfe." />
+    <List Id="33050" Txt="Verliere 200 Arena-Kämpfe." />
+    <List Id="33051" Txt="Verliere 1.000 Arena-Kämpfe." />
+    <List Id="33052" Txt="Schalte 4 Typen von Zaubern frei." />
+    <List Id="33053" Txt="Schalte 8 Typen von Zaubern frei." />
+    <List Id="33054" Txt="Schalte 10 Typen von Zaubern frei." />
+    <List Id="33055" Txt="Beschaffe 50 Heldensplitter von Dungeons." />
+    <List Id="33056" Txt="Beschaffe 200 Heldensplitter von Dungeons." />
+    <List Id="33057" Txt="Beschaffe 1.000 Heldensplitter von Dungeons." />
+    <List Id="33058" Txt="Verdiene 5.000 Ruhmpunkte." />
+    <List Id="33059" Txt="Verdiene 200.000 Ruhmpunkte." />
+    <List Id="33060" Txt="Verdiene 1.000.000 Ruhmpunkte." />
+    <List Id="33061" Txt="Logge dich 7 Tage in Folge ein." />
+    <List Id="33062" Txt="Logge dich 30 Tage in Folge ein." />
+    <List Id="33063" Txt="Logge dich 90 Tage in Folge ein." />
+    <List Id="33064" Txt="Login-Belohnung!" />
+    <List Id="33065" Txt="Kämpfe in der Arena!" />
+    <List Id="33066" Txt="Klaue einem anderen Spieler Gold!" />
+    <List Id="33067" Txt="Klaue einem anderen Spieler Mana!" />
+    <List Id="33068" Txt="Kaufe 230 Edelsteine, um 3.000 Ruhmpunkte zu erhalten!" />
+    <List Id="33069" Txt="Kaufe 600 Edelsteine, um 10.000 Ruhmpunkte zu erhalten!" />
+    <List Id="33070" Txt="Kaufe 3.000 Edelsteine, um 20.000 Ruhmpunkte zu erhalten!" />
+    <List Id="33071" Txt="Kaufe 15.000 Edelsteine, um 30.000 Ruhmpunkte zu erhalten!" />
+    <List Id="33072" Txt="Kaufe 50.000 Edelsteine, um 50.000 Ruhmpunkte zu erhalten!" />
+  </Text>
+  <Text Type="8" TypeTxt="兵种名称">
+    <List Id="50001" Txt="Wächter" />
+    <List Id="50002" Txt="Jäger" />
+    <List Id="50003" Txt="Pyromant" />
+    <List Id="50004" Txt="Treant" />
+    <List Id="50005" Txt="Hammerzwerg" />
+    <List Id="50006" Txt="Zentaur" />
+    <List Id="50007" Txt="Greif" />
+    <List Id="50008" Txt="Mech-Mann" />
+    <List Id="50009" Txt="Wilder Oger" />
+    <List Id="50010" Txt="Flintenzwerg" />
+    <List Id="50011" Txt="Feendrache" />
+    <List Id="50012" Txt="Ornithopter" />
+  </Text>
+  <Text Type="9" TypeTxt="兵种描述">
+    <List Id="60001" Txt="Der einfachste, aber loyalste Krieger. Dieser Wächter kennt keine Angst vor dem Tod. Das Training kostet kaum etwas, und doch nützen sie jeder Armee." />
+    <List Id="60002" Txt="Ein Sensenmann, der aus der Distanz zuschlägt. Alle Feinde in ihrem Visier – ob in der Luft oder zu Lande – fürchten um ihr Leben." />
+    <List Id="60003" Txt="Wenn ein Team von Pyromanten nicht in den Nahkampf gerät, können sie eine gesamte Basis dem Erdboden gleichmachen." />
+    <List Id="60004" Txt="Ein Waldkrieger mit unbegrenzter Kraft. Man sollte sich von ihrer trägen Erscheinung nicht täuschen lassen. Wenn es um Verteidigung geht, schrecken sie vor nichts zurück." />
+    <List Id="60005" Txt="Der Goldgier eines Zwerges kann nichts Einhalt gebieten. Selbst für ein paar Cent machen sie alles platt, was ihnen im Weg steht." />
+    <List Id="60006" Txt="Von anderen Waldbewohnern hoch geschätzt. Ranger sind eine gut organisierte, solidarische Kraft. Mit ihren Waffenfähigkeiten und ihrer Präzision lebt niemand lange, der sich mit ihnen anlegt!" />
+    <List Id="60007" Txt="Bevor die Drachen auftauchten, waren die Greife die Herren der Lüfte. Diese blutrünstigen Bestien rissen alles in Stücke, was ihrem Blick nicht behagte." />
+    <List Id="60008" Txt="Ein Mysterium. Niemand weiß, woher diese Riesen stammen oder was sich unter ihrer Rüstung versteckt. Doch jeder weiß, dass diese Titanen mit unerschrockener Heftigkeit angreifen!" />
+    <List Id="60009" Txt="Von Natur aus kräftig und habgierig mit einem unersättlichen Blutdurst. Sie garantieren den gefürchteten Wilden Lords ihren unanfechtbaren Platz in der Wildnis." />
+    <List Id="60010" Txt="Die ohnehin schon unaufhaltsam Zwerge sind nun mit ihrer Feuerkraft kaum zu bändigen und legen sich sogar mit vielen Helden an." />
+    <List Id="60011" Txt="Alles, was vom Drachenatem betroffen wird, wird dem Erdboden gleich gemacht – selbst, wenn sich die Bestie morgens die Zähne geputzt hat." />
+    <List Id="60012" Txt="Das Resultat technischer Innovation. Wenn dein Feind fragend hochschaut, wird er auch schon zu Staub gemacht." />
+    <List Id="60013" Txt="Kämpferdetails" />
+    <List Id="60014" Txt="Tippe zum Aufwerten auf das Kämpfersymbol" />
+    <List Id="60015" Txt="Lvl %d" />
+    <List Id="60016" Txt="Lvl (%d - %d)" />
+    <List Id="60017" Txt="Tippe auf den Kämpfer, den du anwerben willst." />
+    <List Id="60018" Txt="(%d/%d) anwerben" />
+    <List Id="60019" Txt="Die Warteschlange ist voll. Du kannst keine weiteren Kämpfer trainieren." />
+    <List Id="60020" Txt="Dein Lager ist voll. Du kannst dieses Training nicht abschließen." />
+    <List Id="60021" Txt="Aufwertungskosten" />
+    <List Id="60022" Txt="Voll" />
+    <List Id="60023" Txt="Leer" />
+    <List Id="60024" Txt="Kämpfen!" />
+    <List Id="60101" Txt="Normal" />
+    <List Id="60102" Txt="Fernkampf" />
+    <List Id="60103" Txt="Magie" />
+    <List Id="60104" Txt="Destruktiv" />
+    <List Id="60105" Txt="Heldenhaft" />
+    <List Id="60106" Txt="Leichte Rüstung" />
+    <List Id="60107" Txt="Mittlere Rüstung" />
+    <List Id="60108" Txt="Schwere Rüstung" />
+    <List Id="60109" Txt="Gebäudebewehrung" />
+    <List Id="60110" Txt="Heldenrüstung" />
+    <List Id="60111" Txt="Fügt leichter Rüstung %d%% Schaden zu." />
+    <List Id="60112" Txt="Fügt mittlerer Rüstung %d%% Schaden zu." />
+    <List Id="60113" Txt="Fügt schwerer Rüstung %d%% Schaden zu." />
+    <List Id="60114" Txt="Fügt Gebäudebewehrung %d%% Schaden zu." />
+    <List Id="60115" Txt="Fügt Heldenrüstung %d%% Schaden zu." />
+    <List Id="60121" Txt="Ziel auswählen" />
+    <List Id="60122" Txt="Kämpfer" />
+    <List Id="60123" Txt="Held" />
+    <List Id="60124" Txt="Ressourcengebäude" />
+    <List Id="60125" Txt="Verteidigungsgebäude" />
+    <List Id="60126" Txt="Mauer" />
+    <List Id="60127" Txt="Gebäude auswählen" />
+    <List Id="60128" Txt="Luftziel" />
+    <List Id="60131" Txt="Boden" />
+    <List Id="60132" Txt="Luft" />
+    <List Id="60133" Txt="Boden &amp; Luft" />
+    <List Id="60134" Txt="Angriffstyp: %s" />
+    <List Id="60135" Txt="Rüstungstyp: %s" />
+    <List Id="60201" Txt="SCH:" />
+    <List Id="60202" Txt="LP:" />
+    <List Id="60203" Txt="Anwerbekosten:" />
+    <List Id="60204" Txt="Prioritätsziel:" />
+    <List Id="60205" Txt="Ziel:" />
+    <List Id="60206" Txt="Belegter Platz:" />
+    <List Id="60207" Txt="Anwerbezeit:" />
+    <List Id="60208" Txt="BEW-GES:" />
+    <List Id="60209" Txt="Schadeninfo" />
+    <List Id="60301" Txt="Verteidigen" />
+    <List Id="60302" Txt="Rang" />
+    <List Id="60303" Txt="Belohnung" />
+    <List Id="60304" Txt="Vor %s hast du %s besiegt und bist im Rang um %s aufgestiegen!" />
+    <List Id="60305" Txt="Vor %s wurdest du von %s besiegt. Dein Rang verschlechterte sich um %s." />
+    <List Id="60306" Txt="Vor %s hast du %s herausgefordert, aber wurdest besiegt. Dein Rang bleibt unverändert." />
+    <List Id="60307" Txt="Vor %s wurdest du von %s herausgefordert, aber nicht besiegt. Dein Rang bleibt unverändert." />
+    <List Id="60308" Txt="Konfiguration bearbeiten" />
+    <List Id="60309" Txt="Konfiguration erfolgreich!" />
+    <List Id="60310" Txt="Du brauchst mindestens 1 Helden." />
+    <List Id="60311" Txt="Du hast schon die Höchstzahl an Helden ausgewählt." />
+    <List Id="60312" Txt="Du hast deine Kampfversuche schon verbraucht." />
+    <List Id="60313" Txt="Kampfversuche:" />
+    <List Id="60314" Txt="Zeit:" />
+    <List Id="60315" Txt="Herausfordern" />
+    <List Id="60316" Txt="Ruhmpunkte +%d" />
+    <List Id="60317" Txt="Ruhmpunkte +%d" />
+    <List Id="60318" Txt="Herausforderung unmöglich. Du wirst gerade herausgefordert." />
+    <List Id="60319" Txt="Herausforderung unmöglich. Dein Ziel ist gerade in einer Schlacht." />
+    <List Id="60501" Txt="Trainiere %s auf Lvl %d." />
+    <List Id="60502" Txt="Voraussetzung" />
+    <List Id="60503" Txt="Noch nicht freigeschaltet. Zum Trainingszentrum gehen?" />
+  </Text>
+  <Text Type="10" TypeTxt="英雄名称">
+    <List Id="70201" Txt="Paladin" />
+    <List Id="70211" Txt="Henker" />
+    <List Id="70221" Txt="Geistmagier" />
+    <List Id="70231" Txt="Ninja" />
+    <List Id="70241" Txt="Engel" />
+    <List Id="70301" Txt="Assassine" />
+    <List Id="70311" Txt="Scharfschütze" />
+    <List Id="70321" Txt="Werwolf" />
+    <List Id="70331" Txt="Bergriese" />
+    <List Id="70341" Txt="Sukkubus" />
+    <List Id="70401" Txt="Ingenieur" />
+    <List Id="70411" Txt="Frosthexe" />
+    <List Id="70421" Txt="Champion" />
+    <List Id="70431" Txt="Zyklop" />
+    <List Id="70441" Txt="Dryade" />
+    <List Id="70451" Txt="Pain-Da" />
+    <List Id="70461" Txt="Schamane" />
+    <List Id="70471" Txt="Druide" />
+    <List Id="70481" Txt="Alchemist" />
+    <List Id="70491" Txt="Marodeur" />
+    <List Id="70501" Txt="Schleim" />
+    <List Id="70502" Txt="Kristallschlamm" />
+    <List Id="70503" Txt="Gallertchampion" />
+    <List Id="70504" Txt="Zentaur-Späher" />
+    <List Id="70505" Txt="Zentaur-Elite" />
+    <List Id="70506" Txt="Zentaur-König" />
+    <List Id="70511" Txt="Schlangenkönigin" />
+    <List Id="70521" Txt="Donnergott" />
+    <List Id="70541" Txt="Minotaur Häuptling" />
+    <List Id="70561" Txt="Eisdämon" />
+    <List Id="70581" Txt="Gräulicher Schnitter" />
+    <List Id="70601" Txt="Kürbis Herzog" />
+  </Text>
+  <Text Type="11" TypeTxt="英雄技能">
+    <List Id="75001" Txt="Gottesschild" />
+    <List Id="75011" Txt="Wiederauferstehung" />
+    <List Id="75021" Txt="Beben" />
+    <List Id="75031" Txt="Knall" />
+    <List Id="75041" Txt="Magische Rakete" />
+    <List Id="75051" Txt="Mystik" />
+    <List Id="75061" Txt="Hieb" />
+    <List Id="75071" Txt="Schattenkrieger" />
+    <List Id="75081" Txt="Heilen" />
+    <List Id="75091" Txt="Fliegen" />
+    <List Id="75101" Txt="Meuchelmord" />
+    <List Id="75111" Txt="Glanz" />
+    <List Id="75121" Txt="Spaltende Pfeile" />
+    <List Id="75131" Txt="Tödlicher Schuss" />
+    <List Id="75141" Txt="Wut" />
+    <List Id="75151" Txt="Lebenssauger" />
+    <List Id="75161" Txt="Blitz" />
+    <List Id="75171" Txt="Energieschlag" />
+    <List Id="75181" Txt="Todeshieb" />
+    <List Id="75191" Txt="Untergangspendel" />
+    <List Id="75201" Txt="Lavastoß" />
+    <List Id="75211" Txt="Flammenschild" />
+    <List Id="75221" Txt="Eisiger Hieb" />
+    <List Id="75231" Txt="Eisiger Angriff" />
+    <List Id="75241" Txt="Sturmhammer" />
+    <List Id="75251" Txt="Elektrisieren" />
+    <List Id="75261" Txt="Druckwelle" />
+    <List Id="75271" Txt="Rache" />
+    <List Id="75281" Txt="Fessel" />
+    <List Id="75291" Txt="Fliegen" />
+    <List Id="75301" Txt="Felswurf" />
+    <List Id="75311" Txt="Grüne Disteln" />
+    <List Id="75321" Txt="Fluch" />
+    <List Id="75331" Txt="Todestotem" />
+    <List Id="75341" Txt="Energetisch" />
+    <List Id="75351" Txt="Verwickeln" />
+    <List Id="75361" Txt="Alchemiewurf" />
+    <List Id="75371" Txt="Alchemistenfeuer" />
+    <List Id="75381" Txt="Aufrüsten" />
+    <List Id="75391" Txt="Zerstören" />
+    <List Id="75401" Txt="Giftnebel" />
+    <List Id="75421" Txt="Gewittersturm" />
+    <List Id="75441" Txt="Zelebrieren" />
+    <List Id="75461" Txt="Transform" />
+    <List Id="75481" Txt="Soul Harvest" />
+    <List Id="75501" Txt="Eisnebel" />
+    <List Id="85001" Txt="Wiederbeleben" />
+    <List Id="85011" Txt="Schwerer Schlag" />
+    <List Id="85021" Txt="Erquicken" />
+    <List Id="85031" Txt="Verbrennen" />
+    <List Id="85041" Txt="Selbstzerstörung" />
+    <List Id="85051" Txt="Tödlicher Treffer" />
+    <List Id="85061" Txt="Flammenwache" />
+    <List Id="85071" Txt="Klingenhülle" />
+    <List Id="85081" Txt="Streuung" />
+    <List Id="85091" Txt="Verlangsamen" />
+    <List Id="85101" Txt="Schwächen" />
+    <List Id="85111" Txt="Berserker" />
+    <List Id="85121" Txt="Steinhaut" />
+    <List Id="85131" Txt="Kriegsgott" />
+    <List Id="85141" Txt="Hartnäckigkeit" />
+    <List Id="85511" Txt="Bodyslam" />
+    <List Id="85521" Txt="Donnerwurf" />
+    <List Id="85531" Txt="Kriegstampfen" />
+  </Text>
+  <Text Type="12" TypeTxt="技能描述">
+    <List Id="80001" Txt="Stärkt Verteidigungsanlagen. Reduziert erlittenen Schaden 5 Sek. lang um 40%." />
+    <List Id="80002" Txt="Stärkt Verteidigungsanlagen. Reduziert erlittenen Schaden 5 Sek. lang um 50%." />
+    <List Id="80003" Txt="Stärkt Verteidigungsanlagen. Reduziert erlittenen Schaden 5 Sek. lang um 60%." />
+    <List Id="80004" Txt="Stärkt Verteidigungsanlagen. Reduziert erlittenen Schaden 5 Sek. lang um 65%." />
+    <List Id="80005" Txt="Stärkt Verteidigungsanlagen. Reduziert erlittenen Schaden 5 Sek. lang um 70%." />
+    <List Id="80006" Txt="Stärkt Verteidigungsanlagen. Reduziert erlittenen Schaden 5 Sek. lang um 75%." />
+    <List Id="80007" Txt="Stärkt Verteidigungsanlagen. Reduziert erlittenen Schaden 5 Sek. lang um 80%." />
+    <List Id="80008" Txt="Stärkt Verteidigungsanlagen. Reduziert erlittenen Schaden 5 Sek. lang um 85%." />
+    <List Id="80009" Txt="Stärkt Verteidigungsanlagen. Reduziert erlittenen Schaden 5 Sek. lang um 90%." />
+    <List Id="80021" Txt="Fügt dem Ziel 100% SCH sowie 1 Sek. Koma zu." />
+    <List Id="80022" Txt="Fügt dem Ziel 150% SCH sowie 1 Sek. Koma zu." />
+    <List Id="80023" Txt="Fügt dem Ziel 200% SCH sowie 1 Sek. Koma zu." />
+    <List Id="80024" Txt="Fügt dem Ziel 220% SCH sowie 2 Sek. Koma zu." />
+    <List Id="80025" Txt="Fügt dem Ziel 250% SCH sowie 2 Sek. Koma zu." />
+    <List Id="80026" Txt="Fügt dem Ziel 280% SCH sowie 2 Sek. Koma zu." />
+    <List Id="80027" Txt="Fügt dem Ziel 300% SCH sowie 3 Sek. Koma zu." />
+    <List Id="80028" Txt="Fügt dem Ziel 330% SCH sowie 3 Sek. Koma zu." />
+    <List Id="80029" Txt="Fügt dem Ziel 360% SCH sowie 3 Sek. Koma zu." />
+    <List Id="80041" Txt="Fügt 2 zufälligen nahen Zielen 200% SCH zu." />
+    <List Id="80042" Txt="Fügt 3 zufälligen nahen Zielen 220% SCH zu." />
+    <List Id="80043" Txt="Fügt 4 zufälligen nahen Zielen 240% SCH zu." />
+    <List Id="80044" Txt="Fügt 5 zufälligen nahen Zielen 260% SCH zu." />
+    <List Id="80045" Txt="Fügt 6 zufälligen nahen Zielen 280% SCH zu." />
+    <List Id="80046" Txt="Fügt 7 zufälligen nahen Zielen 300% SCH zu." />
+    <List Id="80047" Txt="Fügt 8 zufälligen nahen Zielen 320% SCH zu." />
+    <List Id="80048" Txt="Fügt 9 zufälligen nahen Zielen 340% SCH zu." />
+    <List Id="80049" Txt="Fügt 10 zufälligen nahen Zielen 360% SCH zu." />
+    <List Id="80061" Txt="Fügt Ziel 300% SCH zu." />
+    <List Id="80062" Txt="Fügt Ziel 400% SCH zu." />
+    <List Id="80063" Txt="Fügt Ziel 450% SCH zu." />
+    <List Id="80064" Txt="Fügt Ziel 500% SCH zu." />
+    <List Id="80065" Txt="Fügt Ziel 550% SCH zu." />
+    <List Id="80066" Txt="Fügt Ziel 600% SCH zu." />
+    <List Id="80067" Txt="Fügt Ziel 650% SCH zu." />
+    <List Id="80068" Txt="Fügt Ziel 700% SCH zu." />
+    <List Id="80069" Txt="Fügt Ziel 750% SCH zu." />
+    <List Id="80081" Txt="Stärkt LP eines Freundes um 200% ANG." />
+    <List Id="80082" Txt="Stärkt LP eines Freundes um 230% ANG." />
+    <List Id="80083" Txt="Stärkt LP eines Freundes um 260% ANG." />
+    <List Id="80084" Txt="Stärkt LP eines Freundes um 290% ANG." />
+    <List Id="80085" Txt="Stärkt LP eines Freundes um 320% ANG." />
+    <List Id="80086" Txt="Stärkt LP eines Freundes um 350% ANG." />
+    <List Id="80087" Txt="Stärkt LP eines Freundes um 380% ANG." />
+    <List Id="80088" Txt="Stärkt LP eines Freundes um 410% ANG." />
+    <List Id="80089" Txt="Stärkt LP eines Freundes um 440% ANG." />
+    <List Id="80101" Txt="Fügt Ziel mit wenigsten LP 250% SCH zu." />
+    <List Id="80102" Txt="Fügt Ziel mit wenigsten LP 300% SCH zu." />
+    <List Id="80103" Txt="Fügt Ziel mit wenigsten LP 330% SCH zu." />
+    <List Id="80104" Txt="Fügt Ziel mit wenigsten LP 360% SCH zu." />
+    <List Id="80105" Txt="Fügt Ziel mit wenigsten LP 390% SCH zu." />
+    <List Id="80106" Txt="Fügt Ziel mit wenigsten LP 420% SCH zu." />
+    <List Id="80107" Txt="Fügt Ziel mit wenigsten LP 450% SCH zu." />
+    <List Id="80108" Txt="Fügt Ziel mit wenigsten LP 480% SCH zu." />
+    <List Id="80109" Txt="Fügt Ziel mit wenigsten LP 510% SCH zu." />
+    <List Id="80121" Txt="Fügt 3 zufälligen nahen Zielen 130% SCH zu." />
+    <List Id="80122" Txt="Fügt 3 zufälligen nahen Zielen 180% SCH zu." />
+    <List Id="80123" Txt="Fügt 3 zufälligen nahen Zielen 210% SCH zu." />
+    <List Id="80124" Txt="Fügt 3 zufälligen nahen Zielen 240% SCH zu." />
+    <List Id="80125" Txt="Fügt 3 zufälligen nahen Zielen 270% SCH zu." />
+    <List Id="80126" Txt="Fügt 3 zufälligen nahen Zielen 300% SCH zu." />
+    <List Id="80127" Txt="Fügt 3 zufälligen nahen Zielen 330% SCH zu." />
+    <List Id="80128" Txt="Fügt 3 zufälligen nahen Zielen 360% SCH zu." />
+    <List Id="80129" Txt="Fügt 3 zufälligen nahen Zielen 390% SCH zu." />
+    <List Id="80141" Txt="Erhöht ANG 5 Sek. lang um 30%." />
+    <List Id="80142" Txt="Erhöht ANG 5 Sek. lang um 50%." />
+    <List Id="80143" Txt="Erhöht ANG 5 Sek. lang um 70%." />
+    <List Id="80144" Txt="Erhöht ANG 6 Sek. lang um 80%." />
+    <List Id="80145" Txt="Erhöht ANG 6 Sek. lang um 110%." />
+    <List Id="80146" Txt="Erhöht ANG 6 Sek. lang um 120%." />
+    <List Id="80147" Txt="Erhöht ANG 7 Sek. lang um 130%." />
+    <List Id="80148" Txt="Erhöht ANG 7 Sek. lang um 150%." />
+    <List Id="80149" Txt="Erhöht ANG 7 Sek. lang um 170%." />
+    <List Id="80161" Txt="Fügt allen Feinden im Umkreis 150% SCH zu." />
+    <List Id="80162" Txt="Fügt allen Feinden im Umkreis 200% SCH zu." />
+    <List Id="80163" Txt="Fügt allen Feinden im Umkreis 230% SCH zu." />
+    <List Id="80164" Txt="Fügt allen Feinden im Umkreis 250% SCH zu." />
+    <List Id="80165" Txt="Fügt allen Feinden im Umkreis 270% SCH zu." />
+    <List Id="80166" Txt="Fügt allen Feinden im Umkreis 290% SCH zu." />
+    <List Id="80167" Txt="Fügt allen Feinden im Umkreis 310% SCH zu." />
+    <List Id="80168" Txt="Fügt allen Feinden im Umkreis 330% SCH zu." />
+    <List Id="80169" Txt="Fügt allen Feinden im Umkreis 350% SCH zu." />
+    <List Id="80181" Txt="Reduziert max. HP und Schaden eines Kämpfertyps 5 Sek. lang um 15%." />
+    <List Id="80182" Txt="Reduziert max. HP und Schaden eines Kämpfertyps 5 Sek. lang um 20%." />
+    <List Id="80183" Txt="Reduziert max. HP und Schaden eines Kämpfertyps 5 Sek. lang um 23%." />
+    <List Id="80184" Txt="Reduziert max. HP und Schaden eines Kämpfertyps 6 Sek. lang um 26%." />
+    <List Id="80185" Txt="Reduziert max. HP und Schaden eines Kämpfertyps 6 Sek. lang um 29%." />
+    <List Id="80186" Txt="Reduziert max. HP und Schaden eines Kämpfertyps 6 Sek. lang um 32%." />
+    <List Id="80187" Txt="Reduziert max. HP und Schaden eines Kämpfertyps 7 Sek. lang um 35%." />
+    <List Id="80188" Txt="Reduziert max. HP und Schaden eines Kämpfertyps 7 Sek. lang um 38%." />
+    <List Id="80189" Txt="Reduziert max. HP und Schaden eines Kämpfertyps 7 Sek. lang um 41%." />
+    <List Id="80201" Txt="Fügt allen Feinden im Bereich 110% SCH zu." />
+    <List Id="80202" Txt="Fügt allen Feinden im Bereich 150% SCH zu." />
+    <List Id="80203" Txt="Fügt allen Feinden im Bereich 170% SCH zu." />
+    <List Id="80204" Txt="Fügt allen Feinden im Bereich 190% SCH zu." />
+    <List Id="80205" Txt="Fügt allen Feinden im Bereich 210% SCH zu." />
+    <List Id="80206" Txt="Fügt allen Feinden im Bereich 230% SCH zu." />
+    <List Id="80207" Txt="Fügt allen Feinden im Bereich 250% SCH zu." />
+    <List Id="80208" Txt="Fügt allen Feinden im Bereich 270% SCH zu." />
+    <List Id="80209" Txt="Fügt allen Feinden im Bereich 290% SCH zu." />
+    <List Id="80221" Txt="Fügt dem Ziel 150% SCH zu und reduziert seine ANG-GES und BEW-GES 6 Sek. lang um 10%." />
+    <List Id="80222" Txt="Fügt dem Ziel 200% SCH zu und reduziert seine ANG-GES und BEW-GES 6 Sek. lang um 15%." />
+    <List Id="80223" Txt="Fügt dem Ziel 230% SCH zu und reduziert seine ANG-GES und BEW-GES 6 Sek. lang um 17%." />
+    <List Id="80224" Txt="Fügt dem Ziel 240% SCH zu und reduziert seine ANG-GES und BEW-GES 7 Sek. lang um 18%." />
+    <List Id="80225" Txt="Fügt dem Ziel 260% SCH zu und reduziert seine ANG-GES und BEW-GES 7 Sek. lang um 20%." />
+    <List Id="80226" Txt="Fügt dem Ziel 280% SCH zu und reduziert seine ANG-GES und BEW-GES 7 Sek. lang um 22%." />
+    <List Id="80227" Txt="Fügt dem Ziel 290% SCH zu und reduziert seine ANG-GES und BEW-GES 8 Sek. lang um 23%." />
+    <List Id="80228" Txt="Fügt dem Ziel 310% SCH zu und reduziert seine ANG-GES und BEW-GES 8 Sek. lang um 25%." />
+    <List Id="80229" Txt="Fügt dem Ziel 330% SCH zu und reduziert seine ANG-GES und BEW-GES 8 Sek. lang um 27%." />
+    <List Id="80241" Txt="Fügt 3 zufälligen nahen Zielen 100% SCH sowie 3 Sek. Koma zu." />
+    <List Id="80242" Txt="Fügt 3 zufälligen nahen Zielen 150% SCH sowie 3 Sek. Koma zu." />
+    <List Id="80243" Txt="Fügt 3 zufälligen nahen Zielen 180% SCH sowie 3 Sek. Koma zu." />
+    <List Id="80244" Txt="Fügt 3 zufälligen nahen Zielen 200% SCH sowie 3 Sek. Koma zu." />
+    <List Id="80245" Txt="Fügt 3 zufälligen nahen Zielen 220% SCH sowie 3 Sek. Koma zu." />
+    <List Id="80246" Txt="Fügt 3 zufälligen nahen Zielen 240% SCH sowie 3 Sek. Koma zu." />
+    <List Id="80247" Txt="Fügt 3 zufälligen nahen Zielen 270% SCH sowie 3 Sek. Koma zu." />
+    <List Id="80248" Txt="Fügt 3 zufälligen nahen Zielen 290% SCH sowie 3 Sek. Koma zu." />
+    <List Id="80249" Txt="Fügt 3 zufälligen nahen Zielen 310% SCH sowie 3 Sek. Koma zu." />
+    <List Id="80261" Txt="Fügt allen Feinden in einem Bogen 100% SCH zu." />
+    <List Id="80262" Txt="Fügt allen Feinden in einem Bogen 150% SCH zu." />
+    <List Id="80263" Txt="Fügt allen Feinden in einem Bogen 170% SCH zu." />
+    <List Id="80264" Txt="Fügt allen Feinden in einem Bogen 190% SCH zu." />
+    <List Id="80265" Txt="Fügt allen Feinden in einem Bogen 210% SCH zu." />
+    <List Id="80266" Txt="Fügt allen Feinden in einem Bogen 230% SCH zu." />
+    <List Id="80267" Txt="Fügt allen Feinden in einem Bogen 250% SCH zu." />
+    <List Id="80268" Txt="Fügt allen Feinden in einem Bogen 270% SCH zu." />
+    <List Id="80269" Txt="Fügt allen Feinden in einem Bogen 290% SCH zu." />
+    <List Id="80281" Txt="Fügt dem Ziel 100% Schaden sowie 1 Sek. Koma zu." />
+    <List Id="80282" Txt="Fügt dem Ziel 150% Schaden sowie 1 Sek. Koma zu." />
+    <List Id="80283" Txt="Fügt dem Ziel 180% Schaden sowie 1 Sek. Koma zu." />
+    <List Id="80284" Txt="Fügt dem Ziel 190% Schaden sowie 2 Sek. Koma zu." />
+    <List Id="80285" Txt="Fügt dem Ziel 220% Schaden sowie 2 Sek. Koma zu." />
+    <List Id="80286" Txt="Fügt dem Ziel 250% Schaden sowie 2 Sek. Koma zu." />
+    <List Id="80287" Txt="Fügt dem Ziel 260% Schaden sowie 3 Sek. Koma zu." />
+    <List Id="80288" Txt="Fügt dem Ziel 290% Schaden sowie 3 Sek. Koma zu." />
+    <List Id="80289" Txt="Fügt dem Ziel 320% Schaden sowie 3 Sek. Koma zu." />
+    <List Id="80301" Txt="Fügt einem zufälligen Feind auf dem Schlachtfeld 250% Schaden zu." />
+    <List Id="80302" Txt="Fügt einem zufälligen Feind auf dem Schlachtfeld 320% Schaden zu." />
+    <List Id="80303" Txt="Fügt einem zufälligen Feind auf dem Schlachtfeld 360% Schaden zu." />
+    <List Id="80304" Txt="Fügt einem zufälligen Feind auf dem Schlachtfeld 400% Schaden zu." />
+    <List Id="80305" Txt="Fügt einem zufälligen Feind auf dem Schlachtfeld 440% Schaden zu." />
+    <List Id="80306" Txt="Fügt einem zufälligen Feind auf dem Schlachtfeld 480% Schaden zu." />
+    <List Id="80307" Txt="Fügt einem zufälligen Feind auf dem Schlachtfeld 520% Schaden zu." />
+    <List Id="80308" Txt="Fügt einem zufälligen Feind auf dem Schlachtfeld 560% Schaden zu." />
+    <List Id="80309" Txt="Fügt einem zufälligen Feind auf dem Schlachtfeld 600% Schaden zu." />
+    <List Id="80321" Txt="Reduziert ANG des Ziels 6 Sek. lang um 25%." />
+    <List Id="80322" Txt="Reduziert ANG des Ziels 6 Sek. lang um 35%." />
+    <List Id="80323" Txt="Reduziert ANG des Ziels 6 Sek. lang um 42%." />
+    <List Id="80324" Txt="Reduziert ANG des Ziels 7 Sek. lang um 44%." />
+    <List Id="80325" Txt="Reduziert ANG des Ziels 7 Sek. lang um 48%." />
+    <List Id="80326" Txt="Reduziert ANG des Ziels 7 Sek. lang um 52%." />
+    <List Id="80327" Txt="Reduziert ANG des Ziels 8 Sek. lang um 54%." />
+    <List Id="80328" Txt="Reduziert ANG des Ziels 8 Sek. lang um 57%." />
+    <List Id="80329" Txt="Reduziert ANG des Ziels 8 Sek. lang um 60%." />
+    <List Id="80341" Txt="Erhöht die LP von 2 nahen Verbündeten mit niedrigsten LP um 200% ANG und erhöht ihren ANG 5 Sek. lang um 15%." />
+    <List Id="80342" Txt="Erhöht die LP von 3 nahen Verbündeten mit niedrigsten LP um 210% ANG und erhöht ihren ANG 5 Sek. lang um 20%." />
+    <List Id="80343" Txt="Erhöht die LP von 4 nahen Verbündeten mit niedrigsten LP um 220% ANG und erhöht ihren ANG 5 Sek. lang um 23%." />
+    <List Id="80344" Txt="Erhöht die LP von 5 nahen Verbündeten mit niedrigsten LP um 230% ANG und erhöht ihren ANG 5 Sek. lang um 25%." />
+    <List Id="80345" Txt="Erhöht die LP von 6 nahen Verbündeten mit niedrigsten LP um 240% ANG und erhöht ihren ANG 5 Sek. lang um 26%." />
+    <List Id="80346" Txt="Erhöht die LP von 7 nahen Verbündeten mit niedrigsten LP um 250% ANG und erhöht ihren ANG 5 Sek. lang um 28%." />
+    <List Id="80347" Txt="Erhöht die LP von 8 nahen Verbündeten mit niedrigsten LP um 260% ANG und erhöht ihren ANG 5 Sek. lang um 29%." />
+    <List Id="80348" Txt="Erhöht die LP von 9 nahen Verbündeten mit niedrigsten LP um 270% ANG und erhöht ihren ANG 5 Sek. lang um 31%." />
+    <List Id="80349" Txt="Erhöht die LP von 10 nahen Verbündeten mit niedrigsten LP um 280% ANG und erhöht ihren ANG 5 Sek. lang um 32%." />
+    <List Id="80361" Txt="Fügt Ziel 180% SCH zu." />
+    <List Id="80362" Txt="Fügt Ziel 250% SCH zu." />
+    <List Id="80363" Txt="Fügt Ziel 300% SCH zu." />
+    <List Id="80364" Txt="Fügt Ziel 340% SCH zu." />
+    <List Id="80365" Txt="Fügt Ziel 380% SCH zu." />
+    <List Id="80366" Txt="Fügt Ziel 420% SCH zu." />
+    <List Id="80367" Txt="Fügt Ziel 460% SCH zu." />
+    <List Id="80368" Txt="Fügt Ziel 500% SCH zu." />
+    <List Id="80369" Txt="Fügt Ziel 540% SCH zu." />
+    <List Id="80381" Txt="Reduziert erlittenen SCH 6 Sek. lang um 15%." />
+    <List Id="80382" Txt="Reduziert erlittenen SCH 6 Sek. lang um 20%." />
+    <List Id="80383" Txt="Reduziert erlittenen SCH 6 Sek. lang um 23%." />
+    <List Id="80384" Txt="Reduziert erlittenen SCH 6 Sek. lang um 26%." />
+    <List Id="80385" Txt="Reduziert erlittenen SCH 6 Sek. lang um 29%." />
+    <List Id="80386" Txt="Reduziert erlittenen SCH 6 Sek. lang um 32%." />
+    <List Id="80387" Txt="Reduziert erlittenen SCH 6 Sek. lang um 35%." />
+    <List Id="80388" Txt="Reduziert erlittenen SCH 6 Sek. lang um 38%." />
+    <List Id="80389" Txt="Reduziert erlittenen SCH 6 Sek. lang um 41%." />
+    <List Id="80401" Txt="Vergiftet alle Gegner in der Nähe, welchen für 6 Sek lang alle 0.5 Sek 8% SCH + 15 SCH zugefügt wird." />
+    <List Id="80402" Txt="Vergiftet alle Gegner in der Nähe, welchen für 6 Sek lang alle 0.5 Sek 10% SCH + 25 SCHzugefügt wird." />
+    <List Id="80403" Txt="Vergiftet alle Gegner in der Nähe, welchen für 6 Sek lang alle 0.5 Sek 13% SCH + 35 SCH zugefügt wird." />
+    <List Id="80404" Txt="Vergiftet alle Gegner in der Nähe, welchen für 6 Sek lang alle 0.5 Sek 15% SCH + 45 SCH zugefügt wird." />
+    <List Id="80405" Txt="Vergiftet alle Gegner in der Nähe, welchen für 6 Sek lang alle 0.5 Sek 18% SCH + 55 SCH zugefügt wird." />
+    <List Id="80406" Txt="Vergiftet alle Gegner in der Nähe, welchen für 6 Sek lang alle 0.5 Sek 20% SCH + 65 SCH zugefügt wird." />
+    <List Id="80407" Txt="Vergiftet alle Gegner in der Nähe, welchen für 6 Sek lang alle 0.5 Sekunden 23% SCH + 75 SCH zugefügt wird." />
+    <List Id="80408" Txt="Vergiftet alle Gegner in der Nähe, welchen für 6 Sek lang alle 0.5 Sekunden 25% SCH + 85 SCH zugefügt wird." />
+    <List Id="80409" Txt="Vergiftet alle Gegner in der Nähe, welchen für 6 Sek lang alle 0.5 Sekunden 28% SCH + 95 SCH zugefügt wird." />
+    <List Id="80421" Txt="Ein zufälliger Gegner wird vom Blitz getroffen und erleidet 200% SCH. Alle im Umkreis befindlichen Gegner fallen für 1.5 Sek ins Koma." />
+    <List Id="80422" Txt="Ein zufälliger Gegner wird vom Blitz getroffen und erleidet 230% SCH. Alle im Umkreis befindlichen Gegner fallen für 1.5 Sek ins Koma." />
+    <List Id="80423" Txt="Ein zufälliger Gegner wird vom Blitz getroffen und erleidet 260% SCH. Alle im Umkreis befindlichen Gegner fallen für 1.5 Sek ins Koma." />
+    <List Id="80424" Txt="Ein zufälliger Gegner wird vom Blitz getroffen und erleidet 290% SCH. Alle im Umkreis befindlichen Gegner fallen für 1.5 Sek ins Koma." />
+    <List Id="80425" Txt="Ein zufälliger Gegner wird vom Blitz getroffen und erleidet 320% SCH. Alle im Umkreis befindlichen Gegner fallen für 1.5 Sek ins Koma." />
+    <List Id="80426" Txt="Ein zufälliger Gegner wird vom Blitz getroffen und erleidet 350% SCH. Alle im Umkreis befindlichen Gegner fallen für 1.5 Sek ins Koma." />
+    <List Id="80427" Txt="Ein zufälliger Gegner wird vom Blitz getroffen und erleidet 380% SCH. Alle im Umkreis befindlichen Gegner fallen für 1.5 Sek ins Koma." />
+    <List Id="80428" Txt="Ein zufälliger Gegner wird vom Blitz getroffen und erleidet 410% SCH. Alle im Umkreis befindlichen Gegner fallen für 1.5 Sek ins Koma." />
+    <List Id="80429" Txt="Ein zufälliger Gegner wird vom Blitz getroffen und erleidet 440% SCH. Alle im Umkreis befindlichen Gegner fallen für 1.5 Sek ins Koma." />
+    <List Id="80441" Txt="Erhöht ANG, ANG Rate und BEW GES von Verbündeten 8 Sek lang um 10%." />
+    <List Id="80442" Txt="Erhöht ANG, ANG Rate und BEW GES von Verbündeten 8 Sek lang um 15%." />
+    <List Id="80443" Txt="Erhöht ANG, ANG Rate und BEW GES von Verbündeten 8 Sek lang um 20%." />
+    <List Id="80444" Txt="Erhöht ANG, ANG Rate und BEW GES von Verbündeten 8 Sek lang um 25%." />
+    <List Id="80445" Txt="Erhöht ANG, ANG Rate und BEW GES von Verbündeten 8 Sek lang um 30%." />
+    <List Id="80446" Txt="Erhöht ANG, ANG Rate und BEW GES von Verbündeten 8 Sek lang um 35%." />
+    <List Id="80447" Txt="Erhöht ANG, ANG Rate und BEW GES von Verbündeten 8 Sek lang um 40%." />
+    <List Id="80448" Txt="Erhöht ANG, ANG Rate und BEW GES von Verbündeten 8 Sek lang um 45%." />
+    <List Id="80449" Txt="Erhöht ANG, ANG Rate und BEW GES von Verbündeten 8 Sek lang um 50%." />
+    <List Id="80481" Txt="Absorbiert 15% der LP von 2 Gegnern." />
+    <List Id="80482" Txt="Absorbiert 15% der LP von 3 Gegnern." />
+    <List Id="80483" Txt="Absorbiert 15% der LP von 4 Gegnern." />
+    <List Id="80484" Txt="Absorbiert 15% der LP von 5 Gegnern." />
+    <List Id="80485" Txt="Absorbiert 15% der LP von 6 Gegnern." />
+    <List Id="80486" Txt="Absorbiert 15% der LP von 7 Gegnern." />
+    <List Id="80487" Txt="Absorbiert 15% der LP von 8 Gegnern." />
+    <List Id="80488" Txt="Absorbiert 15% der LP von 9 Gegnern." />
+    <List Id="80489" Txt="Absorbiert 15% der LP von 10 Gegnern." />
+    <List Id="80501" Txt="Reduziert BEW GES 6 zufälliger Gegner für 6 SEK um 30%." />
+    <List Id="80502" Txt="Reduziert BEW GES 8 zufälliger Gegner für 7 SEK um 35%." />
+    <List Id="80503" Txt="Reduziert BEW GES 10 zufälliger Gegner für 8 SEK um 40%." />
+    <List Id="80504" Txt="Reduziert BEW GES 12 zufälliger Gegner für 9 SEK um 45%." />
+    <List Id="80505" Txt="Reduziert BEW GES 14 zufälliger Gegner für 10 SEK um 50%." />
+    <List Id="80506" Txt="Reduziert BEW GES 16 zufälliger Gegner für 11 SEK um 55%." />
+    <List Id="80507" Txt="Reduziert BEW GES 18 zufälliger Gegner für 12 SEK um 60%." />
+    <List Id="80508" Txt="Reduziert BEW GES 20 zufälliger Gegner für 13 SEK um 65%." />
+    <List Id="80509" Txt="Reduziert BEW GES 22 zufälliger Gegner für 14 SEK um 70%." />
+    <List Id="85501" Txt="Opfer" />
+    <List Id="85502" Txt="Mittleres Opfer" />
+    <List Id="85503" Txt="Großes Opfer" />
+    <List Id="90001" Txt="Belebt mit 10% LP wieder." />
+    <List Id="90002" Txt="Belebt mit 15% LP wieder." />
+    <List Id="90003" Txt="Belebt mit 20% LP wieder." />
+    <List Id="90004" Txt="Belebt mit 25% LP wieder." />
+    <List Id="90005" Txt="Belebt mit 30% LP wieder." />
+    <List Id="90011" Txt="Hat bei Angriff eine Chance von 10%, dem Ziel 1 Sek. Koma zuzufügen." />
+    <List Id="90012" Txt="Hat bei Angriff eine Chance von 10%, dem Ziel 1,5 Sek. Koma zuzufügen." />
+    <List Id="90013" Txt="Hat bei Angriff eine Chance von 10%, dem Ziel 2 Sek. Koma zuzufügen." />
+    <List Id="90014" Txt="Hat bei Angriff eine Chance von 10%, dem Ziel 2,5 Sek. Koma zuzufügen." />
+    <List Id="90015" Txt="Hat bei Angriff eine Chance von 10%, dem Ziel 3 Sek. Koma zuzufügen." />
+    <List Id="90021" Txt="Gewinne 20% Energie bei Schlachtbeginn." />
+    <List Id="90022" Txt="Gewinne 40% Energie bei Schlachtbeginn." />
+    <List Id="90023" Txt="Gewinne 60% Energie bei Schlachtbeginn." />
+    <List Id="90024" Txt="Gewinne 80% Energie bei Schlachtbeginn." />
+    <List Id="90025" Txt="Gewinne 100% Energie bei Schlachtbeginn." />
+    <List Id="90031" Txt="Negiert mit einer Chance von 5% allen Schaden, wenn du angegriffen wirst." />
+    <List Id="90032" Txt="Negiert mit einer Chance von 6% allen Schaden, wenn du angegriffen wirst." />
+    <List Id="90033" Txt="Negiert mit einer Chance von 7% allen Schaden, wenn du angegriffen wirst." />
+    <List Id="90034" Txt="Negiert mit einer Chance von 8% allen Schaden, wenn du angegriffen wirst." />
+    <List Id="90035" Txt="Negiert mit einer Chance von 9% allen Schaden, wenn du angegriffen wirst." />
+    <List Id="90041" Txt="Fügt nach dem Tod nahen Feinden 100% Schaden zu." />
+    <List Id="90042" Txt="Fügt nach dem Tod nahen Feinden 175% Schaden zu." />
+    <List Id="90043" Txt="Fügt nach dem Tod nahen Feinden 250% Schaden zu." />
+    <List Id="90044" Txt="Fügt nach dem Tod nahen Feinden 325% Schaden zu." />
+    <List Id="90045" Txt="Fügt nach dem Tod nahen Feinden 400% Schaden zu." />
+    <List Id="90051" Txt="Hat bei Angriff eine Chance von 10%, 3x mehr Schaden zuzufügen." />
+    <List Id="90052" Txt="Hat bei Angriff eine Chance von 10%, 4x mehr Schaden zuzufügen." />
+    <List Id="90053" Txt="Hat bei Angriff eine Chance von 10%, 5x mehr Schaden zuzufügen." />
+    <List Id="90054" Txt="Hat bei Angriff eine Chance von 10%, 6x mehr Schaden zuzufügen." />
+    <List Id="90055" Txt="Hat bei Angriff eine Chance von 10%, 7x mehr Schaden zuzufügen." />
+    <List Id="90061" Txt="Lenkt 8% des erlittenen Schadens ab." />
+    <List Id="90062" Txt="Lenkt 11% des erlittenen Schadens ab." />
+    <List Id="90063" Txt="Lenkt 14% des erlittenen Schadens ab." />
+    <List Id="90064" Txt="Lenkt 17% des erlittenen Schadens ab." />
+    <List Id="90065" Txt="Lenkt 20% des erlittenen Schadens ab." />
+    <List Id="90071" Txt="Hat eine Chance von 5%, 100% des erlittenen Schadens abzulenken." />
+    <List Id="90072" Txt="Hat eine Chance von 6%, 100% des erlittenen Schadens abzulenken." />
+    <List Id="90073" Txt="Hat eine Chance von 7%, 100% des erlittenen Schadens abzulenken." />
+    <List Id="90074" Txt="Hat eine Chance von 8%, 100% des erlittenen Schadens abzulenken." />
+    <List Id="90075" Txt="Hat eine Chance von 9%, 100% des erlittenen Schadens abzulenken." />
+    <List Id="90081" Txt="Reduziert bei Angriff die Energie des Ziels um 5." />
+    <List Id="90082" Txt="Reduziert bei Angriff die Energie des Ziels um 10." />
+    <List Id="90083" Txt="Reduziert bei Angriff die Energie des Ziels um 15." />
+    <List Id="90084" Txt="Reduziert bei Angriff die Energie des Ziels um 20." />
+    <List Id="90085" Txt="Reduziert bei Angriff die Energie des Ziels um 25." />
+    <List Id="90091" Txt="Hat bei Angriff eine Chance von 25%, die feindliche GES 5 Sek. lang um 30% zu reduzieren." />
+    <List Id="90092" Txt="Hat bei Angriff eine Chance von 25%, die feindliche GES 5 Sek. lang um 40% zu reduzieren." />
+    <List Id="90093" Txt="Hat bei Angriff eine Chance von 25%, die feindliche GES 5 Sek. lang um 50% zu reduzieren." />
+    <List Id="90094" Txt="Hat bei Angriff eine Chance von 25%, die feindliche GES 5 Sek. lang um 60% zu reduzieren." />
+    <List Id="90095" Txt="Hat bei Angriff eine Chance von 25%, die feindliche GES 5 Sek. lang um 70% zu reduzieren." />
+    <List Id="90101" Txt="Erhöht BEW-GES um 10%." />
+    <List Id="90102" Txt="Erhöht BEW-GES um 20%." />
+    <List Id="90103" Txt="Erhöht BEW-GES um 30%." />
+    <List Id="90104" Txt="Erhöht BEW-GES um 40%." />
+    <List Id="90105" Txt="Erhöht BEW-GES um 50%." />
+    <List Id="90111" Txt="Erhöht ANG-GES um 10%." />
+    <List Id="90112" Txt="Erhöht ANG-GES um 15%." />
+    <List Id="90113" Txt="Erhöht ANG-GES um 20%." />
+    <List Id="90114" Txt="Erhöht ANG-GES um 25%." />
+    <List Id="90115" Txt="Erhöht ANG-GES um 30%." />
+    <List Id="90121" Txt="Reduziert erlittenen Schaden um 5%." />
+    <List Id="90122" Txt="Reduziert erlittenen Schaden um 10%." />
+    <List Id="90123" Txt="Reduziert erlittenen Schaden um 15%." />
+    <List Id="90124" Txt="Reduziert erlittenen Schaden um 20%." />
+    <List Id="90125" Txt="Reduziert erlittenen Schaden um 25%." />
+    <List Id="90131" Txt="Erhöht ANG um 10%." />
+    <List Id="90132" Txt="Erhöht ANG um 15%." />
+    <List Id="90133" Txt="Erhöht ANG um 20%." />
+    <List Id="90134" Txt="Erhöht ANG um 25%." />
+    <List Id="90135" Txt="Erhöht ANG um 30%." />
+    <List Id="90141" Txt="Erhöht LP um 10%." />
+    <List Id="90142" Txt="Erhöht LP um 15%." />
+    <List Id="90143" Txt="Erhöht LP um 20%." />
+    <List Id="90144" Txt="Erhöht LP um 25%." />
+    <List Id="90145" Txt="Erhöht LP um 30%." />
+    <List Id="91000" Txt="(Jeder Versuch kostet 300 Edelsteine.)" />
+    <List Id="91001" Txt="Willst du einen neuen Helden-Slot freischalten?" />
+    <List Id="91002" Txt="Jeder zusätzlich rekrutierte Held wird mehr kosten. Rekrutierungskosten gehen morgen auf ihren Grundpreis (500) zurück." />
+    <List Id="91003" Txt="Höchstzahl der Helden-Slots erreicht." />
+    <List Id="91501" Txt="Gewährt bei Opferung 100 Fähigkeits-EP." />
+    <List Id="91502" Txt="Gewährt bei Opferung 600 Fähigkeits-EP." />
+    <List Id="91503" Txt="Gewährt bei Opferung 3.000 Fähigkeits-EP." />
+    <List Id="91511" Txt="Hat eine Chance von 25%, eine Stoßwelle auszulösen und fügt alle Ziele davor 250% SCH zu." />
+    <List Id="91521" Txt="Hat eine Chance von 25%, ein Magiegeschoss auszulösen und fügt bis zu 5 Ziele davor 250% SCH zu." />
+    <List Id="91531" Txt="Hat eine Chance von 25%, bis zu 5 Helden 250% SCH sowie 2 Sek. Koma zuzufügen. " />
+  </Text>
+  <Text Type="13" TypeTxt="名稱">
+    <List Id="34001" Txt="Dungeon 1" />
+    <List Id="34002" Txt="Dungeon 2" />
+    <List Id="34003" Txt="Dungeon 3" />
+    <List Id="34004" Txt="Dungeon 4" />
+    <List Id="34005" Txt="Dungeon 5" />
+    <List Id="34006" Txt="Dungeon 6" />
+    <List Id="34007" Txt="Dungeon 7" />
+    <List Id="34008" Txt="Dungeon 8" />
+    <List Id="34009" Txt="Erfolge" />
+    <List Id="34010" Txt="Abgeschlossen:" />
+    <List Id="34011" Txt="Zauber" />
+    <List Id="34012" Txt="Forschungszeit" />
+    <List Id="34013" Txt="Dungeon" />
+    <List Id="34014" Txt="Dungeons mit Schädeln haben einen größere Chance, Heldensplitter zu droppen!" />
+    <List Id="34015" Txt="Helden wechseln" />
+    <List Id="34016" Txt="Wird ab Gebäudelevel %d freigeschaltet." />
+    <List Id="34017" Txt="Diesen Zauber hast du schon!" />
+    <List Id="34018" Txt="VOLL" />
+    <List Id="34019" Txt="Mehr spielen!" />
+    <List Id="34020" Txt="Willst du 5 mehr Dungeonsversuche für %d Edelsteine kaufen?" />
+    <List Id="34021" Txt="LP Schaden:" />
+    <List Id="34022" Txt="Fester Schaden:" />
+    <List Id="34023" Txt="LP Erholung:" />
+    <List Id="34024" Txt="Feste Erholung:" />
+    <List Id="34025" Txt="ANG erhöhen:" />
+    <List Id="34026" Txt="Magiedauer:" />
+    <List Id="34027" Txt="Gebäudeschaden:" />
+    <List Id="34028" Txt="Fester Gebäudeschaden:" />
+    <List Id="34029" Txt="Effektive Dauer:" />
+    <List Id="34030" Txt="LP reduzieren:" />
+    <List Id="34031" Txt="Fortwährender Schaden:" />
+    <List Id="34032" Txt="ANG reduzieren:" />
+    <List Id="34033" Txt="ANG-GES:" />
+    <List Id="34034" Txt="BEW-GES:" />
+    <List Id="34035" Txt="Anzahl der Wiederbelebungen:" />
+    <List Id="34036" Txt="Effektive Dauer:" />
+    <List Id="34037" Txt="Unbesiegbare Kämpfer:" />
+    <List Id="34038" Txt="Magieeffekt:" />
+    <List Id="34039" Txt="Auf Google+ empfehlen" />
+    <List Id="34040" Txt="Bewerte uns!" />
+    <List Id="34041" Txt="Kaufe Edelsteine!" />
+    <List Id="34042" Txt="Tipp: Tippe auf den Zauber, um ihn zu kaufen." />
+    <List Id="34043" Txt="Opfer" />
+    <List Id="34044" Txt="Gewöhnlich" />
+    <List Id="34045" Txt="Elite" />
+    <List Id="34046" Txt="Legende" />
+    <List Id="34047" Txt="Edelsteine verdienen" />
+    <List Id="34048" Txt="Los" />
+    <List Id="34049" Txt="Fordern" />
+    <List Id="34050" Txt="Gratis-Edelsteine!" />
+    <List Id="34051" Txt="Kaufe 230 Edelsteine, um einen Helden zu erhalten!" />
+    <List Id="34052" Txt="Kaufe 600 Edelsteine, um einen Helden zu erhalten!" />
+    <List Id="34053" Txt="Kaufe 3.000 Edelsteine, um einen Helden zu erhalten!" />
+    <List Id="34054" Txt="Kaufe 15.000 Edelsteine, um einen Helden zu erhalten!" />
+    <List Id="34055" Txt="Kaufe 50.000 Edelsteine, um einen Helden zu erhalten!" />
+    <List Id="34056" Txt="Tauschen" />
+    <List Id="34057" Txt="Diesen Tausch durchführen?" />
+    <List Id="34058" Txt="Du kannst hier nicht angreifen! Bitte wähle einen anderen Bereich." />
+    <List Id="34059" Txt="Weitere Events!" />
+    <List Id="34060" Txt="Tippe auf einen Zauber, um ihn auf ein Ziel zu wirken!" />
+    <List Id="34061" Txt="Kippe dein Gerät, um zu steuern, wo der Zauber wirkt!" />
+    <List Id="34062" Txt="Du kannst den Phönixflug lenken!" />
+    <List Id="34063" Txt="Zahlungsprobleme" />
+    <List Id="34064" Txt="Verbindungsprobleme" />
+    <List Id="34065" Txt="Sonstige Probleme" />
+    <List Id="34066" Txt="Feedback" />
+    <List Id="34067" Txt="Chancen:" />
+    <List Id="34068" Txt="Heldensplitter können in Dungeons droppen!" />
+    <List Id="34069" Txt="Held einsetzen" />
+    <List Id="34070" Txt="Magie kaufen" />
+    <List Id="34071" Txt="Level:" />
+    <List Id="34072" Txt="Tipps:" />
+    <List Id="34073" Txt="IGG-ID:" />
+    <List Id="34074" Txt="Forum" />
+    <List Id="34075" Txt="Musik" />
+    <List Id="34076" Txt="AN" />
+    <List Id="34077" Txt="Sound" />
+    <List Id="34078" Txt="Sprache" />
+    <List Id="34079" Txt="Englisch" />
+    <List Id="34080" Txt="ToS" />
+    <List Id="34081" Txt="Fehler melden" />
+    <List Id="34082" Txt="Datenschutz" />
+    <List Id="34083" Txt="Support" />
+    <List Id="34084" Txt="E-Mail" />
+    <List Id="34085" Txt="Version 1.00" />
+    <List Id="34086" Txt="Copyright 2012-2013 IGG.COM Alle Rechte vorbehalten" />
+    <List Id="34087" Txt="Help.castle.de@igg.com" />
+    <List Id="34088" Txt="AUS" />
+    <List Id="34089" Txt="Anwerben" />
+    <List Id="34090" Txt="Ruhmpunkte" />
+    <List Id="34091" Txt="Edelsteine" />
+    <List Id="34092" Txt="Splittern" />
+    <List Id="34093" Txt="Push-Benchrichtigungen" />
+    <List Id="34094" Txt="An Freunde weitererzählen!" />
+    <List Id="34095" Txt="Account ist nicht verbunden!" />
+    <List Id="34096" Txt="Verbinden" />
+    <List Id="34097" Txt="Verbindung bestätigen?" />
+    <List Id="34098" Txt="Wechseln" />
+    <List Id="34099" Txt="Wechsel bestätigen?" />
+    <List Id="34100" Txt="Verbunden!" />
+    <List Id="34101" Txt="Verbindung erfolgreich!" />
+    <List Id="34102" Txt="Verbindung fehlgeschlagen!" />
+    <List Id="34103" Txt="Wartungsankündigung" />
+    <List Id="34104" Txt="Verteidigung erfolgreich!" />
+    <List Id="34105" Txt="Verteidigung fehlgeschlagen!" />
+    <List Id="34106" Txt="Freunde" />
+    <List Id="34107" Txt="PM" />
+    <List Id="34108" Txt="Freund hinzufügen" />
+    <List Id="34109" Txt="Accounts wechseln fehlgeschlagen" />
+    <List Id="34110" Txt="Standardanmeldung" />
+    <List Id="34111" Txt="Account wird jetzt verbunden" />
+    <List Id="34112" Txt="Zu %s" />
+    <List Id="34113" Txt="Mit Google-Konto verknüpfen!" />
+    <List Id="34114" Txt="Accounts wechseln" />
+    <List Id="34115" Txt="Wechsel erfolgreich!" />
+    <List Id="34116" Txt="Berechtige bitte zuerst den Account bevor Verbindung." />
+    <List Id="34117" Txt="Freunde entfernen" />
+    <List Id="34118" Txt="Dieser Spieler ist schon dein Freund." />
+    <List Id="34119" Txt="Deine Freundesliste ist voll!" />
+    <List Id="34120" Txt="ANG-Intervall:" />
+    <List Id="34121" Txt="Dieser Account wurde schon verbunden." />
+    <List Id="34122" Txt="Upgrade-Voraussetzungen" />
+    <List Id="34123" Txt="Verteidigungsbonus:" />
+    <List Id="34124" Txt="You already have an account with GAME CENTER, do you want to log in with it?" />
+    <List Id="34125" Txt="Du kannst nicht chatten, da dein Account nicht verbunden wurde. Möchtest du deinen Account jetzt verbinden?" />
+    <List Id="34126" Txt="Tell Your Friends!" />
+    <List Id="34127" Txt="Hey, I'm playing Castle Clash! Come join me and let's kick some ass! https://itunes.apple.com/us/app/castle-clash-by-igg/id692669501" />
+    <List Id="34128" Txt="Ende" />
+    <List Id="34129" Txt="Translation is missing" />
+    <List Id="34130" Txt="Garnison" />
+    <List Id="34131" Txt="Unterschiedliche Arten von Helden verursachen unterschiedliche Effekte." />
+    <List Id="34132" Txt="Aufnahme fehlgeschlagen!" />
+    <List Id="34133" Txt="Diese Gmail Adresse ist mit einem anderen Konto verbunden." />
+    <List Id="34134" Txt="Help.castle.apple@igg.com" />
+    <List Id="34135" Txt="Ränge werden täglich 00:00 Uhr aktualisiert" />
+    <List Id="34136" Txt="Translation is missing" />
+    <List Id="34137" Txt="Translation is missing" />
+    <List Id="34138" Txt="Bitte logge dich erneut ein und versuche es nochmal." />
+    <List Id="34139" Txt="Bitte versuche es nochmal in 1-2 Stunden." />
+    <List Id="34140" Txt="Dieses Google Konto ist bereits mit einem anderen Account verbunden. Wechsle bitte deinen Google Account und versuche es erneut." />
+    <List Id="34141" Txt="Dieser Account ist bereits verbunden. Eine erneute Verbindung is nicht notwendig." />
+    <List Id="34142" Txt="Der Rang verändert sich schon. Wähle bitte einen neuen Gegner aus." />
+    <List Id="34143" Txt="91VIP特权礼包" />
+    <List Id="34144" Txt="天盟&amp;91携手礼包" />
+    <List Id="34145" Txt="Aktueller Effekt" />
+    <List Id="34146" Txt="Nichts" />
+    <List Id="34147" Txt="Nächster Level" />
+    <List Id="34148" Txt="Höchsten Level erreicht." />
+    <List Id="34149" Txt="Einladung" />
+    <List Id="34150" Txt="Spiel mit!" />
+    <List Id="34151" Txt="Hey, ich spiele Schloss Konflikt: Castle Clash! Spiel mit und lass uns die anderen vermöbeln! https://play.google.com/store/apps/details?id=com.igg.castleclash_de" />
+    <List Id="34152" Txt="公测大礼包" />
+    <List Id="34153" Txt="争霸大礼包" />
+    <List Id="34154" Txt="Deutsch" />
+    <List Id="34155" Txt="关注小米游戏中心" />
+    <List Id="34156" Txt="关注小米论坛" />
+    <List Id="34157" Txt="Fähigkeit auswechseln?" />
+    <List Id="34158" Txt="Weitere" />
+    <List Id="34159" Txt="Möchten Sie das Tutorial überspringen?" />
+  </Text>
+  <Text Type="14" TypeTxt="新炮臺信息">
+    <List Id="35000" Txt="Translation is missing" />
+    <List Id="35001" Txt="Erhöht Reichweite um 3. Helden werden bevorzugt angezielt." />
+    <List Id="35002" Txt="Erhöht Reichweite um 6. Helden werden bevorzugt angezielt." />
+    <List Id="35003" Txt="Erhöht Reichweite um 9. Helden werden bevorzugt angezielt." />
+    <List Id="35004" Txt="Erhöht Reichweite um 12. Helden werden bevorzugt angezielt." />
+    <List Id="35005" Txt="Erhöht Reichweite um 15. Helden werden bevorzugt angezielt." />
+    <List Id="35011" Txt="Teilt dem Helden 150% SCH zu" />
+    <List Id="35012" Txt="Teilt dem Helden 200% SCH zu" />
+    <List Id="35013" Txt="Teilt dem Helden 250% SCH zu" />
+    <List Id="35014" Txt="Teilt dem Helden 300% SCH zu" />
+    <List Id="35015" Txt="Teilt dem Helden 350% SCH zu" />
+    <List Id="35021" Txt="Erhöht LP um 10% und Ziel erlittenen SCH um 2%." />
+    <List Id="35022" Txt="Erhöht LP um 20% und Ziel erlittenen SCH um 4%." />
+    <List Id="35023" Txt="Erhöht LP um 30% und Ziel erlittenen SCH um 6%." />
+    <List Id="35024" Txt="Erhöht LP um 40% und Ziel erlittenen SCH um 8%." />
+    <List Id="35025" Txt="Erhöht LP um 50% und Ziel erlittenen SCH um 10%." />
+    <List Id="35031" Txt="Erhöht SCH um 20%." />
+    <List Id="35032" Txt="Erhöht SCH um 40%." />
+    <List Id="35033" Txt="Erhöht SCH um 60%." />
+    <List Id="35034" Txt="Erhöht SCH um 80%." />
+    <List Id="35035" Txt="Erhöht SCH um 100%." />
+    <List Id="35041" Txt="Erhöht Reichweite des Projektilschadens um 1." />
+    <List Id="35042" Txt="Erhöht Reichweite des Projektilschadens um 2." />
+    <List Id="35043" Txt="Erhöht Reichweite des Projektilschadens um 3." />
+    <List Id="35044" Txt="Erhöht Reichweite des Projektilschadens um 4." />
+    <List Id="35045" Txt="Erhöht Reichweite des Projektilschadens um 5." />
+    <List Id="35051" Txt="15% Wahrscheinlichkeit 2 Kanonenschüsse auf einmal abzufeuern." />
+    <List Id="35052" Txt="25% Wahrscheinlichkeit 2 Kanonenschüsse auf einmal abzufeuern." />
+    <List Id="35053" Txt="35% Wahrscheinlichkeit 2 Kanonenschüsse auf einmal abzufeuern." />
+    <List Id="35054" Txt="45% Wahrscheinlichkeit 2 Kanonenschüsse auf einmal abzufeuern." />
+    <List Id="35055" Txt="55% Wahrscheinlichkeit 2 Kanonenschüsse auf einmal abzufeuern." />
+    <List Id="35061" Txt="Erhöht ANG GES um 10%." />
+    <List Id="35062" Txt="Erhöht ANG GES um 20%." />
+    <List Id="35063" Txt="Erhöht ANG GES um 30%." />
+    <List Id="35064" Txt="Erhöht ANG GES um 40%." />
+    <List Id="35065" Txt="Erhöht ANG GES um 50%." />
+    <List Id="35071" Txt="5% Wahrscheinlichkeit 1.5 Sek lang Koma zu bewirken." />
+    <List Id="35072" Txt="10% Wahrscheinlichkeit 1.5 Sek lang Koma zu bewirken." />
+    <List Id="35073" Txt="15% Wahrscheinlichkeit 1.5 Sek lang Koma zu bewirken." />
+    <List Id="35074" Txt="20% Wahrscheinlichkeit 1.5 Sek lang Koma zu bewirken." />
+    <List Id="35075" Txt="25% Wahrscheinlichkeit 1.5 Sek lang Koma zu bewirken." />
+    <List Id="35081" Txt="Erhöht Anzahl der Angriffsziele um 1 und SCH um 5%." />
+    <List Id="35082" Txt="Erhöht Anzahl der Angriffsziele um 2 und SCH um 10%." />
+    <List Id="35083" Txt="Erhöht Anzahl der Angriffsziele um 3 und SCH um 15%." />
+    <List Id="35084" Txt="Erhöht Anzahl der Angriffsziele um 4 und SCH um 20%." />
+    <List Id="35085" Txt="Erhöht Anzahl der Angriffsziele um 5 und SCH um 25%." />
+  </Text>
+  <Text Type="15" TypeTxt="公会信息">
+    <List Id="36000" Txt="miss……" />
+    <List Id="36001" Txt="miss……" />
+    <List Id="36002" Txt="miss……" />
+    <List Id="36003" Txt="miss……" />
+    <List Id="36004" Txt="miss……" />
+    <List Id="36005" Txt="miss……" />
+    <List Id="36006" Txt="miss……" />
+    <List Id="36007" Txt="miss……" />
+    <List Id="36008" Txt="miss……" />
+    <List Id="36009" Txt="miss……" />
+    <List Id="36010" Txt="miss……" />
+    <List Id="36011" Txt="miss……" />
+    <List Id="36012" Txt="miss……" />
+    <List Id="36013" Txt="miss……" />
+    <List Id="36014" Txt="miss……" />
+    <List Id="36015" Txt="miss……" />
+    <List Id="36016" Txt="miss……" />
+    <List Id="36017" Txt="miss……" />
+    <List Id="36018" Txt="miss……" />
+    <List Id="36019" Txt="miss……" />
+    <List Id="36020" Txt="miss……" />
+    <List Id="36021" Txt="miss……" />
+    <List Id="36022" Txt="miss……" />
+    <List Id="36023" Txt="miss……" />
+    <List Id="36024" Txt="miss……" />
+    <List Id="36025" Txt="miss……" />
+    <List Id="36026" Txt="miss……" />
+    <List Id="36027" Txt="miss……" />
+    <List Id="36028" Txt="miss……" />
+    <List Id="36029" Txt="miss……" />
+    <List Id="36030" Txt="miss……" />
+    <List Id="36031" Txt="miss……" />
+    <List Id="36032" Txt="miss……" />
+    <List Id="36033" Txt="miss……" />
+    <List Id="36034" Txt="miss……" />
+    <List Id="36035" Txt="miss……" />
+    <List Id="36036" Txt="miss……" />
+    <List Id="36037" Txt="miss……" />
+    <List Id="36038" Txt="miss……" />
+    <List Id="36039" Txt="miss……" />
+    <List Id="36040" Txt="miss……" />
+    <List Id="36041" Txt="miss……" />
+    <List Id="36042" Txt="miss……" />
+    <List Id="36043" Txt="miss……" />
+    <List Id="36044" Txt="miss……" />
+    <List Id="36045" Txt="miss……" />
+    <List Id="36046" Txt="miss……" />
+    <List Id="36047" Txt="miss……" />
+    <List Id="36048" Txt="miss……" />
+    <List Id="36049" Txt="miss……" />
+    <List Id="36050" Txt="miss……" />
+    <List Id="36051" Txt="miss……" />
+    <List Id="36052" Txt="miss……" />
+    <List Id="36053" Txt="miss……" />
+    <List Id="36054" Txt="miss……" />
+    <List Id="36055" Txt="miss……" />
+    <List Id="36056" Txt="miss……" />
+    <List Id="36057" Txt="miss……" />
+    <List Id="36058" Txt="miss……" />
+    <List Id="36059" Txt="miss……" />
+    <List Id="36060" Txt="miss……" />
+    <List Id="36061" Txt="miss……" />
+    <List Id="36062" Txt="miss……" />
+    <List Id="36063" Txt="miss……" />
+    <List Id="36064" Txt="miss……" />
+    <List Id="36065" Txt="miss……" />
+    <List Id="36066" Txt="miss……" />
+    <List Id="36067" Txt="miss……" />
+    <List Id="36068" Txt="miss……" />
+    <List Id="36069" Txt="miss……" />
+    <List Id="36070" Txt="miss……" />
+    <List Id="36071" Txt="miss……" />
+    <List Id="36072" Txt="miss……" />
+    <List Id="36073" Txt="miss……" />
+    <List Id="36074" Txt="miss……" />
+    <List Id="36075" Txt="miss……" />
+    <List Id="36076" Txt="miss……" />
+    <List Id="36077" Txt="miss……" />
+    <List Id="36078" Txt="miss……" />
+    <List Id="36079" Txt="miss……" />
+    <List Id="36080" Txt="miss……" />
+    <List Id="36081" Txt="miss……" />
+    <List Id="36082" Txt="miss……" />
+    <List Id="36083" Txt="miss……" />
+    <List Id="36084" Txt="miss……" />
+    <List Id="36085" Txt="miss……" />
+    <List Id="36086" Txt="miss……" />
+    <List Id="36087" Txt="miss……" />
+    <List Id="36088" Txt="miss……" />
+    <List Id="36089" Txt="miss……" />
+    <List Id="36090" Txt="miss……" />
+    <List Id="36091" Txt="miss……" />
+    <List Id="36092" Txt="miss……" />
+    <List Id="36093" Txt="miss……" />
+    <List Id="36094" Txt="miss……" />
+    <List Id="36095" Txt="miss……" />
+    <List Id="36096" Txt="miss……" />
+    <List Id="36097" Txt="miss……" />
+    <List Id="36098" Txt="miss……" />
+    <List Id="36099" Txt="miss……" />
+    <List Id="36100" Txt="miss……" />
+    <List Id="36101" Txt="miss……" />
+    <List Id="36102" Txt="miss……" />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+    <List />
+  </Text>
+</Config>
+
+<!--
+建表时间【2013.05.02】 by CXGBuilding.xml
+关联配置表：
+Building.xml
+-->

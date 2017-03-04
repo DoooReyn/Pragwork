@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<region Name="分段" selection="1000" selection2="1000">
+<List ID="1" region="0,0,49,599" mine_number="101,5000;201,5000" />
+<List ID="2" region="50,50,49,499" mine_number="101,5000;201,5000" />
+<List ID="3" region="100,100,49,399" mine_number="101,5000;201,5000" />
+<List ID="4" region="150,150,49,299" mine_number="101,5000;201,5000" />
+<List ID="5" region="200,200,49,199" mine_number="101,5000;201,5000" />
+<List ID="6" region="350,0,49,599" mine_number="101,5000;201,5000" />
+<List ID="7" region="400,50,49,499" mine_number="101,5000;201,5000" />
+<List ID="8" region="450,100,49,399" mine_number="401,5000;501,5000" />
+<List ID="9" region="500,150,49,299" mine_number="401,5000;501,5000" />
+<List ID="10" region="550,200,49,199" mine_number="401,5000;501,5000" />
+<List ID="11" region="50,0,499,49" mine_number="401,5000;501,5000" />
+<List ID="12" region="100,50,399,49" mine_number="401,5000;501,5000" />
+<List ID="13" region="150,100,299,49" mine_number="401,5000;501,5000" />
+<List ID="14" region="200,150,199,49" mine_number="401,5000;501,5000" />
+<List ID="15" region="250,200,99,49" mine_number="401,5000;501,5000" />
+<List ID="16" region="250,350,99,49" mine_number="601,5000;701,5000" />
+<List ID="17" region="200,400,199,49" mine_number="601,5000;701,5000" />
+<List ID="18" region="150,450,299,49" mine_number="601,5000;701,5000" />
+<List ID="19" region="100,500,399,49" mine_number="601,5000;701,5000" />
+<List ID="20" region="50,550,499,49" mine_number="601,5000;701,5000" />
+<List ID="21" region="250,250,99,99" mine_number="601,5000;701,5000" />
+</region>
