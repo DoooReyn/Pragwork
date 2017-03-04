@@ -10,5 +10,6 @@
 #define init_h
 
 #include "HelloWorldScene.h"
+#include "MainScene.hpp"
 
 #endif /* init_h */

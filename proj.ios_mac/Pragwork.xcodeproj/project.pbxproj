@@ -61,6 +61,7 @@
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		B0CF292E1E6A88E700F2E42A /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0CF292C1E6A88E700F2E42A /* MainScene.cpp */; };
 		B0D8C9A71E6722B100D1D82C /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9A51E6722B100D1D82C /* SoundManager.cpp */; };
 		B0D8C9A81E6722B100D1D82C /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9A51E6722B100D1D82C /* SoundManager.cpp */; };
 		B0D8C9AD1E67239200D1D82C /* NetworkManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9AB1E67239200D1D82C /* NetworkManager.cpp */; };
@@ -77,6 +78,8 @@
 		B0D8C9C91E6999DC00D1D82C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D8C9C71E6999DC00D1D82C /* libsqlite3.tbd */; };
 		B0D8C9CD1E699FAE00D1D82C /* LocalDBManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9CB1E699FAE00D1D82C /* LocalDBManager.cpp */; };
 		B0D8C9CE1E699FAE00D1D82C /* LocalDBManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9CB1E699FAE00D1D82C /* LocalDBManager.cpp */; };
+		B0D8CA6E1E6A65A400D1D82C /* BaseScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8CA6C1E6A65A400D1D82C /* BaseScene.cpp */; };
+		B0D8CA6F1E6A65A400D1D82C /* BaseScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8CA6C1E6A65A400D1D82C /* BaseScene.cpp */; };
 		B0FA985A1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */; };
 		B0FA985B1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */; };
 		B0FA98681E645AF200A5C2E8 /* SceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FA98661E645AF200A5C2E8 /* SceneManager.cpp */; };
@@ -185,6 +188,8 @@
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B0CF292C1E6A88E700F2E42A /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainScene.cpp; path = Pragwork/UI/Scene/MainScene.cpp; sourceTree = "<group>"; };
+		B0CF292D1E6A88E700F2E42A /* MainScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MainScene.hpp; path = Pragwork/UI/Scene/MainScene.hpp; sourceTree = "<group>"; };
 		B0D8C99C1E65E2D900D1D82C /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = Pragwork/UI/Layer/init.h; sourceTree = "<group>"; };
 		B0D8C99F1E67179F00D1D82C /* VersionDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VersionDefine.h; path = Pragwork/Constant/VersionDefine.h; sourceTree = "<group>"; };
 		B0D8C9A01E6719D100D1D82C /* MathDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MathDefine.h; path = Pragwork/Constant/MathDefine.h; sourceTree = "<group>"; };
@@ -208,6 +213,8 @@
 		B0D8C9C71E6999DC00D1D82C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
 		B0D8C9CB1E699FAE00D1D82C /* LocalDBManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LocalDBManager.cpp; path = Pragwork/Manager/LocalDBManager.cpp; sourceTree = "<group>"; };
 		B0D8C9CC1E699FAE00D1D82C /* LocalDBManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = LocalDBManager.hpp; path = Pragwork/Manager/LocalDBManager.hpp; sourceTree = "<group>"; };
+		B0D8CA6C1E6A65A400D1D82C /* BaseScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseScene.cpp; path = Pragwork/Base/BaseScene.cpp; sourceTree = "<group>"; };
+		B0D8CA6D1E6A65A400D1D82C /* BaseScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BaseScene.hpp; path = Pragwork/Base/BaseScene.hpp; sourceTree = "<group>"; };
 		B0FA984C1E64545700A5C2E8 /* Pragwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pragwork.h; path = Pragwork/Pragwork.h; sourceTree = "<group>"; };
 		B0FA98501E6455AA00A5C2E8 /* BaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseDefine.h; path = Pragwork/Base/BaseDefine.h; sourceTree = "<group>"; };
 		B0FA98581E64577800A5C2E8 /* ShadeAssistLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ShadeAssistLayer.cpp; path = Pragwork/UI/Layer/Assist/ShadeAssistLayer.cpp; sourceTree = "<group>"; };
@@ -375,6 +382,7 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B0D8CA6A1E6A636100D1D82C /* Test */,
 				B0FA984B1E6453F500A5C2E8 /* Progwork */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
@@ -484,12 +492,21 @@
 			name = LocalDBManager;
 			sourceTree = "<group>";
 		};
+		B0D8CA6A1E6A636100D1D82C /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
 		B0FA98401E64534C00A5C2E8 /* Base */ = {
 			isa = PBXGroup;
 			children = (
 				B0FA98501E6455AA00A5C2E8 /* BaseDefine.h */,
 				B0D8C9B91E67292700D1D82C /* BaseFrame.cpp */,
 				B0D8C9BA1E67292700D1D82C /* BaseFrame.hpp */,
+				B0D8CA6C1E6A65A400D1D82C /* BaseScene.cpp */,
+				B0D8CA6D1E6A65A400D1D82C /* BaseScene.hpp */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -555,6 +572,8 @@
 			isa = PBXGroup;
 			children = (
 				B0FA986A1E645ED200A5C2E8 /* init.h */,
+				B0CF292C1E6A88E700F2E42A /* MainScene.cpp */,
+				B0CF292D1E6A88E700F2E42A /* MainScene.hpp */,
 			);
 			name = Scene;
 			sourceTree = "<group>";
@@ -778,6 +797,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				B0CF292E1E6A88E700F2E42A /* MainScene.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				B0FA986E1E6463CF00A5C2E8 /* FrameManager.cpp in Sources */,
 				B0FA98681E645AF200A5C2E8 /* SceneManager.cpp in Sources */,
@@ -789,6 +809,7 @@
 				B0D8C9BB1E67292700D1D82C /* BaseFrame.cpp in Sources */,
 				B0D8C9AD1E67239200D1D82C /* NetworkManager.cpp in Sources */,
 				B0D8C9B21E6723F700D1D82C /* PlatformManager.cpp in Sources */,
+				B0D8CA6E1E6A65A400D1D82C /* BaseScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				B0D8C9A71E6722B100D1D82C /* SoundManager.cpp in Sources */,
 			);
@@ -807,6 +828,7 @@
 				B0D8C9BC1E67292700D1D82C /* BaseFrame.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				B0D8C9A81E6722B100D1D82C /* SoundManager.cpp in Sources */,
+				B0D8CA6F1E6A65A400D1D82C /* BaseScene.cpp in Sources */,
 				B0FA98691E645AF200A5C2E8 /* SceneManager.cpp in Sources */,
 				B0FA986F1E6463CF00A5C2E8 /* FrameManager.cpp in Sources */,
 				B0D8C9CE1E699FAE00D1D82C /* LocalDBManager.cpp in Sources */,

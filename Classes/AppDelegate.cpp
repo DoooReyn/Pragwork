@@ -2,6 +2,7 @@
 #include "CocoSupport.h"
 #include "PragworkMacro.h"
 #include "Pragwork.h"
+#include "MainScene.hpp"
 
 static cocos2d::Size designResolutionSize = cocos2d::Size(480, 320);
 static cocos2d::Size smallResolutionSize = cocos2d::Size(480, 320);
@@ -85,7 +86,10 @@ bool AppDelegate::applicationDidFinishLaunching() {
     register_all_packages();
     setSearchPathes();
 
-    SceneManager::getInstance()->runScene(ESceneTree::HelloScene);
+//    SceneManager::getInstance()->runScene(ESceneTree::HelloScene);
+
+    BaseScene* pMainScene = new MainScene();
+    director->runWithScene(pMainScene);
 
     return true;
 }

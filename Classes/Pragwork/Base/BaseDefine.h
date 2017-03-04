@@ -10,5 +10,6 @@
 #define BaseDefine_h
 
 #include "BaseFrame.hpp"
+#include "BaseScene.hpp"
 
 #endif /* BaseDefine_h */
