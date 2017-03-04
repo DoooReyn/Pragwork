@@ -3,7 +3,9 @@
 #include "PragworkMacro.h"
 #include "Pragwork.h"
 #include "MainScene.hpp"
+// Below are testcases
 #include "TestTinyXml.hpp"
+#include "TestLevelDB.hpp"
 
 static cocos2d::Size designResolutionSize = cocos2d::Size(480, 320);
 static cocos2d::Size smallResolutionSize = cocos2d::Size(480, 320);
@@ -89,6 +91,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     BaseScene* pMainScene = new MainScene();
     director->runWithScene(pMainScene);
+    
+    LevelDBTestCase();
     
     return true;
 }

@@ -65,6 +65,10 @@
 		B08C08271E6ABCF0001B22EE /* TestTinyXml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C08241E6ABCF0001B22EE /* TestTinyXml.cpp */; };
 		B08C082C1E6B1BB6001B22EE /* XmlParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C082A1E6B1BB6001B22EE /* XmlParser.cpp */; };
 		B08C082D1E6B1BB6001B22EE /* XmlParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C082A1E6B1BB6001B22EE /* XmlParser.cpp */; };
+		B08C08641E6B3CDD001B22EE /* TestLevelDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C08621E6B3CDD001B22EE /* TestLevelDB.cpp */; };
+		B08C08651E6B3CDD001B22EE /* TestLevelDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C08621E6B3CDD001B22EE /* TestLevelDB.cpp */; };
+		B08C087F1E6B4B66001B22EE /* libleveldb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B08C087D1E6B4B66001B22EE /* libleveldb.a */; };
+		B08C08801E6B4B66001B22EE /* libmemenv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B08C087E1E6B4B66001B22EE /* libmemenv.a */; };
 		B0CF292E1E6A88E700F2E42A /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0CF292C1E6A88E700F2E42A /* MainScene.cpp */; };
 		B0D8C9A71E6722B100D1D82C /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9A51E6722B100D1D82C /* SoundManager.cpp */; };
 		B0D8C9A81E6722B100D1D82C /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9A51E6722B100D1D82C /* SoundManager.cpp */; };
@@ -196,6 +200,24 @@
 		B08C08251E6ABCF0001B22EE /* TestTinyXml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TestTinyXml.hpp; path = Pragwork/Test/TestTinyXml.hpp; sourceTree = "<group>"; };
 		B08C082A1E6B1BB6001B22EE /* XmlParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XmlParser.cpp; path = Pragwork/Helper/XmlParser/XmlParser.cpp; sourceTree = "<group>"; };
 		B08C082B1E6B1BB6001B22EE /* XmlParser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = XmlParser.hpp; path = Pragwork/Helper/XmlParser/XmlParser.hpp; sourceTree = "<group>"; };
+		B08C08621E6B3CDD001B22EE /* TestLevelDB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TestLevelDB.cpp; path = Pragwork/Test/TestLevelDB.cpp; sourceTree = "<group>"; };
+		B08C08631E6B3CDD001B22EE /* TestLevelDB.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TestLevelDB.hpp; path = Pragwork/Test/TestLevelDB.hpp; sourceTree = "<group>"; };
+		B08C087D1E6B4B66001B22EE /* libleveldb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libleveldb.a; path = "../Classes/Pragwork/Helper/LevelDB/out-static/libleveldb.a"; sourceTree = "<group>"; };
+		B08C087E1E6B4B66001B22EE /* libmemenv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmemenv.a; path = "../Classes/Pragwork/Helper/LevelDB/out-static/libmemenv.a"; sourceTree = "<group>"; };
+		B08C08841E6B4D86001B22EE /* c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = c.h; path = Pragwork/Helper/LevelDB/leveldb/c.h; sourceTree = "<group>"; };
+		B08C08851E6B4D86001B22EE /* cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cache.h; path = Pragwork/Helper/LevelDB/leveldb/cache.h; sourceTree = "<group>"; };
+		B08C08861E6B4D86001B22EE /* comparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = comparator.h; path = Pragwork/Helper/LevelDB/leveldb/comparator.h; sourceTree = "<group>"; };
+		B08C08871E6B4D86001B22EE /* db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = db.h; path = Pragwork/Helper/LevelDB/leveldb/db.h; sourceTree = "<group>"; };
+		B08C08881E6B4D86001B22EE /* dumpfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dumpfile.h; path = Pragwork/Helper/LevelDB/leveldb/dumpfile.h; sourceTree = "<group>"; };
+		B08C08891E6B4D86001B22EE /* env.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = env.h; path = Pragwork/Helper/LevelDB/leveldb/env.h; sourceTree = "<group>"; };
+		B08C088A1E6B4D86001B22EE /* filter_policy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = filter_policy.h; path = Pragwork/Helper/LevelDB/leveldb/filter_policy.h; sourceTree = "<group>"; };
+		B08C088B1E6B4D86001B22EE /* iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iterator.h; path = Pragwork/Helper/LevelDB/leveldb/iterator.h; sourceTree = "<group>"; };
+		B08C088C1E6B4D86001B22EE /* options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = options.h; path = Pragwork/Helper/LevelDB/leveldb/options.h; sourceTree = "<group>"; };
+		B08C088D1E6B4D86001B22EE /* slice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = slice.h; path = Pragwork/Helper/LevelDB/leveldb/slice.h; sourceTree = "<group>"; };
+		B08C088E1E6B4D86001B22EE /* status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = status.h; path = Pragwork/Helper/LevelDB/leveldb/status.h; sourceTree = "<group>"; };
+		B08C088F1E6B4D86001B22EE /* table_builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = table_builder.h; path = Pragwork/Helper/LevelDB/leveldb/table_builder.h; sourceTree = "<group>"; };
+		B08C08901E6B4D86001B22EE /* table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = table.h; path = Pragwork/Helper/LevelDB/leveldb/table.h; sourceTree = "<group>"; };
+		B08C08911E6B4D86001B22EE /* write_batch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = write_batch.h; path = Pragwork/Helper/LevelDB/leveldb/write_batch.h; sourceTree = "<group>"; };
 		B0CF292C1E6A88E700F2E42A /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainScene.cpp; path = Pragwork/UI/Scene/MainScene.cpp; sourceTree = "<group>"; };
 		B0CF292D1E6A88E700F2E42A /* MainScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MainScene.hpp; path = Pragwork/UI/Scene/MainScene.hpp; sourceTree = "<group>"; };
 		B0D8C99C1E65E2D900D1D82C /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = Pragwork/UI/Layer/init.h; sourceTree = "<group>"; };
@@ -255,6 +277,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08C087F1E6B4B66001B22EE /* libleveldb.a in Frameworks */,
+				B08C08801E6B4B66001B22EE /* libmemenv.a in Frameworks */,
 				B0D8C9C81E6999DC00D1D82C /* libsqlite3.0.tbd in Frameworks */,
 				B0D8C9C91E6999DC00D1D82C /* libsqlite3.tbd in Frameworks */,
 				294D0D641D0D56D500F7F5D4 /* CoreText.framework in Frameworks */,
@@ -347,6 +371,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B08C087D1E6B4B66001B22EE /* libleveldb.a */,
+				B08C087E1E6B4B66001B22EE /* libmemenv.a */,
 				B0D8C9C61E6999DC00D1D82C /* libsqlite3.0.tbd */,
 				B0D8C9C71E6999DC00D1D82C /* libsqlite3.tbd */,
 				294D0D631D0D56D500F7F5D4 /* CoreText.framework */,
@@ -391,7 +417,7 @@
 			isa = PBXGroup;
 			children = (
 				B0D8CA6A1E6A636100D1D82C /* Test */,
-				B0FA984B1E6453F500A5C2E8 /* Progwork */,
+				B0FA984B1E6453F500A5C2E8 /* Pragwork */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
@@ -457,6 +483,27 @@
 			name = XmlParser;
 			sourceTree = "<group>";
 		};
+		B08C08831E6B4CFA001B22EE /* LevelDB */ = {
+			isa = PBXGroup;
+			children = (
+				B08C08841E6B4D86001B22EE /* c.h */,
+				B08C08851E6B4D86001B22EE /* cache.h */,
+				B08C08861E6B4D86001B22EE /* comparator.h */,
+				B08C08871E6B4D86001B22EE /* db.h */,
+				B08C08881E6B4D86001B22EE /* dumpfile.h */,
+				B08C08891E6B4D86001B22EE /* env.h */,
+				B08C088A1E6B4D86001B22EE /* filter_policy.h */,
+				B08C088B1E6B4D86001B22EE /* iterator.h */,
+				B08C088C1E6B4D86001B22EE /* options.h */,
+				B08C088D1E6B4D86001B22EE /* slice.h */,
+				B08C088E1E6B4D86001B22EE /* status.h */,
+				B08C088F1E6B4D86001B22EE /* table_builder.h */,
+				B08C08901E6B4D86001B22EE /* table.h */,
+				B08C08911E6B4D86001B22EE /* write_batch.h */,
+			);
+			name = LevelDB;
+			sourceTree = "<group>";
+		};
 		B0D8C9A41E67228900D1D82C /* SoundManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -514,6 +561,8 @@
 			children = (
 				B08C08241E6ABCF0001B22EE /* TestTinyXml.cpp */,
 				B08C08251E6ABCF0001B22EE /* TestTinyXml.hpp */,
+				B08C08621E6B3CDD001B22EE /* TestLevelDB.cpp */,
+				B08C08631E6B3CDD001B22EE /* TestLevelDB.hpp */,
 			);
 			name = Test;
 			sourceTree = "<group>";
@@ -551,17 +600,11 @@
 		B0FA98451E64535E00A5C2E8 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				B08C08831E6B4CFA001B22EE /* LevelDB */,
 				B08C08291E6B1B86001B22EE /* XmlParser */,
 				B0D8C9C01E688A8D00D1D82C /* HtmlParser */,
 			);
 			name = Helper;
-			sourceTree = "<group>";
-		};
-		B0FA98461E64536600A5C2E8 /* Libs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Libs;
 			sourceTree = "<group>";
 		};
 		B0FA98471E64536C00A5C2E8 /* Manager */ = {
@@ -609,12 +652,11 @@
 			name = Layer;
 			sourceTree = "<group>";
 		};
-		B0FA984B1E6453F500A5C2E8 /* Progwork */ = {
+		B0FA984B1E6453F500A5C2E8 /* Pragwork */ = {
 			isa = PBXGroup;
 			children = (
 				B0FA98481E64537300A5C2E8 /* UI */,
 				B0FA98471E64536C00A5C2E8 /* Manager */,
-				B0FA98461E64536600A5C2E8 /* Libs */,
 				B0FA98451E64535E00A5C2E8 /* Helper */,
 				B0FA98441E64535400A5C2E8 /* Constant */,
 				B0FA98401E64534C00A5C2E8 /* Base */,
@@ -622,7 +664,7 @@
 				B0FA98631E645A5F00A5C2E8 /* PragworkMacro.h */,
 				B0D8C9C51E689B6B00D1D82C /* CocoSupport.h */,
 			);
-			name = Progwork;
+			name = Pragwork;
 			sourceTree = "<group>";
 		};
 		B0FA98551E6456F900A5C2E8 /* Alert */ = {
@@ -833,6 +875,7 @@
 				B0D8C9B21E6723F700D1D82C /* PlatformManager.cpp in Sources */,
 				B0D8CA6E1E6A65A400D1D82C /* BaseScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				B08C08641E6B3CDD001B22EE /* TestLevelDB.cpp in Sources */,
 				B0D8C9A71E6722B100D1D82C /* SoundManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -854,6 +897,7 @@
 				B0D8C9A81E6722B100D1D82C /* SoundManager.cpp in Sources */,
 				B0D8CA6F1E6A65A400D1D82C /* BaseScene.cpp in Sources */,
 				B0FA98691E645AF200A5C2E8 /* SceneManager.cpp in Sources */,
+				B08C08651E6B3CDD001B22EE /* TestLevelDB.cpp in Sources */,
 				B0FA986F1E6463CF00A5C2E8 /* FrameManager.cpp in Sources */,
 				B0D8C9CE1E699FAE00D1D82C /* LocalDBManager.cpp in Sources */,
 			);
@@ -882,6 +926,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -900,7 +945,7 @@
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../Classes/Pragwork/Helper/LevelDB/out-static";
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
@@ -920,6 +965,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
@@ -931,7 +977,7 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../Classes/Pragwork/Helper/LevelDB/out-static";
 				OTHER_LDFLAGS = (
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
@@ -1010,6 +1056,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -1020,8 +1067,18 @@
 					"$(SRCROOT)/../cocos2d/extensions",
 					"$(SRCROOT)/../cocos2d/external",
 					"$(SRCROOT)/../cocos2d/external/chipmunk/include/chipmunk",
+					"$(SRCROOT)/../Classes/Pragwork/Helper/XmlParser",
+					"$(SRCROOT)/../Classes/Pragwork/Helper",
+					"$(SRCROOT)/../Classes/Pragwork/Manager",
+					"$(SRCROOT)/../Classes/Pragwork/UI/**",
+					"$(SRCROOT)/../Classes/Pragwork/UI/Scene",
+					"$(SRCROOT)/../Classes/Pragwork/UI/Layer",
+					"$(SRCROOT)/../Classes/Pragwork/Manager/**",
+					"$(SRCROOT)/../Classes/Pragwork/Helper/LevelDB",
+					"$(SRCROOT)/../Classes/Pragwork/Helper",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../Classes/Pragwork/Helper/LevelDB/out-static";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1034,6 +1091,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
@@ -1043,9 +1101,20 @@
 					"$(SRCROOT)/../cocos2d/extensions",
 					"$(SRCROOT)/../cocos2d/external",
 					"$(SRCROOT)/../cocos2d/external/chipmunk/include/chipmunk",
+					"$(SRCROOT)/../Classes/Pragwork/Helper/XmlParser",
+					"$(SRCROOT)/../Classes/Pragwork/Helper",
+					"$(SRCROOT)/../Classes/Pragwork/Manager",
+					"$(SRCROOT)/../Classes/Pragwork/UI/**",
+					"$(SRCROOT)/../Classes/Pragwork/UI/Scene",
+					"$(SRCROOT)/../Classes/Pragwork/UI/Layer",
+					"$(SRCROOT)/../Classes/Pragwork/Manager/**",
+					"$(SRCROOT)/../Classes/Pragwork/Helper/LevelDB",
+					"$(SRCROOT)/../Classes/Pragwork/Helper",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../Classes/Pragwork/Helper/LevelDB/out-static";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
