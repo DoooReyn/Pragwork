@@ -40,6 +40,7 @@ public:
     leveldb::Status select(const std::string key, std::string& value);
     void disconnect(LevelDBCode code);
     void dump();
+    void seek(std::string start="", std::string limit="");
     
 private:
     LevelDBManager();

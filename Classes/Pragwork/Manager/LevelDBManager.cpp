@@ -27,9 +27,9 @@ leveldb::Status LevelDBManager::connect(LevelDBCode code) {
     leveldb::Status status = leveldb::DB::Open(options, FileUtils::getInstance()->fullPathForFilename(MapLevelDB.at(code)), &m_pDatabase);
     if(status.ok()) {
         m_eDBCode = code;
-        CCLOG("Database : %s\t Status : %s", MapLevelDB.at(code).c_str(), status.ToString().c_str());
+        CCLOG("Database : %s\t connect %s", MapLevelDB.at(code).c_str(), status.ToString().c_str());
     } else {
-        CCLOG("!!! [warning] Database : %s\t Status : %s", MapLevelDB.at(code).c_str(), status.ToString().c_str());
+        CCLOG("!!! [warning] Database : %s\t connect : %s", MapLevelDB.at(code).c_str(), status.ToString().c_str());
     }
     return status;
 }
@@ -80,6 +80,29 @@ void LevelDBManager::dump() {
         CCLOG("Database : %s\t dump", MapLevelDB.at(m_eDBCode).c_str());
         for (it->SeekToFirst(); it->Valid(); it->Next()) {
             CCLOG(" ==> DUMP: $(%s) #(%s)", it->key().ToString().c_str(), it->value().ToString().c_str());
+        }
+    }
+}
+
+void LevelDBManager::seek(std::string start, std::string limit) {
+    if(m_pDatabase || connect(m_eDBCode).ok()) {
+        leveldb::Iterator* it = m_pDatabase->NewIterator(leveldb::ReadOptions());
+        
+        it->SeekToLast();
+        const leveldb::Slice last = it->key();
+        if(limit.empty()) {
+            limit = last.ToString();
+        }
+        
+        it->SeekToFirst();
+        if(!start.empty()) {
+            it->Seek(start);
+        }
+        
+        CCLOG("Database : %s\t seek ", MapLevelDB.at(m_eDBCode).c_str());
+        
+        for( ; it->Valid() && it->key().ToString() < limit; it->Next()) {
+            CCLOG(" ==> SEEK: $(%s) #(%s)", it->key().ToString().c_str(), it->value().ToString().c_str());
         }
     }
 }
