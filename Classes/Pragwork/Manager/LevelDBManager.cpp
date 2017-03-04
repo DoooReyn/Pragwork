@@ -106,3 +106,10 @@ void LevelDBManager::seek(std::string start, std::string limit) {
         }
     }
 }
+
+bool LevelDBManager::compare(std::string key1, std::string key2) {
+    string ret1, ret2;
+    select(key1, ret1);
+    select(key2, ret2);
+    return ret1 == ret2;
+}

@@ -41,7 +41,7 @@ public:
     void disconnect(LevelDBCode code);
     void dump();
     void seek(std::string start="", std::string limit="");
-    
+    bool compare(std::string key1, std::string key2);
 private:
     LevelDBManager();
     ~LevelDBManager();
