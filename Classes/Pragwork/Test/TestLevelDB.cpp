@@ -16,12 +16,22 @@ void LevelDBTestCase() {
     leveldb::Options options;
     options.create_if_missing = true;
     leveldb::Status status = leveldb::DB::Open(options, FileUtils::getInstance()->fullPathForFilename("res/db"), &db);
-    CCLOG("Status : %s", status.ToString().c_str());
+    CCLOG("Status : %s \n path : %s", status.ToString().c_str(), FileUtils::getInstance()->fullPathForFilename("res/db").c_str());
+    assert(status.ok());
+    
+    std::string key0="key0";
+    std::string value0 = "0";
+
+    status = db->Get(leveldb::ReadOptions(), key0, &value0);
+    std::cout<< "value0: "<< value0 <<std::endl;
+    
+    status = db->Put(leveldb::WriteOptions(), key0, "value00000");
     assert(status.ok());
     
     //write key1,value1
     std::string key="key";
     std::string value = "value";
+    
     
     status = db->Put(leveldb::WriteOptions(), key,value);
     assert(status.ok());
@@ -49,5 +59,6 @@ void LevelDBTestCase() {
     if(!status.ok()) std::cerr<<key<<"  "<<status.ToString()<<std::endl;
     else std::cout<<key<<"="<<value<<std::endl;
     
-    delete db;
+//    delete db;
+
 }
