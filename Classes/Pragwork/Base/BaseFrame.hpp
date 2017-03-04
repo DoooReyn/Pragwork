@@ -38,7 +38,7 @@ public:
     std::string     m_sFrameName;       //窗口类名称
     std::string     m_sUIFile;          //窗口 UI 文件
     std::string     m_sTitleText;       //窗口标题文本
-    UILoadMode    m_eUIFileType;      //窗口 UI 文件类型：CSB，JSon，XML
+    UILoadMode      m_eUIFileType;      //窗口 UI 文件类型：CSB，JSon，XML
     bool            m_bIsGuide;         //是否是新手引导
     bool            m_bUseBaseAnim;     //是否使用原定的动画
     bool            m_bIsNeedAnim;      //是否需要支持弹出收起动画
@@ -50,7 +50,8 @@ public:
     static bool     m_bOnSingleton;     //是否需要支持创建单例
                                         //    EventCode       m_eEventCode;     //注册事件类型
                                         //    CustomEventListener*  m_event;    //注册事件
-    bool            m_bIsMutex;         //是否与其他窗口互斥
+    bool            m_bIsMutex;         //是否与上一层窗口互斥
+    bool            m_bIsMutexAll;      //是否与所有窗口互斥,如果是,当它存在时,其他窗口都将被移除
     
 private:
     static BaseFrame* m_pSingleton; //单例指针，如果不允许创建单例，当使用获取\
@@ -124,6 +125,7 @@ public:
      * 执行退出动画
      ******************************/
     virtual void doExitAnimation();
+    virtual void close();
     
     /******************************
      * 加载 UI
@@ -133,12 +135,14 @@ public:
     /******************************
      * 注册关闭按钮事件
      ******************************/
-    virtual void onCloseBtnEvt(Ref* pSender, Widget::TouchEventType type);
+    virtual void onCloseBtnEvt(Ref* pSender,
+                               Widget::TouchEventType type);
     
     /******************************
      * 注册确定按钮事件
      ******************************/
-    virtual void onConfirmBtnEvt(Ref* pSender, Widget::TouchEventType type);
+    virtual void onConfirmBtnEvt(Ref* pSender,
+                                 Widget::TouchEventType type);
     
     /******************************
      * 刷新新手引导 TODO
@@ -173,7 +177,9 @@ public:
     /******************************
      * 添加一个屏蔽层
      ******************************/
-    void addMaskFrame(int nZOrder=-1, const Color3B& color = Color3B::BLACK, unsigned char opaicty=128);
+    void addMaskFrame(int nZOrder=-1,
+                      const Color3B& color = Color3B::BLACK,
+                      unsigned char opaicty=128);
     
     /******************************
      * 添加一个位于顶部的屏蔽层
@@ -198,35 +204,58 @@ public:
     /******************************
      * 设置屏蔽层的颜色和透明度
      ******************************/
-    void setMaskColorOpacity(const Color3B& c3b=Color3B::BLACK, unsigned char opacity=128);
+    void setMaskColorOpacity(const Color3B& c3b=Color3B::BLACK,
+                             unsigned char opacity=128);
 
 /*===========================================================
  > 以下是设置进入动画和退出动画的接口
  ============================================================
  */
-    inline void setEnterActionCode(ActionCode code) { m_eEnterCode = code; }
-    inline void setExitActionCode(ActionCode code)  { m_eExitCode  = code; }
+    inline void setEnterActionCode(ActionCode code) {
+        m_eEnterCode = code;
+    }
+    inline void setExitActionCode(ActionCode code)  {
+        m_eExitCode  = code;
+    }
     
 /*===========================================================
  > 以下是新手引导相关接口
  ============================================================
  */
-    inline bool isGuide() { return m_bIsGuide; }
-    inline void setGuide(bool isGuide) { m_bIsGuide = isGuide; }
+    inline bool isGuide() {
+        return m_bIsGuide;
+    }
+    inline void setGuide(bool isGuide) {
+        m_bIsGuide = isGuide;
+    }
     
 /*===========================================================
  > 以下是多点触摸相关接口
  ============================================================
  */
-    inline bool isMutilTouch() { return m_bIsMultiTouch; }
-    inline void setMutilTouch(bool isMultiTouch) { m_bIsMultiTouch = isMultiTouch; }
+    inline bool isMutilTouch() {
+        return m_bIsMultiTouch;
+    }
+    inline void setMutilTouch(bool isMultiTouch) {
+        m_bIsMultiTouch = isMultiTouch;
+    }
     
 /*===========================================================
  > 以下是窗口互斥相关接口
  ============================================================
  */
-    inline bool isMutex() { return m_bIsMutex; }
-    inline void setMutext(bool isMutex) { m_bIsMutex = isMutex; }
+    inline bool isMutex() {
+        return m_bIsMutex;
+    }
+    inline void setMutext(bool isMutex) {
+        m_bIsMutex = isMutex;
+    }
+    inline bool isMutexAll() {
+        return m_bIsMutexAll;
+    }
+    inline void setMutextAll( bool isMutexAll ) {
+        m_bIsMutexAll = isMutexAll;
+    }
     
 protected:
     

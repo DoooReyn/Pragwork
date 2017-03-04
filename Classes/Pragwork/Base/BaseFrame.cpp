@@ -21,6 +21,7 @@ BaseFrame::BaseFrame()
 , m_bIsNeedAnim(true)
 , m_bIsMultiTouch(false)
 , m_bTouchClose(false)
+, m_bIsMutexAll(false)
 , m_eEnterCode(ActionCode::None)
 , m_eExitCode(ActionCode::None)
 {
@@ -47,10 +48,7 @@ void BaseFrame::onEnter() {
 
 void BaseFrame::onExit() {
     CCLOG("%s onExit", m_sFrameName.c_str());
-    
     Layer::onExit();
-    cleanResources();
-    disableListenEvent();
 }
 
 void BaseFrame::onCleanUp() {
@@ -62,16 +60,14 @@ void BaseFrame::onCleanUp() {
 
 void BaseFrame::onEnterTransitionDidFinish() {
     CCLOG("%s onEnterTransitionDidFinish", m_sFrameName.c_str());
-    
-    Layer::onEnterTransitionDidFinish();
     doEnterAnimation();
+    Layer::onEnterTransitionDidFinish();
 }
 
 void BaseFrame::onExitTransitionDidStart() {
     CCLOG("%s onExitTransitionDidStart", m_sFrameName.c_str());
-    
+    close();
     Layer::onExitTransitionDidStart();
-    doExitAnimation();
 }
 
 void BaseFrame::onFrameUpdate() {
@@ -89,6 +85,12 @@ void BaseFrame::doEnterAnimation() {
         if(m_eEnterCode == ActionCode::None) return;
         runAction(getActionByCode(m_eEnterCode));
     }
+}
+
+void BaseFrame::close() {
+    doExitAnimation();
+    cleanResources();
+    disableListenEvent();
 }
 
 void BaseFrame::doExitAnimation() {
@@ -132,7 +134,7 @@ void BaseFrame::onCloseBtnEvt(Ref* pSender, Widget::TouchEventType type) {
     
     if(type == Widget::TouchEventType::ENDED) {
         if(m_bIsNeedAnim) {
-            doExitAnimation();
+            close();
         } else {
             removeFromParent();
         }
