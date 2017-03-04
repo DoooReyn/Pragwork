@@ -87,10 +87,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
     register_all_packages();
     setSearchPathes();
 
-//    BaseScene* pMainScene = new MainScene();
-//    director->runWithScene(pMainScene);
-
-    testcase_create();
+    BaseScene* pMainScene = new MainScene();
+    director->runWithScene(pMainScene);
     
     return true;
 }

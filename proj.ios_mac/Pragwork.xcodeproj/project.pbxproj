@@ -63,6 +63,8 @@
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
 		B08C08261E6ABCF0001B22EE /* TestTinyXml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C08241E6ABCF0001B22EE /* TestTinyXml.cpp */; };
 		B08C08271E6ABCF0001B22EE /* TestTinyXml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C08241E6ABCF0001B22EE /* TestTinyXml.cpp */; };
+		B08C082C1E6B1BB6001B22EE /* XmlParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C082A1E6B1BB6001B22EE /* XmlParser.cpp */; };
+		B08C082D1E6B1BB6001B22EE /* XmlParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C082A1E6B1BB6001B22EE /* XmlParser.cpp */; };
 		B0CF292E1E6A88E700F2E42A /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0CF292C1E6A88E700F2E42A /* MainScene.cpp */; };
 		B0D8C9A71E6722B100D1D82C /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9A51E6722B100D1D82C /* SoundManager.cpp */; };
 		B0D8C9A81E6722B100D1D82C /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9A51E6722B100D1D82C /* SoundManager.cpp */; };
@@ -192,6 +194,8 @@
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		B08C08241E6ABCF0001B22EE /* TestTinyXml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TestTinyXml.cpp; path = Pragwork/Test/TestTinyXml.cpp; sourceTree = "<group>"; };
 		B08C08251E6ABCF0001B22EE /* TestTinyXml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TestTinyXml.hpp; path = Pragwork/Test/TestTinyXml.hpp; sourceTree = "<group>"; };
+		B08C082A1E6B1BB6001B22EE /* XmlParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XmlParser.cpp; path = Pragwork/Helper/XmlParser/XmlParser.cpp; sourceTree = "<group>"; };
+		B08C082B1E6B1BB6001B22EE /* XmlParser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = XmlParser.hpp; path = Pragwork/Helper/XmlParser/XmlParser.hpp; sourceTree = "<group>"; };
 		B0CF292C1E6A88E700F2E42A /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainScene.cpp; path = Pragwork/UI/Scene/MainScene.cpp; sourceTree = "<group>"; };
 		B0CF292D1E6A88E700F2E42A /* MainScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MainScene.hpp; path = Pragwork/UI/Scene/MainScene.hpp; sourceTree = "<group>"; };
 		B0D8C99C1E65E2D900D1D82C /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = Pragwork/UI/Layer/init.h; sourceTree = "<group>"; };
@@ -444,6 +448,15 @@
 			path = ios;
 			sourceTree = SOURCE_ROOT;
 		};
+		B08C08291E6B1B86001B22EE /* XmlParser */ = {
+			isa = PBXGroup;
+			children = (
+				B08C082A1E6B1BB6001B22EE /* XmlParser.cpp */,
+				B08C082B1E6B1BB6001B22EE /* XmlParser.hpp */,
+			);
+			name = XmlParser;
+			sourceTree = "<group>";
+		};
 		B0D8C9A41E67228900D1D82C /* SoundManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -538,6 +551,7 @@
 		B0FA98451E64535E00A5C2E8 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				B08C08291E6B1B86001B22EE /* XmlParser */,
 				B0D8C9C01E688A8D00D1D82C /* HtmlParser */,
 			);
 			name = Helper;
@@ -812,6 +826,7 @@
 				B0D8C9CD1E699FAE00D1D82C /* LocalDBManager.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				B08C082C1E6B1BB6001B22EE /* XmlParser.cpp in Sources */,
 				B0D8C9B71E67257200D1D82C /* GlobalManager.cpp in Sources */,
 				B0D8C9BB1E67292700D1D82C /* BaseFrame.cpp in Sources */,
 				B0D8C9AD1E67239200D1D82C /* NetworkManager.cpp in Sources */,
@@ -827,6 +842,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0D8C9B81E67257200D1D82C /* GlobalManager.cpp in Sources */,
+				B08C082D1E6B1BB6001B22EE /* XmlParser.cpp in Sources */,
 				B0D8C9AE1E67239200D1D82C /* NetworkManager.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				B0D8C9B31E6723F700D1D82C /* PlatformManager.cpp in Sources */,
