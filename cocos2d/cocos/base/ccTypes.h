@@ -53,6 +53,7 @@ struct CC_DLL Color3B
 {
     Color3B();
     Color3B(GLubyte _r, GLubyte _g, GLubyte _b);
+    Color3B(std::string hex);
     explicit Color3B(const Color4B& color);
     explicit Color3B(const Color4F& color);
 

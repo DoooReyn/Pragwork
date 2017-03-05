@@ -8,6 +8,7 @@
 
 #include "CocosDefine.h"
 #include "MainScene.hpp"
+#include "LabelXML.hpp"
 
 static int i = 0;
 
@@ -31,7 +32,7 @@ BaseFrame* createFrame(string name, int index) {
     pFrame->m_bIsMutexAll = index == 3;//true;
     pFrame->addMaskFrameAtBottom();
     pFrame->setMaskColorOpacity(Color3B::BLUE, 168);
-    auto pLabel = Label::createWithTTF(name, "fonts/Marker Felt.ttf", 40);
+    auto pLabel = Label::createWithTTF(name, DEFAULT_FONT, 40);
     pLabel->setAnchorPoint(Vec2(0, 0.5));
     Vec2 pos = ccpLeftCenter(pFrame);
     pLabel->setPosition(pos.x, pos.y+30*(2-index));
@@ -43,9 +44,9 @@ BaseFrame* createFrame(string name, int index) {
 bool MainScene::init() {
     bool initialize = BaseScene::init();
     
-    auto label1 = Label::createWithTTF("AppendFrame", "fonts/Marker Felt.ttf", 20);
-    auto label2 = Label::createWithTTF("RemoveFrame", "fonts/Marker Felt.ttf", 20);
-    auto label3 = Label::createWithTTF("RemoveAll", "fonts/Marker Felt.ttf", 20);
+    auto label1 = Label::createWithTTF("AppendFrame", DEFAULT_FONT, 20);
+    auto label2 = Label::createWithTTF("RemoveFrame", DEFAULT_FONT, 20);
+    auto label3 = Label::createWithTTF("RemoveAll", DEFAULT_FONT, 20);
     
     auto closeItem1 = MenuItemLabel::create(label1, CC_CALLBACK_1(MainScene::appendFrameCB, this));
     auto closeItem2 = MenuItemLabel::create(label2, CC_CALLBACK_1(MainScene::removeFrameCB, this));
@@ -54,13 +55,26 @@ bool MainScene::init() {
     auto menu = Menu::create(closeItem1, closeItem2, closeItem3, NULL);
     menu->alignItemsVerticallyWithPadding(30);
     menu->setPosition(ccpCenter(this));
-    this->addChild(menu, 9999);
+//    this->addChild(menu, 9999);
     
     m_vecLocalFrame = {
-        createFrame("Frame1", 1),
-        createFrame("Frame2", 2),
-        createFrame("Frame3", 3)
+        createFrame("窗口1", 1),
+        createFrame("窗口2", 2),
+        createFrame("窗口3", 3)
     };
+    
+    LabelXML* pLabel = new LabelXML(FileUtils::getInstance()->getStringFromFile("res/test0.xml"));
+    pLabel->setPosition(20,60);
+    addChild(pLabel, 4);
+    
+    LabelXML* pLabel2 = new LabelXML(FileUtils::getInstance()->getStringFromFile("res/test.xml"));
+    pLabel2->setMaxWidth(240);
+    pLabel2->setCharSpace(6);
+    pLabel2->setLineSpace(10);
+    pLabel2->doLayout();
+    pLabel2->playAnimation();
+    pLabel2->setPosition(100, 100);
+    addChild(pLabel2, 4);
     
     return initialize;
 }

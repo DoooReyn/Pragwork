@@ -92,7 +92,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     BaseScene* pMainScene = new MainScene();
     director->runWithScene(pMainScene);
     
-    LevelDBTestCase();
+//    LevelDBTestCase();
     
     return true;
 }

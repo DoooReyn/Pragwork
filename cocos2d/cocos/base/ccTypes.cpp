@@ -29,6 +29,48 @@ Copyright (c) 2013-2014 Chukong Technologies Inc.
 
 NS_CC_BEGIN
 
+bool CheckHexChar(unsigned char hex) {
+    if(hex >= '0' && hex <= '9') return true;
+    if(hex >= 'A' && hex <= 'F') return true;
+    if(hex >= 'a' && hex <= 'f') return true;
+    return false;
+}
+
+unsigned char UpperCaseChar(unsigned char  hex) {
+    return (hex >= 'a' && hex <= 'z') ? hex-'a'+'A' : hex;
+}
+
+std::string AutoConvertHexStr(const std::string& hex) {
+    std::string ret;
+    ret.clear();
+    for(int i = 0; i < hex.size(); i++) {
+        bool check = CheckHexChar(hex.at(i));
+        if(check)
+            ret += hex.at(i);
+        else
+            ret += "0";
+    }
+    return ret;
+}
+
+unsigned long Hex2Number(const std::string& hex) {
+    if(AutoConvertHexStr(hex).empty()) return 0;
+    int num = 0;
+    sscanf(hex.c_str(), "%x", &num);
+    return num;
+}
+
+void AutoFillHexStr(std::string& hex, const std::string& c) {
+    int modesize = 6;
+    long fillsize = hex.size() - modesize;
+    if(fillsize >= 0) {
+        hex = hex.substr(0, modesize);
+    } else {
+        for(int i=0; i<-fillsize; i++)
+            hex += c;
+    }
+}
+
 const std::string STD_STRING_EMPTY("");
 const ssize_t CC_INVALID_INDEX = -1;
 
@@ -47,6 +89,12 @@ Color3B::Color3B(GLubyte _r, GLubyte _g, GLubyte _b)
 , g(_g)
 , b(_b)
 {}
+
+Color3B::Color3B(std::string hex) {
+    r = (int)Hex2Number(hex.substr(0, 2));
+    g = (int)Hex2Number(hex.substr(2, 2));
+    b = (int)Hex2Number(hex.substr(4, 2));
+}
 
 Color3B::Color3B(const Color4B& color)
 : r(color.r)
