@@ -9,12 +9,13 @@
 #include "CocoSupport.h"
 #include "XmlParser.hpp"
 
+
 void TinyXmlTestcase() {
 
-    XMLDocument* doc2 = XmlPaser::getInstance()->GetDocument("config/cc_data/Vip.xml");
+    XMLDocument* doc2 = XmlParser::getInstance()->GetDocument("config/cc_data/Vip.xml");
     if(doc2) {
         doc2->Print();
-        XmlPaser::getInstance()->GetChildrenCount(doc2->RootElement());
+        XmlParser::getInstance()->GetChildrenCount(doc2->RootElement());
         doc2->RootElement()->FirstChildElement()->Attributes();
     }
     

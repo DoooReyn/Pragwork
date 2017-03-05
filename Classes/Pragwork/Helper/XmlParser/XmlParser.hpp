@@ -11,20 +11,21 @@
 
 #include "CocoSupport.h"
 
-class XmlPaser {
-    static XmlPaser* m_pInstance;
+class XmlParser {
+    static XmlParser* m_pInstance;
 public:
-    static XmlPaser* getInstance() {
+    static XmlParser* getInstance() {
         if(!m_pInstance)
-            m_pInstance = new XmlPaser();
+            m_pInstance = new XmlParser();
         return m_pInstance;
     }
     XMLDocument* GetDocument(const char* filename);
+    XMLDocument* GetDocumentFromString(const char* text);
     int GetChildrenCount(XMLElement*);
     int GetAttributeCount(XMLElement*);
 protected:
-    XmlPaser();
-    ~XmlPaser();
+    XmlParser();
+    ~XmlParser();
 };
 
 #endif /* XmlParser_hpp */

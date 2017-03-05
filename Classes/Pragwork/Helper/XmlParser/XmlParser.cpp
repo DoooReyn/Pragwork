@@ -8,17 +8,17 @@
 
 #include "XmlParser.hpp"
 
-XmlPaser* XmlPaser::m_pInstance = NULL;
+XmlParser* XmlParser::m_pInstance = NULL;
 
-XmlPaser::XmlPaser() {
+XmlParser::XmlParser() {
     
 }
 
-XmlPaser::~XmlPaser() {
+XmlParser::~XmlParser() {
     
 }
 
-XMLDocument* XmlPaser::GetDocument(const char* filename) {
+XMLDocument* XmlParser::GetDocument(const char* filename) {
     XMLDocument* doc = new XMLDocument;
     XMLError err = doc->LoadFile(FileUtils::getInstance()->fullPathForFilename(filename).c_str());
     if(err != XMLError::XML_SUCCESS)
@@ -26,7 +26,16 @@ XMLDocument* XmlPaser::GetDocument(const char* filename) {
     return doc;
 }
 
-int XmlPaser::GetChildrenCount(XMLElement* element) {
+XMLDocument* XmlParser::GetDocumentFromString(const char* text) {
+    XMLDocument* doc = new XMLDocument;
+    XMLError err = doc->Parse(text);
+    if(err != XMLError::XML_SUCCESS) {
+        return NULL;
+    }
+    return doc;
+}
+
+int XmlParser::GetChildrenCount(XMLElement* element) {
     if(!element) return 0;
     
     int count = 0;
@@ -37,7 +46,7 @@ int XmlPaser::GetChildrenCount(XMLElement* element) {
     return count;
 }
 
-int XmlPaser::GetAttributeCount(XMLElement* element) {
+int XmlParser::GetAttributeCount(XMLElement* element) {
     if(!element) return 0;
     int count = element->AttributeCount();
     CCLOG("element [%s] have [%d] attributions", element->Name(), count);
