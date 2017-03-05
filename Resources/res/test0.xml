@@ -1,5 +1,5 @@
 <XmlLabel>
-    <Node text="多行文本: " size="28"  bmfont="fonts/font_2.fnt" color="00ffff" />
+    <Node text="单行文本: " size="28"  bmfont="fonts/font_2.fnt" color="00ffff" />
     <Node text="玩家信息" size="28"  bmfont="fonts/font_1.fnt" color="ffffff" />
     <Node text="www." size="22" color="12be22" />
     <Node text="github.com/" size="26" color="e81299" />
