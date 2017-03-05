@@ -20,6 +20,7 @@
 #include "external/tinyxml2/tinyxml2.h"
 #include "storage/local-storage/LocalStorage.h"
 #include <iostream>
+#define DEFAULT_FONT "fonts/hkzt.TTF"
 
 using namespace cocos2d;
 using namespace cocos2d::ui;
