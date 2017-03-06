@@ -1,4 +1,4 @@
-<XmlLabel>
+<XmlLabel maxwidth="200" charspace="4" linespace="2" charspersec="10" touch="0" audio="res/audio/eff_ui_click_1.mp3">
     <Node text="多行文本: " size="28"  bmfont="fonts/font_2.fnt" color="00ffff" />
     <Node text="玩家信息" size="28"  bmfont="fonts/font_1.fnt" color="ffffff" />
     <Node text="www." size="22" color="12be22" />

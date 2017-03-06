@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Pragwork/Helper/RichLabel/LabelXML.cpp"
-            timestampString = "510421554.463893"
+            timestampString = "510513008.943798"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "LabelXML::_parseXmlString()"
             landmarkType = "7">
          </BreakpointContent>
