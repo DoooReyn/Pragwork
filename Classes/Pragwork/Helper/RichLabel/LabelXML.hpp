@@ -10,6 +10,8 @@
 #define LabelXML_hpp
 
 #include "CocoSupport.h"
+#include "ActionDefine.h"
+using namespace cocos2d::ui;
 
 struct T_LableParams {
     Color3B color;
@@ -44,7 +46,10 @@ private:
     unsigned int    m_nCharSpace;           //字符间距
     unsigned int    m_nLineSpace;           //行间距
     string          m_sXmlString;           //当前文本内容
-    bool            m_bIsValidXml;          //是否有效
+    string          m_sAudioResource;       //音效资源
+    bool            m_bAnimateEnabled;      //是否需要支持动画
+    ActionCode      m_eActionCode;          //动画类型
+    unsigned int    m_nCharsPerSec;         //每秒出现多少字,用于动画
 public:
     LabelXML(string xml);
     ~LabelXML();
@@ -67,10 +72,34 @@ public:
     inline int getLineSpace() { return m_nLineSpace; }
     
     // 动画
+    inline void setCharsPerSec(unsigned int chars) {
+        if(chars == 0) return;
+        m_nCharsPerSec = chars;
+    }
     void playAnimation();
     void stopAnimation();
+    
+    
+    // 触摸
+    inline void setTouchEnabled(bool enabled) {
+        if(m_pContainerNode)
+            m_pContainerNode->setTouchEnabled(enabled);
+    }
+    inline bool isTouchEnabled() {
+        return (m_pContainerNode && m_pContainerNode->isTouchEnabled());
+    }
+    
+    // 播放音效
+    inline void setAudioResource(string audioRes) {
+        if(FileUtils::getInstance()->isFileExist(audioRes.c_str())) {
+            m_sAudioResource = audioRes;
+            SimpleAudioEngine::getInstance()->preloadEffect(audioRes.c_str());
+        }
+    }
+    
 private:
     void _parseXmlString();
+    void _playAudio();
 };
 
 #endif /* LabelXML_hpp */

@@ -8,14 +8,16 @@
 
 #include "LabelXML.hpp"
 #include "XmlParser.hpp"
-#include "ActionDefine.h"
 
 LabelXML::LabelXML(string xml)
 : m_sXmlString(xml)
 , m_nMaxWidth(0)
 , m_nCharSpace(0)
 , m_nLineSpace(0)
-, m_bIsValidXml(false)
+, m_nCharsPerSec(10)
+, m_eActionCode(ActionCode::OpacityInAction)
+, m_sAudioResource("")
+, m_bAnimateEnabled(false)
 , m_pContainerNode(NULL)
 {
     m_pContainerNode = new Layout();
@@ -23,7 +25,19 @@ LabelXML::LabelXML(string xml)
     m_pContainerNode->setBackGroundColor(Color3B("00ffff"));
     m_pContainerNode->setBackGroundColorOpacity(50);
     addChild(m_pContainerNode);
-    
+    auto listener1 = EventListenerTouchOneByOne::create();
+    listener1->setSwallowTouches(true);
+    listener1->onTouchBegan = [=](Touch* touch, Event* event){
+        Vec2 locationInNode = m_pContainerNode->convertToNodeSpace(touch->getLocation());
+        Size s = m_pContainerNode->getContentSize();
+        Rect rect = Rect(0, 0, s.width, s.height);
+        if (rect.containsPoint(locationInNode)) {
+            this->stopAnimation();
+            return true;
+        }
+        return false;
+    };
+    _eventDispatcher->addEventListenerWithSceneGraphPriority(listener1, m_pContainerNode);
     _parseXmlString();
     doLayout();
 }
@@ -32,19 +46,29 @@ LabelXML::~LabelXML() {}
 
 void LabelXML::_parseXmlString() {
     XMLDocument* doc = XmlParser::getInstance()->GetDocumentFromString(m_sXmlString.c_str());
-    if( !doc ) {
-        m_bIsValidXml = false;
-        return;
-    }
+    if( !doc ) return;
     
-    m_bIsValidXml = true;
     m_vecAllLabelNodes.clear();
     
     vector<T_LableParams*> vecLabelParams;
     vecLabelParams.clear();
     
     XMLElement* root = doc->RootElement();
-    for( XMLNode* node = root->FirstChild(); node; node = node->NextSibling() ) {
+    std::map<const char*, const char*> mapAttributes = root->Attributes();
+    std::map<const char*, const char*>::iterator iterMap = mapAttributes.begin();
+    for(; iterMap != mapAttributes.end(); iterMap++) {
+        const char* type = (*iterMap).first;
+        if(strcmp(type, "maxwidth") == 0) {
+            setMaxWidth(atoi((*iterMap).second));
+        } else if (strcmp(type, "touch") == 0) {
+            setTouchEnabled(atoi((*iterMap).second) == 1);
+        } else if (strcmp(type, "charpersec") == 0) {
+            setCharsPerSec(atoi((*iterMap).second));
+        } else if (strcmp(type, "audio") == 0) {
+            setAudioResource((*iterMap).second);
+        }
+    }
+    for(XMLNode* node = root->FirstChild(); node; node = node->NextSibling()) {
         XMLElement* ele = node->ToElement();
         if(!ele) continue;
         
@@ -207,18 +231,35 @@ void LabelXML::doLayout() {
             }
             pLabel->setPosition(tempx, py-curheight*.5f);
         }
-        
     }
 }
 
 
 void LabelXML::playAnimation() {
+    float fSecPerChar = 1.f / m_nCharsPerSec;
     for (int i=0; i<m_vecAllLabelNodes.size(); i++) {
-        m_vecAllLabelNodes.at(i)->setVisible(false);
-        m_vecAllLabelNodes.at(i)->runAction(Sequence::create(DelayTime::create(i*.25f), Show::create(), getActionByCode(ActionCode::EnterBaseFrame), NULL) );
+        if(m_eActionCode == ActionCode::OpacityInAction)
+            m_vecAllLabelNodes.at(i)->setOpacity(0);
+        
+        Sequence *sq = Sequence::create(DelayTime::create(i*fSecPerChar),
+                                        CallFunc::create(CC_CALLBACK_0(LabelXML::_playAudio, this)),
+                                        getActionByCode(m_eActionCode),
+                                        NULL);
+        m_vecAllLabelNodes.at(i)->runAction(sq);
     }
 }
 
 void LabelXML::stopAnimation() {
-    
+    for (int i=0; i<m_vecAllLabelNodes.size(); i++) {
+        m_vecAllLabelNodes.at(i)->stopAllActions();
+    }
+    CCLOG("!!!!!!!!!!!! click");
+}
+                                        
+void LabelXML::_playAudio() {
+    if(m_sAudioResource.empty()) return;
+    if(FileUtils::getInstance()->isFileExist(m_sAudioResource)) {
+        SimpleAudioEngine::getInstance()->stopAllEffects();
+        SimpleAudioEngine::getInstance()->playEffect(m_sAudioResource.c_str(), false);
+    }
 }
