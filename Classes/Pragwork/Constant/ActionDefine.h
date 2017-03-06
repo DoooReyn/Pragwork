@@ -18,6 +18,8 @@ enum ActionCode : unsigned int {
     ExitBaseFrame,      //BaseFrame 退出
     FadeAwayBaseFrame,  //淡出
     FadeInBaseFrame,    //淡入
+    OpacityInAction,    //渐现
+    OpacityOutAction,   //渐隐
 };
 
 //根据动画变化获得对应动画
@@ -52,6 +54,18 @@ static Action* getActionByCode(ActionCode code) {
             Show        *a2 = Show::create();
             Sequence    *sq = Sequence::create(a1, a2, NULL);
             sq->setTag(ActionCode::FadeInBaseFrame);
+            return sq;
+        }
+        case ActionCode::OpacityInAction : {
+            FadeTo      *a1 = FadeTo::create(.3, 255);
+            Sequence    *sq = Sequence::create(a1, NULL);
+            sq->setTag(ActionCode::OpacityInAction);
+            return sq;
+        }
+        case ActionCode::OpacityOutAction : {
+            FadeTo      *a1 = FadeTo::create(.3f, 0);
+            Sequence    *sq = Sequence::create(a1, NULL);
+            sq->setTag(ActionCode::OpacityOutAction);
             return sq;
         }
         default:
