@@ -88,6 +88,7 @@ public:
     inline bool isTouchEnabled() {
         return (m_pContainerNode && m_pContainerNode->isTouchEnabled());
     }
+    void onTouch();
     
     // 播放音效
     inline void setAudioResource(string audioRes) {

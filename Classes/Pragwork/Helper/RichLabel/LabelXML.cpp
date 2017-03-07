@@ -25,9 +25,17 @@ LabelXML::LabelXML(string xml)
     m_pContainerNode->setBackGroundColor(Color3B("00ffff"));
     m_pContainerNode->setBackGroundColorOpacity(50);
     addChild(m_pContainerNode);
-    auto listener1 = EventListenerTouchOneByOne::create();
-    listener1->setSwallowTouches(true);
-    listener1->onTouchBegan = [=](Touch* touch, Event* event){
+
+    _parseXmlString();
+    doLayout();
+}
+
+LabelXML::~LabelXML() {}
+
+void LabelXML::onTouch() {
+    auto listener = EventListenerTouchOneByOne::create();
+    listener->setSwallowTouches(true);
+    listener->onTouchBegan = [=](Touch* touch, Event* event){
         Vec2 locationInNode = m_pContainerNode->convertToNodeSpace(touch->getLocation());
         Size s = m_pContainerNode->getContentSize();
         Rect rect = Rect(0, 0, s.width, s.height);
@@ -37,12 +45,8 @@ LabelXML::LabelXML(string xml)
         }
         return false;
     };
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(listener1, m_pContainerNode);
-    _parseXmlString();
-    doLayout();
+    _eventDispatcher->addEventListenerWithSceneGraphPriority(listener, m_pContainerNode);
 }
-
-LabelXML::~LabelXML() {}
 
 void LabelXML::_parseXmlString() {
     XMLDocument* doc = XmlParser::getInstance()->GetDocumentFromString(m_sXmlString.c_str());
