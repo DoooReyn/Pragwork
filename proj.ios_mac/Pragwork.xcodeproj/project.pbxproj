@@ -71,10 +71,10 @@
 		B08C08801E6B4B66001B22EE /* libmemenv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B08C087E1E6B4B66001B22EE /* libmemenv.a */; };
 		B08C08961E6B6116001B22EE /* LevelDBManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C08941E6B6116001B22EE /* LevelDBManager.cpp */; };
 		B08C08971E6B6116001B22EE /* LevelDBManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C08941E6B6116001B22EE /* LevelDBManager.cpp */; };
-		B08C089B1E6BE080001B22EE /* RichLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C08991E6BE080001B22EE /* RichLabel.cpp */; };
-		B08C089C1E6BE080001B22EE /* RichLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C08991E6BE080001B22EE /* RichLabel.cpp */; };
 		B08C089F1E6C04BE001B22EE /* LabelXML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C089D1E6C04BE001B22EE /* LabelXML.cpp */; };
 		B08C08A01E6C04BE001B22EE /* LabelXML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C089D1E6C04BE001B22EE /* LabelXML.cpp */; };
+		B08C08A41E6ECD35001B22EE /* TouchNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C08A21E6ECD35001B22EE /* TouchNode.cpp */; };
+		B08C08A51E6ECD35001B22EE /* TouchNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08C08A21E6ECD35001B22EE /* TouchNode.cpp */; };
 		B0CF292E1E6A88E700F2E42A /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0CF292C1E6A88E700F2E42A /* MainScene.cpp */; };
 		B0D8C9A71E6722B100D1D82C /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9A51E6722B100D1D82C /* SoundManager.cpp */; };
 		B0D8C9A81E6722B100D1D82C /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0D8C9A51E6722B100D1D82C /* SoundManager.cpp */; };
@@ -226,10 +226,10 @@
 		B08C08911E6B4D86001B22EE /* write_batch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = write_batch.h; path = Pragwork/Helper/LevelDB/leveldb/write_batch.h; sourceTree = "<group>"; };
 		B08C08941E6B6116001B22EE /* LevelDBManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LevelDBManager.cpp; path = Pragwork/Manager/LevelDBManager.cpp; sourceTree = "<group>"; };
 		B08C08951E6B6116001B22EE /* LevelDBManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = LevelDBManager.hpp; path = Pragwork/Manager/LevelDBManager.hpp; sourceTree = "<group>"; };
-		B08C08991E6BE080001B22EE /* RichLabel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RichLabel.cpp; path = Pragwork/Helper/RichLabel/RichLabel.cpp; sourceTree = "<group>"; };
-		B08C089A1E6BE080001B22EE /* RichLabel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RichLabel.hpp; path = Pragwork/Helper/RichLabel/RichLabel.hpp; sourceTree = "<group>"; };
 		B08C089D1E6C04BE001B22EE /* LabelXML.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LabelXML.cpp; path = Pragwork/Helper/RichLabel/LabelXML.cpp; sourceTree = "<group>"; };
 		B08C089E1E6C04BE001B22EE /* LabelXML.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = LabelXML.hpp; path = Pragwork/Helper/RichLabel/LabelXML.hpp; sourceTree = "<group>"; };
+		B08C08A21E6ECD35001B22EE /* TouchNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TouchNode.cpp; path = Pragwork/Helper/TouchNode/TouchNode.cpp; sourceTree = "<group>"; };
+		B08C08A31E6ECD35001B22EE /* TouchNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TouchNode.hpp; path = Pragwork/Helper/TouchNode/TouchNode.hpp; sourceTree = "<group>"; };
 		B0CF292C1E6A88E700F2E42A /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainScene.cpp; path = Pragwork/UI/Scene/MainScene.cpp; sourceTree = "<group>"; };
 		B0CF292D1E6A88E700F2E42A /* MainScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MainScene.hpp; path = Pragwork/UI/Scene/MainScene.hpp; sourceTree = "<group>"; };
 		B0D8C99C1E65E2D900D1D82C /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = init.h; path = Pragwork/UI/Layer/init.h; sourceTree = "<group>"; };
@@ -528,12 +528,19 @@
 		B08C08981E6BE02F001B22EE /* RichLabel */ = {
 			isa = PBXGroup;
 			children = (
-				B08C08991E6BE080001B22EE /* RichLabel.cpp */,
-				B08C089A1E6BE080001B22EE /* RichLabel.hpp */,
 				B08C089D1E6C04BE001B22EE /* LabelXML.cpp */,
 				B08C089E1E6C04BE001B22EE /* LabelXML.hpp */,
 			);
 			name = RichLabel;
+			sourceTree = "<group>";
+		};
+		B08C08A11E6ECD17001B22EE /* TouchNode */ = {
+			isa = PBXGroup;
+			children = (
+				B08C08A21E6ECD35001B22EE /* TouchNode.cpp */,
+				B08C08A31E6ECD35001B22EE /* TouchNode.hpp */,
+			);
+			name = TouchNode;
 			sourceTree = "<group>";
 		};
 		B0D8C9A41E67228900D1D82C /* SoundManager */ = {
@@ -632,6 +639,7 @@
 		B0FA98451E64535E00A5C2E8 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				B08C08A11E6ECD17001B22EE /* TouchNode */,
 				B08C08981E6BE02F001B22EE /* RichLabel */,
 				B08C08831E6B4CFA001B22EE /* LevelDB */,
 				B08C08291E6B1B86001B22EE /* XmlParser */,
@@ -910,6 +918,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B08C08961E6B6116001B22EE /* LevelDBManager.cpp in Sources */,
+				B08C08A41E6ECD35001B22EE /* TouchNode.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				B0CF292E1E6A88E700F2E42A /* MainScene.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
@@ -918,7 +927,6 @@
 				B08C08261E6ABCF0001B22EE /* TestTinyXml.cpp in Sources */,
 				B0FA985A1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */,
 				B08C089F1E6C04BE001B22EE /* LabelXML.cpp in Sources */,
-				B08C089B1E6BE080001B22EE /* RichLabel.cpp in Sources */,
 				B0D8C9CD1E699FAE00D1D82C /* LocalDBManager.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
@@ -944,10 +952,10 @@
 				B08C08A01E6C04BE001B22EE /* LabelXML.cpp in Sources */,
 				B0D8C9AE1E67239200D1D82C /* NetworkManager.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				B08C08A51E6ECD35001B22EE /* TouchNode.cpp in Sources */,
 				B0D8C9B31E6723F700D1D82C /* PlatformManager.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				B08C08271E6ABCF0001B22EE /* TestTinyXml.cpp in Sources */,
-				B08C089C1E6BE080001B22EE /* RichLabel.cpp in Sources */,
 				B0FA985B1E64577800A5C2E8 /* ShadeAssistLayer.cpp in Sources */,
 				B0D8C9BC1E67292700D1D82C /* BaseFrame.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
